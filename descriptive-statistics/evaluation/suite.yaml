@@ -1,20 +1,23 @@
-# evaluation/suite.yaml   －－－－－－－－－－－－－－－－－－－－－－－－
-- unit: answer                      # the student submits plain text
-  scripts:                          # list of runnable scripts
-    - name: read                    #   we only need one: print answer
+# evaluation/suite.yaml  ─────────────────────────────────────────────
+- unit: answer                         # the student submits plain text
+
+  scripts:                             # ① every script in a list
+    - name: read
       cmd: ["cat", "{{ STUDENT_FILE }}"]
 
-  contexts:                         # every unit needs at least one context
-    - tab: "Answer"
-      cases:                        # the individual test-cases
-        - description: "✅ Correct – Descriptive statistics *summarise and describe data*."
-          script: read
-          stdout: "2\n"
+  tabs:                                # ② list of tabs that appear in Dodona
+    - name: "Answer"
 
-        - description: "❌ Predicting belongs to **inferential** statistics."
-          script: read
-          stdout: "1\n"
+      contexts:                        # ③ list of contexts (normally one)
+        - cases:                       # ④ list of individual test-cases
+            - description: "✅ Correct – Descriptive statistics *summarise and describe data*."
+              script: read
+              stdout: "2\n"
 
-        - description: "❌ Causal relationships are part of **inferential** analysis."
-          script: read
-          stdout: "3\n"
+            - description: "❌ Predicting belongs to **inferential** statistics."
+              script: read
+              stdout: "1\n"
+
+            - description: "❌ Causal relationships are part of **inferential** analysis."
+              script: read
+              stdout: "3\n"
