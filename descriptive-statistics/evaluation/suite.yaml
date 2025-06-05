@@ -1,9 +1,3 @@
-
----
-
-### ✅ 3. `evaluation/suite.yaml`
-
-```yaml
 - tab: "Q1"
   testcases:
     - stdin: ""
@@ -11,5 +5,5 @@
         2
       comparison: exact match
       feedback:
-        correct: "Correct! Descriptive statistics summarize and describe data."
-        wrong: "That's not correct. Descriptive statistics describe and summarize data — not predict or explain."
+        correct: "✅ Correct! Descriptive statistics describe and summarize data."
+        wrong: "❌ Incorrect. Descriptive statistics are about summarizing and describing data, not predicting outcomes or explaining causes."
