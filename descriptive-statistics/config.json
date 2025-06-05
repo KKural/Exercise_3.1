@@ -1,17 +1,20 @@
 {
   "description": {
-    "names": {
-      "en": "Q1 : Purpose of Descriptive Statistics"
-    }
+    "names": { "en": "Q1 : Purpose of Descriptive Statistics" }
   },
+
   "evaluation": {
-    "handler": "tested"
+    "handler": "tested",
+    "test_suite": "suite.yaml"      // ← add this line
   },
+
   "programming_language": "python",
   "access": "private",
+
   "internals": {
-    "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
+    "token": "WX-…",                // (leave unchanged)
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   },
+
   "labels": []
 }
