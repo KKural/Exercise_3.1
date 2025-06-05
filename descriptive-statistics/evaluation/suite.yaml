@@ -1,14 +1,25 @@
-unit: answer               # 1 <<–– NO leading “- ”, exactly this key
-
-scripts:                   # 2  –– define the single script once
-  read-answer:
+unit: answer         # ←  NO leading “- ”
+scripts:
+  read:
     cmd: ["cat", "{{ STUDENT_FILE }}"]
 
 tabs:
-  - name: Answer           # 3  –– “tabs” is an array
+  - name: Answer
     contexts:
-      - cases:             # 4  –– exactly “cases”
+      - cases:
           - description: "✅ Correct – descriptive statistics *summarise and describe data*."
-            script: read-answer
-            stdout: "^\\s*2\\s*$"
+            script: read
+            stdout: "^\\s*2\\s*$"    # allow “2” with optional spaces / newline
             stdout_regex: true
+
+          - description: "❌ Predicting belongs to **inferential** statistics."
+            script: read
+            stdout: "^\\s*1\\s*$"
+            stdout_regex: true
+            expect_failure: true     # marks the case wrong when printed
+
+          - description: "❌ Causal relationships are part of **inferential** analysis."
+            script: read
+            stdout: "^\\s*3\\s*$"
+            stdout_regex: true
+            expect_failure: true
