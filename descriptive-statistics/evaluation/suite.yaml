@@ -1,0 +1,13 @@
+- tab: "answer"
+  testcases:
+    - stdin:  "2\n"
+      stdout: "2\n"
+      description: "✅ Correct – Descriptive statistics summarise and describe data."
+
+    - stdin:  "1\n"
+      stdout: "2\n"
+      description: "❌ Predicting is done with inferential statistics."
+
+    - stdin:  "3\n"
+      stdout: "2\n"
+      description: "❌ Establishing causality is not part of descriptive stats."
