@@ -1,18 +1,14 @@
+unit: answer               # 1 <<–– NO leading “- ”, exactly this key
 
-**evaluation/suite.yaml**
-
-```yaml
-unit: answer
-
-scripts:
-  read:
-    cmd: ["python3", "{{ STUDENT_FILE }}"]
+scripts:                   # 2  –– define the single script once
+  read-answer:
+    cmd: ["cat", "{{ STUDENT_FILE }}"]
 
 tabs:
-  - name: Answer
+  - name: Answer           # 3  –– “tabs” is an array
     contexts:
-      - cases:
-          - script: read
+      - cases:             # 4  –– exactly “cases”
+          - description: "✅ Correct – descriptive statistics *summarise and describe data*."
+            script: read-answer
             stdout: "^\\s*2\\s*$"
             stdout_regex: true
-            description: "✅ Correct – descriptive statistics *summarise and describe data*."
