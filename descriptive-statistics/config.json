@@ -1,12 +1,8 @@
 {
   "description": {
-    "names": {
-      "en": "Descriptive Statistics"
-    }
+    "names": { "en": "Descriptive Statistics" }
   },
   "programming_language": "markdown",
-  "evaluation": {
-    "handler": "dodona"
-  },
+  "evaluation": { "handler": "none" },  
   "access": "public"
 }
