@@ -1,0 +1,15 @@
+
+---
+
+### ✅ 3. `evaluation/suite.yaml`
+
+```yaml
+- tab: "Q1"
+  testcases:
+    - stdin: ""
+      expected_output: |
+        2
+      comparison: exact match
+      feedback:
+        correct: "Correct! Descriptive statistics summarize and describe data."
+        wrong: "That's not correct. Descriptive statistics describe and summarize data — not predict or explain."
