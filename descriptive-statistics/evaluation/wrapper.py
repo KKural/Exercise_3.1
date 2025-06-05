@@ -1,4 +1,8 @@
-# wrapper.py  – NEVER edit this in the student file!
-import sys, pathlib
-code = pathlib.Path(sys.argv[1]).read_text().strip()
-print(code)
+#!/usr/bin/env python3
+import sys, importlib.util, pathlib
+
+student_file = pathlib.Path(sys.argv[1])
+
+spec = importlib.util.spec_from_file_location("student", student_file)
+student = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(student)
