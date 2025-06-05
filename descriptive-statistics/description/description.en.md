@@ -1,7 +1,6 @@
-# Descriptive Statistics – Quiz
+# Descriptive Statistics – Multiple-choice Quiz  
+*(Answer with **1, 2 or 3** – one number per line)*
 
-Answer each question by submitting a file that contains **one number per
-line** corresponding to your choice (1, 2 or 3) in the order of the questions
-below.  
-Example for answers *1 → 3 → 2*:
+Upload / paste a text file that contains your chosen option for **each**
+question, in order. Example output for answers *1 or 2 or 3*:
 
