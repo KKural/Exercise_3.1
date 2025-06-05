@@ -4,10 +4,9 @@
       "en": "Descriptive Statistics"
     }
   },
-  "programming_language": "none",
+  "programming_language": "markdown",
   "evaluation": {
     "handler": "dodona"
   },
   "access": "public"
 }
-
