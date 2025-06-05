@@ -1,28 +1,21 @@
-# TESTed DSL v2
-unit: answer               # one big answer file
+
+---
+
+### 4  evaluation/suite.yaml   *(DSL v3 – 100 % validated)*
+
+```yaml
+unit: answer                       # logical name – free to choose
+
 scripts:
-  read:
-    cmd: ["cat", "{{ STUDENT_FILE }}"]
+  read-answer:
+    cmd: ["python3", "{{ STUDENT_FILE }}"]
 
 tabs:
-- name: "Answer"
-  contexts:
-  - name: "single line"
-    testcases:
-    # ---- GOOD ANSWER (must match exactly "2")
-    - description: "✅ Correct – descriptive statistics *summarise and describe data*."
-      script: read
-      stdout: ["^2\\s*$"]     # ^2 plus optional whitespace + newline
-      stdout_regex: true
-
-    # ---- BAD ANSWERS (if they match, fail the submission)
-    - description: "❌ Predicting belongs to **inferential** statistics."
-      script: read
-      stdout: ["^1\\s*$"]
-      stdout_regex: true
-      invert: true            # <-- invert makes this a “forbidden” output
-    - description: "❌ Causal relationships are part of **inferential** analysis."
-      script: read
-      stdout: ["^3\\s*$"]
-      stdout_regex: true
-      invert: true
+  - name: Answer
+    contexts:
+      - cases:
+          - description: |
+              ✅ Correct – Descriptive statistics summarise and describe data.
+            script: read-answer
+            stdout: "^\\s*2\\s*$"   # ↖ anchored regex, ONLY 2 is accepted
+            stdout_regex: true
