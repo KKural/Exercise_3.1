@@ -1,23 +1,22 @@
-# evaluation/suite.yaml  ── DSL v2
-unit: answer                           # one logical unit
+#  ── TESTed “playlist” DSL (current production)
 
-# 1️⃣  which program(s) has to be run?
-scripts:
-  run-wrapper:
-    cmd: ["python3", "wrapper.py", "{{ STUDENT_FILE }}"]
+- unit: answer
 
-# 2️⃣  define the feedback contexts/tabs
-contexts:
-  - tab: Answer                        # title shown in Dodona
-    cases:                             # one case per alternative ➜ feedback
-      - description: "✅ Correct – Descriptive statistics summarise and describe data."
-        script: run-wrapper
-        stdout: "2\n"                  # expected answer
+  scripts:
+    run-wrapper:
+      cmd: ["python3", "wrapper.py", "{{ STUDENT_FILE }}"]
 
-      - description: "❌ Predicting is done with **inferential** statistics."
-        script: run-wrapper
-        stdout: "1\n"                  # wrong alternative
+  tabs:
+    - name: Answer
+      testcases:
+        - script: run-wrapper
+          stdout: "2\n"
+          description: "✅ Correct – Descriptive statistics summarise and describe data."
 
-      - description: "❌ Causal relations relate to **inferential** analysis."
-        script: run-wrapper
-        stdout: "3\n"                  # wrong alternative
+        - script: run-wrapper
+          stdout: "1\n"
+          description: "❌ Predicting is done with inferential statistics."
+
+        - script: run-wrapper
+          stdout: "3\n"
+          description: "❌ Causal relations belong to inferential analysis."
