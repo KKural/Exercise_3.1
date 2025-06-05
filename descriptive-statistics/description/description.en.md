@@ -6,16 +6,10 @@ question, in order. Example output for answers *1 or 2 or 3*:
 
 ---
 
-### 1 · What is the purpose of descriptive statistics?
+### What is the main purpose of descriptive statistics?
 
 1. Predict future outcomes  
-2. Summarise and describe data  
+2. Summarize and describe data  
 3. Establish causal relationships  
 
----
-
-### 2 · Which of the following is a measure of central tendency?
-
-1. Range  
-2. Standard deviation  
-3. Median
+Type the number `1`, `2`, or `3` in the code editor to submit your answer.
