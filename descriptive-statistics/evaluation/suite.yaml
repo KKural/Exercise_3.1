@@ -1,5 +1,5 @@
-# evaluation/suite.yaml ─────────────────────────────────────────────
-- unit: answer            # no code: student submits plain text file
+# evaluation/suite.yaml
+- unit: answer
 
   scripts:
     - name: read
@@ -11,5 +11,5 @@
         - cases:
             - description: "✅ Correct – Descriptive statistics *summarise and describe data*."
               script: read
-              stdout: "^2\\s*$"         #   ← only “2” (option 2) is accepted
-              stdout_regex: true        #      (anchors ^$ and optional white-space)
+              stdout: "^2\\s*$"
+              stdout_regex: true
