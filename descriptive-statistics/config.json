@@ -7,12 +7,8 @@
   "programming_language": "python",
   "evaluation": {
     "handler": "python",
+    "mode": "input-output",           
     "plan": "evaluate.py"
   },
-  "access": "private",
-  "internals": {
-    "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  },
-  "labels": []
+  "access": "private"
 }
