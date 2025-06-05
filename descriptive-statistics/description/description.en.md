@@ -1,16 +1,7 @@
-# Descriptive Statistics
+# Descriptive Statistics – Quiz
 
-### 1. What is the purpose of descriptive statistics?
-
-- [ ] Predict future outcomes  
-- [x] Summarize and describe data  
-- [ ] Establish causal relationships
-
----
-
-### 2. Which of the following is a measure of central tendency?
-
-- [ ] Range  
-- [ ] Standard deviation  
-- [x] Median
+Answer each question by submitting a file that contains **one number per
+line** corresponding to your choice (1, 2 or 3) in the order of the questions
+below.  
+Example for answers *1 → 3 → 2*:
 
