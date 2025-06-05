@@ -1,21 +1,18 @@
 
----
-
-### 4  evaluation/suite.yaml   *(DSL v3 – 100 % validated)*
+**evaluation/suite.yaml**
 
 ```yaml
-unit: answer                       # logical name – free to choose
+unit: answer
 
 scripts:
-  read-answer:
+  read:
     cmd: ["python3", "{{ STUDENT_FILE }}"]
 
 tabs:
   - name: Answer
     contexts:
       - cases:
-          - description: |
-              ✅ Correct – Descriptive statistics summarise and describe data.
-            script: read-answer
-            stdout: "^\\s*2\\s*$"   # ↖ anchored regex, ONLY 2 is accepted
+          - script: read
+            stdout: "^\\s*2\\s*$"
             stdout_regex: true
+            description: "✅ Correct – descriptive statistics *summarise and describe data*."
