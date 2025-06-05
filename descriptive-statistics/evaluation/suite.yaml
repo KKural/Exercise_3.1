@@ -1,9 +1,6 @@
-# One test case that checks the whole submission.
-# Lines must match exactly.
-
-- tab: "answers"
+- tab: "Descriptive Statistics"
   testcases:
-    - stdin: ""
-      output: |
-        2
-        3
+    - stdin: "2\n"
+      result: correct
+    - stdin: "3\n"
+      result: wrong
