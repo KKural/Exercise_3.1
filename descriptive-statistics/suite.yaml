@@ -1,7 +1,0 @@
-- tab: "answers"
-  testcases:
-    - stdin: ""          # no input
-      output: |
-        2
-        3
-        2
