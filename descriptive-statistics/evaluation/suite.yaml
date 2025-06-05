@@ -1,11 +1,7 @@
-- tab: "Purpose"
+# evaluation/suite.yaml
+---
+- tab: "Q1"
   testcases:
-    - stdin: "2\n"
-      expected_output: "2\n"
-      feedback: "Correct! Descriptive statistics summarize and describe data."
-    - stdin: "1\n"
-      expected_output: "2\n"
-      feedback: "Incorrect. Predicting is the goal of inferential statistics."
-    - stdin: "3\n"
-      expected_output: "2\n"
-      feedback: "Incorrect. Causal relationships relate to inferential analysis."
+    - stdin: ""
+      expected_output: "2"
+      comparison: exact_match
