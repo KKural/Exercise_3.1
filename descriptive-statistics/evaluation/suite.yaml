@@ -1,9 +1,11 @@
-- tab: "Q1"
+- tab: "Purpose"
   testcases:
-    - stdin: ""
-      expected_output: |
-        2
-      comparison: exact match
-      feedback:
-        correct: "✅ Correct! Descriptive statistics describe and summarize data."
-        wrong: "❌ Incorrect. Descriptive statistics are about summarizing and describing data, not predicting outcomes or explaining causes."
+    - stdin: "2\n"
+      expected_output: "2\n"
+      feedback: "Correct! Descriptive statistics summarize and describe data."
+    - stdin: "1\n"
+      expected_output: "2\n"
+      feedback: "Incorrect. Predicting is the goal of inferential statistics."
+    - stdin: "3\n"
+      expected_output: "2\n"
+      feedback: "Incorrect. Causal relationships relate to inferential analysis."
