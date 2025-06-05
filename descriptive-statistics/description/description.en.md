@@ -3,7 +3,7 @@
 What is the main purpose of descriptive statistics?
 
 1. Predict future outcomes  
-2. **Summarise and describe data**  
+2. Summarise and describe data  
 3. Establish causal relationships  
 
 ---
