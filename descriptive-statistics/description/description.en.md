@@ -9,6 +9,5 @@ What is the main purpose of descriptive statistics?
 ---
 
 #### How to answer  
-Replace the template with **only the number of the correct option** (`1`, `2` or `3`)
-and click **Submit**.  
+**Type of the choice in the place betlow and submit** (`1`, `2` or `3`)
 Do **not** write any code.
