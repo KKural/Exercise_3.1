@@ -1,11 +1,23 @@
-- tab: answer
-  testcases:
-    - stdin: ""
-      args:  ["wrapper.py", "{{ STDLIB_FILE }}"]  #  <-- key line
-      stdout: "2\n"
-      description: "✅ Correct – Descriptive statistics summarise and describe data."
+# evaluation/suite.yaml  ── DSL v2
+unit: answer                           # one logical unit
 
-    - stdin: ""
-      args: ["wrapper.py", "{{ STDLIB_FILE }}"]
-      stdout: "2\n"
-      description: "❌ Predicting is done with inferential statistics."
+# 1️⃣  which program(s) has to be run?
+scripts:
+  run-wrapper:
+    cmd: ["python3", "wrapper.py", "{{ STUDENT_FILE }}"]
+
+# 2️⃣  define the feedback contexts/tabs
+contexts:
+  - tab: Answer                        # title shown in Dodona
+    cases:                             # one case per alternative ➜ feedback
+      - description: "✅ Correct – Descriptive statistics summarise and describe data."
+        script: run-wrapper
+        stdout: "2\n"                  # expected answer
+
+      - description: "❌ Predicting is done with **inferential** statistics."
+        script: run-wrapper
+        stdout: "1\n"                  # wrong alternative
+
+      - description: "❌ Causal relations relate to **inferential** analysis."
+        script: run-wrapper
+        stdout: "3\n"                  # wrong alternative
