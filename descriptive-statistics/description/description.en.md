@@ -8,4 +8,4 @@ Answer the following question by entering the correct number (1, 2, or 3) in you
 2. Summarize and describe data  
 3. Establish causal relationships  
 
-> Upload a `.txt` file that contains only one number on a single line: `1`, `2`, or `3`.
+
