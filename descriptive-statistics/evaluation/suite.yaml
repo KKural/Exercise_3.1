@@ -1,22 +1,27 @@
-#  ── TESTed “playlist” DSL (current production)
+# ── TESTed “playlist” DSL  (production schema) ────────────────────────────────
+#   root *must* be an array;   use  unit  +  tabs  +  testcases.
 
 - unit: answer
 
+  # one tiny script that simply prints the learner’s file
   scripts:
-    run-wrapper:
-      cmd: ["python3", "wrapper.py", "{{ STUDENT_FILE }}"]
+    read-answer:
+      cmd: ["cat", "{{ STUDENT_FILE }}"]
 
   tabs:
     - name: Answer
       testcases:
-        - script: run-wrapper
+        # correct answer -------------------------------------------------------
+        - script: read-answer
           stdout: "2\n"
-          description: "✅ Correct – Descriptive statistics summarise and describe data."
+          description: "✅ Correct – Descriptive statistics *summarise and describe data*."
 
-        - script: run-wrapper
+        # wrong answer 1 -------------------------------------------------------
+        - script: read-answer
           stdout: "1\n"
-          description: "❌ Predicting is done with inferential statistics."
+          description: "❌ Predicting belongs to **inferential** statistics."
 
-        - script: run-wrapper
+        # wrong answer 3 -------------------------------------------------------
+        - script: read-answer
           stdout: "3\n"
-          description: "❌ Causal relations belong to inferential analysis."
+          description: "❌ Causal relationships are part of **inferential** analysis."
