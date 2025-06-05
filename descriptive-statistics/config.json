@@ -1,9 +1,12 @@
 {
-  "type": "exercise",
-  "programming_language": "python",
-  "access": "private",
+  "description": {
+    "names": {
+      "en": "Q1 – Purpose of Descriptive Statistics"
+    }
+  },
   "evaluation": {
     "handler": "tested",
     "test_suite": "suite.yaml"
-  }
+  },
+  "access": "private"
 }
