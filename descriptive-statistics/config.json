@@ -4,14 +4,12 @@
   "access": "private",
   "description": {
     "names": {
-      "en": "Q1: Purpose of Descriptive Statistics",
-      "nl": "Q1: Doel van beschrijvende statistiek"
+      "en": "Q1: Purpose of Descriptive Statistics"
     }
   },
-  "evaluation": {},
-  "labels": [],
-  "internals": {
-    "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  "evaluation": {
+    "handler": "tested",
+    "image": "r",
+    "test_suite": "tests.R"
   }
 }
