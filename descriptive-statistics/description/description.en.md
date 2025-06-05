@@ -1,15 +1,11 @@
-# Descriptive Statistics – Multiple-choice Quiz  
-*(Answer with **1, 2 or 3** – one number per line)*
+# Descriptive Statistics – Multiple-choice Question
 
-Upload / paste a text file that contains your chosen option for **each**
-question, in order. Example output for answers *1 or 2 or 3*:
+Answer the following question by entering the correct number (1, 2, or 3) in your text file:
 
----
-
-### What is the main purpose of descriptive statistics?
+**What is the main purpose of descriptive statistics?**
 
 1. Predict future outcomes  
 2. Summarize and describe data  
 3. Establish causal relationships  
 
-Type the number `1`, `2`, or `3` in the code editor to submit your answer.
+> Upload a `.txt` file that contains only one number on a single line: `1`, `2`, or `3`.
