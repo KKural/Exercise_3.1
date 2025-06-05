@@ -1,8 +1,12 @@
 {
-  "description": {
-    "names": { "en": "Descriptive Statistics" }
+  "description": { "names": { "en": "Descriptive Statistics – MCQ" } },
+
+  "programming_language": "text",   // or "plain"  (both accepted aliases)
+
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
   },
-  "programming_language": "markdown",
-  "evaluation": { "handler": "none" },  
+
   "access": "public"
 }
