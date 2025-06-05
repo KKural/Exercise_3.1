@@ -8,7 +8,6 @@ What is the main purpose of descriptive statistics?
 
 ---
 
-## What to do
+**What to do**
 
-Submit your answer by entering **only the number of the correct option**  
-(1, 2, or 3) — one line, no code.
+Submit your answer by entering **only the number** (1, 2, or 3). No additional text or code.
