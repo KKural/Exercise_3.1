@@ -1,22 +1,19 @@
 - tab: "Q1"
   testcases:
-    - name: "What is the main purpose of descriptive statistics?"
-      stdin: ""
+    - name: "Correct answer"
       expected_output: |
         2
       feedback: |
-        ✅ Correct! Descriptive statistics summarize and describe data.
+        ✅ Correct! Descriptive statistics help summarize and describe data.
 
-    - name: "Wrong answer - chose 1"
-      stdin: ""
+    - name: "Wrong answer: 1"
       expected_output: |
         1
       feedback: |
         ❌ Incorrect. Predicting future outcomes is part of inferential statistics.
 
-    - name: "Wrong answer - chose 3"
-      stdin: ""
+    - name: "Wrong answer: 3"
       expected_output: |
         3
       feedback: |
-        ❌ Incorrect. Causal relationships are identified using experimental or inferential methods.
+        ❌ Incorrect. Causal relationships are studied through experiments, not description.
