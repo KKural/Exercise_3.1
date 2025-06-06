@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+
+import os
+import json
+
+# Read student's solution file
+try:
+    with open('../solution/solution.py', 'r') as f:
+        student_answer = f.read().strip()
+except:
+    student_answer = ""
+
+# Prepare the feedback object
+feedback = {
+    "accepted": False,
+    "status": "wrong",
+    "messages": []
+}
+
+# Check the answer
+if student_answer == "2":
+    feedback["accepted"] = True
+    feedback["status"] = "correct"
+    feedback["messages"].append({
+        "format": "markdown", 
+        "description": "✓ Correct! Descriptive statistics summarize and describe the main features of collected data."
+    })
+elif student_answer == "1":
+    feedback["messages"].append({
+        "format": "markdown", 
+        "description": "✗ Incorrect. Predicting future outcomes belongs to inferential statistics."
+    })
+elif student_answer == "3":
+    feedback["messages"].append({
+        "format": "markdown", 
+        "description": "✗ Incorrect. Establishing causal relationships belongs to inferential statistics."
+    })
+elif student_answer == "4":
+    feedback["messages"].append({
+        "format": "markdown", 
+        "description": "✗ Incorrect. Testing hypotheses belongs to inferential statistics."
+    })
+else:
+    feedback["messages"].append({
+        "format": "markdown", 
+        "description": f"✗ '{student_answer}' is not a valid answer. Please enter exactly one number: 1, 2, 3, or 4."
+    })
+
+# Output JSON feedback
+print(json.dumps(feedback))
+
+# Exit with appropriate code
+exit(0 if feedback["accepted"] else 1)
