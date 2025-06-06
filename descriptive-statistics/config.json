@@ -1,11 +1,13 @@
-
+{
   "description": {
     "names": {
-      "en": "Q1 - Purpose of Descriptive Statistics",
-      "nl": "Q1 - Dutch"
+      "en": "Q1 - Purpose of Descriptive Statistics"
     }
   },
+  "type": "exercise",
+  "programming_language": "python",
   "evaluation": {
+    "handler": "python",
     "pythia_judge": "output"
   },
   "labels": ["statistics", "multiple choice"]
