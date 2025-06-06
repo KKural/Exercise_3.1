@@ -5,9 +5,14 @@
     }
   },
   "evaluation": {
-    "handler": "tested",
-    "test_suite": "suite.yaml"
+    "handler": "rscript",
+    "options": {
+      "allow_any_stderr": true
+    }
   },
-  "programming_language": "python",
-  "access": "private"
+  "programming_language": "r",
+  "labels": [
+    "statistics",
+    "multiple choice"
+  ]
 }

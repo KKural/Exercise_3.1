@@ -7,10 +7,9 @@ What is the main purpose of descriptive statistics?
 3. Establish causal relationships between variables
 4. Test hypotheses about population parameters
 
-Write a function `answer()` that returns your choice as a number (1, 2, 3, or 4).
+Type your answer as a single number (1-4) to indicate your choice.
 
 ### Example
 
-```python
->>> answer()
-2  # Returning option 2 would be correct
+```r
+2
