@@ -1,7 +1,0 @@
-- tab: "Basic Statistics"
-  name: "Basic Statistics"
-  unit: "Multiple Choice"
-  contexts:
-    - testcases:
-        - expression: "input()"
-          return: "2"

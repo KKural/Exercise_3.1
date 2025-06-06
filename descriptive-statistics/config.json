@@ -5,10 +5,9 @@
     }
   },
   "evaluation": {
-    "handler": "tested",
-    "test_suite": "suite.yaml"
+    "handler": "output"
   },
-  "programming_language": "python",
+  "programming_language": "text",
   "labels": [
     "statistics",
     "multiple choice"
