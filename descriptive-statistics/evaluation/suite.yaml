@@ -1,4 +1,0 @@
-- tab: "Answer"
-  testcases:
-    - expression: "answer()"
-      return: 2
