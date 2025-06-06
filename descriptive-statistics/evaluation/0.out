@@ -1,4 +1,24 @@
-2
--------------------------------------------------------
+---------------------------------------------------------
 python input without prompt: true
 comparison: exact match
+<DEFINITION>
+def customEvaluate(expected_output, generated_output):
+    # Check if the output is exactly "2" (possibly with trailing whitespace)
+    student_answer = generated_output.strip()
+    
+    if student_answer == "2":
+        print("✓ Correct! Descriptive statistics summarize and describe data features.")
+        return True
+    elif student_answer == "1":
+        print("✗ Incorrect. Predicting future outcomes belongs to inferential statistics.")
+        return False
+    elif student_answer == "3":
+        print("✗ Incorrect. Establishing causal relationships belongs to inferential statistics.")
+        return False
+    elif student_answer == "4":
+        print("✗ Incorrect. Testing hypotheses belongs to inferential statistics.")
+        return False
+    else:
+        print("✗ Please enter exactly one number: 1, 2, 3, or 4.")
+        return False
+</DEFINITION>
