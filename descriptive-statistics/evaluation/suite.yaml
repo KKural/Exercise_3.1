@@ -1,0 +1,7 @@
+- tab: "Basic Statistics"
+  testcases:
+    - expression: 'str(input())'
+      return: "2"
+    - stdin: "2"
+      stdout: "2"
+      return: "2"

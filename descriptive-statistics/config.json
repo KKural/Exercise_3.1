@@ -5,14 +5,13 @@
     }
   },
   "evaluation": {
-    "handler": "rscript",
-    "options": {
-      "allow_any_stderr": true
-    }
+    "handler": "tested",
+    "test_suite": "suite.yaml"
   },
-  "programming_language": "r",
+  "programming_language": "python",
   "labels": [
     "statistics",
     "multiple choice"
-  ]
+  ],
+  "judge": "output"
 }
