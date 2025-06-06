@@ -1,29 +1,29 @@
-tabs:
-  - name: "Answer"
-    runs:
-      - run: "Check student answer"
-        commands:
-          - command: "cat {{ STUDENT_FILE }}"
-            stdout: true
-            stderr: true
-            exit_code: 0
-    testcases:
-      - description: "✅ Correct – descriptive statistics summarize and describe data."
-        commands:
-          - command: "grep -q \"^\\s*2\\s*$\" {{ STUDENT_FILE }}"
-            exit_code: 0
-      - description: "❌ Predicting belongs to inferential statistics, not descriptive."
-        commands:
-          - command: "grep -q \"^\\s*1\\s*$\" {{ STUDENT_FILE }}"
-            exit_code: 0
-        should_fail: true
-      - description: "❌ Establishing causal relationships belongs to inferential statistics."
-        commands:
-          - command: "grep -q \"^\\s*3\\s*$\" {{ STUDENT_FILE }}"
-            exit_code: 0
-        should_fail: true
-      - description: "❌ Hypothesis testing is a part of inferential statistics."
-        commands:
-          - command: "grep -q \"^\\s*4\\s*$\" {{ STUDENT_FILE }}"
-            exit_code: 0
-        should_fail: true
+- tab: "Answer"
+  contexts:
+    - context: "student"
+      testcases:
+        - description: "✅ Correct – descriptive statistics summarize and describe data."
+          script: "check_answer"
+          stdout: "^\\s*2\\s*$"
+          stdout_regex: true
+          
+        - description: "❌ Predicting belongs to inferential statistics, not descriptive."
+          script: "check_answer"
+          stdout: "^\\s*1\\s*$"
+          stdout_regex: true
+          should_fail: true
+          
+        - description: "❌ Establishing causal relationships belongs to inferential statistics."
+          script: "check_answer"
+          stdout: "^\\s*3\\s*$"
+          stdout_regex: true
+          should_fail: true
+          
+        - description: "❌ Hypothesis testing is a part of inferential statistics."
+          script: "check_answer"
+          stdout: "^\\s*4\\s*$"
+          stdout_regex: true
+          should_fail: true
+  scripts:
+    check_answer:
+      cmd: ["cat", "{{ STUDENT_FILE }}"]
