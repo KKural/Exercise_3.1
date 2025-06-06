@@ -5,12 +5,10 @@
     }
   },
   "evaluation": {
-    "handler": "output",
-    "options": {
-      "mode": "full"
-    }
+    "handler": "tested",
+    "test_suite": "suite.yaml"
   },
-  "programming_language": "text",
+  "programming_language": "python",
   "labels": [
     "statistics",
     "multiple choice"
