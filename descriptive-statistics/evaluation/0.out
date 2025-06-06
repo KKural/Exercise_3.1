@@ -1,4 +1,32 @@
-2
----------------------------------------------------------
+-------------------------------------------------------
 python input without prompt: true
+block count: one
 comparison: exact match
+<DEFINITION>
+def customEvaluate(expected_output, generated_output):
+    # Try to get the student's answer
+    try:
+        with open('../solution/solution.py', 'r') as f:
+            content = f.read().strip()
+            
+        # Check if the answer is exactly "2" (correct answer)
+        if content == "2":
+            print("✅ Correct! Descriptive statistics summarizes and describes data features.")
+            return True
+        # Specific feedback for wrong answers
+        elif content == "1":
+            print("❌ Incorrect. Predicting future outcomes belongs to inferential statistics, not descriptive.")
+            return False
+        elif content == "3":
+            print("❌ Incorrect. Establishing causal relationships belongs to inferential statistics, not descriptive.")
+            return False
+        elif content == "4":
+            print("❌ Incorrect. Hypothesis testing is part of inferential statistics, not descriptive.")
+            return False
+        else:
+            print("❌ Please enter exactly one of the numbers: 1, 2, 3, or 4.")
+            return False
+    except:
+        print("❌ Error reading your solution.")
+        return False
+</DEFINITION>
