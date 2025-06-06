@@ -8,10 +8,11 @@
     "handler": "tested",
     "test_suite": "suite.yaml"
   },
-  "access": "private",
-  "internals": {
-    "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  },
-  "labels": []
+
+  /*  ➜  THIS **must** be present and must be one of the
+          languages known to Dodona / TESTed.
+          For a plain-text answer use “text”.  */
+  "programming_language": "text",
+
+  "access": "private"
 }
