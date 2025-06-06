@@ -1,5 +1,4 @@
 - tab: "Basic Statistics"
   testcases:
-    - expression: 'input()'
-      return: "2"
-      exit_code: 0
+    - stdin: "2"
+      stdout: "2"
