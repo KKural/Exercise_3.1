@@ -5,9 +5,9 @@
     }
   },
   "evaluation": {
-    "handler": "r"
+    "handler": "python"
   },
-  "programming_language": "r",
+  "programming_language": "python",
   "labels": [
     "statistics",
     "multiple choice"

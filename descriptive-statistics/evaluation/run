@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+
+import json
+import sys
+
+# Read student's answer
+student_answer = input().strip()
+
+# Define the expected answer
+correct_answer = "2"
+
+# Check if the answer is correct
+is_correct = student_answer == correct_answer
+
+# Prepare feedback
+if is_correct:
+    feedback = {
+        "accepted": True,
+        "status": "correct",
+        "messages": [
+            {
+                "format": "markdown",
+                "description": "✓ Correct! Descriptive statistics summarize and describe the main features of collected data."
+            }
+        ]
+    }
+else:
+    feedback = {
+        "accepted": False,
+        "status": "wrong",
+        "messages": [
+            {
+                "format": "markdown",
+                "description": "✗ Incorrect. The main purpose of descriptive statistics is to summarize and describe the main features of collected data."
+            }
+        ]
+    }
+
+# Output feedback
+print(json.dumps(feedback))
