@@ -1,25 +1,27 @@
-unit: answer         # ←  NO leading “- ”
+unit: answer          # no leading “-”; this is a mapping, not a list
+
 scripts:
   read:
-    cmd: ["cat", "{{ STUDENT_FILE }}"]
+    cmd: ["cat", "{{ STUDENT_FILE }}"]     # just echo the student’s answer
 
 tabs:
   - name: Answer
     contexts:
-      - cases:
-          - description: "✅ Correct – descriptive statistics *summarise and describe data*."
+      - name: Q1
+        cases:
+          - description: "✅  Correct – descriptive statistics *summarise and describe data*."
             script: read
-            stdout: "^\\s*2\\s*$"    # allow “2” with optional spaces / newline
+            stdout: "^\\s*2\\s*$"          # accept “2” with optional whitespace
             stdout_regex: true
 
-          - description: "❌ Predicting belongs to **inferential** statistics."
+          - description: "❌  Predicting belongs to **inferential** statistics."
             script: read
             stdout: "^\\s*1\\s*$"
             stdout_regex: true
-            expect_failure: true     # marks the case wrong when printed
+            should_fail: true              # mark as wrong when the student prints “1”
 
-          - description: "❌ Causal relationships are part of **inferential** analysis."
+          - description: "❌  Causal relationships are part of **inferential** analysis."
             script: read
             stdout: "^\\s*3\\s*$"
             stdout_regex: true
-            expect_failure: true
+            should_fail: true              # wrong if the student prints “3”
