@@ -1,14 +1,10 @@
-### Q1 – Purpose of Descriptive Statistics
+# Q1 - Purpose of Descriptive Statistics
 
 What is the main purpose of descriptive statistics?
 
-1. Predict future outcomes  
-2. **Summarise and describe data**  
-3. Establish causal relationships  
+1. Predict future outcomes based on sample data
+2. Summarize and describe the main features of collected data
+3. Establish causal relationships between variables
+4. Test hypotheses about population parameters
 
----
-
-#### How to answer
-
-Remove the template text in **main.py**, type only the number you believe is
-correct (`1`, `2`, or `3`) and press **Submit**.
+Type the number (1, 2, 3, 4) in the script below to submit your answer.
