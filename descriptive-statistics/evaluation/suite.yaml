@@ -1,4 +1,6 @@
 - tab: "Basic Statistics"
   testcases:
-    - stdin: "2"
+    - type: "number"
+      stdin: "2"
       stdout: "2"
+      description: "Check if answer is correct"
