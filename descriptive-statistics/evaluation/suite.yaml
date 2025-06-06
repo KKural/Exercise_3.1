@@ -1,30 +1,31 @@
-tab: "Answer"
-unit: "answer"
-scripts:
-  read:
-    cmd: ["cat", "{{ STUDENT_FILE }}"]
-contexts:
-  - context: "submission"
-    testcases:
-      - description: "✅ Correct – descriptive statistics summarize and describe data."
-        script: "read"
-        stdout: "^\\s*2\\s*$"
-        stdout_regex: true
-        
-      - description: "❌ Predicting belongs to inferential statistics, not descriptive."
-        script: "read"
-        stdout: "^\\s*1\\s*$"
-        stdout_regex: true
-        should_fail: true
-        
-      - description: "❌ Establishing causal relationships belongs to inferential statistics."
-        script: "read"
-        stdout: "^\\s*3\\s*$"
-        stdout_regex: true
-        should_fail: true
-        
-      - description: "❌ Hypothesis testing is a part of inferential statistics."
-        script: "read"
-        stdout: "^\\s*4\\s*$"
-        stdout_regex: true
-        should_fail: true
+- tabs:
+    - tab: "Answer"
+      contexts:
+        - context: "submission"
+          testcases:
+            - description: "✅ Correct – descriptive statistics summarize and describe data."
+              script: "read"
+              stdout: "^\\s*2\\s*$"
+              stdout_regex: true
+              
+            - description: "❌ Predicting belongs to inferential statistics, not descriptive."
+              script: "read"
+              stdout: "^\\s*1\\s*$"
+              stdout_regex: true
+              should_fail: true
+              
+            - description: "❌ Establishing causal relationships belongs to inferential statistics."
+              script: "read"
+              stdout: "^\\s*3\\s*$"
+              stdout_regex: true
+              should_fail: true
+              
+            - description: "❌ Hypothesis testing is a part of inferential statistics."
+              script: "read"
+              stdout: "^\\s*4\\s*$"
+              stdout_regex: true
+              should_fail: true
+  unit: "answer"
+  scripts:
+    read:
+      cmd: ["cat", "{{ STUDENT_FILE }}"]
