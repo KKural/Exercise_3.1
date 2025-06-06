@@ -7,16 +7,7 @@
   "type": "exercise",
   "programming_language": "r",
   "evaluation": {
-    "handler": "r",
-    "rmarkdown_judge": "pythia_test"
+    "handler": "r"
   },
-  "labels": [
-    "statistics",
-    "multiple choice"
-  ],
-  "access": "public",
-  "internals": {
-    "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": ["statistics", "multiple choice"]
 }
