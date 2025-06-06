@@ -10,6 +10,7 @@ What is the main purpose of descriptive statistics?
 
 #### How to answer
 
-Delete the template text, type **only the number** of the correct option  
-`1`, `2` **or** `3`, then press **Submit**.  
-Do **not** write code.
+Replace the template line in **main.py** with
+
+```python
+print(2)
