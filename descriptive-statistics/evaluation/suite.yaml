@@ -1,23 +1,23 @@
-unit: answer                  # plain-text exercise
+unit: answer                # plain-text exercise
 
 scripts:
   read:
-    cmd: ["cat", "{{ STUDENT_FILE }}"]   # just echo the submitted file
+    cmd: ["cat", "{{ STUDENT_FILE }}"]     # echo the student’s file
 
 tabs:
-  - tab: answer               # required key name is **tab**
+  - tab: answer
     contexts:
-      - testcases:            # required key name is **testcases**
+      - testcases:
           - description: "✅ Correct – descriptive statistics *summarise and describe data*."
             script: read
-            stdout: "^\\s*2\\s*$"        # matches “2” with optional spaces
+            stdout: "^\\s*2\\s*$"          # only “2”, optionally with spaces/newline
             stdout_regex: true
 
           - description: "❌ Predicting belongs to **inferential** statistics."
             script: read
             stdout: "^\\s*1\\s*$"
             stdout_regex: true
-            should_fail: true            # this output must FAIL the test
+            should_fail: true
 
           - description: "❌ Causal relationships are part of **inferential** analysis."
             script: read
