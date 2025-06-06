@@ -1,8 +1,8 @@
-unit: answer                # plain-text exercise
+unit: answer
 
 scripts:
   read:
-    cmd: ["cat", "{{ STUDENT_FILE }}"]     # echo the student’s file
+    cmd: ["cat", "{{ STUDENT_FILE }}"]   # show raw contents only
 
 tabs:
   - tab: answer
@@ -10,7 +10,7 @@ tabs:
       - testcases:
           - description: "✅ Correct – descriptive statistics *summarise and describe data*."
             script: read
-            stdout: "^\\s*2\\s*$"          # only “2”, optionally with spaces/newline
+            stdout: "^\\s*2\\s*$"
             stdout_regex: true
 
           - description: "❌ Predicting belongs to **inferential** statistics."
