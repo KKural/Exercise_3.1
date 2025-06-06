@@ -1,1 +1,2 @@
-2
+def answer():
+    return 2

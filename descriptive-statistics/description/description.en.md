@@ -7,4 +7,4 @@ What is the main purpose of descriptive statistics?
 3. Establish causal relationships between variables
 4. Test hypotheses about population parameters
 
-Type the number of your answer (1, 2, 3, or 4) in the below.
+Type your answer as a single number to indicate your choice.
