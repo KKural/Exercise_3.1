@@ -1,5 +1,3 @@
-# Q1 - Purpose of Descriptive Statistics
-
 What is the main purpose of descriptive statistics?
 
 1. Predict future outcomes based on sample data
