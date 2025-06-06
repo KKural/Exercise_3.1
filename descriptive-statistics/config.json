@@ -10,19 +10,9 @@
       "allow_any_stderr": true
     }
   },
-<<<<<<< HEAD
   "programming_language": "r",
   "labels": [
     "statistics",
     "multiple choice"
   ]
-=======
-  "programming_language": "python",
-  "access": "private",
-  "internals": {
-    "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  },
-  "labels": []
->>>>>>> ca8804d583671529ac718b1f67bfcbcaffab13ac
 }
