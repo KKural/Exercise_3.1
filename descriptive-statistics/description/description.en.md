@@ -10,6 +10,5 @@ What is the main purpose of descriptive statistics?
 
 #### How to answer
 
-Erase the template text, type **only** the number you think is correct  
- (`1`, `2` or `3`) and press **Submit**.  
+Delete the template text in the editor, type **only** the number you think is correct (`1`, `2` or `3`) and press **Submit**.  
 Do **not** write code.
