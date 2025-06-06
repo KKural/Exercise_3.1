@@ -1,25 +1,26 @@
-unit: io                    # normal input/output exercise
+unit: answer                  # plain-text exercise
 
 scripts:
-  run:
-    cmd: ["python3", "{{ STUDENT_FILE }}"]   # run the student’s file
+  read:
+    cmd: ["cat", "{{ STUDENT_FILE }}"]   # just echo the submitted file
 
 tabs:
-  - name: Answer
+  - tab: answer               # required key name is **tab**
     contexts:
-      - name: Q1
-        stdin: ""            # nothing on stdin
-        cases:
-          - description: "✅  Correct – descriptive statistics *summarise and describe data*."
-            script: run
-            stdout: "2\n"    # must print exactly 2 (+ newline)
+      - testcases:            # required key name is **testcases**
+          - description: "✅ Correct – descriptive statistics *summarise and describe data*."
+            script: read
+            stdout: "^\\s*2\\s*$"        # matches “2” with optional spaces
+            stdout_regex: true
 
-          - description: "❌  Predicting belongs to **inferential** statistics."
-            script: run
-            stdout: "1\n"
-            should_fail: true
+          - description: "❌ Predicting belongs to **inferential** statistics."
+            script: read
+            stdout: "^\\s*1\\s*$"
+            stdout_regex: true
+            should_fail: true            # this output must FAIL the test
 
-          - description: "❌  Causal relationships are part of **inferential** analysis."
-            script: run
-            stdout: "3\n"
+          - description: "❌ Causal relationships are part of **inferential** analysis."
+            script: read
+            stdout: "^\\s*3\\s*$"
+            stdout_regex: true
             should_fail: true
