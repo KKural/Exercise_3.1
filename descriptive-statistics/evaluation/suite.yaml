@@ -1,28 +1,20 @@
-# LIST notation – the DSL root *must* be an array
-- unit: answer                # (= no code execution, just compare text)
-
-  scripts:
-    read:
-      cmd: ["cat", "{{ STUDENT_FILE }}"]
-
-  tabs:
-    - tab: answer             # a single feedback tab
-      contexts:
-        - context: submission # arbitrary name
-          testcases:          # ***required*** key
-            - description: "✅ Correct – descriptive statistics *summarise and describe data*."
-              script: read
-              stdout: "^\\s*2\\s*$"
-              stdout_regex: true          # use the pattern above
-
-            - description: "❌ Predicting belongs to **inferential** statistics."
-              script: read
-              stdout: "^\\s*1\\s*$"
-              stdout_regex: true
-              should_fail: true           # → makes the whole submission Wrong
-
-            - description: "❌ Causal relationships are part of **inferential** analysis."
-              script: read
-              stdout: "^\\s*3\\s*$"
-              stdout_regex: true
-              should_fail: true
+tab: "Answer"
+contexts:
+  - context: "submission"
+    testcases:
+      - description: "✅ Correct – descriptive statistics *summarise and describe data*."
+        command: "cat {{ STUDENT_FILE }}"
+        stdout: "^\\s*2\\s*$"
+        stdout_regex: true
+        
+      - description: "❌ Predicting belongs to **inferential** statistics."
+        command: "cat {{ STUDENT_FILE }}"
+        stdout: "^\\s*1\\s*$"
+        stdout_regex: true
+        should_fail: true
+        
+      - description: "❌ Causal relationships are part of **inferential** analysis."
+        command: "cat {{ STUDENT_FILE }}"
+        stdout: "^\\s*3\\s*$"
+        stdout_regex: true
+        should_fail: true
