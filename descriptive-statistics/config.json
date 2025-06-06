@@ -5,7 +5,10 @@
     }
   },
   "evaluation": {
-    "handler": "output"
+    "handler": "output",
+    "options": {
+      "mode": "full"
+    }
   },
   "programming_language": "text",
   "labels": [
