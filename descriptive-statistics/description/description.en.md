@@ -10,5 +10,5 @@ What is the main purpose of descriptive statistics?
 
 #### How to answer
 
-Delete the template text in **main.py**, type **only** the number you think
-is correct (`1`, `2` or `3`) and press **Submit**.
+Remove the template text in **main.py**, type only the number you believe is
+correct (`1`, `2`, or `3`) and press **Submit**.
