@@ -1,27 +1,25 @@
-unit: answer          # no leading “-”; this is a mapping, not a list
+unit: io                    # normal input/output exercise
 
 scripts:
-  read:
-    cmd: ["cat", "{{ STUDENT_FILE }}"]     # just echo the student’s answer
+  run:
+    cmd: ["python3", "{{ STUDENT_FILE }}"]   # run the student’s file
 
 tabs:
   - name: Answer
     contexts:
       - name: Q1
+        stdin: ""            # nothing on stdin
         cases:
           - description: "✅  Correct – descriptive statistics *summarise and describe data*."
-            script: read
-            stdout: "^\\s*2\\s*$"          # accept “2” with optional whitespace
-            stdout_regex: true
+            script: run
+            stdout: "2\n"    # must print exactly 2 (+ newline)
 
           - description: "❌  Predicting belongs to **inferential** statistics."
-            script: read
-            stdout: "^\\s*1\\s*$"
-            stdout_regex: true
-            should_fail: true              # mark as wrong when the student prints “1”
+            script: run
+            stdout: "1\n"
+            should_fail: true
 
           - description: "❌  Causal relationships are part of **inferential** analysis."
-            script: read
-            stdout: "^\\s*3\\s*$"
-            stdout_regex: true
-            should_fail: true              # wrong if the student prints “3”
+            script: run
+            stdout: "3\n"
+            should_fail: true
