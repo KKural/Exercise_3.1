@@ -1,6 +1,7 @@
-- tab: "Basic Statistics"
-  testcases:
-    - type: "number"
-      stdin: "2"
-      stdout: "2"
-      description: "Check if answer is correct"
+tabs:
+  - name: "Basic Statistics"
+    unit: "Multiple Choice"
+    contexts:
+      - testcases:
+          - expression: "input()"
+            return: "2"
