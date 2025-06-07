@@ -1,4 +1,3 @@
 - tab: "Check Answer"
   testcases:
-    - expression: "submission"
-      return: "2"
+    - stdout: "2"  # Checks if program outputs exactly "2"
