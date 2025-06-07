@@ -1,4 +1,4 @@
- tab: "Basic Statistics"
+- tab: "Basic Statistics"
   testcases:
     - expression: "2"
       return: 2
