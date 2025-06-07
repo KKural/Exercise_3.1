@@ -8,8 +8,3 @@ What is the main purpose of descriptive statistics?
 4. Test hypotheses about population parameters
 
 Type your answer as a single number (1-4) to indicate your choice.
-
-### Example
-```
-2
-```

@@ -1,2 +1,2 @@
 answer = input().strip()
-print("2")
+print(2)
