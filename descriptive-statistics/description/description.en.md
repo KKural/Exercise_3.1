@@ -11,6 +11,6 @@ Type your answer as a single number (1-4) to indicate your choice.
 
 ### Example
 
-```R
-2
+```python
+print(2)
 ```
