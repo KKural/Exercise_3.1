@@ -1,3 +1,4 @@
-- tab: "Basic Statistics"
+ tab: "Basic Statistics"
   testcases:
-    - stdout: "2"
+    - expression: "2"
+      return: 2
