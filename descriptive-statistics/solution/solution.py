@@ -1,2 +1,11 @@
 answer = input().strip()
-print(2)
+
+
+def my_combination(value):
+    print(value)
+    if value == "2":
+        print("2 is the correct answer")
+    return value
+
+
+my_combination(answer)
