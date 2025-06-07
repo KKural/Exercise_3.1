@@ -1,3 +1,4 @@
 - tab: "Check Answer"
   testcases:
-    - stdout: "2"  # Directly check program output
+    - expression: "submission.strip()"
+      return: "2"
