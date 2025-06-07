@@ -1,4 +1,4 @@
 - tab: "Check Answer"
   testcases:
-    - expression: "str(submission).strip()"
+    - expression: "submission"
       return: "2"
