@@ -12,5 +12,5 @@ Type your answer as a single number (1-4) to indicate your choice.
 ### Example
 
 ```python
-print(2)
+2
 ```
