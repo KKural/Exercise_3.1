@@ -1,4 +1,4 @@
 - tab: "Basic Statistics"
   testcases:
-    - expression: !expression "__import__('submission').__dict__.get('__all__', [None])[-1] or eval(open('submission.py').read())"
-      return: 2
+    - stdin: "2"
+      stdout: "2"
