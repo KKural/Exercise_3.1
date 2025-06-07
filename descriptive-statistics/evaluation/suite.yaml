@@ -1,4 +1,4 @@
 - tab: "Check Answer"
   testcases:
-    - expression: "submission.strip()"
+    - expression: "str(submission).strip() if isinstance(submission, str) else str(submission)"
       return: "2"
