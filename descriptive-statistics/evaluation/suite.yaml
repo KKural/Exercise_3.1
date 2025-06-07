@@ -2,3 +2,17 @@
   testcases:
     - stdin: "A"
       stdout: "A"
+- tab: "Tests"
+  testcases:
+  - stdin: "John"
+    stdout: "Hello, John!"
+  - stdin: "Sophie"
+    stdout: "Hello, Sophie!"
+  - stdin: "5236-hello!"
+    stdout: "Hello, 5236-hello!!"
+  - stdin: "'world'"
+    stdout: "Hello, 'world'!"
+  - stdin: '"world"'
+    stdout: 'Hello, "world"!'
+  - stdin: "    "
+    stdout: "Hello,     !"
