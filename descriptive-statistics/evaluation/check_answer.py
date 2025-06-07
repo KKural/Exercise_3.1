@@ -2,8 +2,11 @@ from evaluation_utils import EvaluationResult, Message
 
 
 def check_multiple_choice(context):
-    # Remove newline and any whitespace
+    # Debug: let's see what we're actually getting
     actual = context.actual.strip()
+
+    # Add debug message to see what we're receiving
+    debug_msg = f"Received: '{context.actual}', stripped: '{actual}'"
 
     feedback = {
         "1": {
@@ -45,5 +48,8 @@ def check_multiple_choice(context):
             result=False,
             dsl_expected="2",
             dsl_actual=actual,
-            messages=[Message("Please enter a number between 1 and 4.")]
+            messages=[
+                Message(debug_msg),
+                Message("Please enter a number between 1 and 4.")
+            ]
         )
