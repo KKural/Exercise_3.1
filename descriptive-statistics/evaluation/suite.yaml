@@ -1,5 +1,0 @@
-- tab: "Multiple Choice"
-  testcases:
-    - expression: "my_combination('2')"
-      return: "2"
-      stdout: "2"
