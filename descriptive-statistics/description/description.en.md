@@ -1,12 +1,15 @@
-Write a Python program that asks the name of the user and then greets the user with the sentence `Hallo, [NAME]!`,
-where `[NAME]` is the name of the user.
+# Understanding Statistics Types
 
-The program should read the name from stdin and write the greeting to stdout.
+What is the main purpose of descriptive statistics?
+
+1. Predict future outcomes based on sample data
+2. Summarize and describe the main features of collected data  
+3. Establish causal relationships between variables
+4. Test hypotheses about population parameters
+
+Type your answer as a single number (1-4) to indicate your choice.
 
 ### Example
-
-```console
-$ python program.py
-Jan
-Hallo, Jan!
+```
+2
 ```
