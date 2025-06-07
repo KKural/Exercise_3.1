@@ -4,11 +4,14 @@
       "en": "Basic Statistics: Descriptive vs Inferential"
     }
   },
-  "evaluation": {
-    "handler": "tested",
-    "test_suite": "suite.yaml"
-  },
-  "programming_language": "python",
+  "type": "multiple-choice",
+  "options": [
+    "Predict future outcomes based on sample data",
+    "Summarize and describe the main features of collected data",
+    "Establish causal relationships between variables",
+    "Test hypotheses about population parameters"
+  ],
+  "solution": 1,
   "access": "private",
   "internals": {
     "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
