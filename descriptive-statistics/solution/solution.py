@@ -3,4 +3,4 @@ answer = input().strip()
 
 # Check the answer
 if answer == "2":
-    print(2)
+    print("2")
