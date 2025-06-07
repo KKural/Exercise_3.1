@@ -1,4 +1,4 @@
-- tab: "Basic Statistics"
+- tab: "minimum"
   testcases:
-    - stdin: "2"
-      stdout: "2"
+      - expression: "my_combination('2')"
+        return: "2"
