@@ -1,2 +1,5 @@
 answer = input()
-print(answer)
+if answer == "2":
+    print("Correct")
+else:
+    print("Incorrect")
