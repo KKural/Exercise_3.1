@@ -1,4 +1,3 @@
 - tab: "Basic Statistics"
   testcases:
-    - stdin: "2"
-      stdout: "2"
+    - stdout: "2"
