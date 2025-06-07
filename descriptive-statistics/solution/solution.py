@@ -1,11 +1,9 @@
-answer = input().strip()
-
-
 def my_combination(value):
     print(value)
-    if value == "2":
-        print("2 is the correct answer")
     return value
 
 
-my_combination(answer)
+# Allow students to test their solution locally
+if __name__ == "__main__":
+    answer = input("Enter your answer (1-4): ").strip()
+    my_combination(answer)
