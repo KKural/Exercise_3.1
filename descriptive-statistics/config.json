@@ -1,21 +1,28 @@
 {
-  "description": {
-    "names": {
-      "en": "Basic Statistics: Descriptive vs Inferential"
+  "type": "io",
+  "files": {
+    "template": {
+      "python": "solution.py"
     }
   },
-  "evaluation": {
-    "handler": "tested",
-    "test_suite": "suite.yaml"
-  },
-  "programming_language": "python",
-  "labels": [
-    "statistics",
-    "multiple choice"
-  ],
-  "access": "public",
-  "internals": {
-    "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  "judge": {
+    "python": [
+      {
+        "input": "2\n",
+        "output": "Correct!\n"
+      },
+      {
+        "input": "1\n",
+        "output": "Incorrect!\n"
+      },
+      {
+        "input": "3\n",
+        "output": "Incorrect!\n"
+      },
+      {
+        "input": "4\n",
+        "output": "Incorrect!\n"
+      }
+    ]
   }
 }
