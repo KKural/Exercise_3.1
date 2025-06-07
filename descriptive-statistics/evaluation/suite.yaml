@@ -1,4 +1,3 @@
 - tab: "Basic Statistics"
   testcases:
-    - expression: !expression "int(open('solution.py').read().strip())"
-      return: 2
+    - stdout: "2"
