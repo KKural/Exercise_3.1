@@ -8,6 +8,7 @@
     "handler": "tested",
     "test_suite": "suite.yaml"
   },
+  "programming_language": "txt",
   "access": "private",
   "internals": {
     "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
