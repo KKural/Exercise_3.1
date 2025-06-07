@@ -1,4 +1,3 @@
 - tab: "Check Answer"
   testcases:
-    - expression: "str(submission) == '2'"  # Explicit string conversion
-      return: true
+    - stdout: "2"  # Directly check program output

@@ -8,6 +8,6 @@
     "handler": "tested",
     "test_suite": "suite.yaml"
   },
-  "programming_language": "python", // Must use a valid language
+  "programming_language": "python",
   "access": "private"
 }
