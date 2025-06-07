@@ -2,6 +2,7 @@ from evaluation_utils import EvaluationResult, Message
 
 
 def check_multiple_choice(context):
+    # Remove newline and any whitespace
     actual = context.actual.strip()
 
     feedback = {

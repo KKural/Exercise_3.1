@@ -1,1 +1,2 @@
-print(input())
+answer = input()
+print(answer)
