@@ -1,4 +1,4 @@
 - tab: "Check Answer"
   testcases:
-    - expression: "submission"
-      return: "2"  # Correct answer is option 2
+    - expression: "str(submission) == '2'"  # Explicit string conversion
+      return: true
