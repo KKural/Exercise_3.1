@@ -1,0 +1,4 @@
+- tab: "Multiple Choice"
+  testcases:
+  - stdin: "2"
+    stdout: "2"

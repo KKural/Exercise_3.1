@@ -4,13 +4,15 @@
       "en": "Basic Statistics: Descriptive vs Inferential"
     }
   },
-  "type": "multiple-choice",
-  "options": [
-    "Predict future outcomes based on sample data",
-    "Summarize and describe the main features of collected data",
-    "Establish causal relationships between variables",
-    "Test hypotheses about population parameters"
-  ],
-  "solution": 1,
-  "access": "private"
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "internals": {
+    "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": []
 }
