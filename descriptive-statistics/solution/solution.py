@@ -1,1 +1,1 @@
-print(input().strip())
+print(input())
