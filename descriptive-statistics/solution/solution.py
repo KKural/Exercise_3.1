@@ -1,2 +1,1 @@
-answer = input()
-print(answer)
+print(input().strip())
