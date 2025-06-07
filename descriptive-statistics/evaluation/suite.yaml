@@ -1,4 +1,4 @@
 - tab: "Basic Statistics"
   testcases:
-    - expression: !expression "eval(open('submission.py').read().strip())"
+    - expression: !expression "exec(open('submission.py').read()) or eval(open('submission.py').read().strip())"
       return: 2
