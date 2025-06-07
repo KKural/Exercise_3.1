@@ -1,3 +1,5 @@
 - tab: "Check Answer"
   testcases:
-    - stdout: "2"  # Checks if program outputs exactly "2"
+    - stdout: 
+        data: "2"
+        oracle: "ignoring_whitespace"
