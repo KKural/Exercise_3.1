@@ -2,10 +2,10 @@
 
 context({
   testcase(
-    "What is the main purpose of descriptive statistics?", 
+    "", 
     {
       testEqual(
-        "Answer", 
+        "", 
         function(env) as.numeric(env$evaluationResult),
         2,
         comparator = function(generated, expected, ...) {
