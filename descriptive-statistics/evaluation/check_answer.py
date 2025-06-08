@@ -2,11 +2,8 @@ from evaluation_utils import EvaluationResult, Message
 
 
 def check_multiple_choice(context):
-    # Debug: let's see what we're actually getting
+    # Get the answer from stdout (removing newlines and whitespace)
     actual = context.actual.strip()
-
-    # Add debug message to see what we're receiving
-    debug_msg = f"Received: '{context.actual}', stripped: '{actual}'"
 
     feedback = {
         "1": {
@@ -39,17 +36,16 @@ def check_multiple_choice(context):
         ]
         return EvaluationResult(
             result=result["correct"],
-            dsl_expected="2",
-            dsl_actual=actual,
+            readable_expected="Choice 2",
+            readable_actual=f"Choice {actual}",
             messages=messages
         )
     else:
         return EvaluationResult(
             result=False,
-            dsl_expected="2",
-            dsl_actual=actual,
+            readable_expected="Choice 2",
+            readable_actual=f"Invalid Input: {actual}",
             messages=[
-                Message(debug_msg),
                 Message("Please enter a number between 1 and 4.")
             ]
         )
