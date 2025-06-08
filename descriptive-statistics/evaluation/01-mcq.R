@@ -1,35 +1,34 @@
 context({
   testcase("Which description is correct?", {
-    # Simple equality test
-    testEqual("Answer", function(env) env$evaluationResult, 2)
-    
-    # Add separate test for feedback based on the answer
-    testFeedback({
-      answer <- get("evaluationResult", envir = .GlobalEnv)
-      
-      if (answer == 1) {
-        commentator <- function() {
-          cat("Incorrect. This describes inferential statistics, which predict future outcomes based on sample data.")
+    # Simple equality test with feedback in the callback function
+    testEqual(
+      "Answer", 
+      function(env) {
+        # Get student answer
+        answer <- env$evaluationResult
+        
+        # Provide feedback based on the answer
+        if (answer == 1) {
+          feedback <- "Incorrect. This describes inferential statistics, which predict future outcomes based on sample data."
+          cat(feedback)
+        } else if (answer == 2) {
+          feedback <- "Correct! Descriptive statistics summarize and describe the main features of collected data."
+          cat(feedback)
+        } else if (answer == 3) {
+          feedback <- "Incorrect. Establishing causal relationships is typically done through inferential statistics."
+          cat(feedback)
+        } else if (answer == 4) {
+          feedback <- "Incorrect. Testing hypotheses about population parameters is the main purpose of inferential statistics."
+          cat(feedback)
+        } else {
+          feedback <- "Please enter a number between 1 and 4."
+          cat(feedback)
         }
-      } else if (answer == 2) {
-        commentator <- function() {
-          cat("Correct! Descriptive statistics summarize and describe the main features of collected data.")
-        }
-      } else if (answer == 3) {
-        commentator <- function() {
-          cat("Incorrect. Establishing causal relationships is typically done through inferential statistics.")
-        }
-      } else if (answer == 4) {
-        commentator <- function() {
-          cat("Incorrect. Testing hypotheses about population parameters is the main purpose of inferential statistics.")
-        }
-      } else {
-        commentator <- function() {
-          cat("Please enter a number between 1 and 4.")
-        }
-      }
-      
-      commentator()
-    })
+        
+        # Return the student's answer for evaluation
+        return(answer)
+      }, 
+      2  # The correct answer is 2
+    )
   })
 })
