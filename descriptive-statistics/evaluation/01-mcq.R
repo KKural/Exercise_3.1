@@ -1,18 +1,17 @@
 context({
-  # load any packages or data you need
   library(dslabs)
   data(murders)
-}, preExec = {
-  # (optional) code to run before student script
 })
 
+# context block 2: the actual MCQ
 context({
   testcase("Which description is correct?", {
-    # `evaluationResult` holds the value of the last expression in the student script
+    # `evaluationResult` is the value of the last top-level expression
+    # in the student script (so if they write `3`, evaluationResult == 3).
     testEqual(
-      "Answer",                                # shown to the student
-      function(env) env$evaluationResult,       # extract result
-      3                                          # expected numeric value
+      "Answer",                       # label shown to student
+      function(env) env$evaluationResult,
+      2                               # the correct numeric choice
     )
   })
 })

@@ -5,7 +5,7 @@
     }
   },
   "evaluation": {
-    "handler": "R", // ← R judge
+    "handler": "judge-r", // ← R judge
     "test_suite": "evaluation" // folder containing your .R test files
   },
   "programming_language": "R",
