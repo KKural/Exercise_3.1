@@ -6,7 +6,7 @@ context({
     # Test if the answer is correct (2)
     testEqual(
       "Answer",                       # label shown to student
-       function(env) env$evaluationResult,
+      answer,
       2                               # the correct numeric choice
     )
     
