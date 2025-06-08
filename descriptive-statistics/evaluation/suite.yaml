@@ -1,4 +1,5 @@
 - tab: "Multiple Choice"
   testcases:
-    - expression: "submission"
-      return: "2"
+    - description: "Answer must be the single digit 2"
+      expression: "stdout.strip()"   # <-- what we evaluate
+      return: "2"                    # <-- what it must equal
