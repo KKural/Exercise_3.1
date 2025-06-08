@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "en": "MCQ: Measures of Central Tendency"
+    }
+  },
+  "evaluation": {
+    "handler": "R",
+    "test_suite": "evaluation"
+  },
+  "programming_language": "R",
+  "access": "private",
+  "labels": []
+}
