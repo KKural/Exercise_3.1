@@ -1,5 +1,7 @@
-- tab: "Multiple Choice"
-  testcases:
-    - description: "Answer must be the single digit 2"
-      stdin: ""            # no input for this task
-      expected_stdout: "2\n"
+tabs:
+  - tab: "Multiple Choice"
+    contexts:
+      - cases:
+          - description: "Answer must be the single digit 2"
+            expression: "stdout.strip()"
+            return: "2"
