@@ -1,7 +1,7 @@
-tabs:
-  - tab: "Multiple Choice"
-    contexts:
-      - cases:
-          - description: "Answer must be the single digit 2"
-            expression: int(stdout.strip())  # convert the printed text to an int
-            return: 2                        # bare integer
+# evaluation/suite.yaml
+- tab: "Multiple Choice"
+  contexts:
+    - testcases:
+        - description: "Answer must be the single digit 2"
+          expression: int(stdout.strip())
+          return: 2
