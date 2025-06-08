@@ -2,7 +2,7 @@
 
 Look at the following histogram representing the age distribution of participants in a study:
 
-![Histogram of Age Distribution](media/age-histogram.png)
+![Histogram of Age Distribution](media/age_distribution.png)
 
 Which of the following statements is correct about this histogram?
 
