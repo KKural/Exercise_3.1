@@ -1,8 +1,3 @@
-context({
-  library(dslabs)
-  data(murders)
-})
-
 # context block 2: the actual MCQ
 context({
   testcase("Which description is correct?", {
