@@ -1,0 +1,18 @@
+{
+    "description": {
+        "names": {
+            "en": "Descriptive Statistics MCQs"
+        }
+    },
+    "evaluation": {
+        "handler": "R",
+        "test_suite": "evaluation"
+    },
+    "programming_language": "R",
+    "access": "private",
+    "internals": {
+        "token": "WX-Wg64YA67tpa3UTvc57qmsnYuKnWfXTqXMGK_RI3yRRtvYN4y8tSu7edthMZHH",
+        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+    },
+    "labels": []
+}
