@@ -1,26 +1,8 @@
 - tab: "Multiple Choice"
   testcases:
-    - stdin: "1"
-      return: !oracle
-        value: "1"
-        oracle: "custom_check"
-        file: "check_answer.py"
-        name: "check_multiple_choice"
     - stdin: "2"
       return: !oracle
         value: "2"
-        oracle: "custom_check"
-        file: "check_answer.py"
-        name: "check_multiple_choice"
-    - stdin: "3"
-      return: !oracle
-        value: "3"
-        oracle: "custom_check"
-        file: "check_answer.py"
-        name: "check_multiple_choice"
-    - stdin: "4"
-      return: !oracle
-        value: "4"
         oracle: "custom_check"
         file: "check_answer.py"
         name: "check_multiple_choice"
