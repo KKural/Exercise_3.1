@@ -1,26 +1,4 @@
 - tab: "Multiple Choice"
   testcases:
-    - stdin: "1"
-      stdout: !oracle
-        data: "1"
-        oracle: "custom_check"
-        file: "check_answer.py"
-        name: "check_multiple_choice"
-    - stdin: "2"
-      stdout: !oracle
-        data: "2"
-        oracle: "custom_check"
-        file: "check_answer.py"
-        name: "check_multiple_choice"
-    - stdin: "3"
-      stdout: !oracle
-        data: "3"
-        oracle: "custom_check"
-        file: "check_answer.py"
-        name: "check_multiple_choice"
-    - stdin: "4"
-      stdout: !oracle
-        data: "4"
-        oracle: "custom_check"
-        file: "check_answer.py"
-        name: "check_multiple_choice"
+    - expression: "submission"
+      return: "2"
