@@ -1,30 +1,26 @@
+# evaluation/01-variables.R
 context({
   testcase("Which description is correct?", {
-    # Get the student's answer in a separate variable for clarity
-    testcase("Get student answer", {
-      student_answer <- testRun({
-        get("evaluationResult", envir = .GlobalEnv)
-      })
-    })
-    
-    # Test if answer is correct
-    testEqual("Answer", function() student_answer, 2)
-    
-    # Provide feedback based on the answer
-    testcase("Providing feedback", {
-      testRun({
-        if (student_answer == 1) {
-          cat("Incorrect. This describes inferential statistics, which predict future outcomes based on sample data.")
-        } else if (student_answer == 2) {
-          cat("Correct! Descriptive statistics summarize and describe the main features of collected data.")
-        } else if (student_answer == 3) {
-          cat("Incorrect. Establishing causal relationships is typically done through inferential statistics.")
-        } else if (student_answer == 4) {
-          cat("Incorrect. Testing hypotheses about population parameters is the main purpose of inferential statistics.")
-        } else {
-          cat("Please enter a number between 1 and 4.")
-        }
-      })
-    })
+    # grab the bare number they wrote
+    answer <- as.numeric(evaluationResult)
+
+    if (answer == 2) {
+      # correct: let the test pass, but show two lines of praise
+      message("✅ Correct! Descriptive statistics summarize and describe the main features of collected data.")
+      message("Concept: think mean, median, mode and simple plots.")
+    } else if (answer %in% 1:4) {
+      # wrong: throw an error, which Dodona shows as the failure reason
+      stop(
+        switch(
+          as.character(answer),
+          "1" = "❌ Incorrect. That describes inferential statistics.",
+          "3" = "❌ Nope. Causal relationships need inferential methods.",
+          "4" = "❌ Not quite. Hypothesis testing is inferential."
+        ),
+        "\n\nThe correct answer is 2."
+      )
+    } else {
+      stop("Please enter a number between 1 and 4.")
+    }
   })
 })
