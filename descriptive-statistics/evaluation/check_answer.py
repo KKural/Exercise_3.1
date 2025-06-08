@@ -14,7 +14,7 @@ def check_multiple_choice(context):
             "message": "Incorrect. This describes inferential statistics, which predict future outcomes based on sample data.",
             "concept": "This is actually the purpose of inferential statistics, not descriptive statistics."
         },
-        2: {
+        "2": {
             "correct": True,
             "message": "Correct! Descriptive statistics summarize and describe the main features of collected data.",
             "concept": "Descriptive statistics help us understand what the data shows us through measures like mean, median, mode, and visualizations."
@@ -39,14 +39,14 @@ def check_multiple_choice(context):
         ]
         return EvaluationResult(
             result=result["correct"],
-            dsl_expected=2,
+            dsl_expected="2",
             dsl_actual=actual,
             messages=messages
         )
     else:
         return EvaluationResult(
             result=False,
-            dsl_expected=2,
+            dsl_expected="2",
             dsl_actual=actual,
             messages=[
                 Message(debug_msg),
