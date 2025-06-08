@@ -1,7 +1,8 @@
 - tab: "Multiple Choice"
   testcases:
-    - stdout: !oracle
-        data: "2"
+    - stdin: "2"
+      stdout: !oracle
+        data: "2\n"
         oracle: "custom_check"
         file: "check_answer.py"
         name: "check_multiple_choice"
