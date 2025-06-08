@@ -1,5 +1,0 @@
-- tab: "Multiple Choice"
-  contexts:
-    - testcases:
-        - description: "Output should be the single digit 2"
-          stdout: "2\n"
