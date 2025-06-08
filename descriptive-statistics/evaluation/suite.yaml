@@ -3,5 +3,5 @@ tabs:
     contexts:
       - cases:
           - description: "Answer must be the single digit 2"
-            expression: "stdout.strip()"
-            return: "2"
+            expression: int(stdout.strip())  # convert the printed text to an int
+            return: 2                        # bare integer
