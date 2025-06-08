@@ -4,7 +4,7 @@ context({
     testEqual("Answer", function(env) env$evaluationResult, 2)
     
     # Add separate test for feedback based on the answer
-    test({
+    testFeedback({
       answer <- get("evaluationResult", envir = .GlobalEnv)
       
       if (answer == 1) {
