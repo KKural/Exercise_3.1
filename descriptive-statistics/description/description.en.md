@@ -1,4 +1,4 @@
-# Which level of measurement applies to the variable “Type of crime” (e.g. burglary, assault, robbery)?
+Q1. Which level of measurement applies to the variable “Type of crime” (e.g. burglary, assault, robbery)?
 
 1.	Nominal
 2.	Ordinal
