@@ -1,10 +1,9 @@
-# Understanding Statistics Types
+# Which level of measurement applies to the variable “Type of crime” (e.g. burglary, assault, robbery)?
 
-What is the main purpose of descriptive statistics?
+1.	Nominal
+2.	Ordinal
+3.	Interval
+4.	Ratio
 
-1. Predict future outcomes based on sample data
-2. Summarize and describe the main features of collected data
-3. Establish causal relationships between variables
-4. Test hypotheses about population parameters
 
 Type your answer as a single number (1-4) to indicate your choice.
