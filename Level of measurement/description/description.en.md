@@ -1,6 +1,5 @@
-#  Meetniveau
-
 Welk meetniveau is van toepassing op de variabele “Soort misdrijf” (bijv. inbraak, mishandeling, overval)?
+
 1.	Nominaal
 2.	Ordinaal
 3.	Interval

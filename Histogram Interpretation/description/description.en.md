@@ -1,5 +1,3 @@
-# Interpretatie van een histogram
-
 Welke uitspraak beschrijft de verdeling het best?
 
 ![Leeftijdsverdeling](media/age_distribution.png)
