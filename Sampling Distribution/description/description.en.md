@@ -1,5 +1,3 @@
-#  Steekproevenverdeling
-
 Wat beschrijft het best een steekproevenverdeling van gemiddelden van misdaadcijfers?
 
 1.	De verdeling van misdaadcijfers in de stad
