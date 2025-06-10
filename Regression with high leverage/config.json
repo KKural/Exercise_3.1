@@ -9,7 +9,7 @@
     "test_suite": "evaluation"
   },
   "programming_language": "R",
-  "access": "private",
+  "access": "public",
   "labels": [],
   "internals": {
     "token": "WdkYcA8uP_vj8qYqpz29j9CX_AYgkgS2qdIKEjUGmpEeItxzcuTBiYue_saUmgi2",
