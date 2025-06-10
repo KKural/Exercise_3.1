@@ -12,7 +12,7 @@ context({
             "1" = "❌ Nee. Dit is enkel de verdeling van misdaadcijfers in de stad, niet van steekproefgemiddelden.",
             
             # ❌ Not correct. The distribution of predicted values from a regression is a different concept. 
-            "2" = "❌ Niet juist. De verdeling van voorspelde waarden uit een regressie is iets anders dan een steekproevenverdeling van gemiddelden."
+            "2" = "❌ Niet juist. De verdeling van voorspelde waarden uit een regressie is iets anders dan een steekproevenverdeling van gemiddelden.",
             
             # ❌ Incorrect. This refers to a time series, not a sampling distribution.
             "3" = "❌ Fout. Dit beschrijft een tijdsverloop van populatiecijfers, geen steekproevenverdeling.",
