@@ -1,9 +1,10 @@
-Q1. Which level of measurement applies to the variable “Type of crime” (e.g. burglary, assault, robbery)?
+#  Meetniveau
 
-1.	Nominal
-2.	Ordinal
+Welk meetniveau is van toepassing op de variabele “Soort misdrijf” (bijv. inbraak, mishandeling, overval)?
+1.	Nominaal
+2.	Ordinaal
 3.	Interval
 4.	Ratio
 
+Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.
 
-Type your answer as a single number (1-4) to indicate your choice.

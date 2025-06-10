@@ -1,29 +1,32 @@
-# evaluation/01-level-of-measurement.R
-
 context({
   testcase(
-    "",
+    " ",
     {
       testEqual(
         "",
         function(env) as.numeric(env$evaluationResult),
-        1,
+        1,  # the correct choice: "Soort misdrijf" is a nominal variable
         comparator = function(generated, expected, ...) {
-          # Map each choice to its feedback
           feedbacks <- list(
-            "1" = "✅ Correct! “Type of crime” is a *nominal* variable—categories without any order.",
-            "2" = "❌ Incorrect. Ordinal implies a natural order/ranking, which “Type of crime” lacks.",
-            "3" = "❌ Incorrect. Interval scales have equal distances between values; “Type of crime” isn’t numeric.",
-            "4" = "❌ Incorrect. Ratio scales have a meaningful zero point; “Type of crime” doesn’t."
+            # ✅ Correct! "Type of crime" is nominal: distinct categories with no inherent order.
+            "1" = "✅ Correct! “Soort misdrijf” is een *nominaal* meetniveau: het gaat enkel om verschillende categorieën zonder ordening.",
+            
+            # ❌ No, ordinal would mean there's a logical order, which doesn't apply to crime types.
+            "2" = "❌ Nee, ordinaal zou betekenen dat er een logische volgorde is, maar dat geldt niet voor soorten misdrijven.",
+            
+            # ❌ Incorrect. Interval variables have meaningful numeric differences; this is a categorical variable.
+            "3" = "❌ Fout. Intervalvariabelen hebben numerieke waarden met betekenisvolle verschillen, maar “soort misdrijf” is categorisch.",
+            
+            # ❌ Not correct. Ratio requires an absolute zero and quantitative interpretation, which does not apply to crime categories.
+            "4" = "❌ Niet juist. Ratio vereist een absoluut nulpunt en kwantitatieve interpretatie, wat niet van toepassing is op misdrijfcategorieën."
           )
+          
           key <- as.character(generated)
-          msg <- feedbacks[[key]] %||% "❌ Please enter a number between 1 and 4."
-
-          # Emit the feedback in Dodona
+          msg <- feedbacks[[key]] %||% "❌ Geef een getal tussen 1 en 4 in."  # ❌ Please enter a number between 1 and 4.
+          
           get_reporter()$add_message(msg, type = "markdown")
-
-          # Return TRUE only if they picked the expected answer
-          return(generated == expected)
+          
+          generated == expected
         }
       )
     }
