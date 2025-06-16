@@ -10,5 +10,9 @@
     "nulhypothese",
     "t-test"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "bKTJZj9yz8yyCSTJHtEKQgsNr2_dV9gMg7PTag5aKKgTvrknB-FCwa_Rfz9UE_PJ",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
