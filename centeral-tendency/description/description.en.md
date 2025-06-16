@@ -1,13 +1,11 @@
-# Measures of Central Tendency
-
-Consider the following dataset representing test scores: 
+Beschouw de volgende dataset met testresultaten:  
 `[65, 70, 70, 80, 85, 85, 85, 90, 95, 98, 100]`
 
-For this dataset, which of the following statements is true?
+Welke van de volgende uitspraken is correct?
 
-1. The mean is greater than the median
-2. The median is greater than the mean
-3. The mode is greater than the mean
-4. The mean, median, and mode are all equal
+1. Het gemiddelde is groter dan de mediaan  
+2. De mediaan is groter dan het gemiddelde  
+3. De modus is groter dan het gemiddelde  
+4. Het gemiddelde, de mediaan en de modus zijn allemaal gelijk
 
-Type your answer as a single number (1-4) to indicate your choice.
+**Typ je antwoord als één enkel getal (1–4) om je keuze aan te geven.**
