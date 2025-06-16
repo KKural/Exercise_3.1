@@ -2,7 +2,7 @@
 
 Bekijk het volgende fragment uit de video:
 
-🎥 [Hypothesis testing: step-by-step – Statistics Help (YouTube)](https://www.youtube.com/watch?v=0oc49DyA5kM&t=191s)
+[Hypothesis testing: step-by-step – Statistics Help (YouTube)](https://www.youtube.com/watch?v=0oc49DyA5kM&t=191s)
 
 Helen verkoopt choconutties en wil weten of het aanbieden van een gratis sticker invloed heeft op de verkoop. Ze voert een experiment uit met en zonder sticker en wil een t-toets uitvoeren om het verschil te testen.
 

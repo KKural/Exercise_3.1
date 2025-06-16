@@ -1,18 +1,18 @@
 {
-  "name": {
-    "nl": "Helen's nulhypothese"
+  "description": {
+    "names": {
+      "en": "Helen's nulhypothese"
+    }
   },
-  "type": "exercise",
-  "programming_language": "r",
-  "judge": "r",
-  "labels": [
-    "hypothesetoetsing",
-    "nulhypothese",
-    "t-test"
-  ],
+  "evaluation": {
+    "handler": "R",
+    "test_suite": "evaluation"
+  },
+  "programming_language": "R",
   "access": "public",
   "internals": {
-    "token": "bKTJZj9yz8yyCSTJHtEKQgsNr2_dV9gMg7PTag5aKKgTvrknB-FCwa_Rfz9UE_PJ",
+    "token": "xGZ843RgceU6zN9PZ-5KMrZMa_fAQZIXIB3WfnSe_HxmN4bvvr5Mu6BHaGrRSzqJ",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  },
+  "labels": []
 }
