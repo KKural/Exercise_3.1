@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "en": "Helen's nulhypothese"
+      "en": "Nullhypothesis"
     }
   },
   "evaluation": {
@@ -11,7 +11,7 @@
   "programming_language": "R",
   "access": "public",
   "internals": {
-    "token": "xGZ843RgceU6zN9PZ-5KMrZMa_fAQZIXIB3WfnSe_HxmN4bvvr5Mu6BHaGrRSzqJ",
+    "token": "your-own-token-here",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   },
   "labels": []

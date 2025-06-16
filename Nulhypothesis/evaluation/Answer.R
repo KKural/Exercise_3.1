@@ -1,31 +1,30 @@
 context({
   testcase(
-    "",
+    " ",
     {
       testEqual(
         "",
         function(env) as.numeric(env$evaluationResult),
-        1,
+        1,  # the correct choice: population means comparison
         comparator = function(generated, expected, ...) {
           feedbacks <- list(
-            # ✅ Correct! Null hypotheses are always about population parameters (μ), not sample means.
+            # ✅ Correct! Population means are always used in null hypotheses.
             "1" = "✅ Correct! De nulhypothese vergelijkt de populatiegemiddelden: er is geen verschil tussen de twee omstandigheden.",
             
-            # ❌ No. This is a directional (one-tailed) hypothesis, not the null hypothesis used in dit onderzoek.
-            "2" = "❌ Nee. Dit is een alternatieve hypothese in één richting, en hoort niet bij een tweezijdige nulhypothese.",
+            # ❌ Directional hypothesis – this is an alternative, not a null.
+            "2" = "❌ Nee. Dit is een alternatieve hypothese in één richting, niet de nulhypothese.",
             
-            # ❌ Incorrect. The null hypothesis compares population parameters (μ), not sample means (\u0304x).
-            "3" = "❌ Fout. De nulhypothese gaat over populatiegemiddelden, niet over de steekproefgemiddelden.",
+            # ❌ Sample means – null hypotheses are about population parameters, not sample statistics.
+            "3" = "❌ Fout. De nulhypothese gaat over populatiegemiddelden (μ), niet over steekproefgemiddelden (x̄).",
             
-            # ❌ Not correct. μ = 300 is een specifieke waarde, maar niet relevant in deze context van twee groepen.
-            "4" = "❌ Niet juist. μ = 300 stelt een waarde in plaats van een vergelijking tussen groepen."
+            # ❌ Specific population value – unrelated to the two-group comparison in this study.
+            "4" = "❌ Niet juist. μ = 300 vergelijkt geen twee groepen en is dus niet relevant hier."
           )
           
           key <- as.character(generated)
           msg <- feedbacks[[key]] %||% "❌ Kies een getal tussen 1 en 4."
           
           get_reporter()$add_message(msg, type = "markdown")
-          
           generated == expected
         }
       )
