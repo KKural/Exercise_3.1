@@ -1,0 +1,14 @@
+{
+  "name": {
+    "nl": "Helen's nulhypothese"
+  },
+  "type": "exercise",
+  "programming_language": "r",
+  "judge": "r",
+  "labels": [
+    "hypothesetoetsing",
+    "nulhypothese",
+    "t-test"
+  ],
+  "access": "public"
+}
