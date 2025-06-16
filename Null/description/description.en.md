@@ -1,6 +1,6 @@
 # Wat is de juiste nulhypothese voor Helen’s onderzoek?
 
-🎥 Video: [Hypothesis testing – Statistics Help](https://www.youtube.com/watch?v=0zZYBALbZgg&t=1s)
+Video: [Hypothesis testing – Statistics Help] https://www.youtube.com/watch?v=0zZYBALbZgg&t=1s
 
 Wat is de juiste nulhypothese?
 
