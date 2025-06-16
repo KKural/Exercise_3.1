@@ -13,4 +13,4 @@ Wat is de juiste nulhypothese?
 3. H₀: x̄_sticker = x̄_geen sticker  
 4. H₀: μ = 300
 
-**Typ je antwoord als één enkel getal (1–4) om je keuze aan te geven.**
+Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.
