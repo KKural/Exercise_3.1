@@ -1,6 +1,6 @@
 In de onderstaande boxplot zijn politieresponstijden (in minuten) per type misdrijf (inbraak, mishandeling, autokraken) weergegeven. De box voor ‘Inbraak’ ligt het hoogst en bevat enkele punten buiten de bovenste whisker. Welke uitspraak is correct?
 
-![Boxplot](media/q14_boxplot_responstijd.png)
+![Boxplot](media/image.png)
 
 1.	De mediaanresponstijd is het laagst voor inbraak.
 2.	De spreiding is het grootst voor autokraken.
