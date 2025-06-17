@@ -8,4 +8,4 @@ Welke van de volgende uitspraken is correct?
 3. De modus is groter dan het gemiddelde  
 4. Het gemiddelde, de mediaan en de modus zijn allemaal gelijk
 
-**Typ je antwoord als één enkel getal (1–4) om je keuze aan te geven.**
+Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.
