@@ -13,4 +13,7 @@ Wat is de juiste nulhypothese?
 3. H₀: x̄_sticker = x̄_geen sticker  
 4. H₀: μ = 300
 
+**Tip:** *Een nulhypothese (H₀) stelt meestal dat er geen effect of verschil is tussen populatieparameters (zoals μ), niet tussen steekproefstatistieken (zoals x̄). Een correcte nulhypothese vergelijkt populatiegemiddelden en stelt dat er geen verschil is.*
+
+
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.
