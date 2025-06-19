@@ -1,4 +1,5 @@
 Consider the following dataset showing the number of offenses per month committed by a group of 
+
 `[65, 70, 70, 80, 85, 85, 85, 90, 95, 98, 100]`
 
 Welke van de volgende uitspraken is correct?
