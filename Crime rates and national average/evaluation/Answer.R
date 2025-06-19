@@ -8,17 +8,17 @@ context({
         1,  # correct: District X (85) is the outlier compared to national average of 50
         comparator = function(generated, expected, ...) {
           feedbacks <- list(
-            # ✅ Correct! District X has a crime rate of 85, far above the national average of 50.
-            "1" = "✅ Juist! District X heeft een cijfer van 85, wat duidelijk boven het nationale gemiddelde van 50 ligt en dus een uitschieter is.",
+            # ✅ Juist! District X is a statistical outlier based on standard measures.
+            "1" = "✅ Juist! District X heeft een cijfer van 85, wat 2.33 standaarddeviaties boven het nationale gemiddelde van 50 ligt (SD = 15). Waarden die meer dan 1.5 SD van het gemiddelde liggen worden typisch als uitschieters beschouwd. Met z = (85-50)/15 = 2.33 is District X duidelijk een statistische uitschieter.",
             
-            # ❌ Incorrect. 52 is slightly above average, but not an outlier.
-            "2" = "❌ Fout. District Y zit maar net boven het gemiddelde en valt niet echt op als uitschieter.",
+            # ❌ Fout. District Y is above average but not enough to be considered an outlier.
+            "2" = "❌ Fout. District Y zit met een waarde van 60 slechts 0.67 standaarddeviaties boven het gemiddelde (z = (60-50)/15 = 0.67). Aangezien deze waarde binnen 1.5 SD van het gemiddelde valt, wordt dit niet als een statistische uitschieter beschouwd.",
             
-            # ❌ No. 48 is slightly below average, but still close to 50.
-            "3" = "❌ Fout. District Z ligt iets onder het gemiddelde, maar is geen opvallende afwijking.",
+            # ❌ Fout. District Z is below average but not enough to be an outlier.
+            "3" = "❌ Fout. District Z ligt met een waarde van 45 slechts 0.33 standaarddeviaties onder het gemiddelde (z = (45-50)/15 = -0.33). Dit valt ruim binnen de normale spreiding en wordt niet als statistische uitschieter gezien.",
             
-            # ❌ Not correct. District W is exactly at the national average of 50.
-            "4" = "❌ Fout. District W zit exact op het nationale gemiddelde en is dus geen uitschieter."
+            # ❌ Fout. District W is exactly average, so definitely not an outlier.
+            "4" = "❌ Fout. District W zit exact op het nationale gemiddelde (z = (50-50)/15 = 0) en wijkt dus helemaal niet af van de norm. Een uitschieter moet statistisch significant afwijken van het gemiddelde, typisch meer dan 1.5 SD."
           )
           
           key <- as.character(generated)

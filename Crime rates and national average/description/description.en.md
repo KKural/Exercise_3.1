@@ -1,4 +1,4 @@
-Welk district valt op als uitschieter ten opzichte van het nationale gemiddelde van 50 per 10.000?
+Welk district valt op als uitschieter ten opzichte van het nationale gemiddelde van 50 misdrijven per 10.000 inwoners?
 
 1.	District X (cijfer = 85)
 2.	District Y (cijfer = 52)
