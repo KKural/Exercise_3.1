@@ -1,10 +1,14 @@
 {
-    "description": {
-        "names": {
-            "en": "Echo",
-            "nl": "Echo"
-        }
-    },
-    "evaluation": {},
-    "labels": []
+  "description": {
+    "names": {
+      "en": "Echo",
+      "nl": "Echo"
+    }
+  },
+  "evaluation": {},
+  "labels": [],
+  "internals": {
+    "token": "cIIJt-Mh9rItGqxd3hjB8ptZ3XEndduV9YRxy3QFu3Mt2jnjnNtCRzwmhsCnCuIM",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
