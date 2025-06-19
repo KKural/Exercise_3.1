@@ -1,5 +1,5 @@
-Welcome to this interactive criminology statistics course. Each question provides a concept reminder (“Tip”) and gives feedback after your answer — not just whether it’s correct, but also why. You can retry questions and review feedback to reinforce learning.
+Welkom bij deze interactieve cursus statistiek voor criminologie. Elke vraag bevat een conceptherinnering ("Tip") en geeft feedback na je antwoord — niet alleen of het correct is, maar ook waarom. Je kunt vragen opnieuw proberen en feedback bekijken om je kennis te versterken.
 
-Use the menu to navigate between series. Completion status is tracked so you can monitor your progress. Most exercises are multiple-choice, and require typing a number (1–4) as your answer.
+Gebruik het menu om tussen de verschillende series te navigeren. De voortgangsstatus wordt bijgehouden zodat je je vooruitgang kunt monitoren. De meeste oefeningen zijn meerkeuzevragen, waarbij je een cijfer (1-4) moet invoeren als antwoord.
 
-Let’s get started!
+Laten we beginnen!
