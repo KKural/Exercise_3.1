@@ -24,8 +24,10 @@ De chi-kwadraat toetsstatistiek wordt berekend met de volgende formule:
 $$\chi^2 = \sum\frac{(O_{ij} - E_{ij})^2}{E_{ij}}$$
 
 Waarbij:
-- $O_{ij}$ = geobserveerde frequentie in cel $(i,j)$
-- $E_{ij}$ = verwachte frequentie in cel $(i,j)$ onder de nulhypothese van onafhankelijkheid
-- De verwachte frequentie wordt berekend als: $E_{ij} = \frac{\text{rijtotaal}_i \times \text{kolomtotaal}_j}{\text{totaal}}$
+- O_{ij} = geobserveerde frequentie in cel (i,j)
+- E_{ij} = verwachte frequentie in cel (i,j) onder de nulhypothese van onafhankelijkheid
+- De verwachte frequentie wordt berekend als: E_{ij} = (rijtotaal_i × kolomtotaal_j) / totaal
+
+Voer alleen de numerieke waarde van de chi-kwadraat toetsstatistiek in (bijvoorbeeld: 11.89).
 
 Voer alleen de numerieke waarde van de chi-kwadraat toetsstatistiek in (bijvoorbeeld: 11.89).
