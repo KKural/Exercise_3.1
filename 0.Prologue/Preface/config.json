@@ -1,8 +1,9 @@
 {
+    "type": "reading",
+    "access": "public",
     "description": {
         "names": {
             "en": "Preface"
         }
-    },
-    "type": "markdown"
+    }
 }
