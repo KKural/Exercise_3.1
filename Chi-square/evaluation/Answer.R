@@ -1,9 +1,9 @@
 context({
   testcase(
-    "Chi-kwadraat berekening",
+    "",
     {
       testEqual(
-        "Chi-kwadraat toetsstatistiek",
+        "",
         function(env) {
           # Get student's answer as a numeric value
           tryCatch({

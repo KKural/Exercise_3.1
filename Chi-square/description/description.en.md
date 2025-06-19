@@ -11,7 +11,7 @@ Je observeert de volgende frequenties:
 
 ## Opdracht
 
-Bereken de chi-kwadraat toetsstatistiek (χ²) voor deze gegevens om te bepalen of er een statistisch significant verband bestaat tussen opleidingsniveau en type misdrijf.
+Bereken de chi-kwadraat significantie test statistiek (χ²) voor deze gegevens om te bepalen of er een statistisch significant verband bestaat tussen opleidingsniveau en type misdrijf.
 
 Rond je antwoord af op twee decimalen.
 
