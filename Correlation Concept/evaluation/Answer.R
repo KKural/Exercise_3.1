@@ -1,4 +1,4 @@
-context({
+﻿context({
   testcase(
     " ",
     {
@@ -12,13 +12,13 @@ context({
             "1" = "❌ Fout. Een correlatie van 0,75 betekent niet dat 75% van de criminaliteit veroorzaakt wordt door werkloosheid.",
             
             # ✅ Correct! A Pearson correlation of 0.75 indicates a strong positive linear association.
-            "2" = "✅ Correct! Een Pearson-correlatie van 0,75 wijst op een sterke positieve lineaire samenhang tussen werkloosheid en eigendomscriminaliteit.",
+            "2" = "✅ Juist! Een Pearson-correlatie van 0,75 wijst op een sterke positieve lineaire samenhang tussen werkloosheid en eigendomscriminaliteit.",
             
             # ❌ No. Correlation indicates association, not causation.
-            "3" = "❌ Nee. Correlatie betekent samenhang, maar geen causaal verband.",
+            "3" = "❌ Fout. Correlatie betekent samenhang, maar geen causaal verband.",
             
             # ❌ Not correct. A correlation coefficient is not an average or rate per population unit.
-            "4" = "❌ Niet juist. Een correlatie van 0,75 zegt niets over het aantal criminaliteitsgevallen per 1.000 inwoners."
+            "4" = "❌ Fout. Een correlatie van 0,75 zegt niets over het aantal criminaliteitsgevallen per 1.000 inwoners."
           )
           
           key <- as.character(generated)

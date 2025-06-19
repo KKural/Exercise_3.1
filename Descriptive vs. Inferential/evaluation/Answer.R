@@ -1,4 +1,4 @@
-context({
+﻿context({
   testcase(
     " ",
     {
@@ -12,13 +12,13 @@ context({
             "1" = "❌ Fout. Dit gaat over inferentiële of voorspellende statistiek, niet over beschrijvende statistiek.",
             
             # ✅ Correct! Descriptive statistics aim to summarize past crime data and their characteristics clearly.
-            "2" = "✅ Correct! Beschrijvende statistiek heeft als doel het aantal misdrijven en hun kenmerken uit het verleden samen te vatten.",
+            "2" = "✅ Juist! Beschrijvende statistiek heeft als doel het aantal misdrijven en hun kenmerken uit het verleden samen te vatten.",
             
             # ❌ No. Hypothesis testing is part of inferential statistics, not descriptive.
-            "3" = "❌ Nee. Het toetsen van hypotheses hoort bij inferentiële statistiek, niet bij beschrijvende statistiek.",
+            "3" = "❌ Fout. Het toetsen van hypotheses hoort bij inferentiële statistiek, niet bij beschrijvende statistiek.",
             
             # ❌ Not correct. Causal modeling involves complex statistical inference, not mere description.
-            "4" = "❌ Niet juist. Het modelleren van causale effecten valt onder geavanceerde inferentiële statistiek, niet onder beschrijving."
+            "4" = "❌ Fout. Het modelleren van causale effecten valt onder geavanceerde inferentiële statistiek, niet onder beschrijving."
           )
           
           key <- as.character(generated)

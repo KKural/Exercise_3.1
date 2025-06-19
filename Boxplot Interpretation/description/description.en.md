@@ -1,4 +1,4 @@
-In de onderstaande boxplot zijn politieresponstijden (in minuten) per type misdrijf (inbraak, mishandeling, autokraken) weergegeven. De box voor ‘Inbraak’ ligt het hoogst en bevat enkele punten buiten de bovenste whisker. Welke uitspraak is correct?
+In de onderstaande boxplot zijn aanrijdtijden van politie (in minuten) per type misdrijf (inbraak, mishandeling, autokraken) weergegeven. De box voor ‘Inbraak’ ligt het hoogst en bevat enkele punten buiten de bovenste whisker. Welke uitspraak is correct?
 
 ![Boxplot](media/image.png)
 
