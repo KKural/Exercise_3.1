@@ -8,17 +8,44 @@ context({
         1,  # the correct choice: 15 per 1,000
         comparator = function(generated, expected, ...) {
           feedbacks <- list(
-            # ✅ Correct! 5 + 2.5 × 4 = 15. That's the predicted crime rate per 1,000.
-            "1" = "✅ Juist! 5 + 2,5 × 4 = 15. Dat is het voorspelde misdaadcijfer per 1.000 inwoners.",
+            # ✅ Correct! Detailed calculation steps showing how to arrive at 15
+            "1" = "✅ Juist! Je hebt het voorspelde misdaadcijfer correct berekend:
+                   
+                   misdaadcijfer = 5 + 2,5 × (werkloosheid)
+                   misdaadcijfer = 5 + 2,5 × 4
+                   misdaadcijfer = 5 + 10
+                   misdaadcijfer = 15 per 1.000 inwoners",
             
-            # ❌ No. 10 would result from multiplying 2.5 × 4, but you forgot the intercept (5).
-            "2" = "❌ Fout. Je hebt waarschijnlijk enkel 2,5 × 4 = 10 gedaan, maar je vergat de constante term van 5.",
+            # ❌ Incorrect. Shows what calculation error led to 10
+            "2" = "❌ Fout. Je berekening is onvolledig:
+                   
+                   Je berekende waarschijnlijk: 2,5 × 4 = 10
+                   
+                   Maar je moet de constante term (intercept) van 5 toevoegen:
+                   misdaadcijfer = 5 + 2,5 × 4 = 5 + 10 = 15 per 1.000 inwoners",
             
-            # ❌ Not Juist. 6 would mean a much lower slope or no intercept — not what the model says.
-            "3" = "❌ Fout. Een uitkomst van 6 klopt niet met het model: je zou dan een veel lagere helling of geen intercept nodig hebben.",
+            # ❌ Incorrect. Shows why 6 doesn't make mathematical sense
+            "3" = "❌ Fout. Je uitkomst van 6 klopt niet met het gegeven model:
+                   
+                   misdaadcijfer = 5 + 2,5 × 4
+                   
+                   Om 6 te krijgen zou je een andere formule moeten gebruiken, bijvoorbeeld:
+                   misdaadcijfer = 5 + 0,25 × 4 = 6
+                   OF
+                   misdaadcijfer = 2 + 1 × 4 = 6
+                   
+                   Het juiste antwoord is: 5 + 2,5 × 4 = 15 per 1.000 inwoners",
             
-            # ❌ InJuist. 7 suggests either a wrong slope or missed multiplication. Check the formula.
-            "4" = "❌ Fout. 7 is geen juiste uitkomst volgens het model. Herbekijk de berekening: 5 + 2,5 × 4."
+            # ❌ Incorrect. Shows calculation errors that might lead to 7
+            "4" = "❌ Fout. Je berekening bevat een rekenfout:
+                   
+                   Het juiste model is: misdaadcijfer = 5 + 2,5 × 4
+                   
+                   Mogelijke fouten die tot 7 leiden:
+                   • 5 + (2,5 ÷ 4) = 5 + 0,625 ≈ 5,6 (afgerond naar 7)
+                   • 5 + 2 = 7 (verkeerde coëfficiënt gebruikt)
+                   
+                   De juiste berekening is: 5 + 2,5 × 4 = 5 + 10 = 15 per 1.000 inwoners"
           )
           
           key <- as.character(generated)
