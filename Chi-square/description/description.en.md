@@ -1,5 +1,3 @@
-# Chi-kwadraat toets
-
 Stel je onderzoekt of er een verband bestaat tussen opleidingsniveau (laag/midden/hoog) en het type misdrijf (geweld/diefstal) in een dataset van 120 misdrijven. 
 
 Je observeert de volgende frequenties:
