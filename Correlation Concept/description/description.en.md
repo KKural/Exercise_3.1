@@ -1,4 +1,4 @@
-De Pearson-correlatie tussen werkloosheid en eigendomscriminaliteit is 0,75. Dit betekent:
+De Pearson-correlatie tussen werkloosheid en eigendomscriminaliteit is bedraagt . Dit betekent:
 
 1.	75% van de eigendomscriminaliteit wordt veroorzaakt door werkloosheid
 2.	Er is een sterke positieve lineaire samenhang tussen beide
