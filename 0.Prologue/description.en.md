@@ -1,1 +1,3 @@
-Write a function named echo, that accepts one argument and returns it immediately.
+# Preface
+
+This course introduces bachelor-level criminology students to key statistical concepts through interactive exercises. It is designed to scaffold learning, gradually progressing from fundamental definitions to analytical reasoning and model evaluation. The exercises are based on real-world crime data and are structured to align with Bloom’s Taxonomy and the principles of educational scaffolding.
