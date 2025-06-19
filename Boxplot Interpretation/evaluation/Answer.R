@@ -9,7 +9,7 @@ context({
         comparator = function(generated, expected, ...) {
           feedbacks <- list(
             # ❌ No. The box for inbraak is highest, indicating a high median, not the lowest.
-            "1" = "❌ Fout. De box voor ‘Inbraak’ ligt juist het hoogst, dus de mediaan is het hoogste, niet het laagste.",
+            "1" = "❌ Fout. De box voor ‘Inbraak’ ligt het hoogst, dus de mediaan is het hoogste, niet het laagste.",
             
             # ❌ Incorrect. The widest box or whiskers would indicate greatest spread—check the image.
             "2" = "❌ Fout. De spreiding is visueel het grootst bij ‘Inbraak’, niet bij ‘Autokraken’.",
