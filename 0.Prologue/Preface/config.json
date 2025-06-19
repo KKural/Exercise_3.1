@@ -1,15 +1,15 @@
 {
-    "description": {
-        "names": {
-            "en": "Preface",
-            "nl": "Voorwoord" // Optional: Dutch translation if needed
-        }
-    },
-    "programming_language": "markdown",
-    "access": "public",
-    "labels": [],
-    "internals": {
-        "token": "agcDxr3JcQZ7tFMgVbQKehkBPwTsa66BAntFfhGpcuixcRHbsg_KdASX3Am4bJv9",
-        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  "description": {
+    "names": {
+      "en": "Preface",
+      "nl": "Voorwoord"
     }
+  },
+  "programming_language": "markdown",
+  "access": "public",
+  "labels": [],
+  "internals": {
+    "token": null,
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
