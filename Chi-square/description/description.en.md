@@ -27,5 +27,3 @@ Waarbij:
 - De verwachte frequentie wordt berekend als: E_{ij} = (rijtotaal_i × kolomtotaal_j) / totaal
 
 Voer alleen de numerieke waarde van de chi-kwadraat toetsstatistiek in (bijvoorbeeld: 11.89).
-
-Voer alleen de numerieke waarde van de chi-kwadraat toetsstatistiek in (bijvoorbeeld: 11.89).
