@@ -1,12 +1,8 @@
 {
-  "description": {
-    "names": {
-      "en": "Preface"
-    }
-  },
-  "type": "markdown",
-  "internals": {
-    "token": "T5e-cZU7snJTKRIN9qVKhHGhsMizj9FTn7C39D3kpahmHt6_h5x9UkmvXe9_6PFE",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+    "description": {
+        "names": {
+            "en": "Preface"
+        }
+    },
+    "type": "markdown"
 }
