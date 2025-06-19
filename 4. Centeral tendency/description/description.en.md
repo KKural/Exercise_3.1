@@ -1,4 +1,4 @@
-Consider the following dataset showing the number of offenses per month committed by a group of 
+Beschouw de volgende dataset met het aantal delicten per maand gepleegd door een groep jeugdige delinquenten:
 
 `[65, 70, 70, 80, 85, 85, 85, 90, 95, 98, 100]`
 
