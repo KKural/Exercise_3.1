@@ -12,7 +12,7 @@ context({
             "1" = "❌ Fout. Dit gaat over inferentiële of voorspellende statistiek, niet over beschrijvende statistiek.",
             
             # ✅ Juist! Descriptive statistics aim to summarize past crime data and their characteristics clearly.
-            "2" = "✅ Juist! Beschrijvende statistiek heeft als doel het aantal misdrijven en hun kenmerken uit het verleden samen te vatten.",
+            "2" = "✅ Juist! Beschrijvende statistiek heeft als doel het aantal misdrijven en hun kenmerken uit het verleden samen te vatten. [Learn more about Descriptive and Inferential statisitics interpretation](https://www.simplilearn.com/difference-between-descriptive-inferential-statistics-article)",
             
             # ❌ No. Hypothesis testing is part of inferential statistics, not descriptive.
             "3" = "❌ Fout. Het toetsen van hypotheses hoort bij inferentiële statistiek, niet bij beschrijvende statistiek.",
