@@ -1,7 +1,8 @@
 {
     "description": {
         "names": {
-            "en": "Preface"
+            "en": "Preface",
+            "nl": "Voorwoord" // Optional: Dutch translation if needed
         }
     },
     "programming_language": "markdown",
