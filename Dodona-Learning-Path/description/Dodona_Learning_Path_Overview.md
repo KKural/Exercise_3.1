@@ -112,7 +112,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 1. Series Overview – Part 1
 
-![dodona-series-overview-1](../images/dodona-series-overview-1.png)
+![dodona-series-overview-1](images/dodona-series-overview-1.png)
 
 **Description:** Shows the top portion of the full exercise series within the 'Basisstatistiek' course on Dodona.
 
@@ -122,7 +122,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 2. Series Overview – Part 2
 
-![dodona-series-overview-2](../images/dodona-series-overview-2.png)
+![dodona-series-overview-2](images/dodona-series-overview-2.png)
 
 **Description:** Displays the middle section of the course, including the first part: *Basisbegrippen en Toepassingen*.
 
@@ -132,7 +132,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 3. Series Overview – Part 3
 
-![dodona-series-overview-3](../images/dodona-series-overview-3.png)
+![dodona-series-overview-3](images/dodona-series-overview-3.png)
 
 **Description:** Covers the final section *Analyse en Evaluatie in Statistiek*, including advanced interpretation tasks (e.g., boxplots, leverage, spurious correlation).
 
@@ -140,7 +140,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 4. Score Summary (Total Overview)
 
-![Score Summary (Total Overview)](../images/dodona_scoresheet_total_overview.png)
+![Score Summary (Total Overview)](images/dodona_scoresheet_total_overview.png)
 
 **Description:** This shows the overall completion status for each user across the three sections.
 
@@ -148,7 +148,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 5. Score Summary – Basic Concepts
 
-![Score Summary – Basic Concepts](../images/dodona_scoresheet_basisbegrippen_toepassingen.png)
+![Score Summary – Basic Concepts](images/dodona_scoresheet_basisbegrippen_toepassingen.png)
 
 **Description:** This view provides insight into user performance on foundational concepts like measurement levels and descriptive statistics.
 
@@ -156,7 +156,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 6. Score Summary – Analysis and Evaluation
 
-![Score Summary – Analysis and Evaluation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
+![Score Summary – Analysis and Evaluation](images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
 
 **Description:** This section reflects progress on more complex tasks such as regression, outliers, and statistical inference.
 
@@ -164,7 +164,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 7. Crime Rate Calculation Exercise
 
-![Crime Rate Calculation Exercise](../images/crime-rate-calculation.png)
+![Crime Rate Calculation Exercise](images/crime-rate-calculation.png)
 
 **Description:** A simple question asking students to calculate crime rate per 1,000 inhabitants.
 
@@ -172,7 +172,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 8. Descriptive vs Inferential Statistics
 
-![Descriptive vs Inferential Statistics](../images/descriptive-vs-inferential.png)
+![Descriptive vs Inferential Statistics](images/descriptive-vs-inferential.png)
 
 **Description:** This question checks understanding of the distinction between summarizing data and making predictions.
 
@@ -180,7 +180,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 9. Hypothesis Testing Exercise
 
-![Hypothesis Testing Exercise](../images/hypothesis-video-question.png)
+![Hypothesis Testing Exercise](images/hypothesis-video-question.png)
 
 **Description:** A multimedia-supported question prompting students to define the correct null hypothesis.
 
@@ -188,7 +188,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 10. Histogram Interpretation
 
-![Histogram Interpretation](../images/histogram-interpretation.png)
+![Histogram Interpretation](images/histogram-interpretation.png)
 
 **Description:** Asks students to interpret the shape and distribution from a histogram of participant ages.
 
@@ -196,7 +196,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 11. Outlier Identification (Correct Answer)
 
-![Outlier Identification (Correct Answer)](../images/outlier-feedback-correct.png)
+![Outlier Identification (Correct Answer)](images/outlier-feedback-correct.png)
 
 **Description:** Demonstrates how feedback is presented when students correctly identify a statistical outlier.
 
@@ -204,7 +204,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 12. Outlier Identification (Incorrect Answer)
 
-![Outlier Identification (Incorrect Answer)](../images/outlier-feedback-wrong.png)
+![Outlier Identification (Incorrect Answer)](images/outlier-feedback-wrong.png)
 
 **Description:** Illustrates how detailed feedback is used to correct misunderstandings.
 
