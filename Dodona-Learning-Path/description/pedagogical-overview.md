@@ -4,7 +4,7 @@ This markdown document provides a visual overview of selected exercises from the
 
 ## 1. Series Overview – Part 1
 
-![dodona-series-overview-1](dodona-series-overview 1.png)
+![dodona-series-overview-1](dodona-series-overview-1.png)
 
 **Description:** Shows the top portion of the full exercise series within the 'Basisstatistiek' course on Dodona.
 
@@ -14,7 +14,7 @@ This markdown document provides a visual overview of selected exercises from the
 
 ## 2. Series Overview – Part 2
 
-![dodona-series-overview-2](dodona-series-overview 2.png)
+![dodona-series-overview-2](dodona-series-overview-2.png)
 
 **Description:** Displays the middle section of the course, including the first part: *Basisbegrippen en Toepassingen*.
 
@@ -24,7 +24,7 @@ This markdown document provides a visual overview of selected exercises from the
 
 ## 3. Series Overview – Part 3
 
-![dodona-series-overview-3](dodona-series-overview 3.png)
+![dodona-series-overview-3](dodona-series-overview-3.png)
 
 **Description:** Covers the final section *Analyse en Evaluatie in Statistiek*, including advanced interpretation tasks (e.g., boxplots, leverage, spurious correlation).
 
