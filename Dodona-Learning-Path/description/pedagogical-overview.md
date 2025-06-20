@@ -2,13 +2,33 @@
 
 This markdown document provides a visual overview of selected exercises from the Dodona learning path for criminology students. Each section includes the screenshot, its content description, and relevant pedagogical context (Bloom’s Taxonomy level, feedback logic, scaffolding, etc.).
 
-## 1. Series Overview Screenshot
+## 1. Series Overview – Part 1
 
-![1. Series Overview Screenshot](../images/dodona-series-overview.png)
+![dodona-series-overview-1](dodona-series-overview-1.png)
 
-**Description:** This screenshot shows the full exercise series within the 'Basisstatistiek' course. It includes three sections: Prologue, Basisbegrippen en Toepassingen, and Analyse en Evaluatie in Statistiek.
+**Description:** Shows the top portion of the full exercise series within the 'Basisstatistiek' course on Dodona.
 
-**Purpose:** Gives students a structured learning path from foundational to advanced statistical reasoning.
+**Purpose:** Highlights the structure and entry point of the course, where students see the learning objectives and can track their progress.
+
+---
+
+## 2. Series Overview – Part 2
+
+![dodona-series-overview-2](dodona-series-overview-2.png)
+
+**Description:** Displays the middle section of the course, including the first part: *Basisbegrippen en Toepassingen*.
+
+**Purpose:** Demonstrates the progressive introduction of fundamental statistical concepts (e.g., measurement levels, crime rate, correlation). Most exercises here are aligned with Bloom’s levels: Remember, Understand, and Apply.
+
+---
+
+## 3. Series Overview – Part 3
+
+![dodona-series-overview-3](dodona-series-overview-3.png)
+
+**Description:** Covers the final section *Analyse en Evaluatie in Statistiek*, including advanced interpretation tasks (e.g., boxplots, leverage, spurious correlation).
+
+**Purpose:** This section supports higher-order thinking with questions that target Bloom’s levels: Analyze and Evaluate. It encourages students to interpret patterns, detect outliers, and assess methodological choices using realistic data.
 
 ## 2. Score Summary (Total Overview)
 
