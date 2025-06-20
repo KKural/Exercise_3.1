@@ -1,7 +1,8 @@
 import os
 import sys
 from docx import Document
-from docx.shared import Pt
+from docx.shared import Pt, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 
 def simple_markdown_to_word(md_file, output_file):
@@ -24,6 +25,9 @@ def simple_markdown_to_word(md_file, output_file):
         current_list = []
         in_list = False
 
+        # Get the base directory for image resolution
+        base_dir = os.path.dirname(os.path.abspath(md_file))
+
         for line in md_content.split('\n'):
             # Check for headers
             if line.startswith('# '):
@@ -41,11 +45,37 @@ def simple_markdown_to_word(md_file, output_file):
                 current_list.append(line.strip()[2:])
             # Check for images
             elif line.strip().startswith('!['):
-                # Extract image details
-                alt_text = line.split('![')[1].split(']')[0]
-                img_path = line.split('(')[1].split(')')[0]
-                doc.add_paragraph(
-                    f"[Image: {alt_text} - {img_path}]").italic = True
+                try:
+                    # Extract image details
+                    alt_text = line.split('![')[1].split(']')[0]
+                    img_path = line.split('(')[1].split(')')[0]
+
+                    # Resolve relative path
+                    if img_path.startswith('../'):
+                        # Remove '../' and join with parent directory
+                        relative_path = img_path.replace('../', '')
+                        img_full_path = os.path.normpath(os.path.join(
+                            os.path.dirname(base_dir), relative_path))
+                    else:
+                        img_full_path = os.path.normpath(
+                            os.path.join(base_dir, img_path))
+
+                    # Check if image exists
+                    if os.path.exists(img_full_path):
+                        p = doc.add_paragraph()
+                        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                        try:
+                            doc.add_picture(img_full_path, width=Inches(6))
+                            doc.add_paragraph(f"{alt_text}").italic = True
+                        except Exception as e:
+                            doc.add_paragraph(
+                                f"[Image: {alt_text} - {img_path}]\nError: {str(e)}").italic = True
+                    else:
+                        doc.add_paragraph(
+                            f"[Image: {alt_text} - {img_path}]\nFile not found: {img_full_path}").italic = True
+                except Exception as e:
+                    doc.add_paragraph(
+                        f"[Error processing image: {str(e)}]").italic = True
             # Regular paragraph
             elif line.strip() and not line.startswith('---'):
                 if in_list:

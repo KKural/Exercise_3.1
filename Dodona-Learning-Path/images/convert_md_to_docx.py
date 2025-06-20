@@ -22,8 +22,6 @@ if missing_packages:
     print(f"pip install {' '.join(missing_packages)}")
     sys.exit(1)
 
-# Now that we know the packages are installed, import them
-
 
 def markdown_to_word(md_file, output_file):
     try:
@@ -48,6 +46,9 @@ def markdown_to_word(md_file, output_file):
         # Parse HTML with BeautifulSoup
         soup = BeautifulSoup(html, 'html.parser')
 
+        # Get the base directory for image resolution
+        base_dir = os.path.dirname(os.path.abspath(md_file))
+
         # Process the document
         for element in soup.find_all(['h1', 'h2', 'h3', 'h4', 'p', 'ul', 'ol', 'table', 'img']):
             if element.name.startswith('h'):
@@ -63,9 +64,27 @@ def markdown_to_word(md_file, output_file):
                     img_src = img.get('src', '')
                     alt_text = img.get('alt', 'Image')
 
-                    # Add image description
-                    doc.add_paragraph(
-                        f"[Image: {alt_text} - {img_src}]").italic = True
+                    # Resolve relative path
+                    if img_src.startswith('../'):
+                        # Remove '../' and join with parent directory
+                        relative_path = img_src.replace('../', '')
+                        img_full_path = os.path.normpath(os.path.join(
+                            os.path.dirname(base_dir), relative_path))
+                    else:
+                        img_full_path = os.path.normpath(
+                            os.path.join(base_dir, img_src))
+
+                    # Check if image exists
+                    if os.path.exists(img_full_path):
+                        try:
+                            doc.add_picture(img_full_path, width=Inches(6))
+                            doc.add_paragraph(f"{alt_text}").italic = True
+                        except Exception as e:
+                            doc.add_paragraph(
+                                f"[Image: {alt_text} - {img_src}]\nError: {str(e)}").italic = True
+                    else:
+                        doc.add_paragraph(
+                            f"[Image: {alt_text} - {img_src}]\nFile not found: {img_full_path}").italic = True
                 else:
                     doc.add_paragraph(element.text)
 
@@ -107,15 +126,16 @@ def markdown_to_word(md_file, output_file):
 
 # Usage
 if __name__ == "__main__":
-    input_file = "Dodona_Learning_Path_Overview.md"
-    output_file = "Dodona_Learning_Path_Overview.docx"
+    # This script is in the images directory, so we need to adjust the path for the input file
+    input_file = "../Dodona_Learning_Path_Overview.md"
+    output_file = "../Dodona_Learning_Path_Overview.docx"
 
     # Get the current directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct full paths
-    input_path = os.path.join(current_dir, input_file)
-    output_path = os.path.join(current_dir, output_file)
+    input_path = os.path.normpath(os.path.join(current_dir, input_file))
+    output_path = os.path.normpath(os.path.join(current_dir, output_file))
 
     if not os.path.exists(input_path):
         print(f"Error: Input file not found: {input_path}")
