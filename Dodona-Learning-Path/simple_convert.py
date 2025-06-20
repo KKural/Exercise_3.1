@@ -3,7 +3,6 @@ import sys
 from docx import Document
 from docx.shared import Pt, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-import glob
 
 
 def simple_markdown_to_word(md_file, output_file):
@@ -28,23 +27,6 @@ def simple_markdown_to_word(md_file, output_file):
 
         # Get the base directory for image resolution
         base_dir = os.path.dirname(os.path.abspath(md_file))
-        project_root = find_project_root(base_dir)
-
-        # Debug image paths
-        print(f"Base directory: {base_dir}")
-        print(f"Project root: {project_root}")
-
-        # List all image files in the project
-        all_images = []
-        for root, _, files in os.walk(project_root):
-            for file in files:
-                if file.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
-                    all_images.append(os.path.join(root, file))
-
-        print(f"Found {len(all_images)} images in project")
-        # Print first few images as example
-        for img in all_images[:5]:
-            print(f" - {img}")
 
         for line in md_content.split('\n'):
             # Check for headers
@@ -68,14 +50,32 @@ def simple_markdown_to_word(md_file, output_file):
                     alt_text = line.split('![')[1].split(']')[0]
                     img_path = line.split('(')[1].split(')')[0]
 
-                    # Try multiple approaches to find the actual image file
-                    img_full_path = find_image_file(
-                        img_path, base_dir, project_root, all_images)
+                    # Handle GitHub-style paths (images/filename.png)
+                    if img_path.startswith('images/'):
+                        # For local conversion, we need to look in the parent directory
+                        potential_paths = [
+                            os.path.join(base_dir, img_path),  # Try direct path
+                            os.path.join(base_dir, '..', img_path),  # Try one level up
+                            os.path.join(os.path.dirname(base_dir), img_path),  # Try from parent dir
+                        ]
+                    else:
+                        # Handle other relative paths
+                        potential_paths = [
+                            os.path.join(base_dir, img_path),  # Try direct path
+                            os.path.join(os.path.dirname(base_dir), img_path.replace('../', ''))  # Try removing ../
+                        ]
 
-                    if img_full_path and os.path.exists(img_full_path):
+                    # Try each potential path
+                    img_full_path = None
+                    for path in potential_paths:
+                        if os.path.exists(path):
+                            img_full_path = path
+                            break
+
+                    if img_full_path:
+                        p = doc.add_paragraph()
+                        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
                         try:
-                            p = doc.add_paragraph()
-                            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
                             doc.add_picture(img_full_path, width=Inches(6))
                             p = doc.add_paragraph(f"{alt_text}")
                             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -88,8 +88,9 @@ def simple_markdown_to_word(md_file, output_file):
                                 f"Error adding image {img_full_path}: {str(e)}")
                     else:
                         doc.add_paragraph(
-                            f"[Image: {alt_text} - {img_path}]\nFile not found").italic = True
+                            f"[Image: {alt_text} - {img_path}]\nFile not found. Tried paths: {', '.join(potential_paths)}").italic = True
                         print(f"Image not found: {img_path}")
+                        print(f"Tried paths: {potential_paths}")
                 except Exception as e:
                     doc.add_paragraph(
                         f"[Error processing image: {str(e)}]").italic = True
@@ -120,35 +121,34 @@ def simple_markdown_to_word(md_file, output_file):
         return f"Error: {str(e)}"
 
 
-def find_project_root(start_dir):
-    """Find the root directory of the project by looking for .git folder"""
-    current_dir = start_dir
-    max_depth = 10  # Prevent infinite loop
-    depth = 0
+# Usage
+if __name__ == "__main__":
+    input_file = "Dodona_Learning_Path_Overview.md"
+    output_file = "Dodona_Learning_Path_Overview.docx"
 
-    while depth < max_depth:
-        if os.path.exists(os.path.join(current_dir, '.git')):
-            return current_dir
+    # Use command line argument if provided
+    if len(sys.argv) > 1:
+        input_file = sys.argv[1]
+        # If output file not provided, derive from input
+        if len(sys.argv) <= 2:
+            output_file = os.path.splitext(input_file)[0] + ".docx"
+        else:
+            output_file = sys.argv[2]
 
-        parent_dir = os.path.dirname(current_dir)
-        if parent_dir == current_dir:  # Reached root directory
-            break
+    # Get the current directory
+    current_dir = os.path.dirname(os.path.abspath(__file__))
 
-        current_dir = parent_dir
-        depth += 1
+    # Construct full paths
+    input_path = os.path.join(current_dir, input_file)
+    output_path = os.path.join(current_dir, output_file)
 
-    # If we can't find .git folder, return the original directory
-    return start_dir
+    if not os.path.exists(input_path):
+        print(f"Error: Input file not found: {input_path}")
+        sys.exit(1)
 
-
-def find_image_file(img_path, base_dir, project_root, all_images):
-    """Try multiple approaches to find the actual image file"""
-    possible_paths = []
-
-    # Direct path - as specified in markdown
-    if os.path.isabs(img_path):
-        possible_paths.append(img_path)
-
+    print(f"Converting {input_path} to {output_path}...")
+    result = simple_markdown_to_word(input_path, output_path)
+    print(result)
     # Relative to markdown file
     possible_paths.append(os.path.join(base_dir, img_path))
 
