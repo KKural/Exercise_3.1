@@ -188,7 +188,7 @@ This visual overview provides selected exercises from the Dodona learning path f
 
 ## 10. Histogram Interpretation
 
-![Histogram Interpretation](../images/histogram-interpretation.png)
+![Histogram Interpretation](/images/histogram-interpretation.png)
 
 **Description:** Asks students to interpret the shape and distribution from a histogram of participant ages.
 
