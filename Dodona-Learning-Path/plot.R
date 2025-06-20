@@ -1,56 +1,88 @@
+# ----------------------------
+# 1. Install Required Packages
+# ----------------------------
+install.packages(c("ggplot2", "dplyr", "tibble", "purrr"))
+
+# ----------------------------
+# 2. Load Packages
+# ----------------------------
 library(ggplot2)
-install.packages("dplyr")
 library(dplyr)
+library(tibble)
+library(purrr)
 
-
-# Define pyramid levels, colors, and labels
-pyramid_data <- data.frame(
-  level = factor(c("Create", "Evaluate", "Analyze", "Apply", "Understand", "Remember"),
-                 levels = rev(c("Remember", "Understand", "Apply", "Analyze", "Evaluate", "Create"))),
-  number = 6:1,
+# ----------------------------
+# 3. Define Data
+# ----------------------------
+pyramid_data <- tibble::tibble(
+  level = factor(c("Remember", "Understand", "Apply", "Analyze", "Evaluate", "Create"),
+                 levels = c("Remember", "Understand", "Apply", "Analyze", "Evaluate", "Create")),
+  count = c(1, 3, 4, 3, 3, 1),
+  color = c("#8E44AD", "#2980B9", "#27AE60", "#F1C40F", "#E67E22", "#E74C3C"),
   keywords = c(
-    "Define, duplicate, list, memorize, repeat, state.",
-    "Classify, describe, discuss, explain, identify.",
-    "Execute, implement, solve, use, interpret.",
-    "Differentiate, compare, test, experiment, question.",
-    "Appraise, argue, critique, judge, support.",
-    "Design, construct, develop, author, investigate."
-  ),
-  color = rev(c("purple", "blue", "green", "yellow", "orange", "red"))
+    "Define, duplicate, list",
+    "Classify, explain, report",
+    "Execute, implement, use",
+    "Differentiate, compare, test",
+    "Appraise, critique, support",
+    "Design, develop, construct"
+  )
 )
 
-# Build polygon coordinates for each level
-create_layer <- function(n, total_layers = 6) {
-  y_bottom <- n - 1
-  y_top <- n
-  width_bottom <- 6 + 1 - n
-  width_top <- 6 + 1 - n - 0.5
+# ----------------------------
+# 4. Function to Build Each Layer
+# ----------------------------
+make_layer <- function(index, total = 6) {
+  width_base <- total - index + 1
+  width_top <- total - index + 0.5
+  y_bottom <- index - 1
+  y_top <- index
 
-  data.frame(
-    x = c(-width_bottom, width_bottom, width_top, -width_top),
+  tibble(
+    x = c(-width_base, width_base, width_top, -width_top),
     y = c(y_bottom, y_bottom, y_top, y_top),
-    group = n
+    level = pyramid_data$level[index],
+    fill = pyramid_data$color[index],
+    count = pyramid_data$count[index],
+    label = paste0(
+      total - index + 1, ". ", pyramid_data$level[index], "\n(",
+      pyramid_data$count[index], " question", ifelse(pyramid_data$count[index] > 1, "s", ""), ")\n",
+      pyramid_data$keywords[index]
+    ),
+    group = index
   )
 }
 
-# Combine all pyramid layer polygons
-polygon_data <- do.call(rbind, lapply(1:6, function(i) {
-  layer <- create_layer(i)
-  layer$level <- as.character(pyramid_data$level[i])
-  layer$fill <- pyramid_data$color[i]
-  layer$label <- paste0(pyramid_data$number[i], "\n", pyramid_data$level[i], "\n", pyramid_data$keywords[i])
-  layer
-}))
+# ----------------------------
+# 5. Build Polygon and Label Data
+# ----------------------------
+polygon_df <- purrr::map_dfr(1:6, make_layer)
 
-# Plot
-ggplot() +
-  geom_polygon(data = polygon_data, aes(x = x, y = y, group = group, fill = fill), color = "black") +
-  geom_text(data = polygon_data %>%
-              group_by(group) %>%
-              summarize(x = 0, y = mean(y), label = first(label)),
-            aes(x = x, y = y, label = label), size = 3.5, color = "white", lineheight = 1.1) +
+label_df <- polygon_df %>%
+  group_by(group) %>%
+  summarize(
+    x = 0,
+    y = mean(y),
+    label = first(label),
+    fill = first(fill)
+  )
+
+# ----------------------------
+# 6. Create Plot
+# ----------------------------
+pyramid_plot <- ggplot() +
+  geom_polygon(data = polygon_df, aes(x = x, y = y, group = group, fill = fill), color = "black") +
+  geom_text(data = label_df, aes(x = x, y = y, label = label), color = "white", size = 3.5, lineheight = 1.1) +
   scale_fill_identity() +
   coord_fixed() +
   theme_void() +
-  ggtitle("Bloom's Taxonomy Pyramid (Dodona Style)") +
+  ggtitle("Bloom’s Taxonomy Pyramid of Dodona Questions") +
   theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 16))
+
+# Display
+print(pyramid_plot)
+
+# ----------------------------
+# 7. Save as PNG
+# ----------------------------
+ggsave("Dodona-Learning-Path/bloom_taxonomy_pyramid_r.png", plot = pyramid_plot, width = 8, height = 6, dpi = 300)
