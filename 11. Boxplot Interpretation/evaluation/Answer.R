@@ -18,7 +18,7 @@ context({
             "3" = "✅ Juist! ‘Inbraak’ heeft de hoogste mediaan én enkele uitschieters boven de bovenste whisker.",
             
             # ❌ Not correct. Mishandeling does show a box and whiskers, meaning there is variation.
-            "4" = "❌ Fout. ‘Mishandeling’ toont wel degelijk spreiding; het heeft een box en whiskers in de plot."
+            "4" = "❌ Fout. ‘Mishandeling’ toont wel degelijk variatie; het heeft een box en whiskers in de plot."
           )
           
           key <- as.character(generated)
