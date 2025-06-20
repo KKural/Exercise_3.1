@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.shared import Inches, Pt
+from docx.shared import Inches, Pt, RGBColor  # Added RGBColor
 from docx import Document
 import markdown
 import os
@@ -36,8 +36,15 @@ def markdown_to_word(md_file, output_file):
 
         # Set font for the entire document
         style = doc.styles['Normal']
-        style.font.name = 'Calibri'
+        style.font.name = 'Times New Roman'  # Changed from Calibri to Times New Roman
         style.font.size = Pt(11)
+        
+        # Update heading styles to use black color
+        for i in range(1, 10):  # Update all heading levels
+            if f'Heading {i}' in doc.styles:
+                heading_style = doc.styles[f'Heading {i}']
+                heading_style.font.name = 'Times New Roman'
+                heading_style.font.color.rgb = RGBColor(0, 0, 0)  # Black color
 
         # Convert markdown to HTML
         html = markdown.markdown(md_content, extensions=[
@@ -88,53 +95,54 @@ def markdown_to_word(md_file, output_file):
                 else:
                     doc.add_paragraph(element.text)
 
-            elif element.name == 'ul':
-                for li in element.find_all('li'):
-                    doc.add_paragraph(li.text, style='List Bullet')
-
-            elif element.name == 'ol':
-                for li in element.find_all('li'):
-                    doc.add_paragraph(li.text, style='List Number')
-
             elif element.name == 'table':
                 # Get number of rows and columns
-                rows = element.find_all('tr')
-                if not rows:
+                rows = element.find_all('tr'):
+                if not rows:, style='List Bullet')
                     continue
-
-                # Get the maximum number of cells in any row
-                max_cells = max(
+e == 'ol':
+                # Get the maximum number of cells in any row                for li in element.find_all('li'):
+                max_cells = max(umber')
                     len(row.find_all(['td', 'th'])) for row in rows)
 
-                # Create the table
-                table = doc.add_table(rows=len(rows), cols=max_cells)
+                # Create the table                # Get number of rows and columns
+                table = doc.add_table(rows=len(rows), cols=max_cells)d_all('tr')
                 table.style = 'Table Grid'
 
                 # Fill the table
-                for i, row in enumerate(rows):
+                for i, row in enumerate(rows):m number of cells in any row
                     cells = row.find_all(['td', 'th'])
-                    for j, cell in enumerate(cells):
+                    for j, cell in enumerate(cells):r row in rows)
                         table.cell(i, j).text = cell.text.strip()
 
-        # Save the document
-        doc.save(output_file)
+        # Save the document                table = doc.add_table(rows=len(rows), cols=max_cells)
+        doc.save(output_file) = 'Table Grid'
         return f"Document successfully saved to {output_file}"
 
-    except Exception as e:
-        return f"Error: {str(e)}"
-
-
+    except Exception as e:                for i, row in enumerate(rows):
+        return f"Error: {str(e)}"= row.find_all(['td', 'th'])
+n enumerate(cells):
+                        table.cell(i, j).text = cell.text.strip()
 # Usage
-if __name__ == "__main__":
-    # This script is in the images directory, so we need to adjust the path for the input file
+if __name__ == "__main__": # Save the document
+    # This script is in the images directory, so we need to adjust the path for the input filele)
     input_file = "../Dodona_Learning_Path_Overview.md"
     output_file = "../Dodona_Learning_Path_Overview.docx"
 
-    # Get the current directory
+    # Get the current directory        return f"Error: {str(e)}"
     current_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Construct full paths
+    # Construct full paths# Usage
     input_path = os.path.normpath(os.path.join(current_dir, input_file))
+    output_path = os.path.normpath(os.path.join(current_dir, output_file))ath for the input file
+
+    if not os.path.exists(input_path):    output_file = "../Dodona_Learning_Path_Overview.docx"
+        print(f"Error: Input file not found: {input_path}")
+        sys.exit(1)
+s.path.dirname(os.path.abspath(__file__))
+    print(f"Converting {input_path} to {output_path}...")
+    result = markdown_to_word(input_path, output_path)
+    print(result)_dir, input_file))
     output_path = os.path.normpath(os.path.join(current_dir, output_file))
 
     if not os.path.exists(input_path):
