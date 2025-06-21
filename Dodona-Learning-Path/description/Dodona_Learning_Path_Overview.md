@@ -159,108 +159,84 @@ This visual overview provides selected exercises from the Dodona learning path f
 #### 1. Series Overview – Part 1
 ![dodona-series-overview-1](../images/dodona-series-overview-1.png)
 
-**Description:** Shows the top portion of the full exercise series within the 'Basisstatistiek' course on Dodona.
-
-**Purpose:** Highlights the structure and entry point of the course, where students see the learning objectives and can track their progress.
+The top portion of the course structure in Dodona's 'Basisstatistiek' series, showing the entry point where students can view learning objectives and track their progress through the exercises.
 
 ---
 
 #### 2. Series Overview – Part 2
 ![dodona-series-overview-2](../images/dodona-series-overview-2.png)
 
-**Description:** Displays the middle section of the course, including the first part: *Basisbegrippen en Toepassingen*.
-
-**Purpose:** Demonstrates the progressive introduction of fundamental statistical concepts (e.g., measurement levels, crime rate, correlation). Most exercises here are aligned with Bloom's levels: Remember, Understand, and Apply.
+The middle section of the course showcases *Basisbegrippen en Toepassingen* (Basic Concepts and Applications), progressively introducing fundamental statistical concepts such as measurement levels, crime rate calculations, and correlation. Exercises in this section primarily target the lower three levels of Bloom's Taxonomy: Remember, Understand, and Apply.
 
 ---
 
 #### 3. Series Overview – Part 3
 ![dodona-series-overview-3](../images/dodona-series-overview-3.png)
 
-**Description:** Covers the final section *Analyse en Evaluatie in Statistiek*, including advanced interpretation tasks (e.g., boxplots, leverage, spurious correlation).
-
-**Purpose:** This section supports higher-order thinking with questions that target Bloom's levels: Analyze and Evaluate. It encourages students to interpret patterns, detect outliers, and assess methodological choices using realistic data.
+The final section, *Analyse en Evaluatie in Statistiek* (Analysis and Evaluation in Statistics), focuses on advanced interpretation tasks including boxplots, leverage points, and spurious correlation. This section targets higher-order thinking with questions aligned with Bloom's levels of Analyze and Evaluate, encouraging students to interpret patterns, detect outliers, and assess methodological choices using realistic crime data.
 
 ### Performance Monitoring
 
 #### 4. Score Summary (Total Overview)
 ![Score Summary (Total Overview)](../images/dodona_scoresheet_total_overview.png)
 
-**Description:** This shows the overall completion status for each user across the three sections.
-
-**Purpose:** Allows monitoring of student progress and identifies where further scaffolding or support may be needed.
+A comprehensive dashboard showing overall completion status for each student across all three course sections. This monitoring tool helps instructors identify students who may need additional support and enables targeted intervention before students fall behind.
 
 ---
 
 #### 5. Score Summary – Basic Concepts
 ![Score Summary – Basic Concepts](../images/dodona_scoresheet_basisbegrippen_toepassingen.png)
 
-**Description:** This view provides insight into user performance on foundational concepts like measurement levels and descriptive statistics.
-
-**Purpose:** Helps identify specific strengths and weaknesses in early-stage comprehension.
+A detailed performance breakdown for the foundational concepts section, providing insights into student understanding of measurement levels, descriptive statistics, and basic calculations. This granular view helps instructors identify specific conceptual gaps that might require additional explanation or alternative teaching approaches.
 
 ---
 
 #### 6. Score Summary – Analysis and Evaluation
 ![Score Summary – Analysis and Evaluation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
 
-**Description:** This section reflects progress on more complex tasks such as regression, outliers, and statistical inference.
-
-**Purpose:** Highlights students' abilities to apply and evaluate statistical models using criminological data.
+Performance metrics for the advanced section, revealing student proficiency with complex tasks such as regression analysis, outlier identification, and statistical inference. This view highlights students' ability to apply and evaluate statistical models in criminological contexts, indicating their readiness for independent research.
 
 ### Example Exercises
 
 #### 7. Crime Rate Calculation Exercise
 ![Crime Rate Calculation Exercise](../images/crime-rate-calculation.png)
 
-**Description:** A simple question asking students to calculate crime rate per 1,000 inhabitants.
-
-**Purpose:** Trains students in basic rate calculation using real-world population and crime data.
+A practical exercise teaching students how to calculate crime rates per 1,000 inhabitants using realistic population and incident data. This foundational skill connects abstract mathematical operations to essential criminological analysis techniques used in policy reports and research publications.
 
 ---
 
 #### 8. Descriptive vs Inferential Statistics
 ![Descriptive vs Inferential Statistics](../images/descriptive-vs-inferential.png)
 
-**Description:** This question checks understanding of the distinction between summarizing data and making predictions.
-
-**Purpose:** Reinforces conceptual clarity on the purpose of statistical approaches.
+An exercise testing students' understanding of the fundamental distinction between summarizing existing data (descriptive) and making predictions or generalizations (inferential). This conceptual foundation is critical for criminology students to understand when different statistical approaches are appropriate in research and policy contexts.
 
 ---
 
 #### 9. Hypothesis Testing Exercise
 ![Hypothesis Testing Exercise](../images/hypothesis-video-question.png)
 
-**Description:** A multimedia-supported question prompting students to define the correct null hypothesis.
-
-**Purpose:** Introduces inferential statistics with visual support, helping explain abstract ideas.
+A multimedia-enhanced exercise where students learn to formulate correct null hypotheses about crime intervention programs. The video support helps demystify the abstract concept of hypothesis testing by visualizing the process, making it more accessible for students with statistics anxiety.
 
 ---
 
 #### 10. Histogram Interpretation
 ![Histogram Interpretation](../images/histogram-interpretation.png)
 
-**Description:** Asks students to interpret the shape and distribution from a histogram of participant ages.
-
-**Purpose:** Promotes data literacy and visual interpretation skills.
+An exercise requiring students to analyze the shape and distribution of participant ages displayed in a histogram. This develops essential data literacy skills needed for understanding population characteristics in criminological studies and recognizing patterns such as age-crime relationships.
 
 ### Feedback Examples
 
 #### 11. Outlier Identification (Correct Answer)
 ![Outlier Identification (Correct Answer)](../images/outlier-feedback-correct.png)
 
-**Description:** Demonstrates how feedback is presented when students correctly identify a statistical outlier.
-
-**Purpose:** Confirms correct reasoning with step-by-step solution and statistical justification (Z-score logic).
+Feedback provided when students correctly identify a statistical outlier, showing step-by-step reasoning and statistical justification using Z-scores. This positive reinforcement confirms students' understanding while also modeling the formal analytical process for outlier identification that can be applied in future research work.
 
 ---
 
 #### 12. Outlier Identification (Incorrect Answer)
 ![Outlier Identification (Incorrect Answer)](../images/outlier-feedback-wrong.png)
 
-**Description:** Illustrates how detailed feedback is used to correct misunderstandings.
-
-**Purpose:** Leverages feedback as a learning opportunity by explaining why an answer is incorrect.
+Detailed corrective feedback provided when students misidentify outliers, transforming the error into a valuable learning opportunity. Rather than simply marking the answer as wrong, the feedback explains the reasoning process and guides students toward correct statistical thinking, addressing common misconceptions about extreme values in crime data.
 
 ## 6. Implementation Details and Technical Considerations
 
