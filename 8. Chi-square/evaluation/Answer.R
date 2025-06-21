@@ -1,28 +1,15 @@
 context({
   testcase(
-    "",
+    " ",
     {
       testEqual(
         "",
-        function(env) {
-          # Get student's answer as a numeric value
-          tryCatch({
-            answer <- as.numeric(env$evaluationResult)
-            # Check if the answer is within acceptable range
-            # This is the chi-square value for the matrix:
-            # 25 15 (Laag: geweld, diefstal)
-            # 18 22 (Midden: geweld, diefstal)
-            # 12 28 (Hoog: geweld, diefstal)
-            abs(answer - 8.54) < 0.1  # Allow slight rounding differences
-          }, error = function(e) {
-            return(FALSE)  # Handle conversion errors
-          })
-        },
-        TRUE,
+        function(env) as.numeric(env$evaluationResult),
+        8.54,  # the correct chi-square value
         comparator = function(generated, expected, ...) {
           # Get the exact student answer for feedback
           student_answer <- tryCatch({
-            as.numeric(get_reporter()$data$evaluationResult)
+            as.numeric(generated)
           }, error = function(e) {
             return(NA)
           })
@@ -137,11 +124,11 @@ context({
                        "), nrow = 3, byrow = TRUE)\n",
                        "chisq.test(observed)$statistic\n",
                        "```")
-              )
-            }
+              )            }
           }
           
-          return(generated)
+          # Following the pattern from multiple-choice questions
+          return(abs(student_answer - expected) < 0.1)
         }
       )
     }
