@@ -5,7 +5,8 @@ context({
       testEqual(
         "",
         function(env) {
-          # Get student's answer as a numeric value          tryCatch({
+          # Get student's answer as a numeric value
+          tryCatch({
             answer <- as.numeric(env$evaluationResult)
             # Check if the answer is within acceptable range
             # This is the chi-square value for the matrix:
@@ -56,7 +57,8 @@ context({
             # Detailed feedback for correct answer
             get_reporter()$add_message(
               paste0("✅ Juist! De chi-kwadraat waarde is inderdaad ", chi_square_rounded, ".\n\n",
-                   "**Stapsgewijze berekening:**\n\n",                   "1. **Berekening van verwachte waarden:**\n",
+                   "**Stapsgewijze berekening:**\n\n",
+                   "1. **Berekening van verwachte waarden:**\n",
                    "   - E(Laag, Geweld) = (", row_sums[1], " × ", col_sums[1], ") / ", total, " = ", round(expected_values[1,1], 2), "\n",
                    "   - E(Midden, Geweld) = (", row_sums[2], " × ", col_sums[1], ") / ", total, " = ", round(expected_values[2,1], 2), "\n",
                    "   - E(Hoog, Geweld) = (", row_sums[3], " × ", col_sums[1], ") / ", total, " = ", round(expected_values[3,1], 2), "\n",
