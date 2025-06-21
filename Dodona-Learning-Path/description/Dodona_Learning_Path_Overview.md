@@ -11,7 +11,9 @@
 ## 1. Overview of Learning Goals and Student Needs
 
 ### Criminology Student Profile
-Criminology students typically come from a social science orientation with limited mathematical background. They approach statistics not as abstract mathematical concepts but as practical tools for understanding crime data and social phenomena. These students are often more interested in the application and interpretation of statistical methods within their field rather than theoretical mathematical foundations. Additionally, many criminology students experience statistics anxiety, which can create barriers to learning and decrease confidence in their analytical abilities. This anxiety often stems from previous negative experiences with mathematics or perceived lack of quantitative skills.
+Criminology students typically come from a social science orientation with varying levels of mathematical preparation. They approach statistics primarily as practical tools for understanding crime data and social phenomena rather than as abstract mathematical concepts. These students are generally more interested in the application and interpretation of statistical methods within criminological contexts than in theoretical mathematical foundations. 
+
+Many criminology students initially approach statistics with some apprehension, which can affect their learning experience and confidence in developing quantitative skills. This hesitation often stems from limited prior exposure to formal statistical training or educational experiences that emphasized other forms of analysis. However, when statistical concepts are presented through relevant criminological examples—such as analyzing crime rates, understanding offending patterns, or evaluating intervention programs—students typically demonstrate stronger engagement and comprehension.
 
 ### Purpose of the Learning Path
 The primary purpose of this learning path is to support the development of statistical reasoning skills using crime-relevant examples and contexts. By embedding statistical concepts within criminological scenarios, the learning path aims to:
@@ -25,7 +27,7 @@ The primary purpose of this learning path is to support the development of stati
 ## 2. Bloom's Taxonomy Alignment
 
 ### Cognitive Levels
-Bloom's Taxonomy provides a hierarchical model of cognitive skills that progresses from lower-order to higher-order thinking skills:
+Bloom's Taxonomy provides a hierarchical model of cognitive skills that progresses from lower-order to higher-order thinking skills (Anderson et al., 2001):
 1. **Remember**: Recall facts and basic concepts
 2. **Understand**: Explain ideas or concepts
 3. **Apply**: Use information in new situations
@@ -37,11 +39,11 @@ Bloom's Taxonomy provides a hierarchical model of cognitive skills that progress
 
 ### Application to Learning Process
 The integration of Bloom's Taxonomy into our questions strategically supports criminology students' learning process by:
-- **Cognitive Progression**: Building from recall to complex applications, boosting confidence and competence
+- **Cognitive Progression**: Building from recall to complex applications, boosting confidence and competence (Krathwohl, 2002)
 - **Transfer of Knowledge**: Requiring practical application of concepts in criminological contexts
 - **Metacognitive Development**: Encouraging reflection on thinking processes at higher levels
 - **Comprehensive Understanding**: Ensuring engagement across all cognitive levels for a holistic grasp
-- **Scaffolded Challenges**: Providing appropriate cognitive challenges that build upon prior knowledge
+- **Scaffolded Challenges**: Providing appropriate cognitive challenges that build upon prior knowledge (Vygotsky, 1978)
 - **Domain-Specific Application**: Applying statistical concepts directly to criminological scenarios
 
 ### Question-Bloom Level Mapping
@@ -66,7 +68,7 @@ The integration of Bloom's Taxonomy into our questions strategically supports cr
 ## 3. Learning Design Strategies
 
 ### Instructional Design Strategy
-The learning path is structured using Bloom's Taxonomy as a cognitive scaffold, progressively building from foundational understanding to higher-order skills like evaluation and creation.
+The learning path is structured using Bloom's Taxonomy as a cognitive scaffold, progressively building from foundational understanding to higher-order skills like evaluation and creation (Krathwohl, 2002).
 
 This layered design includes:
 - **Concept Reinforcement**: Building foundational understanding (e.g., mean vs. median, descriptive vs. inferential statistics)
@@ -264,3 +266,11 @@ Planned enhancements to the learning path include:
 - Creation of collaborative exercises that encourage peer learning and discussion
 
 This learning path represents an ongoing effort to improve statistical education for criminology students by combining technical accuracy with pedagogical insight, creating an inclusive learning environment where students build confidence through meaningful engagement with statistical concepts.
+
+## 7. References
+
+Anderson, L. W., Krathwohl, D. R., Airasian, P. W., Cruikshank, K. A., Mayer, R. E., Pintrich, P. R., Raths, J., & Wittrock, M. C. (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom's Taxonomy of Educational Objectives*. Longman.
+
+Krathwohl, D. R. (2002). A revision of Bloom's taxonomy: An overview. *Theory into Practice*, 41(4), 212-218.
+
+Vygotsky, L. S. (1978). *Mind in society: The development of higher psychological processes*. Harvard University Press.
