@@ -56,44 +56,51 @@ The course structure has been organized to progressively build through Bloom's T
 
 #### Understanding (3-4)
 3. **Null hypothesis** - Understand the concept of null hypothesis in statistical testing
-4. **Centeral tendency** - Comprehend measures of central tendency and their applications
+4. **Central tendency** - Comprehend measures of central tendency and their applications
 
 #### Application (5-8)
-5. **Crime rate calculation** - Apply formulas to calculate crime rates
-6. **Crime rates and national average** - Apply comparative analysis of crime statistics
-7. **Sampling Distribution** - Apply sampling concepts to interpret distributions
-8. **Chi-square** - Apply chi-square tests to analyze categorical data
+5. **Correlation Concept** - Understand correlation fundamentals and their application
+6. **Simple Linear Regression** - Apply regression techniques to analyze relationships
+7. **Crime rate calculation** - Apply formulas to calculate crime rates
+8. **Crime rates and national average** - Apply comparative analysis of crime statistics
 
 #### Analysis (9-11)
-9. **Histogram Interpretation** - Analyze and interpret histogram distributions
-10. **Boxplot Interpretation** - Analyze outliers and distributions using boxplots
-11. **Scatterplot of unemployment** - Analyze relationships between variables
+9. **Scatterplot of unemployment** - Analyze relationships between variables
+10. **Histogram Interpretation** - Analyze and interpret histogram distributions
+11. **Boxplot Interpretation** - Analyze outliers and distributions using boxplots
 
-#### Evaluation (12-14)
-12. **Partial Correlation** - Evaluate complex relationships between variables
-13. **Interpretation of a significance test** - Evaluate statistical significance in context
-14. **Spurious correlation** - Evaluate and critique correlational relationships
+#### Evaluation (12-17)
+12. **Sampling Distribution** - Evaluate sampling concepts and their implications
+13. **Partial Correlation** - Evaluate complex relationships between variables
+14. **Regression with high leverage** - Evaluate regression diagnostics and influential cases
+15. **Interpretation of a significance test** - Evaluate statistical significance in context
+16. **Chi-square** - Apply and evaluate chi-square tests for categorical data
+17. **Spurious correlation** - Evaluate and critique correlational relationships
 
-#### Creation (15)
-15. **Research Design Creation** - Create and justify research methodologies
+#### Creation (18)
+18. **Research Design Analysis** - Create and justify research methodologies
 
 ### Question-Bloom Level Mapping
 | Question Title | Bloom Level | Question Number | Learning Intention | Criminology Context |
 |----------------|-------------|-----------------|-------------------|---------------------|
-| Doel van Beschrijvende Statistiek | Remember | Q2 | Differentiate descriptive from inferential statistics | Police report summaries |
-| Gemiddelde vs. Mediaan | Understand | Q4 | Identify sensitivity to outliers in crime rate data | Crime rates across districts |
-| Nulhypothese Formuleren | Understand | Q3 | Understand hypothesis testing foundations | Testing intervention effectiveness |
-| Crime Rate Calculation | Apply | Q5 | Apply formulas to calculate rates | Standardizing crime comparisons |
-| National Crime Average | Apply | Q6 | Compare local to national statistics | Policy effectiveness evaluation |
-| Betrouwbaarheidsintervallen | Apply | Q7 | Calculate and interpret confidence intervals | Estimating true crime rates |
-| Chi-square Analysis | Apply | Q8 | Apply chi-square to categorical data | Demographic crime pattern analysis |
-| Histogram Interpretation | Analyze | Q9 | Analyze distributions | Age patterns in offending |
-| Boxplot Analysis | Analyze | Q10 | Identify outliers and distributions | Unusual crime rate patterns |
-| Scatterplot Analysis | Analyze | Q11 | Analyze relationships between variables | Unemployment and crime rates |
-| Partial Correlation | Evaluate | Q12 | Evaluate complex statistical relationships | Controlling for confounding variables |
-| Significance Test Interpretation | Evaluate | Q13 | Evaluate statistical significance | Program effectiveness assessment |
-| Spurious Correlation | Evaluate | Q14 | Critique correlational claims | Distinguishing causation from correlation |
-| Research Design Creation | Create | Q15 | Design original research methods | Creating valid criminological studies |
+| Level of Measurement | Remember | Q1 | Identify and classify different types of data | Crime statistics classification |
+| Descriptive vs. Inferential | Remember | Q2 | Differentiate descriptive from inferential statistics | Police report summaries |
+| Null Hypothesis | Understand | Q3 | Understand hypothesis testing foundations | Testing intervention effectiveness |
+| Central Tendency | Understand | Q4 | Identify sensitivity to outliers in crime rate data | Crime rates across districts |
+| Correlation Concept | Apply | Q5 | Understand correlation fundamentals | Relationship between variables |
+| Simple Linear Regression | Apply | Q6 | Apply regression techniques | Predicting crime rates |
+| Crime Rate Calculation | Apply | Q7 | Apply formulas to calculate rates | Standardizing crime comparisons |
+| Crime Rates and National Average | Apply | Q8 | Compare local to national statistics | Policy effectiveness evaluation |
+| Scatterplot of Unemployment | Analyze | Q9 | Analyze relationships between variables | Unemployment and crime rates |
+| Histogram Interpretation | Analyze | Q10 | Analyze distributions | Age patterns in offending |
+| Boxplot Interpretation | Analyze | Q11 | Identify outliers and distributions | Unusual crime rate patterns |
+| Sampling Distribution | Evaluate | Q12 | Evaluate sampling concepts | Population inference |
+| Partial Correlation | Evaluate | Q13 | Evaluate complex statistical relationships | Controlling for confounding variables |
+| Regression with High Leverage | Evaluate | Q14 | Evaluate regression diagnostics | Identifying influential cases |
+| Interpretation of Significance Test | Evaluate | Q15 | Evaluate statistical significance | Program effectiveness assessment |
+| Chi-square | Evaluate | Q16 | Apply chi-square to categorical data | Demographic crime pattern analysis |
+| Spurious Correlation | Evaluate | Q17 | Critique correlational claims | Distinguishing causation from correlation |
+| Research Design Analysis | Create | Q18 | Design original research methods | Creating valid criminological studies |
 
 ## 3. Learning Design Strategies
 
@@ -101,10 +108,10 @@ The course structure has been organized to progressively build through Bloom's T
 The course has been carefully restructured to create a clear progression through Bloom's Taxonomy levels, supporting students' cognitive development from foundational knowledge to advanced skills:
 
 1. **Remember & Understand (Questions 1-4)**: Foundational concepts about measurement levels, descriptive statistics, hypothesis testing, and central tendency
-2. **Apply (Questions 5-8)**: Practical application of statistical methods including crime rate calculations, sampling distributions, and chi-square tests
-3. **Analyze (Questions 9-11)**: Data interpretation skills through histogram, boxplot, and scatterplot analysis
-4. **Evaluate (Questions 12-14)**: Critical assessment of statistical relationships, significance testing, and correlational claims
-5. **Create (Question 15)**: Original research design development
+2. **Apply (Questions 5-8)**: Practical application of statistical methods including correlation concepts, linear regression, and crime rate calculations
+3. **Analyze (Questions 9-11)**: Data interpretation skills through scatterplot, histogram, and boxplot analysis
+4. **Evaluate (Questions 12-17)**: Critical assessment of sampling distributions, partial correlations, regression diagnostics, significance testing, chi-square tests, and spurious correlations
+5. **Create (Question 18)**: Original research design development and analysis
 
 This organized sequence creates a coherent learning journey through increasing cognitive complexity while maintaining contextual relevance to criminology. The structure deliberately removes overlapping concepts and ensures each level builds upon previous learning.
 
@@ -216,7 +223,7 @@ The middle section of the course showcases fundamental statistical concepts orga
 #### 3. Series Overview – Part 3
 ![dodona-series-overview-3](../images/dodona-series-overview-3.png)
 
-The following sections progress through Application (5-8), Analysis (9-11), and Evaluation (12-14), focusing on practical skills like crime rate calculations, sampling distributions, and chi-square tests, followed by interpretation tasks including histograms, boxplots, and scatterplots. The course culminates with advanced topics like partial correlation, significance testing, and spurious correlation, concluding with research design creation (15) that targets the highest level of Bloom's Taxonomy.
+The following sections progress through Application (5-8), covering correlation concepts, simple linear regression, and crime rate calculations. This is followed by Analysis (9-11), focusing on scatterplots, histograms, and boxplots. The Evaluation section (12-17) includes sampling distributions, partial correlation, regression diagnostics, significance testing, chi-square tests, and spurious correlation. The course culminates with Research Design Analysis (18) that targets the highest level of Bloom's Taxonomy: Create.
 
 ### Performance Monitoring
 
@@ -237,14 +244,14 @@ A detailed performance breakdown for the foundational concepts section (question
 #### 6. Score Summary – Application and Analysis
 ![Score Summary – Analysis and Evaluation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
 
-Performance metrics for the application and analysis sections (questions 5-11), revealing student proficiency with crime rate calculations, sampling distributions, chi-square tests, and data visualization interpretation. This section highlights students' ability to apply statistical concepts and analyze data in criminological contexts.
+Performance metrics for the application and analysis sections (questions 5-11), revealing student proficiency with correlation concepts, linear regression, crime rate calculations, and data visualization interpretation. This section highlights students' ability to apply statistical concepts and analyze data in criminological contexts.
 
 ---
 
 #### 7. Score Summary – Evaluation and Creation
 ![Score Summary – Evaluation and Creation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
 
-Performance metrics for the advanced sections (questions 12-15), showing student mastery of complex topics like partial correlation, significance testing, spurious correlation, and research design. This view indicates students' readiness for independent research and critical evaluation of statistical methods.
+Performance metrics for the advanced sections (questions 12-18), showing student mastery of complex topics like sampling distributions, partial correlation, regression diagnostics, significance testing, chi-square tests, spurious correlation, and research design analysis. This view indicates students' readiness for independent research and critical evaluation of statistical methods.
 
 ### Example Exercises
 
@@ -262,10 +269,10 @@ A practical application exercise teaching students how to calculate crime rates 
 
 ---
 
-#### 9. Chi-Square Analysis Exercise (Apply)
+#### 9. Chi-Square Analysis Exercise (Evaluate)
 ![Chi-Square Analysis Exercise](../images/chi-square-analysis.png)
 
-An exercise where students apply chi-square tests to analyze categorical data in a criminological context, such as examining the relationship between demographic factors and crime categories. This builds statistical application skills while maintaining relevance to criminological research questions.
+An exercise where students apply and evaluate chi-square tests to analyze categorical data in a criminological context, examining the relationship between education level and crime type. This builds statistical application and evaluation skills while maintaining relevance to criminological research questions about demographic factors and crime patterns.
 
 ---
 
