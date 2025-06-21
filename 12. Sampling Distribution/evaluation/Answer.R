@@ -18,7 +18,7 @@ context({
             "3" = "❌ Fout. Dit beschrijft een tijdsverloop van populatiecijfers, geen steekproevenverdeling.",
             
             # ✅ Correct! A sampling distribution of the mean shows how sample means vary across many random samples.
-            "4" = "✅ Juist! Een steekproevenverdeling toont hoe steekproefgemiddelden variëren bij herhaaldelijk bemonsteren van wijken."
+            "4" = "✅ Juist! Een steekproevenverdeling toont hoe steekproefgemiddelden variëren bij herhaaldelijk samplen van wijken."
           )
           
           key <- as.character(generated)

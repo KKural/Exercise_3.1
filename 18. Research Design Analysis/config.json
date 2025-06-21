@@ -1,0 +1,18 @@
+{
+    "description": {
+        "names": {
+            "en": "Research Design Creation"
+        }
+    },
+    "evaluation": {
+        "handler": "R",
+        "test_suite": "evaluation"
+    },
+    "programming_language": "R",
+    "access": "public",
+    "labels": [],
+    "internals": {
+        "token": "zgHtR5xKcP8beFMjVwQKxysBWqTeb77CZntReJGsfrixdSHzxu_LeCBX4An5aKc9",
+        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+    }
+}
