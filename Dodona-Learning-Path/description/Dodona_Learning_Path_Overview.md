@@ -96,26 +96,26 @@ The course structure has been organized to progressively build through Bloom's T
 18. **Research Design Analysis** - Create and justify research methodologies
 
 ### Question-Bloom Level Mapping
-| Question Title | Bloom Level | Question Number | Learning Intention | Criminology Context |
-|----------------|-------------|-----------------|-------------------|---------------------|
-| Level of Measurement | Remember | Q1 | Identify and classify different types of data | Crime statistics classification |
-| Descriptive vs. Inferential | Remember | Q2 | Differentiate descriptive from inferential statistics | Police report summaries |
-| Null Hypothesis | Understand | Q3 | Understand hypothesis testing foundations | Testing intervention effectiveness |
-| Central Tendency | Understand | Q4 | Identify sensitivity to outliers in crime rate data | Crime rates across districts |
-| Correlation Concept | Apply | Q5 | Understand correlation fundamentals | Relationship between variables |
-| Simple Linear Regression | Apply | Q6 | Apply regression techniques | Predicting crime rates |
-| Crime Rate Calculation | Apply | Q7 | Apply formulas to calculate rates | Standardizing crime comparisons |
-| Crime Rates and National Average | Apply | Q8 | Compare local to national statistics | Policy effectiveness evaluation |
-| Scatterplot of Unemployment | Analyze | Q9 | Analyze relationships between variables | Unemployment and crime rates |
-| Histogram Interpretation | Analyze | Q10 | Analyze distributions | Age patterns in offending |
-| Boxplot Interpretation | Analyze | Q11 | Identify outliers and distributions | Unusual crime rate patterns |
-| Sampling Distribution | Evaluate | Q12 | Evaluate sampling concepts | Population inference |
-| Partial Correlation | Evaluate | Q13 | Evaluate complex statistical relationships | Controlling for confounding variables |
-| Regression with High Leverage | Evaluate | Q14 | Evaluate regression diagnostics | Identifying influential cases |
-| Interpretation of Significance Test | Evaluate | Q15 | Evaluate statistical significance | Program effectiveness assessment |
-| Chi-square | Evaluate | Q16 | Apply chi-square to categorical data | Demographic crime pattern analysis |
-| Spurious Correlation | Evaluate | Q17 | Critique correlational claims | Distinguishing causation from correlation |
-| Research Design Analysis | Create | Q18 | Design original research methods | Creating valid criminological studies |
+| Question Title | Bloom Level | Question Number | Learning Intention |
+|----------------|-------------|-----------------|-------------------|
+| Level of Measurement | Remember | Q1 | Identify and classify different types of data |
+| Descriptive vs. Inferential | Remember | Q2 | Differentiate descriptive from inferential statistics |
+| Null Hypothesis | Understand | Q3 | Understand hypothesis testing foundations |
+| Central Tendency | Understand | Q4 | Identify sensitivity to outliers in crime rate data |
+| Correlation Concept | Apply | Q5 | Understand correlation fundamentals |
+| Simple Linear Regression | Apply | Q6 | Apply regression techniques |
+| Crime Rate Calculation | Apply | Q7 | Apply formulas to calculate rates |
+| Crime Rates and National Average | Apply | Q8 | Compare local to national statistics |
+| Scatterplot of Unemployment | Analyze | Q9 | Analyze relationships between variables |
+| Histogram Interpretation | Analyze | Q10 | Analyze distributions |
+| Boxplot Interpretation | Analyze | Q11 | Identify outliers and distributions |
+| Sampling Distribution | Evaluate | Q12 | Evaluate sampling concepts |
+| Partial Correlation | Evaluate | Q13 | Evaluate complex statistical relationships |
+| Regression with High Leverage | Evaluate | Q14 | Evaluate regression diagnostics |
+| Interpretation of Significance Test | Evaluate | Q15 | Evaluate statistical significance |
+| Chi-square | Evaluate | Q16 | Apply chi-square to categorical data |
+| Spurious Correlation | Evaluate | Q17 | Critique correlational claims |
+| Research Design Analysis | Create | Q18 | Design original research methods |
 
 ## 3. Learning Design Strategies
 
