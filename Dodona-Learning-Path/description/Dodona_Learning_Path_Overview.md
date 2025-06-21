@@ -37,6 +37,21 @@ Bloom's Taxonomy provides a hierarchical model of cognitive skills that progress
 
 ![Bloom's Taxonomy Pyramid](../bloom-pyramid.png)
 
+### Question Distribution Across Bloom's Taxonomy
+
+Our course is strategically designed to provide balanced coverage across the cognitive levels:
+
+| Cognitive Level | Number of Questions | Question Numbers | Percentage |
+|----------------|---------------------|------------------|------------|
+| Remember       | 2                   | 1-2              | 11%        |
+| Understand     | 2                   | 3-4              | 11%        |
+| Apply          | 4                   | 5-8              | 22%        |
+| Analyze        | 3                   | 9-11             | 17%        |
+| Evaluate       | 6                   | 12-17            | 33%        |
+| Create         | 1                   | 18               | 6%         |
+
+This distribution reflects our emphasis on higher-order thinking skills, with 56% of questions focusing on the top three cognitive levels (Analyze, Evaluate, Create). This approach ensures students develop both foundational knowledge and advanced critical thinking abilities needed for evidence-based criminology.
+
 ### Application to Learning Process
 The integration of Bloom's Taxonomy into our questions strategically supports criminology students' learning process by:
 - **Cognitive Progression**: Building from recall to complex applications, boosting confidence and competence (Krathwohl, 2002)
@@ -133,6 +148,61 @@ The sequence of questions deliberately moves students through increasing levels 
 - **Progressive Disclosure**: Stepwise reveal of complexity to prevent cognitive overload
 - **Just-in-Time Resources**: Providing support materials at the moment of need
 - **Error-Based Learning**: Using common misconceptions as teaching opportunities
+
+### Scaffolding Implementation in Course Design
+
+The course implements scaffolding principles across multiple dimensions to guide students toward independent statistical reasoning:
+
+#### Question-Level Scaffolding
+Each question is designed with embedded scaffolding elements:
+
+1. **Progressive Complexity Within Questions**
+   - Early exercises include more guidance and structure
+   - Later exercises require more independent problem-solving
+   - Example: Crime rate calculation questions begin with formula provided, then advance to requiring students to determine the appropriate approach
+
+2. **Context Familiarity Gradient**
+   - Initial questions use simple, familiar criminological contexts
+   - Advanced questions introduce more complex, realistic scenarios
+   - Example: Moving from simple crime counts in small areas to complex multivariate analyses of national datasets
+
+#### Hint System Design
+Hints are strategically designed as scaffolding that can be gradually removed:
+
+1. **Three-Tier Hint Structure**
+   - **Level 1**: Conceptual reminders (e.g., "Remember what central tendency measures represent")
+   - **Level 2**: Procedural guidance (e.g., "Calculate the median by ordering values and finding the middle point")
+   - **Level 3**: Worked examples with similar problems (e.g., "In a similar dataset with outliers, the median was more representative because...")
+
+2. **Fading Support**
+   - Early exercises provide immediate access to hints
+   - Later exercises introduce time delays before hints become available
+   - Advanced exercises limit the number of available hints
+
+#### Feedback as Scaffolding
+Feedback is designed not just to indicate correctness but to develop self-regulation skills:
+
+1. **Targeted Error Analysis**
+   - Common misconceptions receive specific explanations
+   - Feedback identifies the precise reasoning error rather than simply marking an answer wrong
+   - Example: "You've calculated the mean correctly, but haven't considered how outliers affect its representativeness"
+
+2. **Metacognitive Prompting**
+   - Feedback includes reflective questions
+   - Encourages students to evaluate their approach
+   - Example: "How would your interpretation change if this dataset had no outliers?"
+
+3. **Instructional Remediation**
+   - Links to specific resources based on error patterns
+   - Visual explanations for complex concepts
+   - Example: Providing a visualization of how chi-square values map to probability distributions when students misinterpret significance
+
+4. **Progressive Independence**
+   - Early feedback is detailed and directive
+   - Advanced feedback becomes more general and encourages self-diagnosis
+   - Final exercises provide minimal guidance, promoting independent statistical thinking
+
+This multi-layered scaffolding approach ensures that support is available when needed but gradually withdrawn as students develop competence, following Vygotsky's concept of the Zone of Proximal Development where learning occurs with appropriate guidance that adapts to student growth.
 
 ### Anxiety Reduction Through Structured Design
 The exercise design incorporates several features specifically aimed at reducing statistics anxiety:
