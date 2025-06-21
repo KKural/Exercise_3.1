@@ -207,21 +207,21 @@ This visual overview provides selected exercises from the Dodona learning path f
 ### Course Structure
 
 #### 1. Series Overview – Part 1
-![dodona-series-overview-1](../images/dodona-series-overview-1.png)
+![dodona-series-overview-1](../images/dodona-series-overview%201.png)
 
 The top portion of the course structure in Dodona's 'Basisstatistiek' series, showing the entry point where students can view learning objectives and track their progress through the exercises.
 
 ---
 
 #### 2. Series Overview – Part 2
-![dodona-series-overview-2](../images/dodona-series-overview-2.png)
+![dodona-series-overview-2](../images/dodona-series-overview%202.png)
 
 The middle section of the course showcases fundamental statistical concepts organized progressively through Bloom's Taxonomy, beginning with measurement levels (1), descriptive statistics (2), hypothesis testing (3), and central tendency (4). This section primarily targets the lower levels of Bloom's Taxonomy: Remember and Understand.
 
 ---
 
 #### 3. Series Overview – Part 3
-![dodona-series-overview-3](../images/dodona-series-overview-3.png)
+![dodona-series-overview-3](../images/dodona-series-overview%203.png)
 
 The following sections progress through Application (5-8), covering correlation concepts, simple linear regression, and crime rate calculations. This is followed by Analysis (9-11), focusing on scatterplots, histograms, and boxplots. The Evaluation section (12-17) includes sampling distributions, partial correlation, regression diagnostics, significance testing, chi-square tests, and spurious correlation. The course culminates with Research Design Analysis (18) that targets the highest level of Bloom's Taxonomy: Create.
 
@@ -255,24 +255,24 @@ Performance metrics for the advanced sections (questions 12-18), showing student
 
 ### Example Exercises
 
-#### 7. Level of Measurement Exercise (Remember)
-![Level of Measurement Exercise](../images/level-of-measurement.png)
+#### 7. Descriptive vs. Inferential Statistics (Remember)
+![Descriptive vs. Inferential](../images/descriptive-vs-inferential.png)
 
-A foundational exercise teaching students to correctly identify and classify different types of data based on their measurement level (nominal, ordinal, interval, ratio). This fundamental knowledge forms the basis for all statistical analysis in criminology.
+A foundational exercise teaching students to correctly differentiate between descriptive and inferential statistics and understand their applications in criminological research. This fundamental knowledge is crucial for understanding the purpose and limitations of different statistical approaches.
 
 ---
 
-#### 8. Crime Rate Calculation Exercise (Apply)
+#### 8. Hypothesis Testing with Video (Understand)
+![Hypothesis Video Question](../images/hypothesis-video-question.png)
+
+An exercise that integrates video content to help students understand the concept of hypothesis testing in a criminological context. This multimedia approach addresses different learning styles and helps students grasp abstract statistical concepts through visual explanations.
+
+---
+
+#### 9. Crime Rate Calculation Exercise (Apply)
 ![Crime Rate Calculation Exercise](../images/crime-rate-calculation.png)
 
 A practical application exercise teaching students how to calculate crime rates per 1,000 inhabitants using realistic population and incident data. This essential skill connects abstract mathematical operations to practical criminological analysis techniques used in policy reports and research publications.
-
----
-
-#### 9. Chi-Square Analysis Exercise (Evaluate)
-![Chi-Square Analysis Exercise](../images/chi-square-analysis.png)
-
-An exercise where students apply and evaluate chi-square tests to analyze categorical data in a criminological context, examining the relationship between education level and crime type. This builds statistical application and evaluation skills while maintaining relevance to criminological research questions about demographic factors and crime patterns.
 
 ---
 
@@ -280,13 +280,6 @@ An exercise where students apply and evaluate chi-square tests to analyze catego
 ![Histogram Interpretation](../images/histogram-interpretation.png)
 
 An exercise requiring students to analyze the shape and distribution of data displayed in a histogram. This develops essential data literacy skills needed for understanding population characteristics in criminological studies and recognizing patterns such as age-crime relationships.
-
----
-
-#### 11. Spurious Correlation Exercise (Evaluate)
-![Spurious Correlation Exercise](../images/spurious-correlation.png)
-
-An advanced exercise where students evaluate and critique correlational relationships, distinguishing between correlation and causation in criminological data. This builds critical thinking skills essential for research interpretation and evidence-based practice.
 
 ### Feedback Examples
 
@@ -329,7 +322,7 @@ Planned enhancements to the learning path include:
 
 This learning path represents an ongoing effort to improve statistical education for criminology students by combining technical accuracy with pedagogical insight, creating an inclusive learning environment where students build confidence through meaningful engagement with statistical concepts.
 
-The recent restructuring of the course (with questions systematically organized from 1-15 following Bloom's Taxonomy) provides a clear pedagogical progression that supports students' cognitive development while maintaining criminological relevance. This structured approach helps reduce statistics anxiety by providing a logical learning sequence with appropriate scaffolding at each level of cognitive complexity.
+The recent restructuring of the course (with questions systematically organized from 1-18 following Bloom's Taxonomy) provides a clear pedagogical progression that supports students' cognitive development while maintaining criminological relevance. This structured approach helps reduce statistics anxiety by providing a logical learning sequence with appropriate scaffolding at each level of cognitive complexity.
 
 ## 7. References
 
