@@ -47,23 +47,21 @@ The integration of Bloom's Taxonomy into our questions strategically supports cr
 - **Domain-Specific Application**: Applying statistical concepts directly to criminological scenarios
 
 ### Question-Bloom Level Mapping
-| Question Title | Bloom Level | Cognitive Skill | Learning Intention | Criminology Context |
+| Question Title | Bloom Level | Question Number | Learning Intention | Criminology Context |
 |----------------|-------------|-----------------|-------------------|---------------------|
-| Gemiddelde vs. Mediaan | Understand | Concept comparison | Identify sensitivity to outliers in crime rate data | Crime rates across districts |
-| Doel van Beschrijvende Statistiek | Remember | Recall | Differentiate descriptive from inferential statistics | Police report summaries |
-| Berekenen van Modus | Apply | Calculation | Calculate mode from crime type frequencies | Common offense categories |
-| Chi-kwadraat Interpretatie | Analyze | Interpretation | Interpret chi-square results in demographic contexts | Demographic factors in offending |
-| Uitschieters Identificeren | Apply | Data analysis | Identify outliers in crime rate datasets | Unusual crime spikes |
-| Standaarddeviatie Vergelijking | Understand | Concept application | Compare variability in crime metrics | Crime pattern consistency |
-| Correlatie vs. Causaliteit | Evaluate | Critical thinking | Evaluate claims of variable relationships | Crime and socioeconomic factors |
-| Regressieanalyse Interpretatie | Analyze | Interpretation | Interpret regression coefficients in context | Predicting recidivism rates |
-| Steekproef Representativiteit | Evaluate | Assessment | Assess sampling biases | Survey of prison populations |
-| Betrouwbaarheidsintervallen | Apply | Calculation | Calculate and interpret confidence intervals | Estimating true crime rates |
-| p-Waarde Interpretatie | Understand | Concept application | Explain p-values in hypothesis testing | Testing intervention effectiveness |
-| Scheve Verdeling Herkennen | Analyze | Pattern recognition | Identify skewed distributions | Income distribution in high-crime areas |
-| Type I en Type II Fouten | Evaluate | Critical assessment | Evaluate consequences of statistical errors | False convictions vs. missed offenders |
-| Effectgrootte Berekening | Apply | Calculation | Calculate effect sizes | Impact of rehabilitation programs |
-| Grafische Weergave Kiezen | Create | Decision making | Choose appropriate data visualizations | Presenting crime trends to stakeholders |
+| Doel van Beschrijvende Statistiek | Remember | Q2 | Differentiate descriptive from inferential statistics | Police report summaries |
+| Gemiddelde vs. Mediaan | Understand | Q4 | Identify sensitivity to outliers in crime rate data | Crime rates across districts |
+| Standaarddeviatie Vergelijking | Understand | - | Compare variability in crime metrics | Crime pattern consistency |
+| p-Waarde Interpretatie | Understand | Q15 | Explain p-values in hypothesis testing | Testing intervention effectiveness |
+| Berekenen van Modus | Apply | - | Calculate mode from crime type frequencies | Common offense categories |
+| Uitschieters Identificeren | Apply | Q14 | Identify outliers in crime rate datasets | Unusual crime spikes |
+| Betrouwbaarheidsintervallen | Apply | Q12 | Calculate and interpret confidence intervals | Estimating true crime rates |
+| Effectgrootte Berekening | Apply | - | Calculate effect sizes | Impact of rehabilitation programs |
+| Regressieanalyse Interpretatie | Analyze | Q6 | Interpret regression coefficients in context | Predicting recidivism rates |
+| Scheve Verdeling Herkennen | Analyze | Q10 | Identify skewed distributions | Income distribution in high-crime areas |
+| Steekproef Representativiteit | Evaluate | Q8 | Assess sampling biases | Survey of prison populations |
+| Type I en Type II Fouten | Evaluate | Q3 | Evaluate consequences of statistical errors | False convictions vs. missed offenders |
+| Grafische Weergave Kiezen | Create | Q9 | Choose appropriate data visualizations | Presenting crime trends to stakeholders |
 
 ## 3. Learning Design Strategies
 
