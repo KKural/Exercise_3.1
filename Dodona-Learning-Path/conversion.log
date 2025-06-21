@@ -2092,3 +2092,1319 @@ AVAILABLE IMAGES:
 2025-06-22 00:15:02,412 - INFO -  - ~$250616_Motivation_letter_dodona CV.docx (0.16 KB)
 2025-06-22 00:15:02,412 - INFO -  - ~$250620_vraagen en antwoorden.docx (0.16 KB)
 2025-06-22 00:15:02,412 - INFO -  - ~$250621_Dodona_Learning_Path_Overview.docx (0.16 KB)
+2025-06-22 00:33:42,990 - INFO - ================================================================================
+2025-06-22 00:33:42,990 - INFO - LOGGING INITIALIZED
+2025-06-22 00:33:42,990 - INFO - ================================================================================
+2025-06-22 00:33:42,990 - INFO - ================================================================================
+2025-06-22 00:33:42,990 - INFO - MARKDOWN TO WORD CONVERSION SCRIPT - STARTING
+2025-06-22 00:33:42,990 - INFO - ================================================================================
+2025-06-22 00:33:42,990 - INFO - Output directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 00:33:42,990 - INFO - Output directory already exists
+2025-06-22 00:33:42,990 - INFO - Current directory: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:33:42,990 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:33:42,990 - INFO - Processing file: description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:33:42,990 - INFO - Full input path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:33:42,990 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:33:42,990 - INFO - Converting C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx...
+2025-06-22 00:33:43,023 - INFO - Successfully read Markdown file: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:33:43,026 - INFO - Base directory: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description
+2025-06-22 00:33:43,027 - INFO - Project root: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:33:43,104 - INFO - Document contains images, searching for image files...
+2025-06-22 00:33:43,104 - INFO - Found special file bloom-pyramid.png at C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.png
+2025-06-22 00:33:43,104 - INFO - Found special file bloom-pyramid.svg at C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:33:43,104 - INFO - Searching for images in C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images
+2025-06-22 00:33:43,104 - INFO - Found 12 images in images
+2025-06-22 00:33:43,104 - INFO - Searching for images in C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../
+2025-06-22 00:33:43,104 - INFO - Found 0 images in ../
+2025-06-22 00:33:43,104 - INFO - Searching for images in C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\./
+2025-06-22 00:33:43,104 - INFO - Found 2 images in ./
+2025-06-22 00:33:43,104 - INFO - Found 16 images total
+2025-06-22 00:33:43,119 - INFO - Found 16 images
+2025-06-22 00:33:43,119 - INFO - Created image lookup with 40 entries
+2025-06-22 00:33:43,121 - INFO - Starting to process markdown content...
+2025-06-22 00:33:43,168 - INFO - Processing: 10% complete...
+2025-06-22 00:33:43,171 - INFO - Special file detected: ../bloom-pyramid.png
+2025-06-22 00:33:43,171 - INFO - Found SVG version of special file: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:33:43,177 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:33:43,209 - ERROR - Failed to insert image file C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg: 
+2025-06-22 00:33:43,211 - INFO - Used placeholder for image that couldn't be inserted: ../bloom-pyramid.png
+2025-06-22 00:33:43,289 - INFO - Processing: 25% complete...
+2025-06-22 00:33:43,607 - INFO - Processing: 50% complete...
+2025-06-22 00:33:43,654 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%201.png
+2025-06-22 00:33:43,655 - INFO - Found exact match for URL-decoded image: dodona-series-overview 1.png -> C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:33:43,655 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:33:43,688 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:33:43,695 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%202.png
+2025-06-22 00:33:43,695 - INFO - Found exact match for URL-decoded image: dodona-series-overview 2.png -> C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:33:43,695 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:33:43,730 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:33:43,743 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%203.png
+2025-06-22 00:33:43,744 - INFO - Found exact match for URL-decoded image: dodona-series-overview 3.png -> C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:33:43,746 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:33:43,776 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:33:43,788 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_total_overview.png
+2025-06-22 00:33:43,790 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:33:43,791 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:33:43,813 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:33:43,831 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:33:43,831 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:33:43,836 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:33:43,859 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:33:43,866 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:33:43,867 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:33:43,868 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:33:43,895 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:33:43,910 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:33:43,911 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:33:43,912 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:33:43,913 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:33:43,926 - INFO - Processing: 75% complete...
+2025-06-22 00:33:43,931 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/descriptive-vs-inferential.png
+2025-06-22 00:33:43,931 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:33:43,931 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:33:43,960 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:33:43,970 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/hypothesis-video-question.png
+2025-06-22 00:33:43,972 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:33:43,973 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:33:44,000 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:33:44,007 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/crime-rate-calculation.png
+2025-06-22 00:33:44,007 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:33:44,007 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:33:44,042 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:33:44,046 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/histogram-interpretation.png
+2025-06-22 00:33:44,046 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:33:44,053 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:33:44,073 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:33:44,098 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-correct.png
+2025-06-22 00:33:44,098 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:33:44,098 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:33:44,129 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:33:44,140 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-wrong.png
+2025-06-22 00:33:44,140 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:33:44,140 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:33:44,173 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:33:44,204 - INFO - Processing: 90% complete...
+2025-06-22 00:33:44,261 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:33:44,377 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:33:44,377 - INFO - File conversion time: 1.39 seconds
+2025-06-22 00:33:44,377 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:33:44,377 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:33:44,377 - INFO - File size: 900.20 KB
+2025-06-22 00:33:44,377 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:33:44,377 - INFO - Processing file: ../Motivation_Letter.md
+2025-06-22 00:33:44,393 - INFO - Full input path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:33:44,393 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:33:44,393 - INFO - Converting C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx...
+2025-06-22 00:33:44,425 - INFO - Successfully read Markdown file: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:33:44,426 - INFO - Base directory: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:33:44,427 - INFO - Project root: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:33:44,486 - INFO - Document does not contain any images, skipping image search
+2025-06-22 00:33:44,486 - INFO - Starting to process markdown content...
+2025-06-22 00:33:44,486 - INFO - Processing: 10% complete...
+2025-06-22 00:33:44,500 - INFO - Processing: 25% complete...
+2025-06-22 00:33:44,503 - INFO - Processing: 50% complete...
+2025-06-22 00:33:44,518 - INFO - Processing: 75% complete...
+2025-06-22 00:33:44,518 - INFO - Processing: 90% complete...
+2025-06-22 00:33:44,518 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:33:44,562 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:33:44,562 - INFO - File conversion time: 0.18 seconds
+2025-06-22 00:33:44,562 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:33:44,562 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:33:44,572 - INFO - File size: 38.77 KB
+2025-06-22 00:33:44,573 - INFO - ================================================================================
+2025-06-22 00:33:44,574 - INFO - CONVERSION COMPLETE - Total time: 1.58 seconds
+2025-06-22 00:33:44,574 - INFO - ================================================================================
+2025-06-22 00:33:44,575 - INFO - Files in output directory:
+2025-06-22 00:33:44,576 - INFO -  - .RData (2.79 KB)
+2025-06-22 00:33:44,576 - INFO -  - .Rhistory (1.75 KB)
+2025-06-22 00:33:44,576 - INFO -  - 046_Pan.pdf (403.32 KB)
+2025-06-22 00:33:44,576 - INFO -  - 1-s2.0-S0264275124000374-main.pdf (2691.25 KB)
+2025-06-22 00:33:44,589 - INFO -  - 20240619_Vargen en Antwoorden CV.docx (162.05 KB)
+2025-06-22 00:33:44,592 - INFO -  - 20241015_CPTED_FOC_ Presentation.pptx (78.03 KB)
+2025-06-22 00:33:44,593 - INFO -  - 20241015_MPI.R (10.86 KB)
+2025-06-22 00:33:44,594 - INFO -  - 20241015_virtual_twin_MPI.html (773.02 KB)
+2025-06-22 00:33:44,595 - INFO -  - 20241015_virtual_twin_MPI.Rmd (10.90 KB)
+2025-06-22 00:33:44,595 - INFO -  - 20250108_CV_Kuralarasan_Kumar.docx (21.26 KB)
+2025-06-22 00:33:44,595 - INFO -  - 20250110_CBRE_Cover Letter.docx (17.13 KB)
+2025-06-22 00:33:44,598 - INFO -  - 20250110_CBRE_Kuralarasan_Kumar_CV.docx (135.88 KB)
+2025-06-22 00:33:44,599 - INFO -  - 20250110_ipsos_Cover Letter.docx (17.67 KB)
+2025-06-22 00:33:44,601 - INFO -  - 20250110_Kuralarasan Kumar_CV_Deloitte.docx (37.70 KB)
+2025-06-22 00:33:44,603 - INFO -  - 20250110_Kuralarasan Kumar_CV_ipsos.docx (37.12 KB)
+2025-06-22 00:33:44,603 - INFO -  - 20250113_cover_letter_Kuralarasan_Kumar.docx (17.22 KB)
+2025-06-22 00:33:44,603 - INFO -  - 20250113__Deloitte_Kuralarasan_Kumar_CV.docx (135.97 KB)
+2025-06-22 00:33:44,609 - INFO -  - 20250124_Kuralarasan Kumar_PP.docx (40.85 KB)
+2025-06-22 00:33:44,610 - INFO -  - 20250124_Kuralarasan_Kumar_CV_T&E.docx (138.64 KB)
+2025-06-22 00:33:44,612 - INFO -  - 20250125_Cover Letter_T&E.docx (17.75 KB)
+2025-06-22 00:33:44,614 - INFO -  - 20250228_CV_Kuralarasan_Kumar.docx (65.19 KB)
+2025-06-22 00:33:44,614 - INFO -  - 20250616_Motivation_letter_dodona CV.docx (28.19 KB)
+2025-06-22 00:33:44,616 - INFO -  - 20250616_Motivation_letter_dodona.docx (18.01 KB)
+2025-06-22 00:33:44,618 - INFO -  - 20250620_motivation letter.docx (18.80 KB)
+2025-06-22 00:33:44,619 - INFO -  - 20250620_vraagen en antwoorden.docx (34.09 KB)
+2025-06-22 00:33:44,620 - INFO -  - 20250621_Dodona_Learning_Path_Overview.docx (900.20 KB)
+2025-06-22 00:33:44,620 - INFO -  - 20250621_Motivation_Letter.docx (38.77 KB)
+2025-06-22 00:33:44,620 - INFO -  - 20250621_stats-course-dodona-main.zip (1722.86 KB)
+2025-06-22 00:33:44,626 - INFO -  - 20250621_vragen en antwoorden.docx (35.98 KB)
+2025-06-22 00:33:44,628 - INFO -  - B001505.pdf (41.03 KB)
+2025-06-22 00:33:44,628 - INFO -  - B001628 dutch .pdf (43.12 KB)
+2025-06-22 00:33:44,630 - INFO -  - B001628.pdf (42.97 KB)
+2025-06-22 00:33:44,631 - INFO -  - B001832.pdf (41.00 KB)
+2025-06-22 00:33:44,631 - INFO -  - B001838.pdf (32.95 KB)
+2025-06-22 00:33:44,631 - INFO -  - CBRE.docx (20.00 KB)
+2025-06-22 00:33:44,636 - INFO -  - course-voorbeeldoefeningen-basisstatistiek.csv (0.48 KB)
+2025-06-22 00:33:44,636 - INFO -  - Cover letter and CV.docx (37.74 KB)
+2025-06-22 00:33:44,636 - INFO -  - Cover letter.docx (17.65 KB)
+2025-06-22 00:33:44,643 - INFO -  - Cover letter_uatenwepen.docx (19.08 KB)
+2025-06-22 00:33:44,644 - INFO -  - Cover_letter_UAnterwerpen.docx (20.15 KB)
+2025-06-22 00:33:44,645 - INFO -  - CPTED_Presentation_v2.pptx (57.93 KB)
+2025-06-22 00:33:44,646 - INFO -  - crime-rate-calculation.png (84.95 KB)
+2025-06-22 00:33:44,649 - INFO -  - Criminology - 2024 - Barnum - Reactive guardianship Who intervenes How And why.pdf (909.26 KB)
+2025-06-22 00:33:44,650 - INFO -  - CV_Kuralarasan_Kumar.docx (57.85 KB)
+2025-06-22 00:33:44,651 - INFO -  - Data Science (0.00 KB)
+2025-06-22 00:33:44,653 - INFO -  - Dear Members of the Selection Committee.docx (19.01 KB)
+2025-06-22 00:33:44,655 - INFO -  - Deloitte.docx (20.96 KB)
+2025-06-22 00:33:44,656 - INFO -  - descriptive-vs-inferential.png (81.09 KB)
+2025-06-22 00:33:44,659 - INFO -  - dodona motivation letter.docx (19.95 KB)
+2025-06-22 00:33:44,660 - INFO -  - dodona-series-overview 1.png (27.58 KB)
+2025-06-22 00:33:44,661 - INFO -  - dodona-series-overview 2.png (53.51 KB)
+2025-06-22 00:33:44,663 - INFO -  - dodona-series-overview 3.png (54.75 KB)
+2025-06-22 00:33:44,664 - INFO -  - dodona-series-overview.md (1.62 KB)
+2025-06-22 00:33:44,664 - INFO -  - dodona-series-overview.png (187.89 KB)
+2025-06-22 00:33:44,664 - INFO -  - dodona_scoresheet_analyse_evaluatie_statistiek.png (31.61 KB)
+2025-06-22 00:33:44,667 - INFO -  - dodona_scoresheet_basisbegrippen_toepassingen.png (30.47 KB)
+2025-06-22 00:33:44,668 - INFO -  - dodona_scoresheet_total_overview.png (28.08 KB)
+2025-06-22 00:33:44,670 - INFO -  - Dutch B001505.pdf (41.16 KB)
+2025-06-22 00:33:44,673 - INFO -  - Exploring the Impact of CPTED on Fear of Crime.pptx (40.14 KB)
+2025-06-22 00:33:44,675 - INFO -  - histogram-interpretation.png (112.13 KB)
+2025-06-22 00:33:44,676 - INFO -  - hypothesis-video-question.png (245.51 KB)
+2025-06-22 00:33:44,677 - INFO -  - ipos.docx (21.28 KB)
+2025-06-22 00:33:44,678 - INFO -  - job tipes.pdf (2482.53 KB)
+2025-06-22 00:33:44,680 - INFO -  - Job tips link.docx (15.74 KB)
+2025-06-22 00:33:44,680 - INFO -  - job.R (10.01 KB)
+2025-06-22 00:33:44,680 - INFO -  - job_histogram.R (2.00 KB)
+2025-06-22 00:33:44,680 - INFO -  - journal.pone.0305815.pdf (1045.87 KB)
+2025-06-22 00:33:44,687 - INFO -  - K-24-04_PostDoc_ENG.pdf (185.03 KB)
+2025-06-22 00:33:44,687 - INFO -  - Kuralarasan_Kumar_CV.docx (135.95 KB)
+2025-06-22 00:33:44,691 - INFO -  - Kuralarasan_Kumar_CV_CRBE.docx (57.56 KB)
+2025-06-22 00:33:44,692 - INFO -  - Kuralarasan_Kumar_Resume_1.docx (599.56 KB)
+2025-06-22 00:33:44,694 - INFO -  - Kuralarasan_Kumar_Resume_2.docx (135.91 KB)
+2025-06-22 00:33:44,695 - INFO -  - Kural_CV.pdf (118.51 KB)
+2025-06-22 00:33:44,697 - INFO -  - Kural_Motivation_letter.docx (16.18 KB)
+2025-06-22 00:33:44,698 - INFO -  - Motivation Letter _CRBE.docx (17.13 KB)
+2025-06-22 00:33:44,699 - INFO -  - outlier-feedback-correct.png (109.13 KB)
+2025-06-22 00:33:44,700 - INFO -  - outlier-feedback-wrong.png (101.47 KB)
+2025-06-22 00:33:44,702 - INFO -  - pedagogical-screenshots-overview.md (3.75 KB)
+2025-06-22 00:33:44,704 - INFO -  - quantative methods 1.pdf (41.08 KB)
+2025-06-22 00:33:44,705 - INFO -  - question.docx (185.85 KB)
+2025-06-22 00:33:44,705 - INFO -  - Questions (0.00 KB)
+2025-06-22 00:33:44,705 - INFO -  - r exercise motivation letter.docx (22.95 KB)
+2025-06-22 00:33:44,705 - INFO -  - renamed_dodona_scoresheets (4.00 KB)
+2025-06-22 00:33:44,705 - INFO -  - renamed_dodona_scoresheets.zip (90.67 KB)
+2025-06-22 00:33:44,705 - INFO -  - reporting 1.pdf (32.97 KB)
+2025-06-22 00:33:44,705 - INFO -  - rsconnect (0.00 KB)
+2025-06-22 00:33:44,714 - INFO -  - s40163-014-0010-5.pdf (539.66 KB)
+2025-06-22 00:33:44,715 - INFO -  - Screenshot 2025-06-20 at 11-09-42 Voorbeeldoefeningen – Basisstatistiek - Dodona.png (113.07 KB)
+2025-06-22 00:33:44,716 - INFO -  - Screenshot 2025-06-20 at 11-10-12 Beschrijvende vs. inferentiële statistiek - Dodona.png (81.09 KB)
+2025-06-22 00:33:44,717 - INFO -  - Screenshot 2025-06-20 at 11-10-43 Interpretatie van een histogram - Dodona.png (118.92 KB)
+2025-06-22 00:33:44,718 - INFO -  - Screenshot 2025-06-20 at 11-11-16 Helen's nulhypothese - Dodona.png (193.38 KB)
+2025-06-22 00:33:44,719 - INFO -  - Screenshot 2025-06-20 at 11-13-59 Berekening van het misdaadcijfer - Dodona.png (84.95 KB)
+2025-06-22 00:33:44,719 - INFO -  - Screenshot 2025-06-20 at 11-15-02 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (101.47 KB)
+2025-06-22 00:33:44,726 - INFO -  - Screenshot 2025-06-20 at 11-15-22 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (109.13 KB)
+2025-06-22 00:33:44,726 - INFO -  - Screenshot 2025-06-20 at 11-45-18 Scoresheet - Dodona.png (28.08 KB)
+2025-06-22 00:33:44,727 - INFO -  - Screenshot 2025-06-20 at 11-45-48 Analyse en Evaluatie in Statistiek - Dodona.png (31.61 KB)
+2025-06-22 00:33:44,728 - INFO -  - Screenshot 2025-06-20 at 11-46-05 Basisbegrippen en Toepassingen - Dodona.png (30.47 KB)
+2025-06-22 00:33:44,730 - INFO -  - stats-course-dodona (0.00 KB)
+2025-06-22 00:33:44,732 - INFO -  - TCI Research (4.00 KB)
+2025-06-22 00:33:44,734 - INFO -  - Testing_Elderly_Peoples_Fear_of_Crime_Using_a_Virtual_Environment.pdf (3716.68 KB)
+2025-06-22 00:33:44,735 - INFO -  - ToetvanSchaik2012.pdf (5959.90 KB)
+2025-06-22 00:33:44,736 - INFO -  - UAnterwerp (32.00 KB)
+2025-06-22 00:33:44,736 - INFO -  - Vargen en Antwoorden CV.docx (180.93 KB)
+2025-06-22 00:33:44,736 - INFO -  - Vargen en Antwoorden.docx (150.29 KB)
+2025-06-22 00:33:44,736 - INFO -  - vraag 2.docx (52.82 KB)
+2025-06-22 00:34:07,299 - INFO - ================================================================================
+2025-06-22 00:34:07,299 - INFO - LOGGING INITIALIZED
+2025-06-22 00:34:07,299 - INFO - ================================================================================
+2025-06-22 00:34:07,299 - INFO - ================================================================================
+2025-06-22 00:34:07,299 - INFO - MARKDOWN TO WORD CONVERSION SCRIPT - STARTING
+2025-06-22 00:34:07,299 - INFO - ================================================================================
+2025-06-22 00:34:07,299 - INFO - Output directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 00:34:07,299 - INFO - Output directory already exists
+2025-06-22 00:34:07,299 - INFO - Current directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:34:07,299 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:34:07,299 - INFO - Processing file: description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:34:07,299 - INFO - Full input path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:34:07,299 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:34:07,313 - INFO - Converting c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx...
+2025-06-22 00:34:07,314 - INFO - Successfully read Markdown file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:34:07,315 - INFO - Base directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description
+2025-06-22 00:34:07,316 - INFO - Project root: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:34:07,336 - INFO - Document contains images, searching for image files...
+2025-06-22 00:34:07,336 - INFO - Found special file bloom-pyramid.png at c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.png
+2025-06-22 00:34:07,336 - INFO - Found special file bloom-pyramid.svg at c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:34:07,347 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images
+2025-06-22 00:34:07,348 - INFO - Found 12 images in images
+2025-06-22 00:34:07,349 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../
+2025-06-22 00:34:07,350 - INFO - Found 0 images in ../
+2025-06-22 00:34:07,350 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\./
+2025-06-22 00:34:07,352 - INFO - Found 2 images in ./
+2025-06-22 00:34:07,352 - INFO - Found 16 images total
+2025-06-22 00:34:07,353 - INFO - Found 16 images
+2025-06-22 00:34:07,353 - INFO - Created image lookup with 40 entries
+2025-06-22 00:34:07,353 - INFO - Starting to process markdown content...
+2025-06-22 00:34:07,387 - INFO - Processing: 10% complete...
+2025-06-22 00:34:07,387 - INFO - Special file detected: ../bloom-pyramid.png
+2025-06-22 00:34:07,392 - INFO - Found SVG version of special file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:34:07,393 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:34:07,394 - ERROR - Failed to insert image file c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg: 
+2025-06-22 00:34:07,395 - INFO - Used placeholder for image that couldn't be inserted: ../bloom-pyramid.png
+2025-06-22 00:34:07,430 - INFO - Processing: 25% complete...
+2025-06-22 00:34:07,623 - INFO - Processing: 50% complete...
+2025-06-22 00:34:07,711 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%201.png
+2025-06-22 00:34:07,712 - INFO - Found exact match for URL-decoded image: dodona-series-overview 1.png -> c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:34:07,713 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:34:07,722 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:34:07,729 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%202.png
+2025-06-22 00:34:07,731 - INFO - Found exact match for URL-decoded image: dodona-series-overview 2.png -> c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:34:07,735 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:34:07,743 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:34:07,753 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%203.png
+2025-06-22 00:34:07,755 - INFO - Found exact match for URL-decoded image: dodona-series-overview 3.png -> c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:34:07,756 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:34:07,760 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:34:07,767 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_total_overview.png
+2025-06-22 00:34:07,773 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:34:07,774 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:34:07,778 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:34:07,789 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:34:07,791 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:34:07,792 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:34:07,798 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:34:07,805 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:34:07,805 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:34:07,805 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:34:07,805 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:34:07,823 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:34:07,824 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:34:07,825 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:34:07,829 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:34:07,833 - INFO - Processing: 75% complete...
+2025-06-22 00:34:07,840 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/descriptive-vs-inferential.png
+2025-06-22 00:34:07,840 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:34:07,841 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:34:07,845 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:34:07,850 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/hypothesis-video-question.png
+2025-06-22 00:34:07,851 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:34:07,852 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:34:07,855 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:34:07,861 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/crime-rate-calculation.png
+2025-06-22 00:34:07,861 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:34:07,862 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:34:07,864 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:34:07,871 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/histogram-interpretation.png
+2025-06-22 00:34:07,872 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:34:07,872 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:34:07,876 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:34:07,880 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-correct.png
+2025-06-22 00:34:07,881 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:34:07,881 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:34:07,885 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:34:07,888 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-wrong.png
+2025-06-22 00:34:07,888 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:34:07,888 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:34:07,896 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:34:07,906 - INFO - Processing: 90% complete...
+2025-06-22 00:34:07,938 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:34:08,024 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:34:08,025 - INFO - File conversion time: 0.72 seconds
+2025-06-22 00:34:08,025 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:34:08,025 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:34:08,027 - INFO - File size: 900.20 KB
+2025-06-22 00:34:08,027 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:34:08,028 - INFO - Processing file: ../Motivation_Letter.md
+2025-06-22 00:34:08,028 - INFO - Full input path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:34:08,029 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:34:08,029 - INFO - Converting c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx...
+2025-06-22 00:34:08,030 - INFO - Successfully read Markdown file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:34:08,031 - INFO - Base directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:34:08,031 - INFO - Project root: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:34:08,060 - INFO - Document does not contain any images, skipping image search
+2025-06-22 00:34:08,060 - INFO - Starting to process markdown content...
+2025-06-22 00:34:08,066 - INFO - Processing: 10% complete...
+2025-06-22 00:34:08,070 - INFO - Processing: 25% complete...
+2025-06-22 00:34:08,071 - INFO - Processing: 50% complete...
+2025-06-22 00:34:08,089 - INFO - Processing: 75% complete...
+2025-06-22 00:34:08,095 - INFO - Processing: 90% complete...
+2025-06-22 00:34:08,096 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:34:08,125 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:34:08,126 - INFO - File conversion time: 0.10 seconds
+2025-06-22 00:34:08,127 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:34:08,128 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:34:08,129 - INFO - File size: 38.77 KB
+2025-06-22 00:34:08,129 - INFO - ================================================================================
+2025-06-22 00:34:08,129 - INFO - CONVERSION COMPLETE - Total time: 0.83 seconds
+2025-06-22 00:34:08,129 - INFO - ================================================================================
+2025-06-22 00:34:08,132 - INFO - Files in output directory:
+2025-06-22 00:34:08,133 - INFO -  - .RData (2.79 KB)
+2025-06-22 00:34:08,134 - INFO -  - .Rhistory (1.75 KB)
+2025-06-22 00:34:08,135 - INFO -  - 046_Pan.pdf (403.32 KB)
+2025-06-22 00:34:08,136 - INFO -  - 1-s2.0-S0264275124000374-main.pdf (2691.25 KB)
+2025-06-22 00:34:08,137 - INFO -  - 20240619_Vargen en Antwoorden CV.docx (162.05 KB)
+2025-06-22 00:34:08,139 - INFO -  - 20241015_CPTED_FOC_ Presentation.pptx (78.03 KB)
+2025-06-22 00:34:08,140 - INFO -  - 20241015_MPI.R (10.86 KB)
+2025-06-22 00:34:08,141 - INFO -  - 20241015_virtual_twin_MPI.html (773.02 KB)
+2025-06-22 00:34:08,142 - INFO -  - 20241015_virtual_twin_MPI.Rmd (10.90 KB)
+2025-06-22 00:34:08,143 - INFO -  - 20250108_CV_Kuralarasan_Kumar.docx (21.26 KB)
+2025-06-22 00:34:08,144 - INFO -  - 20250110_CBRE_Cover Letter.docx (17.13 KB)
+2025-06-22 00:34:08,145 - INFO -  - 20250110_CBRE_Kuralarasan_Kumar_CV.docx (135.88 KB)
+2025-06-22 00:34:08,146 - INFO -  - 20250110_ipsos_Cover Letter.docx (17.67 KB)
+2025-06-22 00:34:08,147 - INFO -  - 20250110_Kuralarasan Kumar_CV_Deloitte.docx (37.70 KB)
+2025-06-22 00:34:08,148 - INFO -  - 20250110_Kuralarasan Kumar_CV_ipsos.docx (37.12 KB)
+2025-06-22 00:34:08,149 - INFO -  - 20250113_cover_letter_Kuralarasan_Kumar.docx (17.22 KB)
+2025-06-22 00:34:08,149 - INFO -  - 20250113__Deloitte_Kuralarasan_Kumar_CV.docx (135.97 KB)
+2025-06-22 00:34:08,151 - INFO -  - 20250124_Kuralarasan Kumar_PP.docx (40.85 KB)
+2025-06-22 00:34:08,152 - INFO -  - 20250124_Kuralarasan_Kumar_CV_T&E.docx (138.64 KB)
+2025-06-22 00:34:08,153 - INFO -  - 20250125_Cover Letter_T&E.docx (17.75 KB)
+2025-06-22 00:34:08,154 - INFO -  - 20250228_CV_Kuralarasan_Kumar.docx (65.19 KB)
+2025-06-22 00:34:08,155 - INFO -  - 20250616_Motivation_letter_dodona CV.docx (28.19 KB)
+2025-06-22 00:34:08,156 - INFO -  - 20250616_Motivation_letter_dodona.docx (18.01 KB)
+2025-06-22 00:34:08,157 - INFO -  - 20250620_motivation letter.docx (18.80 KB)
+2025-06-22 00:34:08,158 - INFO -  - 20250620_vraagen en antwoorden.docx (34.09 KB)
+2025-06-22 00:34:08,159 - INFO -  - 20250621_Dodona_Learning_Path_Overview.docx (900.20 KB)
+2025-06-22 00:34:08,160 - INFO -  - 20250621_Motivation_Letter.docx (38.77 KB)
+2025-06-22 00:34:08,161 - INFO -  - 20250621_stats-course-dodona-main.zip (1722.86 KB)
+2025-06-22 00:34:08,162 - INFO -  - 20250621_vragen en antwoorden.docx (35.98 KB)
+2025-06-22 00:34:08,163 - INFO -  - B001505.pdf (41.03 KB)
+2025-06-22 00:34:08,164 - INFO -  - B001628 dutch .pdf (43.12 KB)
+2025-06-22 00:34:08,164 - INFO -  - B001628.pdf (42.97 KB)
+2025-06-22 00:34:08,167 - INFO -  - B001832.pdf (41.00 KB)
+2025-06-22 00:34:08,168 - INFO -  - B001838.pdf (32.95 KB)
+2025-06-22 00:34:08,169 - INFO -  - CBRE.docx (20.00 KB)
+2025-06-22 00:34:08,170 - INFO -  - course-voorbeeldoefeningen-basisstatistiek.csv (0.48 KB)
+2025-06-22 00:34:08,171 - INFO -  - Cover letter and CV.docx (37.74 KB)
+2025-06-22 00:34:08,172 - INFO -  - Cover letter.docx (17.65 KB)
+2025-06-22 00:34:08,172 - INFO -  - Cover letter_uatenwepen.docx (19.08 KB)
+2025-06-22 00:34:08,172 - INFO -  - Cover_letter_UAnterwerpen.docx (20.15 KB)
+2025-06-22 00:34:08,175 - INFO -  - CPTED_Presentation_v2.pptx (57.93 KB)
+2025-06-22 00:34:08,176 - INFO -  - crime-rate-calculation.png (84.95 KB)
+2025-06-22 00:34:08,177 - INFO -  - Criminology - 2024 - Barnum - Reactive guardianship Who intervenes How And why.pdf (909.26 KB)
+2025-06-22 00:34:08,178 - INFO -  - CV_Kuralarasan_Kumar.docx (57.85 KB)
+2025-06-22 00:34:08,178 - INFO -  - Data Science (0.00 KB)
+2025-06-22 00:34:08,180 - INFO -  - Dear Members of the Selection Committee.docx (19.01 KB)
+2025-06-22 00:34:08,180 - INFO -  - Deloitte.docx (20.96 KB)
+2025-06-22 00:34:08,180 - INFO -  - descriptive-vs-inferential.png (81.09 KB)
+2025-06-22 00:34:08,180 - INFO -  - dodona motivation letter.docx (19.95 KB)
+2025-06-22 00:34:08,184 - INFO -  - dodona-series-overview 1.png (27.58 KB)
+2025-06-22 00:34:08,184 - INFO -  - dodona-series-overview 2.png (53.51 KB)
+2025-06-22 00:34:08,186 - INFO -  - dodona-series-overview 3.png (54.75 KB)
+2025-06-22 00:34:08,187 - INFO -  - dodona-series-overview.md (1.62 KB)
+2025-06-22 00:34:08,188 - INFO -  - dodona-series-overview.png (187.89 KB)
+2025-06-22 00:34:08,189 - INFO -  - dodona_scoresheet_analyse_evaluatie_statistiek.png (31.61 KB)
+2025-06-22 00:34:08,190 - INFO -  - dodona_scoresheet_basisbegrippen_toepassingen.png (30.47 KB)
+2025-06-22 00:34:08,190 - INFO -  - dodona_scoresheet_total_overview.png (28.08 KB)
+2025-06-22 00:34:08,191 - INFO -  - Dutch B001505.pdf (41.16 KB)
+2025-06-22 00:34:08,191 - INFO -  - Exploring the Impact of CPTED on Fear of Crime.pptx (40.14 KB)
+2025-06-22 00:34:08,193 - INFO -  - histogram-interpretation.png (112.13 KB)
+2025-06-22 00:34:08,194 - INFO -  - hypothesis-video-question.png (245.51 KB)
+2025-06-22 00:34:08,195 - INFO -  - ipos.docx (21.28 KB)
+2025-06-22 00:34:08,196 - INFO -  - job tipes.pdf (2482.53 KB)
+2025-06-22 00:34:08,197 - INFO -  - Job tips link.docx (15.74 KB)
+2025-06-22 00:34:08,197 - INFO -  - job.R (10.01 KB)
+2025-06-22 00:34:08,197 - INFO -  - job_histogram.R (2.00 KB)
+2025-06-22 00:34:08,197 - INFO -  - journal.pone.0305815.pdf (1045.87 KB)
+2025-06-22 00:34:08,197 - INFO -  - K-24-04_PostDoc_ENG.pdf (185.03 KB)
+2025-06-22 00:34:08,197 - INFO -  - Kuralarasan_Kumar_CV.docx (135.95 KB)
+2025-06-22 00:34:08,197 - INFO -  - Kuralarasan_Kumar_CV_CRBE.docx (57.56 KB)
+2025-06-22 00:34:08,197 - INFO -  - Kuralarasan_Kumar_Resume_1.docx (599.56 KB)
+2025-06-22 00:34:08,197 - INFO -  - Kuralarasan_Kumar_Resume_2.docx (135.91 KB)
+2025-06-22 00:34:08,197 - INFO -  - Kural_CV.pdf (118.51 KB)
+2025-06-22 00:34:08,197 - INFO -  - Kural_Motivation_letter.docx (16.18 KB)
+2025-06-22 00:34:08,202 - INFO -  - Motivation Letter _CRBE.docx (17.13 KB)
+2025-06-22 00:34:08,202 - INFO -  - outlier-feedback-correct.png (109.13 KB)
+2025-06-22 00:34:08,202 - INFO -  - outlier-feedback-wrong.png (101.47 KB)
+2025-06-22 00:34:08,203 - INFO -  - pedagogical-screenshots-overview.md (3.75 KB)
+2025-06-22 00:34:08,204 - INFO -  - quantative methods 1.pdf (41.08 KB)
+2025-06-22 00:34:08,204 - INFO -  - question.docx (185.85 KB)
+2025-06-22 00:34:08,204 - INFO -  - Questions (0.00 KB)
+2025-06-22 00:34:08,204 - INFO -  - r exercise motivation letter.docx (22.95 KB)
+2025-06-22 00:34:08,205 - INFO -  - renamed_dodona_scoresheets (4.00 KB)
+2025-06-22 00:34:08,205 - INFO -  - renamed_dodona_scoresheets.zip (90.67 KB)
+2025-06-22 00:34:08,205 - INFO -  - reporting 1.pdf (32.97 KB)
+2025-06-22 00:34:08,206 - INFO -  - rsconnect (0.00 KB)
+2025-06-22 00:34:08,207 - INFO -  - s40163-014-0010-5.pdf (539.66 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-09-42 Voorbeeldoefeningen – Basisstatistiek - Dodona.png (113.07 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-10-12 Beschrijvende vs. inferentiële statistiek - Dodona.png (81.09 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-10-43 Interpretatie van een histogram - Dodona.png (118.92 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-11-16 Helen's nulhypothese - Dodona.png (193.38 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-13-59 Berekening van het misdaadcijfer - Dodona.png (84.95 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-15-02 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (101.47 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-15-22 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (109.13 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-45-18 Scoresheet - Dodona.png (28.08 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-45-48 Analyse en Evaluatie in Statistiek - Dodona.png (31.61 KB)
+2025-06-22 00:34:08,207 - INFO -  - Screenshot 2025-06-20 at 11-46-05 Basisbegrippen en Toepassingen - Dodona.png (30.47 KB)
+2025-06-22 00:34:08,207 - INFO -  - stats-course-dodona (0.00 KB)
+2025-06-22 00:34:08,207 - INFO -  - TCI Research (4.00 KB)
+2025-06-22 00:34:08,207 - INFO -  - Testing_Elderly_Peoples_Fear_of_Crime_Using_a_Virtual_Environment.pdf (3716.68 KB)
+2025-06-22 00:34:08,213 - INFO -  - ToetvanSchaik2012.pdf (5959.90 KB)
+2025-06-22 00:34:08,213 - INFO -  - UAnterwerp (32.00 KB)
+2025-06-22 00:34:08,213 - INFO -  - Vargen en Antwoorden CV.docx (180.93 KB)
+2025-06-22 00:34:08,213 - INFO -  - Vargen en Antwoorden.docx (150.29 KB)
+2025-06-22 00:34:08,214 - INFO -  - vraag 2.docx (52.82 KB)
+2025-06-22 00:38:53,291 - INFO - ================================================================================
+2025-06-22 00:38:53,291 - INFO - LOGGING INITIALIZED
+2025-06-22 00:38:53,291 - INFO - ================================================================================
+2025-06-22 00:38:53,291 - INFO - ================================================================================
+2025-06-22 00:38:53,307 - INFO - MARKDOWN TO WORD CONVERSION SCRIPT - STARTING
+2025-06-22 00:38:53,307 - INFO - ================================================================================
+2025-06-22 00:38:53,307 - INFO - Output directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 00:38:53,307 - INFO - Output directory already exists
+2025-06-22 00:38:53,307 - INFO - Current directory: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:38:53,307 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:38:53,307 - INFO - Processing file: description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:38:53,307 - INFO - Full input path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:38:53,307 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:38:53,307 - INFO - Converting C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx...
+2025-06-22 00:38:53,307 - INFO - Successfully read Markdown file: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:38:53,312 - INFO - Base directory: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description
+2025-06-22 00:38:53,312 - INFO - Project root: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:38:53,327 - INFO - Document contains images, searching for image files...
+2025-06-22 00:38:53,327 - INFO - Found special file bloom-pyramid.png at C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.png
+2025-06-22 00:38:53,327 - INFO - Found special file bloom-pyramid.svg at C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:38:53,337 - INFO - Searching for images in C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images
+2025-06-22 00:38:53,338 - INFO - Found 12 images in images
+2025-06-22 00:38:53,339 - INFO - Searching for images in C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../
+2025-06-22 00:38:53,339 - INFO - Found 0 images in ../
+2025-06-22 00:38:53,340 - INFO - Searching for images in C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\./
+2025-06-22 00:38:53,340 - INFO - Found 2 images in ./
+2025-06-22 00:38:53,340 - INFO - Found 16 images total
+2025-06-22 00:38:53,342 - INFO - Found 16 images
+2025-06-22 00:38:53,342 - INFO - Created image lookup with 40 entries
+2025-06-22 00:38:53,342 - INFO - Starting to process markdown content...
+2025-06-22 00:38:53,360 - INFO - Processing: 10% complete...
+2025-06-22 00:38:53,366 - INFO - Special file detected: ../bloom-pyramid.png
+2025-06-22 00:38:53,368 - INFO - Found SVG version of special file: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:38:53,368 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:38:53,370 - ERROR - Failed to insert image file C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg: 
+2025-06-22 00:38:53,371 - INFO - Used placeholder for image that couldn't be inserted: ../bloom-pyramid.png
+2025-06-22 00:38:53,411 - INFO - Processing: 25% complete...
+2025-06-22 00:38:53,575 - INFO - Processing: 50% complete...
+2025-06-22 00:38:53,621 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%201.png
+2025-06-22 00:38:53,637 - INFO - Found exact match for URL-decoded image: dodona-series-overview 1.png -> C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:38:53,638 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:38:53,638 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:38:53,638 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%202.png
+2025-06-22 00:38:53,638 - INFO - Found exact match for URL-decoded image: dodona-series-overview 2.png -> C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:38:53,638 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:38:53,648 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:38:53,652 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%203.png
+2025-06-22 00:38:53,655 - INFO - Found exact match for URL-decoded image: dodona-series-overview 3.png -> C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:38:53,655 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:38:53,659 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:38:53,660 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_total_overview.png
+2025-06-22 00:38:53,660 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:38:53,660 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:38:53,660 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:38:53,675 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:38:53,676 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:38:53,677 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:38:53,679 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:38:53,679 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:38:53,679 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:38:53,679 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:38:53,688 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:38:53,690 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:38:53,690 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:38:53,690 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:38:53,699 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:38:53,700 - INFO - Processing: 75% complete...
+2025-06-22 00:38:53,705 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/descriptive-vs-inferential.png
+2025-06-22 00:38:53,705 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:38:53,705 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:38:53,711 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:38:53,714 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/hypothesis-video-question.png
+2025-06-22 00:38:53,714 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:38:53,714 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:38:53,725 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:38:53,742 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/crime-rate-calculation.png
+2025-06-22 00:38:53,742 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:38:53,742 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:38:53,747 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:38:53,754 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/histogram-interpretation.png
+2025-06-22 00:38:53,757 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:38:53,757 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:38:53,761 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:38:53,768 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-correct.png
+2025-06-22 00:38:53,770 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:38:53,771 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:38:53,775 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:38:53,781 - INFO - Trying to resolve ../ path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-wrong.png
+2025-06-22 00:38:53,782 - INFO - Found image in common location: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:38:53,783 - INFO - Adding image from: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:38:53,791 - INFO - Successfully inserted image: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:38:53,805 - INFO - Processing: 90% complete...
+2025-06-22 00:38:53,846 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:38:53,922 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:38:53,922 - INFO - File conversion time: 0.62 seconds
+2025-06-22 00:38:53,922 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:38:53,922 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:38:53,922 - INFO - File size: 900.29 KB
+2025-06-22 00:38:53,922 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:38:53,922 - INFO - Processing file: ../Motivation_Letter.md
+2025-06-22 00:38:53,922 - INFO - Full input path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:38:53,922 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:38:53,922 - INFO - Converting C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx...
+2025-06-22 00:38:53,922 - INFO - Successfully read Markdown file: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:38:53,922 - INFO - Base directory: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:38:53,922 - INFO - Project root: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:38:54,056 - INFO - Document does not contain any images, skipping image search
+2025-06-22 00:38:54,056 - INFO - Starting to process markdown content...
+2025-06-22 00:38:54,076 - INFO - Processing: 10% complete...
+2025-06-22 00:38:54,080 - INFO - Processing: 25% complete...
+2025-06-22 00:38:54,084 - INFO - Processing: 50% complete...
+2025-06-22 00:38:54,094 - INFO - Processing: 75% complete...
+2025-06-22 00:38:54,099 - INFO - Processing: 90% complete...
+2025-06-22 00:38:54,100 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:38:54,122 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:38:54,123 - INFO - File conversion time: 0.20 seconds
+2025-06-22 00:38:54,123 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:38:54,124 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:38:54,124 - INFO - File size: 38.77 KB
+2025-06-22 00:38:54,124 - INFO - ================================================================================
+2025-06-22 00:38:54,124 - INFO - CONVERSION COMPLETE - Total time: 0.83 seconds
+2025-06-22 00:38:54,125 - INFO - ================================================================================
+2025-06-22 00:38:54,125 - INFO - Files in output directory:
+2025-06-22 00:38:54,126 - INFO -  - .RData (2.79 KB)
+2025-06-22 00:38:54,126 - INFO -  - .Rhistory (1.75 KB)
+2025-06-22 00:38:54,127 - INFO -  - 046_Pan.pdf (403.32 KB)
+2025-06-22 00:38:54,127 - INFO -  - 1-s2.0-S0264275124000374-main.pdf (2691.25 KB)
+2025-06-22 00:38:54,127 - INFO -  - 20240619_Vargen en Antwoorden CV.docx (162.05 KB)
+2025-06-22 00:38:54,128 - INFO -  - 20241015_CPTED_FOC_ Presentation.pptx (78.03 KB)
+2025-06-22 00:38:54,128 - INFO -  - 20241015_MPI.R (10.86 KB)
+2025-06-22 00:38:54,128 - INFO -  - 20241015_virtual_twin_MPI.html (773.02 KB)
+2025-06-22 00:38:54,128 - INFO -  - 20241015_virtual_twin_MPI.Rmd (10.90 KB)
+2025-06-22 00:38:54,128 - INFO -  - 20250108_CV_Kuralarasan_Kumar.docx (21.26 KB)
+2025-06-22 00:38:54,130 - INFO -  - 20250110_CBRE_Cover Letter.docx (17.13 KB)
+2025-06-22 00:38:54,130 - INFO -  - 20250110_CBRE_Kuralarasan_Kumar_CV.docx (135.88 KB)
+2025-06-22 00:38:54,131 - INFO -  - 20250110_ipsos_Cover Letter.docx (17.67 KB)
+2025-06-22 00:38:54,131 - INFO -  - 20250110_Kuralarasan Kumar_CV_Deloitte.docx (37.70 KB)
+2025-06-22 00:38:54,131 - INFO -  - 20250110_Kuralarasan Kumar_CV_ipsos.docx (37.12 KB)
+2025-06-22 00:38:54,132 - INFO -  - 20250113_cover_letter_Kuralarasan_Kumar.docx (17.22 KB)
+2025-06-22 00:38:54,132 - INFO -  - 20250113__Deloitte_Kuralarasan_Kumar_CV.docx (135.97 KB)
+2025-06-22 00:38:54,132 - INFO -  - 20250124_Kuralarasan Kumar_PP.docx (40.85 KB)
+2025-06-22 00:38:54,133 - INFO -  - 20250124_Kuralarasan_Kumar_CV_T&E.docx (138.64 KB)
+2025-06-22 00:38:54,134 - INFO -  - 20250125_Cover Letter_T&E.docx (17.75 KB)
+2025-06-22 00:38:54,134 - INFO -  - 20250228_CV_Kuralarasan_Kumar.docx (65.19 KB)
+2025-06-22 00:38:54,134 - INFO -  - 20250616_Motivation_letter_dodona CV.docx (28.19 KB)
+2025-06-22 00:38:54,134 - INFO -  - 20250616_Motivation_letter_dodona.docx (18.01 KB)
+2025-06-22 00:38:54,137 - INFO -  - 20250620_motivation letter.docx (18.80 KB)
+2025-06-22 00:38:54,139 - INFO -  - 20250620_vraagen en antwoorden.docx (34.09 KB)
+2025-06-22 00:38:54,139 - INFO -  - 20250621_Dodona_Learning_Path_Overview.docx (900.29 KB)
+2025-06-22 00:38:54,139 - INFO -  - 20250621_Motivation_Letter.docx (38.77 KB)
+2025-06-22 00:38:54,139 - INFO -  - 20250621_stats-course-dodona-main.zip (1722.86 KB)
+2025-06-22 00:38:54,141 - INFO -  - 20250621_vragen en antwoorden.docx (35.98 KB)
+2025-06-22 00:38:54,141 - INFO -  - B001505.pdf (41.03 KB)
+2025-06-22 00:38:54,142 - INFO -  - B001628 dutch .pdf (43.12 KB)
+2025-06-22 00:38:54,142 - INFO -  - B001628.pdf (42.97 KB)
+2025-06-22 00:38:54,142 - INFO -  - B001832.pdf (41.00 KB)
+2025-06-22 00:38:54,143 - INFO -  - B001838.pdf (32.95 KB)
+2025-06-22 00:38:54,143 - INFO -  - CBRE.docx (20.00 KB)
+2025-06-22 00:38:54,144 - INFO -  - course-voorbeeldoefeningen-basisstatistiek.csv (0.48 KB)
+2025-06-22 00:38:54,144 - INFO -  - Cover letter and CV.docx (37.74 KB)
+2025-06-22 00:38:54,145 - INFO -  - Cover letter.docx (17.65 KB)
+2025-06-22 00:38:54,146 - INFO -  - Cover letter_uatenwepen.docx (19.08 KB)
+2025-06-22 00:38:54,146 - INFO -  - Cover_letter_UAnterwerpen.docx (20.15 KB)
+2025-06-22 00:38:54,146 - INFO -  - CPTED_Presentation_v2.pptx (57.93 KB)
+2025-06-22 00:38:54,147 - INFO -  - crime-rate-calculation.png (84.95 KB)
+2025-06-22 00:38:54,147 - INFO -  - Criminology - 2024 - Barnum - Reactive guardianship Who intervenes How And why.pdf (909.26 KB)
+2025-06-22 00:38:54,148 - INFO -  - CV_Kuralarasan_Kumar.docx (57.85 KB)
+2025-06-22 00:38:54,148 - INFO -  - Data Science (0.00 KB)
+2025-06-22 00:38:54,148 - INFO -  - Dear Members of the Selection Committee.docx (19.01 KB)
+2025-06-22 00:38:54,148 - INFO -  - Deloitte.docx (20.96 KB)
+2025-06-22 00:38:54,148 - INFO -  - descriptive-vs-inferential.png (81.09 KB)
+2025-06-22 00:38:54,148 - INFO -  - dodona motivation letter.docx (19.95 KB)
+2025-06-22 00:38:54,148 - INFO -  - dodona-series-overview 1.png (27.58 KB)
+2025-06-22 00:38:54,148 - INFO -  - dodona-series-overview 2.png (53.51 KB)
+2025-06-22 00:38:54,148 - INFO -  - dodona-series-overview 3.png (54.75 KB)
+2025-06-22 00:38:54,151 - INFO -  - dodona-series-overview.md (1.62 KB)
+2025-06-22 00:38:54,151 - INFO -  - dodona-series-overview.png (187.89 KB)
+2025-06-22 00:38:54,151 - INFO -  - dodona_scoresheet_analyse_evaluatie_statistiek.png (31.61 KB)
+2025-06-22 00:38:54,152 - INFO -  - dodona_scoresheet_basisbegrippen_toepassingen.png (30.47 KB)
+2025-06-22 00:38:54,152 - INFO -  - dodona_scoresheet_total_overview.png (28.08 KB)
+2025-06-22 00:38:54,155 - INFO -  - Dutch B001505.pdf (41.16 KB)
+2025-06-22 00:38:54,156 - INFO -  - Exploring the Impact of CPTED on Fear of Crime.pptx (40.14 KB)
+2025-06-22 00:38:54,157 - INFO -  - histogram-interpretation.png (112.13 KB)
+2025-06-22 00:38:54,157 - INFO -  - hypothesis-video-question.png (245.51 KB)
+2025-06-22 00:38:54,157 - INFO -  - ipos.docx (21.28 KB)
+2025-06-22 00:38:54,157 - INFO -  - job tipes.pdf (2482.53 KB)
+2025-06-22 00:38:54,157 - INFO -  - Job tips link.docx (15.74 KB)
+2025-06-22 00:38:54,157 - INFO -  - job.R (10.01 KB)
+2025-06-22 00:38:54,157 - INFO -  - job_histogram.R (2.00 KB)
+2025-06-22 00:38:54,157 - INFO -  - journal.pone.0305815.pdf (1045.87 KB)
+2025-06-22 00:38:54,157 - INFO -  - K-24-04_PostDoc_ENG.pdf (185.03 KB)
+2025-06-22 00:38:54,157 - INFO -  - Kuralarasan_Kumar_CV.docx (135.95 KB)
+2025-06-22 00:38:54,157 - INFO -  - Kuralarasan_Kumar_CV_CRBE.docx (57.56 KB)
+2025-06-22 00:38:54,162 - INFO -  - Kuralarasan_Kumar_Resume_1.docx (599.56 KB)
+2025-06-22 00:38:54,162 - INFO -  - Kuralarasan_Kumar_Resume_2.docx (135.91 KB)
+2025-06-22 00:38:54,162 - INFO -  - Kural_CV.pdf (118.51 KB)
+2025-06-22 00:38:54,163 - INFO -  - Kural_Motivation_letter.docx (16.18 KB)
+2025-06-22 00:38:54,163 - INFO -  - Motivation Letter _CRBE.docx (17.13 KB)
+2025-06-22 00:38:54,163 - INFO -  - outlier-feedback-correct.png (109.13 KB)
+2025-06-22 00:38:54,164 - INFO -  - outlier-feedback-wrong.png (101.47 KB)
+2025-06-22 00:38:54,164 - INFO -  - pedagogical-screenshots-overview.md (3.75 KB)
+2025-06-22 00:38:54,164 - INFO -  - quantative methods 1.pdf (41.08 KB)
+2025-06-22 00:38:54,165 - INFO -  - question.docx (185.85 KB)
+2025-06-22 00:38:54,165 - INFO -  - Questions (0.00 KB)
+2025-06-22 00:38:54,166 - INFO -  - r exercise motivation letter.docx (22.95 KB)
+2025-06-22 00:38:54,166 - INFO -  - renamed_dodona_scoresheets (4.00 KB)
+2025-06-22 00:38:54,166 - INFO -  - renamed_dodona_scoresheets.zip (90.67 KB)
+2025-06-22 00:38:54,166 - INFO -  - reporting 1.pdf (32.97 KB)
+2025-06-22 00:38:54,166 - INFO -  - rsconnect (0.00 KB)
+2025-06-22 00:38:54,166 - INFO -  - s40163-014-0010-5.pdf (539.66 KB)
+2025-06-22 00:38:54,166 - INFO -  - Screenshot 2025-06-20 at 11-09-42 Voorbeeldoefeningen – Basisstatistiek - Dodona.png (113.07 KB)
+2025-06-22 00:38:54,173 - INFO -  - Screenshot 2025-06-20 at 11-10-12 Beschrijvende vs. inferentiële statistiek - Dodona.png (81.09 KB)
+2025-06-22 00:38:54,173 - INFO -  - Screenshot 2025-06-20 at 11-10-43 Interpretatie van een histogram - Dodona.png (118.92 KB)
+2025-06-22 00:38:54,174 - INFO -  - Screenshot 2025-06-20 at 11-11-16 Helen's nulhypothese - Dodona.png (193.38 KB)
+2025-06-22 00:38:54,174 - INFO -  - Screenshot 2025-06-20 at 11-13-59 Berekening van het misdaadcijfer - Dodona.png (84.95 KB)
+2025-06-22 00:38:54,175 - INFO -  - Screenshot 2025-06-20 at 11-15-02 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (101.47 KB)
+2025-06-22 00:38:54,175 - INFO -  - Screenshot 2025-06-20 at 11-15-22 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (109.13 KB)
+2025-06-22 00:38:54,176 - INFO -  - Screenshot 2025-06-20 at 11-45-18 Scoresheet - Dodona.png (28.08 KB)
+2025-06-22 00:38:54,176 - INFO -  - Screenshot 2025-06-20 at 11-45-48 Analyse en Evaluatie in Statistiek - Dodona.png (31.61 KB)
+2025-06-22 00:38:54,177 - INFO -  - Screenshot 2025-06-20 at 11-46-05 Basisbegrippen en Toepassingen - Dodona.png (30.47 KB)
+2025-06-22 00:38:54,177 - INFO -  - stats-course-dodona (0.00 KB)
+2025-06-22 00:38:54,177 - INFO -  - TCI Research (4.00 KB)
+2025-06-22 00:38:54,177 - INFO -  - Testing_Elderly_Peoples_Fear_of_Crime_Using_a_Virtual_Environment.pdf (3716.68 KB)
+2025-06-22 00:38:54,177 - INFO -  - ToetvanSchaik2012.pdf (5959.90 KB)
+2025-06-22 00:38:54,177 - INFO -  - UAnterwerp (32.00 KB)
+2025-06-22 00:38:54,177 - INFO -  - Vargen en Antwoorden CV.docx (180.93 KB)
+2025-06-22 00:38:54,177 - INFO -  - Vargen en Antwoorden.docx (150.29 KB)
+2025-06-22 00:38:54,177 - INFO -  - vraag 2.docx (52.82 KB)
+2025-06-22 00:40:56,141 - INFO - ================================================================================
+2025-06-22 00:40:56,142 - INFO - LOGGING INITIALIZED
+2025-06-22 00:40:56,143 - INFO - ================================================================================
+2025-06-22 00:40:56,143 - INFO - ================================================================================
+2025-06-22 00:40:56,143 - INFO - MARKDOWN TO WORD CONVERSION SCRIPT - STARTING
+2025-06-22 00:40:56,143 - INFO - ================================================================================
+2025-06-22 00:40:56,144 - INFO - Output directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 00:40:56,144 - INFO - Output directory already exists
+2025-06-22 00:40:56,144 - INFO - Current directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:40:56,145 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:40:56,145 - INFO - Processing file: description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:40:56,145 - INFO - Full input path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:40:56,145 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:40:56,146 - INFO - Converting c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx...
+2025-06-22 00:40:56,146 - INFO - Successfully read Markdown file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:40:56,147 - INFO - Base directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description
+2025-06-22 00:40:56,147 - INFO - Project root: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:40:56,169 - INFO - Document contains images, searching for image files...
+2025-06-22 00:40:56,169 - INFO - Found special file bloom-pyramid.png at c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.png
+2025-06-22 00:40:56,169 - INFO - Found special file bloom-pyramid.svg at c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:40:56,169 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images
+2025-06-22 00:40:56,169 - INFO - Found 12 images in images
+2025-06-22 00:40:56,174 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../
+2025-06-22 00:40:56,174 - INFO - Found 0 images in ../
+2025-06-22 00:40:56,174 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\./
+2025-06-22 00:40:56,174 - INFO - Found 2 images in ./
+2025-06-22 00:40:56,174 - INFO - Found 16 images total
+2025-06-22 00:40:56,174 - INFO - Found 16 images
+2025-06-22 00:40:56,174 - INFO - Created image lookup with 40 entries
+2025-06-22 00:40:56,174 - INFO - Starting to process markdown content...
+2025-06-22 00:40:56,213 - INFO - Processing: 10% complete...
+2025-06-22 00:40:56,217 - INFO - Special file detected: ../bloom-pyramid.png
+2025-06-22 00:40:56,218 - INFO - Found SVG version of special file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:40:56,218 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:40:56,220 - ERROR - Failed to insert image file c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg: 
+2025-06-22 00:40:56,220 - INFO - Used placeholder for image that couldn't be inserted: ../bloom-pyramid.png
+2025-06-22 00:40:56,269 - INFO - Processing: 25% complete...
+2025-06-22 00:40:56,492 - INFO - Processing: 50% complete...
+2025-06-22 00:40:56,528 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%201.png
+2025-06-22 00:40:56,529 - INFO - Found exact match for URL-decoded image: dodona-series-overview 1.png -> c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:40:56,530 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:40:56,535 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:40:56,543 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%202.png
+2025-06-22 00:40:56,545 - INFO - Found exact match for URL-decoded image: dodona-series-overview 2.png -> c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:40:56,546 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:40:56,550 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:40:56,557 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%203.png
+2025-06-22 00:40:56,558 - INFO - Found exact match for URL-decoded image: dodona-series-overview 3.png -> c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:40:56,558 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:40:56,563 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:40:56,568 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_total_overview.png
+2025-06-22 00:40:56,570 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:40:56,571 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:40:56,574 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:40:56,579 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:40:56,580 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:40:56,580 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:40:56,583 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:40:56,588 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:40:56,589 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:40:56,590 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:40:56,593 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:40:56,598 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:40:56,599 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:40:56,600 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:40:56,603 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:40:56,607 - INFO - Processing: 75% complete...
+2025-06-22 00:40:56,611 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/descriptive-vs-inferential.png
+2025-06-22 00:40:56,611 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:40:56,611 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:40:56,616 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:40:56,620 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/hypothesis-video-question.png
+2025-06-22 00:40:56,621 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:40:56,622 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:40:56,626 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:40:56,632 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/crime-rate-calculation.png
+2025-06-22 00:40:56,633 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:40:56,634 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:40:56,637 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:40:56,642 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/histogram-interpretation.png
+2025-06-22 00:40:56,643 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:40:56,643 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:40:56,647 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:40:56,654 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-correct.png
+2025-06-22 00:40:56,655 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:40:56,656 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:40:56,659 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:40:56,663 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-wrong.png
+2025-06-22 00:40:56,663 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:40:56,664 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:40:56,667 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:40:56,674 - INFO - Processing: 90% complete...
+2025-06-22 00:40:56,727 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:40:56,795 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:40:56,796 - INFO - File conversion time: 0.65 seconds
+2025-06-22 00:40:56,797 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:40:56,798 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:40:56,798 - INFO - File size: 900.29 KB
+2025-06-22 00:40:56,799 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:40:56,799 - INFO - Processing file: ../Motivation_Letter.md
+2025-06-22 00:40:56,799 - INFO - Full input path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:40:56,800 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:40:56,800 - INFO - Converting c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx...
+2025-06-22 00:40:56,801 - INFO - Successfully read Markdown file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:40:56,801 - INFO - Base directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:40:56,803 - INFO - Project root: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:40:56,833 - INFO - Document does not contain any images, skipping image search
+2025-06-22 00:40:56,834 - INFO - Starting to process markdown content...
+2025-06-22 00:40:56,841 - INFO - Processing: 10% complete...
+2025-06-22 00:40:56,845 - INFO - Processing: 25% complete...
+2025-06-22 00:40:56,850 - INFO - Processing: 50% complete...
+2025-06-22 00:40:56,861 - INFO - Processing: 75% complete...
+2025-06-22 00:40:56,862 - INFO - Processing: 90% complete...
+2025-06-22 00:40:56,862 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:40:56,882 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:40:56,883 - INFO - File conversion time: 0.08 seconds
+2025-06-22 00:40:56,884 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:40:56,885 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:40:56,885 - INFO - File size: 38.77 KB
+2025-06-22 00:40:56,886 - INFO - ================================================================================
+2025-06-22 00:40:56,886 - INFO - CONVERSION COMPLETE - Total time: 0.74 seconds
+2025-06-22 00:40:56,886 - INFO - ================================================================================
+2025-06-22 00:40:56,886 - INFO - Files in output directory:
+2025-06-22 00:40:56,887 - INFO -  - .RData (2.79 KB)
+2025-06-22 00:40:56,888 - INFO -  - .Rhistory (1.75 KB)
+2025-06-22 00:40:56,888 - INFO -  - 046_Pan.pdf (403.32 KB)
+2025-06-22 00:40:56,888 - INFO -  - 1-s2.0-S0264275124000374-main.pdf (2691.25 KB)
+2025-06-22 00:40:56,889 - INFO -  - 20240619_Vargen en Antwoorden CV.docx (162.05 KB)
+2025-06-22 00:40:56,889 - INFO -  - 20241015_CPTED_FOC_ Presentation.pptx (78.03 KB)
+2025-06-22 00:40:56,890 - INFO -  - 20241015_MPI.R (10.86 KB)
+2025-06-22 00:40:56,890 - INFO -  - 20241015_virtual_twin_MPI.html (773.02 KB)
+2025-06-22 00:40:56,890 - INFO -  - 20241015_virtual_twin_MPI.Rmd (10.90 KB)
+2025-06-22 00:40:56,891 - INFO -  - 20250108_CV_Kuralarasan_Kumar.docx (21.26 KB)
+2025-06-22 00:40:56,891 - INFO -  - 20250110_CBRE_Cover Letter.docx (17.13 KB)
+2025-06-22 00:40:56,891 - INFO -  - 20250110_CBRE_Kuralarasan_Kumar_CV.docx (135.88 KB)
+2025-06-22 00:40:56,892 - INFO -  - 20250110_ipsos_Cover Letter.docx (17.67 KB)
+2025-06-22 00:40:56,892 - INFO -  - 20250110_Kuralarasan Kumar_CV_Deloitte.docx (37.70 KB)
+2025-06-22 00:40:56,893 - INFO -  - 20250110_Kuralarasan Kumar_CV_ipsos.docx (37.12 KB)
+2025-06-22 00:40:56,893 - INFO -  - 20250113_cover_letter_Kuralarasan_Kumar.docx (17.22 KB)
+2025-06-22 00:40:56,893 - INFO -  - 20250113__Deloitte_Kuralarasan_Kumar_CV.docx (135.97 KB)
+2025-06-22 00:40:56,894 - INFO -  - 20250124_Kuralarasan Kumar_PP.docx (40.85 KB)
+2025-06-22 00:40:56,894 - INFO -  - 20250124_Kuralarasan_Kumar_CV_T&E.docx (138.64 KB)
+2025-06-22 00:40:56,894 - INFO -  - 20250125_Cover Letter_T&E.docx (17.75 KB)
+2025-06-22 00:40:56,895 - INFO -  - 20250228_CV_Kuralarasan_Kumar.docx (65.19 KB)
+2025-06-22 00:40:56,895 - INFO -  - 20250616_Motivation_letter_dodona CV.docx (28.19 KB)
+2025-06-22 00:40:56,895 - INFO -  - 20250616_Motivation_letter_dodona.docx (18.01 KB)
+2025-06-22 00:40:56,896 - INFO -  - 20250620_motivation letter.docx (18.80 KB)
+2025-06-22 00:40:56,896 - INFO -  - 20250620_vraagen en antwoorden.docx (34.09 KB)
+2025-06-22 00:40:56,896 - INFO -  - 20250621_Dodona_Learning_Path_Overview.docx (900.29 KB)
+2025-06-22 00:40:56,896 - INFO -  - 20250621_Motivation_Letter.docx (38.77 KB)
+2025-06-22 00:40:56,897 - INFO -  - 20250621_stats-course-dodona-main.zip (1722.86 KB)
+2025-06-22 00:40:56,897 - INFO -  - 20250621_vragen en antwoorden.docx (35.98 KB)
+2025-06-22 00:40:56,897 - INFO -  - B001505.pdf (41.03 KB)
+2025-06-22 00:40:56,898 - INFO -  - B001628 dutch .pdf (43.12 KB)
+2025-06-22 00:40:56,898 - INFO -  - B001628.pdf (42.97 KB)
+2025-06-22 00:40:56,898 - INFO -  - B001832.pdf (41.00 KB)
+2025-06-22 00:40:56,899 - INFO -  - B001838.pdf (32.95 KB)
+2025-06-22 00:40:56,899 - INFO -  - CBRE.docx (20.00 KB)
+2025-06-22 00:40:56,899 - INFO -  - course-voorbeeldoefeningen-basisstatistiek.csv (0.48 KB)
+2025-06-22 00:40:56,900 - INFO -  - Cover letter and CV.docx (37.74 KB)
+2025-06-22 00:40:56,900 - INFO -  - Cover letter.docx (17.65 KB)
+2025-06-22 00:40:56,901 - INFO -  - Cover letter_uatenwepen.docx (19.08 KB)
+2025-06-22 00:40:56,901 - INFO -  - Cover_letter_UAnterwerpen.docx (20.15 KB)
+2025-06-22 00:40:56,902 - INFO -  - CPTED_Presentation_v2.pptx (57.93 KB)
+2025-06-22 00:40:56,903 - INFO -  - crime-rate-calculation.png (84.95 KB)
+2025-06-22 00:40:56,903 - INFO -  - Criminology - 2024 - Barnum - Reactive guardianship Who intervenes How And why.pdf (909.26 KB)
+2025-06-22 00:40:56,903 - INFO -  - CV_Kuralarasan_Kumar.docx (57.85 KB)
+2025-06-22 00:40:56,904 - INFO -  - Data Science (0.00 KB)
+2025-06-22 00:40:56,904 - INFO -  - Dear Members of the Selection Committee.docx (19.01 KB)
+2025-06-22 00:40:56,905 - INFO -  - Deloitte.docx (20.96 KB)
+2025-06-22 00:40:56,905 - INFO -  - descriptive-vs-inferential.png (81.09 KB)
+2025-06-22 00:40:56,905 - INFO -  - dodona motivation letter.docx (19.95 KB)
+2025-06-22 00:40:56,906 - INFO -  - dodona-series-overview 1.png (27.58 KB)
+2025-06-22 00:40:56,906 - INFO -  - dodona-series-overview 2.png (53.51 KB)
+2025-06-22 00:40:56,906 - INFO -  - dodona-series-overview 3.png (54.75 KB)
+2025-06-22 00:40:56,907 - INFO -  - dodona-series-overview.md (1.62 KB)
+2025-06-22 00:40:56,907 - INFO -  - dodona-series-overview.png (187.89 KB)
+2025-06-22 00:40:56,907 - INFO -  - dodona_scoresheet_analyse_evaluatie_statistiek.png (31.61 KB)
+2025-06-22 00:40:56,908 - INFO -  - dodona_scoresheet_basisbegrippen_toepassingen.png (30.47 KB)
+2025-06-22 00:40:56,908 - INFO -  - dodona_scoresheet_total_overview.png (28.08 KB)
+2025-06-22 00:40:56,908 - INFO -  - Dutch B001505.pdf (41.16 KB)
+2025-06-22 00:40:56,909 - INFO -  - Exploring the Impact of CPTED on Fear of Crime.pptx (40.14 KB)
+2025-06-22 00:40:56,909 - INFO -  - histogram-interpretation.png (112.13 KB)
+2025-06-22 00:40:56,909 - INFO -  - hypothesis-video-question.png (245.51 KB)
+2025-06-22 00:40:56,910 - INFO -  - ipos.docx (21.28 KB)
+2025-06-22 00:40:56,910 - INFO -  - job tipes.pdf (2482.53 KB)
+2025-06-22 00:40:56,911 - INFO -  - Job tips link.docx (15.74 KB)
+2025-06-22 00:40:56,911 - INFO -  - job.R (10.01 KB)
+2025-06-22 00:40:56,911 - INFO -  - job_histogram.R (2.00 KB)
+2025-06-22 00:40:56,912 - INFO -  - journal.pone.0305815.pdf (1045.87 KB)
+2025-06-22 00:40:56,912 - INFO -  - K-24-04_PostDoc_ENG.pdf (185.03 KB)
+2025-06-22 00:40:56,912 - INFO -  - Kuralarasan_Kumar_CV.docx (135.95 KB)
+2025-06-22 00:40:56,913 - INFO -  - Kuralarasan_Kumar_CV_CRBE.docx (57.56 KB)
+2025-06-22 00:40:56,913 - INFO -  - Kuralarasan_Kumar_Resume_1.docx (599.56 KB)
+2025-06-22 00:40:56,913 - INFO -  - Kuralarasan_Kumar_Resume_2.docx (135.91 KB)
+2025-06-22 00:40:56,914 - INFO -  - Kural_CV.pdf (118.51 KB)
+2025-06-22 00:40:56,914 - INFO -  - Kural_Motivation_letter.docx (16.18 KB)
+2025-06-22 00:40:56,914 - INFO -  - Motivation Letter _CRBE.docx (17.13 KB)
+2025-06-22 00:40:56,915 - INFO -  - outlier-feedback-correct.png (109.13 KB)
+2025-06-22 00:40:56,915 - INFO -  - outlier-feedback-wrong.png (101.47 KB)
+2025-06-22 00:40:56,915 - INFO -  - pedagogical-screenshots-overview.md (3.75 KB)
+2025-06-22 00:40:56,915 - INFO -  - quantative methods 1.pdf (41.08 KB)
+2025-06-22 00:40:56,916 - INFO -  - question.docx (185.85 KB)
+2025-06-22 00:40:56,916 - INFO -  - Questions (0.00 KB)
+2025-06-22 00:40:56,916 - INFO -  - r exercise motivation letter.docx (22.95 KB)
+2025-06-22 00:40:56,917 - INFO -  - renamed_dodona_scoresheets (4.00 KB)
+2025-06-22 00:40:56,917 - INFO -  - renamed_dodona_scoresheets.zip (90.67 KB)
+2025-06-22 00:40:56,917 - INFO -  - reporting 1.pdf (32.97 KB)
+2025-06-22 00:40:56,918 - INFO -  - rsconnect (0.00 KB)
+2025-06-22 00:40:56,918 - INFO -  - s40163-014-0010-5.pdf (539.66 KB)
+2025-06-22 00:40:56,919 - INFO -  - Screenshot 2025-06-20 at 11-09-42 Voorbeeldoefeningen – Basisstatistiek - Dodona.png (113.07 KB)
+2025-06-22 00:40:56,920 - INFO -  - Screenshot 2025-06-20 at 11-10-12 Beschrijvende vs. inferentiële statistiek - Dodona.png (81.09 KB)
+2025-06-22 00:40:56,920 - INFO -  - Screenshot 2025-06-20 at 11-10-43 Interpretatie van een histogram - Dodona.png (118.92 KB)
+2025-06-22 00:40:56,921 - INFO -  - Screenshot 2025-06-20 at 11-11-16 Helen's nulhypothese - Dodona.png (193.38 KB)
+2025-06-22 00:40:56,921 - INFO -  - Screenshot 2025-06-20 at 11-13-59 Berekening van het misdaadcijfer - Dodona.png (84.95 KB)
+2025-06-22 00:40:56,922 - INFO -  - Screenshot 2025-06-20 at 11-15-02 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (101.47 KB)
+2025-06-22 00:40:56,922 - INFO -  - Screenshot 2025-06-20 at 11-15-22 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (109.13 KB)
+2025-06-22 00:40:56,923 - INFO -  - Screenshot 2025-06-20 at 11-45-18 Scoresheet - Dodona.png (28.08 KB)
+2025-06-22 00:40:56,923 - INFO -  - Screenshot 2025-06-20 at 11-45-48 Analyse en Evaluatie in Statistiek - Dodona.png (31.61 KB)
+2025-06-22 00:40:56,923 - INFO -  - Screenshot 2025-06-20 at 11-46-05 Basisbegrippen en Toepassingen - Dodona.png (30.47 KB)
+2025-06-22 00:40:56,924 - INFO -  - stats-course-dodona (0.00 KB)
+2025-06-22 00:40:56,924 - INFO -  - TCI Research (4.00 KB)
+2025-06-22 00:40:56,924 - INFO -  - Testing_Elderly_Peoples_Fear_of_Crime_Using_a_Virtual_Environment.pdf (3716.68 KB)
+2025-06-22 00:40:56,925 - INFO -  - ToetvanSchaik2012.pdf (5959.90 KB)
+2025-06-22 00:40:56,925 - INFO -  - UAnterwerp (32.00 KB)
+2025-06-22 00:40:56,926 - INFO -  - Vargen en Antwoorden CV.docx (180.93 KB)
+2025-06-22 00:40:56,926 - INFO -  - Vargen en Antwoorden.docx (150.29 KB)
+2025-06-22 00:40:56,926 - INFO -  - vraag 2.docx (52.82 KB)
+2025-06-22 00:46:49,868 - INFO - ================================================================================
+2025-06-22 00:46:49,868 - INFO - LOGGING INITIALIZED
+2025-06-22 00:46:49,868 - INFO - ================================================================================
+2025-06-22 00:46:49,868 - INFO - ================================================================================
+2025-06-22 00:46:49,868 - INFO - MARKDOWN TO WORD CONVERSION SCRIPT - STARTING
+2025-06-22 00:46:49,868 - INFO - ================================================================================
+2025-06-22 00:46:49,868 - INFO - Output directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 00:46:49,868 - INFO - Output directory already exists
+2025-06-22 00:46:49,868 - INFO - Current directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:46:49,868 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:46:49,868 - INFO - Processing file: description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:46:49,868 - INFO - Full input path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:46:49,868 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:46:49,868 - INFO - Converting c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx...
+2025-06-22 00:46:49,868 - INFO - Successfully read Markdown file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:46:49,868 - INFO - Base directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description
+2025-06-22 00:46:49,868 - INFO - Project root: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:46:49,921 - INFO - Document contains images, searching for image files...
+2025-06-22 00:46:49,921 - INFO - Found special file bloom-pyramid.png at c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.png
+2025-06-22 00:46:49,936 - INFO - Found special file bloom-pyramid.svg at c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:46:49,937 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images
+2025-06-22 00:46:49,937 - INFO - Found 12 images in images
+2025-06-22 00:46:49,937 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../
+2025-06-22 00:46:49,937 - INFO - Found 0 images in ../
+2025-06-22 00:46:49,937 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\./
+2025-06-22 00:46:49,937 - INFO - Found 2 images in ./
+2025-06-22 00:46:49,937 - INFO - Found 16 images total
+2025-06-22 00:46:49,937 - INFO - Found 16 images
+2025-06-22 00:46:49,937 - INFO - Created image lookup with 40 entries
+2025-06-22 00:46:49,942 - INFO - Starting to process markdown content...
+2025-06-22 00:46:49,989 - INFO - Processing: 10% complete...
+2025-06-22 00:46:49,989 - INFO - Special file detected: ../bloom-pyramid.png
+2025-06-22 00:46:49,999 - INFO - Found SVG version of special file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:46:50,000 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:46:50,002 - ERROR - Failed to insert image file c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg: 
+2025-06-22 00:46:50,004 - INFO - Used placeholder for image that couldn't be inserted: ../bloom-pyramid.png
+2025-06-22 00:46:50,081 - INFO - Processing: 25% complete...
+2025-06-22 00:46:50,263 - INFO - Processing: 50% complete...
+2025-06-22 00:46:50,294 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%201.png
+2025-06-22 00:46:50,303 - INFO - Found exact match for URL-decoded image: dodona-series-overview 1.png -> c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:46:50,304 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:46:50,307 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 1.png
+2025-06-22 00:46:50,313 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%202.png
+2025-06-22 00:46:50,315 - INFO - Found exact match for URL-decoded image: dodona-series-overview 2.png -> c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:46:50,315 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:46:50,315 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 2.png
+2025-06-22 00:46:50,324 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona-series-overview%203.png
+2025-06-22 00:46:50,325 - INFO - Found exact match for URL-decoded image: dodona-series-overview 3.png -> c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:46:50,326 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:46:50,328 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona-series-overview 3.png
+2025-06-22 00:46:50,332 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_total_overview.png
+2025-06-22 00:46:50,332 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:46:50,332 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:46:50,336 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_total_overview.png
+2025-06-22 00:46:50,339 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:46:50,339 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:46:50,339 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:46:50,339 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_basisbegrippen_toepassingen.png
+2025-06-22 00:46:50,353 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:46:50,355 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:46:50,356 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:46:50,360 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:46:50,367 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:46:50,368 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:46:50,369 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:46:50,374 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\dodona_scoresheet_analyse_evaluatie_statistiek.png
+2025-06-22 00:46:50,377 - INFO - Processing: 75% complete...
+2025-06-22 00:46:50,381 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/descriptive-vs-inferential.png
+2025-06-22 00:46:50,381 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:46:50,383 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:46:50,390 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\descriptive-vs-inferential.png
+2025-06-22 00:46:50,397 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/hypothesis-video-question.png
+2025-06-22 00:46:50,397 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:46:50,399 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:46:50,403 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\hypothesis-video-question.png
+2025-06-22 00:46:50,409 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/crime-rate-calculation.png
+2025-06-22 00:46:50,411 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:46:50,411 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:46:50,416 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\crime-rate-calculation.png
+2025-06-22 00:46:50,423 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/histogram-interpretation.png
+2025-06-22 00:46:50,424 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:46:50,424 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:46:50,426 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\histogram-interpretation.png
+2025-06-22 00:46:50,436 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-correct.png
+2025-06-22 00:46:50,438 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:46:50,439 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:46:50,439 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-correct.png
+2025-06-22 00:46:50,455 - INFO - Trying to resolve ../ path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\images/outlier-feedback-wrong.png
+2025-06-22 00:46:50,457 - INFO - Found image in common location: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:46:50,458 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:46:50,462 - INFO - Successfully inserted image: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images\outlier-feedback-wrong.png
+2025-06-22 00:46:50,483 - INFO - Processing: 90% complete...
+2025-06-22 00:46:50,520 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:46:50,580 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:46:50,580 - INFO - File conversion time: 0.71 seconds
+2025-06-22 00:46:50,580 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:46:50,581 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:46:50,581 - INFO - File size: 900.30 KB
+2025-06-22 00:46:50,582 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:46:50,583 - INFO - Processing file: ../Motivation_Letter.md
+2025-06-22 00:46:50,583 - INFO - Full input path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:46:50,583 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:46:50,583 - INFO - Converting c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx...
+2025-06-22 00:46:50,584 - INFO - Successfully read Markdown file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:46:50,584 - INFO - Base directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:46:50,585 - INFO - Project root: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:46:50,610 - INFO - Document does not contain any images, skipping image search
+2025-06-22 00:46:50,610 - INFO - Starting to process markdown content...
+2025-06-22 00:46:50,620 - INFO - Processing: 10% complete...
+2025-06-22 00:46:50,627 - INFO - Processing: 25% complete...
+2025-06-22 00:46:50,639 - INFO - Processing: 50% complete...
+2025-06-22 00:46:50,659 - INFO - Processing: 75% complete...
+2025-06-22 00:46:50,662 - INFO - Processing: 90% complete...
+2025-06-22 00:46:50,663 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:46:50,694 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:46:50,695 - INFO - File conversion time: 0.11 seconds
+2025-06-22 00:46:50,695 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:46:50,695 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:46:50,695 - INFO - File size: 38.77 KB
+2025-06-22 00:46:50,695 - INFO - ================================================================================
+2025-06-22 00:46:50,695 - INFO - CONVERSION COMPLETE - Total time: 0.83 seconds
+2025-06-22 00:46:50,695 - INFO - ================================================================================
+2025-06-22 00:46:50,695 - INFO - Files in output directory:
+2025-06-22 00:46:50,695 - INFO -  - .RData (2.79 KB)
+2025-06-22 00:46:50,695 - INFO -  - .Rhistory (1.75 KB)
+2025-06-22 00:46:50,701 - INFO -  - 046_Pan.pdf (403.32 KB)
+2025-06-22 00:46:50,701 - INFO -  - 1-s2.0-S0264275124000374-main.pdf (2691.25 KB)
+2025-06-22 00:46:50,701 - INFO -  - 20240619_Vargen en Antwoorden CV.docx (162.05 KB)
+2025-06-22 00:46:50,702 - INFO -  - 20241015_CPTED_FOC_ Presentation.pptx (78.03 KB)
+2025-06-22 00:46:50,702 - INFO -  - 20241015_MPI.R (10.86 KB)
+2025-06-22 00:46:50,702 - INFO -  - 20241015_virtual_twin_MPI.html (773.02 KB)
+2025-06-22 00:46:50,703 - INFO -  - 20241015_virtual_twin_MPI.Rmd (10.90 KB)
+2025-06-22 00:46:50,703 - INFO -  - 20250108_CV_Kuralarasan_Kumar.docx (21.26 KB)
+2025-06-22 00:46:50,704 - INFO -  - 20250110_CBRE_Cover Letter.docx (17.13 KB)
+2025-06-22 00:46:50,704 - INFO -  - 20250110_CBRE_Kuralarasan_Kumar_CV.docx (135.88 KB)
+2025-06-22 00:46:50,705 - INFO -  - 20250110_ipsos_Cover Letter.docx (17.67 KB)
+2025-06-22 00:46:50,705 - INFO -  - 20250110_Kuralarasan Kumar_CV_Deloitte.docx (37.70 KB)
+2025-06-22 00:46:50,705 - INFO -  - 20250110_Kuralarasan Kumar_CV_ipsos.docx (37.12 KB)
+2025-06-22 00:46:50,706 - INFO -  - 20250113_cover_letter_Kuralarasan_Kumar.docx (17.22 KB)
+2025-06-22 00:46:50,706 - INFO -  - 20250113__Deloitte_Kuralarasan_Kumar_CV.docx (135.97 KB)
+2025-06-22 00:46:50,707 - INFO -  - 20250124_Kuralarasan Kumar_PP.docx (40.85 KB)
+2025-06-22 00:46:50,707 - INFO -  - 20250124_Kuralarasan_Kumar_CV_T&E.docx (138.64 KB)
+2025-06-22 00:46:50,707 - INFO -  - 20250125_Cover Letter_T&E.docx (17.75 KB)
+2025-06-22 00:46:50,708 - INFO -  - 20250228_CV_Kuralarasan_Kumar.docx (65.19 KB)
+2025-06-22 00:46:50,709 - INFO -  - 20250616_Motivation_letter_dodona CV.docx (28.19 KB)
+2025-06-22 00:46:50,709 - INFO -  - 20250616_Motivation_letter_dodona.docx (18.01 KB)
+2025-06-22 00:46:50,710 - INFO -  - 20250620_motivation letter.docx (18.80 KB)
+2025-06-22 00:46:50,710 - INFO -  - 20250620_vraagen en antwoorden.docx (34.09 KB)
+2025-06-22 00:46:50,710 - INFO -  - 20250621_Dodona_Learning_Path_Overview.docx (900.30 KB)
+2025-06-22 00:46:50,710 - INFO -  - 20250621_Motivation_Letter.docx (38.77 KB)
+2025-06-22 00:46:50,710 - INFO -  - 20250621_stats-course-dodona-main.zip (1722.86 KB)
+2025-06-22 00:46:50,711 - INFO -  - 20250621_vragen en antwoorden.docx (35.98 KB)
+2025-06-22 00:46:50,711 - INFO -  - B001505.pdf (41.03 KB)
+2025-06-22 00:46:50,712 - INFO -  - B001628 dutch .pdf (43.12 KB)
+2025-06-22 00:46:50,712 - INFO -  - B001628.pdf (42.97 KB)
+2025-06-22 00:46:50,712 - INFO -  - B001832.pdf (41.00 KB)
+2025-06-22 00:46:50,713 - INFO -  - B001838.pdf (32.95 KB)
+2025-06-22 00:46:50,713 - INFO -  - CBRE.docx (20.00 KB)
+2025-06-22 00:46:50,713 - INFO -  - course-voorbeeldoefeningen-basisstatistiek.csv (0.48 KB)
+2025-06-22 00:46:50,714 - INFO -  - Cover letter and CV.docx (37.74 KB)
+2025-06-22 00:46:50,714 - INFO -  - Cover letter.docx (17.65 KB)
+2025-06-22 00:46:50,715 - INFO -  - Cover letter_uatenwepen.docx (19.08 KB)
+2025-06-22 00:46:50,715 - INFO -  - Cover_letter_UAnterwerpen.docx (20.15 KB)
+2025-06-22 00:46:50,715 - INFO -  - CPTED_Presentation_v2.pptx (57.93 KB)
+2025-06-22 00:46:50,715 - INFO -  - crime-rate-calculation.png (84.95 KB)
+2025-06-22 00:46:50,716 - INFO -  - Criminology - 2024 - Barnum - Reactive guardianship Who intervenes How And why.pdf (909.26 KB)
+2025-06-22 00:46:50,716 - INFO -  - CV_Kuralarasan_Kumar.docx (57.85 KB)
+2025-06-22 00:46:50,716 - INFO -  - Data Science (0.00 KB)
+2025-06-22 00:46:50,717 - INFO -  - Dear Members of the Selection Committee.docx (19.01 KB)
+2025-06-22 00:46:50,717 - INFO -  - Deloitte.docx (20.96 KB)
+2025-06-22 00:46:50,717 - INFO -  - descriptive-vs-inferential.png (81.09 KB)
+2025-06-22 00:46:50,717 - INFO -  - dodona motivation letter.docx (19.95 KB)
+2025-06-22 00:46:50,718 - INFO -  - dodona-series-overview 1.png (27.58 KB)
+2025-06-22 00:46:50,718 - INFO -  - dodona-series-overview 2.png (53.51 KB)
+2025-06-22 00:46:50,718 - INFO -  - dodona-series-overview 3.png (54.75 KB)
+2025-06-22 00:46:50,718 - INFO -  - dodona-series-overview.md (1.62 KB)
+2025-06-22 00:46:50,719 - INFO -  - dodona-series-overview.png (187.89 KB)
+2025-06-22 00:46:50,719 - INFO -  - dodona_scoresheet_analyse_evaluatie_statistiek.png (31.61 KB)
+2025-06-22 00:46:50,719 - INFO -  - dodona_scoresheet_basisbegrippen_toepassingen.png (30.47 KB)
+2025-06-22 00:46:50,720 - INFO -  - dodona_scoresheet_total_overview.png (28.08 KB)
+2025-06-22 00:46:50,720 - INFO -  - Dutch B001505.pdf (41.16 KB)
+2025-06-22 00:46:50,720 - INFO -  - Exploring the Impact of CPTED on Fear of Crime.pptx (40.14 KB)
+2025-06-22 00:46:50,721 - INFO -  - histogram-interpretation.png (112.13 KB)
+2025-06-22 00:46:50,721 - INFO -  - hypothesis-video-question.png (245.51 KB)
+2025-06-22 00:46:50,721 - INFO -  - ipos.docx (21.28 KB)
+2025-06-22 00:46:50,722 - INFO -  - job tipes.pdf (2482.53 KB)
+2025-06-22 00:46:50,722 - INFO -  - Job tips link.docx (15.74 KB)
+2025-06-22 00:46:50,723 - INFO -  - job.R (10.01 KB)
+2025-06-22 00:46:50,724 - INFO -  - job_histogram.R (2.00 KB)
+2025-06-22 00:46:50,724 - INFO -  - journal.pone.0305815.pdf (1045.87 KB)
+2025-06-22 00:46:50,724 - INFO -  - K-24-04_PostDoc_ENG.pdf (185.03 KB)
+2025-06-22 00:46:50,725 - INFO -  - Kuralarasan_Kumar_CV.docx (135.95 KB)
+2025-06-22 00:46:50,725 - INFO -  - Kuralarasan_Kumar_CV_CRBE.docx (57.56 KB)
+2025-06-22 00:46:50,726 - INFO -  - Kuralarasan_Kumar_Resume_1.docx (599.56 KB)
+2025-06-22 00:46:50,726 - INFO -  - Kuralarasan_Kumar_Resume_2.docx (135.91 KB)
+2025-06-22 00:46:50,726 - INFO -  - Kural_CV.pdf (118.51 KB)
+2025-06-22 00:46:50,726 - INFO -  - Kural_Motivation_letter.docx (16.18 KB)
+2025-06-22 00:46:50,726 - INFO -  - Motivation Letter _CRBE.docx (17.13 KB)
+2025-06-22 00:46:50,727 - INFO -  - outlier-feedback-correct.png (109.13 KB)
+2025-06-22 00:46:50,727 - INFO -  - outlier-feedback-wrong.png (101.47 KB)
+2025-06-22 00:46:50,727 - INFO -  - pedagogical-screenshots-overview.md (3.75 KB)
+2025-06-22 00:46:50,727 - INFO -  - quantative methods 1.pdf (41.08 KB)
+2025-06-22 00:46:50,728 - INFO -  - question.docx (185.85 KB)
+2025-06-22 00:46:50,728 - INFO -  - Questions (0.00 KB)
+2025-06-22 00:46:50,728 - INFO -  - r exercise motivation letter.docx (22.95 KB)
+2025-06-22 00:46:50,728 - INFO -  - renamed_dodona_scoresheets (4.00 KB)
+2025-06-22 00:46:50,729 - INFO -  - renamed_dodona_scoresheets.zip (90.67 KB)
+2025-06-22 00:46:50,729 - INFO -  - reporting 1.pdf (32.97 KB)
+2025-06-22 00:46:50,729 - INFO -  - rsconnect (0.00 KB)
+2025-06-22 00:46:50,729 - INFO -  - s40163-014-0010-5.pdf (539.66 KB)
+2025-06-22 00:46:50,730 - INFO -  - Screenshot 2025-06-20 at 11-09-42 Voorbeeldoefeningen – Basisstatistiek - Dodona.png (113.07 KB)
+2025-06-22 00:46:50,730 - INFO -  - Screenshot 2025-06-20 at 11-10-12 Beschrijvende vs. inferentiële statistiek - Dodona.png (81.09 KB)
+2025-06-22 00:46:50,730 - INFO -  - Screenshot 2025-06-20 at 11-10-43 Interpretatie van een histogram - Dodona.png (118.92 KB)
+2025-06-22 00:46:50,731 - INFO -  - Screenshot 2025-06-20 at 11-11-16 Helen's nulhypothese - Dodona.png (193.38 KB)
+2025-06-22 00:46:50,731 - INFO -  - Screenshot 2025-06-20 at 11-13-59 Berekening van het misdaadcijfer - Dodona.png (84.95 KB)
+2025-06-22 00:46:50,731 - INFO -  - Screenshot 2025-06-20 at 11-15-02 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (101.47 KB)
+2025-06-22 00:46:50,732 - INFO -  - Screenshot 2025-06-20 at 11-15-22 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (109.13 KB)
+2025-06-22 00:46:50,732 - INFO -  - Screenshot 2025-06-20 at 11-45-18 Scoresheet - Dodona.png (28.08 KB)
+2025-06-22 00:46:50,732 - INFO -  - Screenshot 2025-06-20 at 11-45-48 Analyse en Evaluatie in Statistiek - Dodona.png (31.61 KB)
+2025-06-22 00:46:50,732 - INFO -  - Screenshot 2025-06-20 at 11-46-05 Basisbegrippen en Toepassingen - Dodona.png (30.47 KB)
+2025-06-22 00:46:50,733 - INFO -  - stats-course-dodona (0.00 KB)
+2025-06-22 00:46:50,733 - INFO -  - TCI Research (4.00 KB)
+2025-06-22 00:46:50,733 - INFO -  - Testing_Elderly_Peoples_Fear_of_Crime_Using_a_Virtual_Environment.pdf (3716.68 KB)
+2025-06-22 00:46:50,734 - INFO -  - ToetvanSchaik2012.pdf (5959.90 KB)
+2025-06-22 00:46:50,734 - INFO -  - UAnterwerp (32.00 KB)
+2025-06-22 00:46:50,734 - INFO -  - Vargen en Antwoorden CV.docx (180.93 KB)
+2025-06-22 00:46:50,735 - INFO -  - Vargen en Antwoorden.docx (150.29 KB)
+2025-06-22 00:46:50,735 - INFO -  - vraag 2.docx (52.82 KB)
+2025-06-22 00:55:49,903 - INFO - ================================================================================
+2025-06-22 00:55:49,904 - INFO - LOGGING INITIALIZED
+2025-06-22 00:55:49,905 - INFO - ================================================================================
+2025-06-22 00:55:49,906 - INFO - ================================================================================
+2025-06-22 00:55:49,906 - INFO - MARKDOWN TO WORD CONVERSION SCRIPT - STARTING
+2025-06-22 00:55:49,907 - INFO - ================================================================================
+2025-06-22 00:55:49,907 - INFO - Output directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 00:55:49,908 - INFO - Output directory already exists
+2025-06-22 00:55:49,909 - INFO - Current directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:55:49,909 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:55:49,909 - INFO - Processing file: description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:55:49,910 - INFO - Full input path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:55:49,910 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:55:49,911 - INFO - Converting c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx...
+2025-06-22 00:55:49,912 - INFO - Successfully read Markdown file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview.md
+2025-06-22 00:55:49,914 - INFO - Base directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description
+2025-06-22 00:55:49,914 - INFO - Project root: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 00:55:49,939 - INFO - Document contains images, searching for image files...
+2025-06-22 00:55:49,939 - INFO - Found special file bloom-pyramid.png at c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.png
+2025-06-22 00:55:49,939 - INFO - Found special file bloom-pyramid.svg at c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:55:49,939 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\images
+2025-06-22 00:55:49,939 - INFO - Found 12 images in images
+2025-06-22 00:55:49,939 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../
+2025-06-22 00:55:49,939 - INFO - Found 0 images in ../
+2025-06-22 00:55:49,939 - INFO - Searching for images in c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\./
+2025-06-22 00:55:49,939 - INFO - Found 2 images in ./
+2025-06-22 00:55:49,939 - INFO - Found 16 images total
+2025-06-22 00:55:49,939 - INFO - Found 16 images
+2025-06-22 00:55:49,949 - INFO - Created image lookup with 40 entries
+2025-06-22 00:55:49,949 - INFO - Starting to process markdown content...
+2025-06-22 00:55:49,971 - INFO - Processing: 10% complete...
+2025-06-22 00:55:49,977 - INFO - Special file detected: ../bloom-pyramid.png
+2025-06-22 00:55:49,978 - INFO - Found SVG version of special file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:55:49,979 - INFO - Adding image from: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg
+2025-06-22 00:55:49,981 - ERROR - Failed to insert image file c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\bloom-pyramid.svg: 
+2025-06-22 00:55:49,981 - INFO - Used placeholder for image that couldn't be inserted: ../bloom-pyramid.png
+2025-06-22 00:55:50,027 - INFO - Processing: 25% complete...
+2025-06-22 00:55:50,288 - INFO - Processing: 50% complete...
+2025-06-22 00:55:50,356 - INFO - Processing: 75% complete...
+2025-06-22 00:55:50,390 - INFO - Processing: 90% complete...
+2025-06-22 00:55:50,405 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:55:50,423 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:55:50,423 - INFO - File conversion time: 0.51 seconds
+2025-06-22 00:55:50,423 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:55:50,432 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 00:55:50,432 - INFO - File size: 40.49 KB
+2025-06-22 00:55:50,432 - INFO - --------------------------------------------------------------------------------
+2025-06-22 00:55:50,433 - INFO - Processing file: ../Motivation_Letter.md
+2025-06-22 00:55:50,433 - INFO - Full input path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:55:50,433 - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:55:50,433 - INFO - Converting c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx...
+2025-06-22 00:55:50,434 - INFO - Successfully read Markdown file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\../Motivation_Letter.md
+2025-06-22 00:55:50,434 - INFO - Base directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:55:50,435 - INFO - Project root: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 00:55:50,458 - INFO - Document does not contain any images, skipping image search
+2025-06-22 00:55:50,458 - INFO - Starting to process markdown content...
+2025-06-22 00:55:50,465 - INFO - Processing: 10% complete...
+2025-06-22 00:55:50,469 - INFO - Processing: 25% complete...
+2025-06-22 00:55:50,473 - INFO - Processing: 50% complete...
+2025-06-22 00:55:50,489 - INFO - Processing: 75% complete...
+2025-06-22 00:55:50,491 - INFO - Processing: 90% complete...
+2025-06-22 00:55:50,491 - INFO - Finished processing markdown content. Saving document...
+2025-06-22 00:55:50,506 - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:55:50,507 - INFO - File conversion time: 0.07 seconds
+2025-06-22 00:55:50,507 - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:55:50,507 - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 00:55:50,508 - INFO - File size: 38.77 KB
+2025-06-22 00:55:50,508 - INFO - ================================================================================
+2025-06-22 00:55:50,508 - INFO - CONVERSION COMPLETE - Total time: 0.60 seconds
+2025-06-22 00:55:50,509 - INFO - ================================================================================
+2025-06-22 00:55:50,509 - INFO - Files in output directory:
+2025-06-22 00:55:50,509 - INFO -  - .RData (2.79 KB)
+2025-06-22 00:55:50,509 - INFO -  - .Rhistory (1.75 KB)
+2025-06-22 00:55:50,510 - INFO -  - 046_Pan.pdf (403.32 KB)
+2025-06-22 00:55:50,510 - INFO -  - 1-s2.0-S0264275124000374-main.pdf (2691.25 KB)
+2025-06-22 00:55:50,510 - INFO -  - 20240619_Vargen en Antwoorden CV.docx (162.05 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20241015_CPTED_FOC_ Presentation.pptx (78.03 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20241015_MPI.R (10.86 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20241015_virtual_twin_MPI.html (773.02 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20241015_virtual_twin_MPI.Rmd (10.90 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20250108_CV_Kuralarasan_Kumar.docx (21.26 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20250110_CBRE_Cover Letter.docx (17.13 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20250110_CBRE_Kuralarasan_Kumar_CV.docx (135.88 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20250110_ipsos_Cover Letter.docx (17.67 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20250110_Kuralarasan Kumar_CV_Deloitte.docx (37.70 KB)
+2025-06-22 00:55:50,511 - INFO -  - 20250110_Kuralarasan Kumar_CV_ipsos.docx (37.12 KB)
+2025-06-22 00:55:50,514 - INFO -  - 20250113_cover_letter_Kuralarasan_Kumar.docx (17.22 KB)
+2025-06-22 00:55:50,514 - INFO -  - 20250113__Deloitte_Kuralarasan_Kumar_CV.docx (135.97 KB)
+2025-06-22 00:55:50,514 - INFO -  - 20250124_Kuralarasan Kumar_PP.docx (40.85 KB)
+2025-06-22 00:55:50,514 - INFO -  - 20250124_Kuralarasan_Kumar_CV_T&E.docx (138.64 KB)
+2025-06-22 00:55:50,515 - INFO -  - 20250125_Cover Letter_T&E.docx (17.75 KB)
+2025-06-22 00:55:50,515 - INFO -  - 20250228_CV_Kuralarasan_Kumar.docx (65.19 KB)
+2025-06-22 00:55:50,515 - INFO -  - 20250616_Motivation_letter_dodona CV.docx (28.19 KB)
+2025-06-22 00:55:50,516 - INFO -  - 20250616_Motivation_letter_dodona.docx (18.01 KB)
+2025-06-22 00:55:50,516 - INFO -  - 20250620_motivation letter.docx (18.80 KB)
+2025-06-22 00:55:50,516 - INFO -  - 20250620_vraagen en antwoorden.docx (34.09 KB)
+2025-06-22 00:55:50,516 - INFO -  - 20250621_Dodona_Learning_Path_Overview.docx (40.49 KB)
+2025-06-22 00:55:50,517 - INFO -  - 20250621_Motivation_Letter.docx (38.77 KB)
+2025-06-22 00:55:50,517 - INFO -  - 20250621_stats-course-dodona-main.zip (1722.86 KB)
+2025-06-22 00:55:50,517 - INFO -  - 20250621_vragen en antwoorden.docx (35.98 KB)
+2025-06-22 00:55:50,518 - INFO -  - B001505.pdf (41.03 KB)
+2025-06-22 00:55:50,518 - INFO -  - B001628 dutch .pdf (43.12 KB)
+2025-06-22 00:55:50,519 - INFO -  - B001628.pdf (42.97 KB)
+2025-06-22 00:55:50,519 - INFO -  - B001832.pdf (41.00 KB)
+2025-06-22 00:55:50,520 - INFO -  - B001838.pdf (32.95 KB)
+2025-06-22 00:55:50,520 - INFO -  - CBRE.docx (20.00 KB)
+2025-06-22 00:55:50,520 - INFO -  - course-voorbeeldoefeningen-basisstatistiek.csv (0.48 KB)
+2025-06-22 00:55:50,521 - INFO -  - Cover letter and CV.docx (37.74 KB)
+2025-06-22 00:55:50,521 - INFO -  - Cover letter.docx (17.65 KB)
+2025-06-22 00:55:50,522 - INFO -  - Cover letter_uatenwepen.docx (19.08 KB)
+2025-06-22 00:55:50,522 - INFO -  - Cover_letter_UAnterwerpen.docx (20.15 KB)
+2025-06-22 00:55:50,522 - INFO -  - CPTED_Presentation_v2.pptx (57.93 KB)
+2025-06-22 00:55:50,522 - INFO -  - crime-rate-calculation.png (84.95 KB)
+2025-06-22 00:55:50,523 - INFO -  - Criminology - 2024 - Barnum - Reactive guardianship Who intervenes How And why.pdf (909.26 KB)
+2025-06-22 00:55:50,523 - INFO -  - CV_Kuralarasan_Kumar.docx (57.85 KB)
+2025-06-22 00:55:50,524 - INFO -  - Data Science (0.00 KB)
+2025-06-22 00:55:50,524 - INFO -  - Dear Members of the Selection Committee.docx (19.01 KB)
+2025-06-22 00:55:50,524 - INFO -  - Deloitte.docx (20.96 KB)
+2025-06-22 00:55:50,524 - INFO -  - descriptive-vs-inferential.png (81.09 KB)
+2025-06-22 00:55:50,525 - INFO -  - dodona motivation letter.docx (19.95 KB)
+2025-06-22 00:55:50,525 - INFO -  - dodona-series-overview 1.png (27.58 KB)
+2025-06-22 00:55:50,526 - INFO -  - dodona-series-overview 2.png (53.51 KB)
+2025-06-22 00:55:50,527 - INFO -  - dodona-series-overview 3.png (54.75 KB)
+2025-06-22 00:55:50,527 - INFO -  - dodona-series-overview.md (1.62 KB)
+2025-06-22 00:55:50,527 - INFO -  - dodona-series-overview.png (187.89 KB)
+2025-06-22 00:55:50,528 - INFO -  - dodona_scoresheet_analyse_evaluatie_statistiek.png (31.61 KB)
+2025-06-22 00:55:50,528 - INFO -  - dodona_scoresheet_basisbegrippen_toepassingen.png (30.47 KB)
+2025-06-22 00:55:50,528 - INFO -  - dodona_scoresheet_total_overview.png (28.08 KB)
+2025-06-22 00:55:50,529 - INFO -  - Dutch B001505.pdf (41.16 KB)
+2025-06-22 00:55:50,529 - INFO -  - Exploring the Impact of CPTED on Fear of Crime.pptx (40.14 KB)
+2025-06-22 00:55:50,529 - INFO -  - histogram-interpretation.png (112.13 KB)
+2025-06-22 00:55:50,530 - INFO -  - hypothesis-video-question.png (245.51 KB)
+2025-06-22 00:55:50,530 - INFO -  - ipos.docx (21.28 KB)
+2025-06-22 00:55:50,530 - INFO -  - job tipes.pdf (2482.53 KB)
+2025-06-22 00:55:50,531 - INFO -  - Job tips link.docx (15.74 KB)
+2025-06-22 00:55:50,531 - INFO -  - job.R (10.01 KB)
+2025-06-22 00:55:50,531 - INFO -  - job_histogram.R (2.00 KB)
+2025-06-22 00:55:50,531 - INFO -  - journal.pone.0305815.pdf (1045.87 KB)
+2025-06-22 00:55:50,532 - INFO -  - K-24-04_PostDoc_ENG.pdf (185.03 KB)
+2025-06-22 00:55:50,532 - INFO -  - Kuralarasan_Kumar_CV.docx (135.95 KB)
+2025-06-22 00:55:50,532 - INFO -  - Kuralarasan_Kumar_CV_CRBE.docx (57.56 KB)
+2025-06-22 00:55:50,532 - INFO -  - Kuralarasan_Kumar_Resume_1.docx (599.56 KB)
+2025-06-22 00:55:50,532 - INFO -  - Kuralarasan_Kumar_Resume_2.docx (135.91 KB)
+2025-06-22 00:55:50,532 - INFO -  - Kural_CV.pdf (118.51 KB)
+2025-06-22 00:55:50,534 - INFO -  - Kural_Motivation_letter.docx (16.18 KB)
+2025-06-22 00:55:50,534 - INFO -  - Motivation Letter _CRBE.docx (17.13 KB)
+2025-06-22 00:55:50,534 - INFO -  - outlier-feedback-correct.png (109.13 KB)
+2025-06-22 00:55:50,534 - INFO -  - outlier-feedback-wrong.png (101.47 KB)
+2025-06-22 00:55:50,535 - INFO -  - pedagogical-screenshots-overview.md (3.75 KB)
+2025-06-22 00:55:50,535 - INFO -  - quantative methods 1.pdf (41.08 KB)
+2025-06-22 00:55:50,535 - INFO -  - question.docx (185.85 KB)
+2025-06-22 00:55:50,536 - INFO -  - Questions (0.00 KB)
+2025-06-22 00:55:50,536 - INFO -  - r exercise motivation letter.docx (22.95 KB)
+2025-06-22 00:55:50,536 - INFO -  - renamed_dodona_scoresheets (4.00 KB)
+2025-06-22 00:55:50,537 - INFO -  - renamed_dodona_scoresheets.zip (90.67 KB)
+2025-06-22 00:55:50,537 - INFO -  - reporting 1.pdf (32.97 KB)
+2025-06-22 00:55:50,538 - INFO -  - rsconnect (0.00 KB)
+2025-06-22 00:55:50,539 - INFO -  - s40163-014-0010-5.pdf (539.66 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-09-42 Voorbeeldoefeningen – Basisstatistiek - Dodona.png (113.07 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-10-12 Beschrijvende vs. inferentiële statistiek - Dodona.png (81.09 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-10-43 Interpretatie van een histogram - Dodona.png (118.92 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-11-16 Helen's nulhypothese - Dodona.png (193.38 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-13-59 Berekening van het misdaadcijfer - Dodona.png (84.95 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-15-02 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (101.47 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-15-22 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (109.13 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-45-18 Scoresheet - Dodona.png (28.08 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-45-48 Analyse en Evaluatie in Statistiek - Dodona.png (31.61 KB)
+2025-06-22 00:55:50,540 - INFO -  - Screenshot 2025-06-20 at 11-46-05 Basisbegrippen en Toepassingen - Dodona.png (30.47 KB)
+2025-06-22 00:55:50,540 - INFO -  - stats-course-dodona (0.00 KB)
+2025-06-22 00:55:50,540 - INFO -  - TCI Research (4.00 KB)
+2025-06-22 00:55:50,544 - INFO -  - Testing_Elderly_Peoples_Fear_of_Crime_Using_a_Virtual_Environment.pdf (3716.68 KB)
+2025-06-22 00:55:50,544 - INFO -  - ToetvanSchaik2012.pdf (5959.90 KB)
+2025-06-22 00:55:50,545 - INFO -  - UAnterwerp (32.00 KB)
+2025-06-22 00:55:50,545 - INFO -  - Vargen en Antwoorden CV.docx (180.93 KB)
+2025-06-22 00:55:50,545 - INFO -  - Vargen en Antwoorden.docx (150.29 KB)
+2025-06-22 00:55:50,545 - INFO -  - vraag 2.docx (52.82 KB)

@@ -21,10 +21,10 @@ I have also applied for the Praktijkassistent position (ref. 202506/RE23/PA/003)
 
 To elaborate on my approach, I've included a supporting document titled "Dodona Learning Path: Pedagogical & Technical Overview" that details my application of scaffolding techniques, Bloom's Taxonomy, and student-centered design principles. This document illustrates how I've designed a progressive learning path through the **15 exercises**, ensuring that:
 
-- Questions build systematically through **cognitive levels**, from Remember (measurement levels, descriptive vs. inferential) through Understanding, Application, Analysis, and Evaluation, to Creation (research design).
-- Each question addresses specific **learning intentions** that align with course objectives while targeting common misconceptions.
-- The exercises incorporate **scaffolding techniques** including multi-level hints, targeted feedback, and visual explanations.
-- Content is contextualized within **criminologically relevant scenarios** such as analyzing burglary rates, interpreting crime statistics, and evaluating relationships between socioeconomic factors and crime.
+- Questions progress through **cognitive levels** from basic remembering to advanced creation of research designs
+- Exercises target specific **learning intentions** aligned with course objectives and address common misconceptions
+- Materials include **scaffolding techniques** with hints, feedback, and visual explanations
+- Content uses **criminologically relevant scenarios** like crime rate analysis and statistical interpretation
 
 Beyond content development, I bring firsthand experience with the Dodona platform, having built and refined criminology-specific exercises with interactive media and auto-graded feedback. My understanding of **our departmental workflows** from three years of contributing to lectures, internship supervision, supervising bachelor and master theses, and course support positions me to collaborate efficiently with course coordinators. Having already established productive working relationships with many colleagues in our department, I can seamlessly integrate into the team and contribute effectively from day one, with a clear understanding of the department's culture and collaborative work environment.
 

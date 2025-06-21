@@ -8,6 +8,7 @@ from docx import Document
 from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 import glob
+import re
 
 
 def find_images_efficiently(project_root, max_depth=3, logger=None):
@@ -27,32 +28,34 @@ def find_images_efficiently(project_root, max_depth=3, logger=None):
         else:
             print(msg)
 
-    log = safe_log    # Special handling for common problematic files (directly check for these)
+    # Special handling for common problematic files (directly check for these)
+    log = safe_log
     special_files = [
         'bloom-pyramid.png',
         'bloom-pyramid.svg',
         'bloom_pyramid.png'
     ]
-    
+
     for special_file in special_files:
         # Check in project root
         direct_path = os.path.join(project_root, special_file)
         if os.path.exists(direct_path):
             log(f"Found special file {special_file} at {direct_path}")
             all_images.append(direct_path)
-        
+
         # Check in parent directory
         parent_path = os.path.join(os.path.dirname(project_root), special_file)
         if os.path.exists(parent_path):
             log(f"Found special file {special_file} at {parent_path}")
             all_images.append(parent_path)
-            
+
         # Check in Dodona-Learning-Path directory
-        dodona_path = os.path.join(project_root, 'Dodona-Learning-Path', special_file)
+        dodona_path = os.path.join(
+            project_root, 'Dodona-Learning-Path', special_file)
         if os.path.exists(dodona_path):
             log(f"Found special file {special_file} in Dodona-Learning-Path directory")
             all_images.append(dodona_path)
-    
+
     # Specific directories known to contain images (in priority order)
     image_dirs = [
         'images',
@@ -226,7 +229,8 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                 log("\nAVAILABLE IMAGES:")
                 for i, img in enumerate(all_images):
                     log(f"{i+1}. {os.path.basename(img)} - {img}")
-                log("\n")            # Create a lookup dictionary for faster image matching
+                # Create a lookup dictionary for faster image matching
+                log("\n")
             for img in all_images:
                 base_name = os.path.basename(img).lower()
                 image_lookup[base_name] = img
@@ -234,12 +238,12 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                 # Also add the name without extension for more flexible matching
                 name_without_ext = os.path.splitext(base_name)[0].lower()
                 image_lookup[name_without_ext] = img
-                
+
                 # Add URL-decoded versions to support URL-encoded filenames in markdown
                 url_decoded = urllib.parse.unquote(base_name).lower()
                 if url_decoded != base_name:
                     image_lookup[url_decoded] = img
-                    
+
                     # Also add URL-decoded name without extension
                     url_decoded_name = os.path.splitext(url_decoded)[0].lower()
                     image_lookup[url_decoded_name] = img
@@ -334,11 +338,62 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                         p.add_run(
                             ' such as analyzing burglary rates, interpreting crime statistics, and evaluating relationships between socioeconomic factors and crime.').bold = False
 
-                # Standard bullet point handling
+                # Special handling for Correct/Incorrect answer choices with letter designations
+                elif re.search(r'\*\*Correct \([A-Z]\)\*\*|\*\*Incorrect \([A-Z]\)\*\*', line):
+                    content = line.strip()[2:].strip()  # Remove bullet marker
+                    p = doc.add_paragraph('', style='List Bullet')
+
+                    # Use regex to identify the pattern **Correct (X)** or **Incorrect (X)**
+                    match = re.search(
+                        r'(\*\*Correct \([A-Z]\)\*\*|\*\*Incorrect \([A-Z]\)\*\*)(.*)', content)
+                    if match:
+                        label, explanation = match.groups()
+                        # Remove the ** markers from the label
+                        label_text = label.replace('**', '')
+                        # Add the label in bold
+                        p.add_run(label_text + ': ').bold = True
+                        # Add the explanation in normal text
+                        p.add_run(explanation.strip()).bold = False
+                    else:
+                        # Fallback to standard bold processing if pattern doesn't match exactly
+                        parts = content.split('**')
+                        for idx, part in enumerate(parts):
+                            if part:  # Skip empty parts
+                                run = p.add_run(part)
+                                run.bold = (idx % 2 == 1)  # Odd parts are bold
                 elif line.strip().startswith(('-', '*')):
-                    doc.add_paragraph(line.strip()[2:], style='List Bullet')
+                    # Extract the content without the bullet marker
+                    content = line.strip()[2:].strip()
+
+                    # Check if the bullet point contains bold text
+                    if '**' in content:
+                        p = doc.add_paragraph('', style='List Bullet')
+
+                        # Process bold formatting within the bullet point
+                        parts = content.split('**')
+                        for idx, part in enumerate(parts):
+                            if part:  # Skip empty parts
+                                run = p.add_run(part)
+                                run.bold = (idx % 2 == 1)  # Odd parts are bold
+                    else:
+                        # Standard bullet point without special formatting
+                        doc.add_paragraph(content, style='List Bullet')
                 elif line.strip().startswith('1.') and line.strip()[3:].strip():
-                    doc.add_paragraph(line.strip()[3:], style='List Number')
+                    content = line.strip()[3:].strip()
+
+                    # Check if the numbered item contains bold text
+                    if '**' in content:
+                        p = doc.add_paragraph('', style='List Number')
+
+                        # Process bold formatting within the numbered point
+                        parts = content.split('**')
+                        for idx, part in enumerate(parts):
+                            if part:  # Skip empty parts
+                                run = p.add_run(part)
+                                run.bold = (idx % 2 == 1)  # Odd parts are bold
+                    else:
+                        # Standard numbered item without special formatting
+                        doc.add_paragraph(content, style='List Number')
                 else:
                     doc.add_paragraph(line)  # Fallback
 
@@ -390,89 +445,113 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                     start = line.find('![') + 2
                     end = line.find(']', start)
                     alt_text = line[start:end] if end > start else "Image"
-                    
+
                     img_start = line.find('(', end) + 1
-                    img_end = line.find(')', img_start)                    # Try to find the actual image file
+                    # Try to find the actual image file
+                    img_end = line.find(')', img_start)
                     img_path = line[img_start:img_end] if img_end > img_start else ""
                     img_file = None                    # Special handling for specific problematic files
-                    special_files = ['bloom-pyramid.png', 'bloom-pyramid.svg', 'bloom_pyramid.png']
-                    is_special_file = img_path.lower().endswith(tuple(special_files)) or os.path.basename(img_path).lower() in special_files
-                    
+                    special_files = ['bloom-pyramid.png',
+                                     'bloom-pyramid.svg', 'bloom_pyramid.png']
+                    is_special_file = img_path.lower().endswith(
+                        tuple(special_files)) or os.path.basename(img_path).lower() in special_files
+
                     if is_special_file:
                         log(f"Special file detected: {img_path}")
                         # Try alternative file formats for special files
-                        base_name = os.path.splitext(os.path.basename(img_path))[0].lower()
-                        
+                        base_name = os.path.splitext(
+                            os.path.basename(img_path))[0].lower()
+
                         # First look for SVG (vector) version which might be better quality
-                        svg_version = find_specific_image(project_root, base_name + '.svg', logger=log)
+                        svg_version = find_specific_image(
+                            project_root, base_name + '.svg', logger=log)
                         if svg_version:
                             img_file = svg_version
-                            log(f"Found SVG version of special file: {img_file}")
+                            log(
+                                f"Found SVG version of special file: {img_file}")
                         else:
                             # Then try PNG version
-                            png_version = find_specific_image(project_root, base_name + '.png', logger=log)
+                            png_version = find_specific_image(
+                                project_root, base_name + '.png', logger=log)
                             if png_version:
                                 img_file = png_version
-                                log(f"Found PNG version of special file: {img_file}")
+                                log(
+                                    f"Found PNG version of special file: {img_file}")
                             else:
                                 # Use our specialized function to find any version of this problematic file
-                                specific_img = find_specific_image(project_root, base_name + '.*', logger=log)
+                                specific_img = find_specific_image(
+                                    project_root, base_name + '.*', logger=log)
                                 if specific_img:
                                     img_file = specific_img
-                                    log(f"Found special file using dedicated search: {img_file}")
+                                    log(
+                                        f"Found special file using dedicated search: {img_file}")
                                 else:
                                     # Fallback to checking several possible locations with different extensions
-                                    possible_extensions = ['.png', '.svg', '.jpg', '.jpeg']
+                                    possible_extensions = [
+                                        '.png', '.svg', '.jpg', '.jpeg']
                                     possible_locations = []
-                                    
+
                                     for ext in possible_extensions:
                                         possible_locations.extend([
-                                            os.path.join(project_root, base_name + ext),
-                                            os.path.join(os.path.dirname(project_root), base_name + ext),
-                                            os.path.join(project_root, 'Dodona-Learning-Path', base_name + ext),
-                                            os.path.join(project_root, 'Dodona-Learning-Path', 'images', base_name + ext),
+                                            os.path.join(
+                                                project_root, base_name + ext),
+                                            os.path.join(os.path.dirname(
+                                                project_root), base_name + ext),
+                                            os.path.join(
+                                                project_root, 'Dodona-Learning-Path', base_name + ext),
+                                            os.path.join(
+                                                project_root, 'Dodona-Learning-Path', 'images', base_name + ext),
                                         ])
-                                    
+
                                     # Add hardcoded paths as last resort
                                     possible_locations.extend([
-                                        os.path.join(project_root, 'bloom-pyramid.png'),
-                                        os.path.join(project_root, 'bloom-pyramid.svg'),
-                                        os.path.join(project_root, '..', 'bloom-pyramid.png')
+                                        os.path.join(
+                                            project_root, 'bloom-pyramid.png'),
+                                        os.path.join(
+                                            project_root, 'bloom-pyramid.svg'),
+                                        os.path.join(
+                                            project_root, '..', 'bloom-pyramid.png')
                                     ])
-                                    
+
                                     for location in possible_locations:
                                         if os.path.exists(location):
                                             img_file = location
-                                            log(f"Found special file at: {img_file}")
+                                            log(
+                                                f"Found special file at: {img_file}")
                                             break
-                    
+
                     # Special handling for relative paths with ../
                     elif img_path.startswith('../'):
                         parent_dir = os.path.dirname(os.path.dirname(base_dir))
                         img_relative_path = img_path.replace('../', '')
-                        resolved_path = os.path.join(parent_dir, img_relative_path)
+                        resolved_path = os.path.join(
+                            parent_dir, img_relative_path)
                         log(f"Trying to resolve ../ path: {resolved_path}")
-                        
+
                         if os.path.exists(resolved_path):
                             img_file = resolved_path
-                            log(f"Found image by resolving ../ path: {img_file}")
+                            log(
+                                f"Found image by resolving ../ path: {img_file}")
                         else:
                             # Also try with just the filename
                             just_filename = os.path.basename(img_relative_path)
                             # Check some common locations
                             for img_dir in ['images', 'media', '.', '..']:
-                                check_path = os.path.join(project_root, img_dir, just_filename)
+                                check_path = os.path.join(
+                                    project_root, img_dir, just_filename)
                                 if os.path.exists(check_path):
                                     img_file = check_path
-                                    log(f"Found image in common location: {img_file}")
+                                    log(
+                                        f"Found image in common location: {img_file}")
                                     break
-                    
+
                     # Standard image lookup if not found through relative path
                     if img_path and all_images and not img_file:
                         # Try exact filename match first
                         img_basename = os.path.basename(img_path).lower()
                         # Also try URL-decoded version
-                        url_decoded_basename = urllib.parse.unquote(img_basename).lower()
+                        url_decoded_basename = urllib.parse.unquote(
+                            img_basename).lower()
 
                         # Try direct lookup first
                         if img_basename in image_lookup:
@@ -487,8 +566,9 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                             # Try name without extension
                             name_without_ext = os.path.splitext(img_basename)[
                                 0].lower()
-                            url_decoded_name_without_ext = os.path.splitext(url_decoded_basename)[0].lower()
-                            
+                            url_decoded_name_without_ext = os.path.splitext(
+                                url_decoded_basename)[0].lower()
+
                             if name_without_ext in image_lookup:
                                 img_file = image_lookup[name_without_ext]
                                 log(
@@ -503,85 +583,97 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                                     existing_basename = os.path.basename(
                                         existing_img).lower()
                                     # Check if markdown path is contained in any found image path
-                                    if (img_basename in existing_basename or 
+                                    if (img_basename in existing_basename or
                                         name_without_ext in existing_basename or
                                         url_decoded_basename in existing_basename or
-                                        url_decoded_name_without_ext in existing_basename):
+                                            url_decoded_name_without_ext in existing_basename):
                                         img_file = existing_img
                                         log(
                                             f"Found partial match for image: {img_basename} -> {img_file}")
+                                        # Prepare the caption text with appropriate prefix based on image type
                                         break
-                      # Prepare the caption text with appropriate prefix based on image type
                     # Only use alt_text if it's not empty, otherwise use a generic caption
                     if alt_text.strip():
-                        caption_text = f"Screenshot: {alt_text}" if ("screenshot" in alt_text.lower(
-                        ) or "screenshot" in img_path.lower()) else f"Image: {alt_text}"
+                        is_screenshot = "screenshot" in alt_text.lower() or "screenshot" in img_path.lower()
+                        caption_text = f"Screenshot: {alt_text}" if is_screenshot else f"Image: {alt_text}"
                     else:
-                        caption_text = "Screenshot" if ("screenshot" in img_path.lower()) else "Image"
-                    
-                    if img_file and os.path.exists(img_file):                        try:
+                        is_screenshot = "screenshot" in img_path.lower()
+                        caption_text = "Screenshot" if is_screenshot else "Image"
+
+                    if img_file and os.path.exists(img_file):
+                        try:
                             # Insert the actual image
                             log(f"Adding image from: {img_file}")
-                              # Try to check if we can access the file before attempting to use it
+                            # Try to check if we can access the file before attempting to use it
                             try:
                                 with open(img_file, 'rb') as test_access:
                                     pass
                             except PermissionError:
-                                log_error(f"Permission denied when trying to access {img_file}")
-                                
+                                log_error(
+                                    f"Permission denied when trying to access {img_file}")
+
                                 # Check if this is the bloom pyramid image (common problem)
-                                is_bloom_pyramid = "bloom" in img_file.lower() and ("pyramid" in img_file.lower() or "taxonomy" in img_file.lower())
-                                
+                                is_bloom_pyramid = "bloom" in img_file.lower() and (
+                                    "pyramid" in img_file.lower() or "taxonomy" in img_file.lower())
+
                                 if is_bloom_pyramid:
                                     # Try to create a fallback bloom pyramid image
                                     log("Attempting to create a fallback Bloom's Taxonomy Pyramid image")
-                                    fallback_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bloom_pyramid_fallback.png")
-                                    
+                                    fallback_path = os.path.join(os.path.dirname(
+                                        os.path.abspath(__file__)), "bloom_pyramid_fallback.png")
+
                                     try:
                                         # Try to import and use our script to generate a fallback image
                                         try:
                                             import create_bloom_pyramid_image
                                             if create_bloom_pyramid_image.create_bloom_pyramid_image(fallback_path):
-                                                log(f"Successfully created fallback bloom pyramid image at {fallback_path}")
+                                                log(
+                                                    f"Successfully created fallback bloom pyramid image at {fallback_path}")
                                                 img_file = fallback_path
                                             else:
-                                                raise Exception("Failed to create fallback image")
+                                                raise Exception(
+                                                    "Failed to create fallback image")
                                         except ImportError:
-                                            log_error("Could not import create_bloom_pyramid_image module")
+                                            log_error(
+                                                "Could not import create_bloom_pyramid_image module")
                                             raise
                                     except Exception as fallback_error:
-                                        log_error(f"Failed to create fallback bloom pyramid image: {str(fallback_error)}")
+                                        log_error(
+                                            f"Failed to create fallback bloom pyramid image: {str(fallback_error)}")
                                         raise
                                 else:
                                     # For other files, try copying to temp location
                                     import shutil
                                     import tempfile
                                     temp_dir = tempfile.gettempdir()
-                                    temp_img = os.path.join(temp_dir, os.path.basename(img_file))
+                                    temp_img = os.path.join(
+                                        temp_dir, os.path.basename(img_file))
                                     try:
                                         shutil.copy2(img_file, temp_img)
-                                        log(f"Copied image to temporary location: {temp_img}")
+                                        log(
+                                            f"Copied image to temporary location: {temp_img}")
                                         img_file = temp_img
                                     except Exception as copy_error:
-                                        log_error(f"Failed to copy image to temp location: {str(copy_error)}")
+                                        log_error(
+                                            f"Failed to copy image to temp location: {str(copy_error)}")
                                         raise
-                            
+
                             # Add spacing before the image with proper formatting
                             spacing_before = doc.add_paragraph()
                             spacing_before.paragraph_format.space_after = Pt(6)
-                            
+
                             # Create a paragraph for the image with center alignment
                             image_p = doc.add_paragraph()
                             image_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
                             image_p.paragraph_format.space_before = Pt(0)
                             image_p.paragraph_format.space_after = Pt(6)
-                            
+
                             # Calculate appropriate image size based on image type
                             # Screenshots are typically wider, diagrams might need to be smaller for clarity
                             is_screenshot = "screenshot" in alt_text.lower() or "screenshot" in img_path.lower()
-                            is_diagram = any(term in alt_text.lower() or term in img_path.lower() 
-                                            for term in ["diagram", "chart", "graph", "figure"])
-                            
+                            is_diagram = any(term in alt_text.lower() or term in img_path.lower()
+                                             for term in ["diagram", "chart", "graph", "figure"])
+
                             # Determine width based on image type
                             if is_screenshot:
                                 width_inches = 6.0  # Full width for screenshots
@@ -589,25 +681,28 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                                 width_inches = 5.5  # Slightly smaller for diagrams
                             else:
                                 width_inches = 5.0  # Default for regular images
-                            
+
                             # Add the image with the calculated width
                             image_run = image_p.add_run()
-                            image = image_run.add_picture(img_file, width=Inches(width_inches))                            # Add a properly formatted caption below the image
+                            # Add a properly formatted caption below the image
+                            image = image_run.add_picture(
+                                img_file, width=Inches(width_inches))
                             caption_p = doc.add_paragraph()
                             caption_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
                             caption_p.paragraph_format.space_before = Pt(0)
                             caption_p.paragraph_format.space_after = Pt(12)
-                            
+
                             # Format the caption text with proper styling
-                            caption_run = caption_p.add_run(f"Figure: {caption_text}")
+                            caption_run = caption_p.add_run(
+                                f"Figure: {caption_text}")
                             caption_run.italic = True
                             caption_run.font.name = "Times New Roman"
                             caption_run.font.size = Pt(10)
-                            
+
                             # Add spacing after the image and caption
                             spacing_after = doc.add_paragraph()
                             spacing_after.paragraph_format.space_before = Pt(0)
-                            
+
                             log(f"Successfully inserted image: {img_file}")
                         except Exception as img_error:
                             # If image insertion fails, fall back to placeholder
@@ -704,7 +799,7 @@ def find_project_root(start_dir):
     current_dir = start_dir
     max_depth = 10  # Prevent infinite loop
     depth = 0
-    
+
     # Keep track of all directories we visit to use as potential image sources
     visited_dirs = []
     visited_dirs.append(current_dir)
@@ -891,10 +986,10 @@ def find_specific_image(project_root, target_filename, max_depth=3, logger=None)
 
     log = safe_log
     log(f"Searching specifically for {target_filename}...")
-    
+
     # Normalize the target filename
     target_filename = target_filename.lower()
-    
+
     # First check in project root and immediate subdirectories
     for root, dirs, files in os.walk(project_root):
         current_depth = root[len(project_root):].count(os.sep)
@@ -904,23 +999,23 @@ def find_specific_image(project_root, target_filename, max_depth=3, logger=None)
                     full_path = os.path.join(root, file)
                     log(f"Found specific image {target_filename} at {full_path}")
                     return full_path
-    
+
     # If not found, try parent directories
     parent_dir = os.path.dirname(project_root)
     grandparent_dir = os.path.dirname(parent_dir)
-    
+
     # Check parent
     parent_path = os.path.join(parent_dir, target_filename)
     if os.path.exists(parent_path):
         log(f"Found specific image {target_filename} in parent directory: {parent_path}")
         return parent_path
-        
+
     # Check grandparent
     grandparent_path = os.path.join(grandparent_dir, target_filename)
     if os.path.exists(grandparent_path):
         log(f"Found specific image {target_filename} in grandparent directory: {grandparent_path}")
         return grandparent_path
-    
+
     # Try with alternative names (without hyphens, with underscores, etc.)
     alt_names = [
         target_filename.replace('-', '_'),
@@ -928,31 +1023,34 @@ def find_specific_image(project_root, target_filename, max_depth=3, logger=None)
         target_filename.replace(' ', '_'),
         target_filename.replace(' ', '-')
     ]
-    
+
     for alt_name in alt_names:
         # Check in project root
         alt_path = os.path.join(project_root, alt_name)
         if os.path.exists(alt_path):
-            log(f"Found specific image with alternative name {alt_name} at {alt_path}")
+            log(
+                f"Found specific image with alternative name {alt_name} at {alt_path}")
             return alt_path
-            
+
         # Check parent directory
         alt_parent_path = os.path.join(parent_dir, alt_name)
         if os.path.exists(alt_parent_path):
-            log(f"Found specific image with alternative name {alt_name} in parent directory: {alt_parent_path}")
+            log(
+                f"Found specific image with alternative name {alt_name} in parent directory: {alt_parent_path}")
             return alt_parent_path
-    
+
     # If all else fails, try a broader search using glob
     for ext in ['.png', '.jpg', '.svg', '.jpeg']:
         # Try finding files that contain the name
         name_part = target_filename.split('.')[0]
         glob_pattern = os.path.join(project_root, f"**/*{name_part}*{ext}")
         matches = glob.glob(glob_pattern, recursive=True)
-        
+
         if matches:
-            log(f"Found potential match for {target_filename} using glob: {matches[0]}")
+            log(
+                f"Found potential match for {target_filename} using glob: {matches[0]}")
             return matches[0]
-    
+
     log(f"Could not find specific image {target_filename} after extensive search")
     return None
 
@@ -973,23 +1071,28 @@ if __name__ == "__main__":
             if "--test-images" in sys.argv:
                 test_images = True
                 logger.info("Image testing mode enabled")
-            
+
             # Special flag to focus on the bloom pyramid issue
             if "--find-bloom-pyramid" in sys.argv:
                 find_bloom_pyramid = True
                 logger.info("Bloom pyramid special search enabled")
-                
+
                 # Create a test markdown file with just the bloom pyramid reference
-                test_bloom_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "test_bloom.md")
+                test_bloom_path = os.path.join(os.path.dirname(
+                    os.path.abspath(__file__)), "test_bloom.md")
                 with open(test_bloom_path, "w") as f:
                     f.write("# Bloom Pyramid Test\n\n")
-                    f.write("This is a test file to check if the bloom pyramid image is correctly embedded.\n\n")
-                    f.write("![Bloom's Taxonomy Pyramid](../bloom-pyramid.png)\n\n")
-                    f.write("This reference should find and embed the bloom pyramid image.\n")
-                
+                    f.write(
+                        "This is a test file to check if the bloom pyramid image is correctly embedded.\n\n")
+                    f.write(
+                        "![Bloom's Taxonomy Pyramid](../bloom-pyramid.png)\n\n")
+                    f.write(
+                        "This reference should find and embed the bloom pyramid image.\n")
+
                 # Set this as our test file
                 test_file = test_bloom_path
-                logger.info(f"Created test file for bloom pyramid at {test_bloom_path}")
+                logger.info(
+                    f"Created test file for bloom pyramid at {test_bloom_path}")
 
             # Look for a specific test file
             for arg in sys.argv:

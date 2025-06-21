@@ -1,310 +1,158 @@
 # Dodona Learning Path: Pedagogical & Technical Framework
 
-## Table of Contents
-1. [Overview of Learning Goals and Student Needs](#1-overview-of-learning-goals-and-student-needs)
-2. [Bloom's Taxonomy Alignment](#2-blooms-taxonomy-alignment)
-3. [Learning Design Strategies](#3-learning-design-strategies)
-4. [Example Question Elements](#4-example-question-elements)
-5. [Annotated Screenshots](#5-annotated-screenshots)
-6. [Implementation Details and Technical Considerations](#6-implementation-details-and-technical-considerations)
-
 ## 1. Overview of Learning Goals and Student Needs
 
 ### Criminology Student Profile
-Criminology students typically come from a social science orientation with varying levels of mathematical preparation. They approach statistics primarily as practical tools for understanding crime data and social phenomena rather than as abstract mathematical concepts. These students are generally more interested in the application and interpretation of statistical methods within criminological contexts than in theoretical mathematical foundations. 
-
-Many criminology students initially approach statistics with some apprehension, which can affect their learning experience and confidence in developing quantitative skills. This hesitation often stems from limited prior exposure to formal statistical training or educational experiences that emphasized other forms of analysis. However, when statistical concepts are presented through relevant criminological examples—such as analyzing crime rates, understanding offending patterns, or evaluating intervention programs—students typically demonstrate stronger engagement and comprehension.
+Criminology students typically come from a social science orientation with varying levels of mathematical preparation. They approach statistics primarily as practical tools for understanding crime data rather than as abstract mathematical concepts. Many initially approach statistics with apprehension due to limited prior exposure to formal statistical training. However, when presented through relevant criminological examples, students typically demonstrate stronger engagement and comprehension.
 
 ### Purpose of the Learning Path
-The primary purpose of this learning path is to support the development of statistical reasoning skills using crime-relevant examples and contexts. By embedding statistical concepts within criminological scenarios, the learning path aims to:
+This learning path supports the development of statistical reasoning skills using crime-relevant examples and contexts. By embedding statistical concepts within criminological scenarios, the learning path aims to:
 - Make abstract statistical concepts more concrete and relevant
-- Demonstrate the practical utility of statistics in criminological research and practice
-- Build confidence in statistical reasoning through familiar contexts
-- Develop critical analytical skills needed for evidence-based criminology
-- Bridge the gap between theoretical understanding and practical application
-- Support students in overcoming statistics anxiety through contextual relevance
+- Demonstrate the practical utility of statistics in criminological research
+- Build confidence through familiar contexts
+- Develop critical analytical skills for evidence-based criminology
+- Bridge the gap between theory and application
+- Reduce statistics anxiety through contextual relevance
 
-## 2. Bloom's Taxonomy Alignment
+## 2. Pedagogical Framework and Course Structure
 
-### Cognitive Levels and Course Structure
-Bloom's Taxonomy provides a hierarchical model of cognitive skills that progresses from lower-order to higher-order thinking skills (Anderson et al., 2001):
-1. **Remember**: Recall facts and basic concepts
-2. **Understand**: Explain ideas or concepts
-3. **Apply**: Use information in new situations
-4. **Analyze**: Draw connections among ideas
-5. **Evaluate**: Justify a stand or decision
-6. **Create**: Produce new or original work
+### Bloom's Taxonomy Integration
+The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progressive learning journey:
 
 ![Bloom's Taxonomy Pyramid](../bloom-pyramid.png)
 
-Our course is strategically structured to progressively build through these cognitive levels:
+| Cognitive Level | Questions | Numbers | % of Course |
+|----------------|-----------|---------|-------------|
+| Remember       | 2         | 1-2     | 13%         |
+| Understand     | 2         | 3-4     | 13%         |
+| Apply          | 3         | 5-7     | 20%         |
+| Analyze        | 3         | 8-10    | 20%         |
+| Evaluate       | 4         | 11-14   | 27%         |
+| Create         | 1         | 15      | 7%          |
 
-| Cognitive Level | Number of Questions | Question Numbers | Percentage |
-|----------------|---------------------|------------------|------------|
-| Remember       | 2                   | 1-2              | 13%        |
-| Understand     | 2                   | 3-4              | 13%        |
-| Apply          | 3                   | 5-7              | 20%        |
-| Analyze        | 3                   | 8-10             | 20%        |
-| Evaluate       | 4                   | 11-14            | 27%        |
-| Create         | 1                   | 15               | 7%         |
-
-This distribution reflects our emphasis on higher-order thinking skills, with 54% of questions focusing on the top three cognitive levels (Analyze, Evaluate, Create). This approach ensures students develop both foundational knowledge and advanced critical thinking abilities needed for evidence-based criminology.
-
-### Benefits for Criminology Students
-The integration of Bloom's Taxonomy strategically supports criminology students by:
-- Building confidence through progressive complexity
-- Encouraging practical application in criminological contexts
-- Developing metacognitive skills at higher levels
-- Providing appropriately scaffolded challenges
-- Ensuring balanced coverage across all cognitive domains
+This distribution emphasizes higher-order thinking skills (54% at Analyze-Evaluate-Create levels) while building a strong foundation.
 
 ### Question-Bloom Level Mapping
-| Question Title | Bloom Level | Question Number | Learning Intention |
-|----------------|-------------|-----------------|-------------------|
-| Level of Measurement | Remember | Q1 | Identify and classify different types of data |
-| Descriptive vs. Inferential | Remember | Q2 | Differentiate descriptive from inferential statistics |
-| Null Hypothesis | Understand | Q3 | Understand hypothesis testing foundations |
-| Central Tendency | Understand | Q4 | Identify sensitivity to outliers in crime rate data |
+The following table shows how each question aligns with specific cognitive levels and learning intentions:
+
+| Question Title | Bloom Level | Number | Learning Intention |
+|----------------|-------------|--------|-------------------|
+| Level of Measurement | Remember | Q1 | Identify and classify data types |
+| Descriptive vs. Inferential | Remember | Q2 | Differentiate statistical approaches |
+| Null Hypothesis | Understand | Q3 | Understand hypothesis testing |
+| Central Tendency | Understand | Q4 | Identify outlier sensitivity |
 | Crime Rate Calculation | Apply | Q5 | Apply formulas to calculate rates |
 | Crime Rates and National Average | Apply | Q6 | Compare local to national statistics |
-| Sampling Distribution | Apply | Q7 | Apply and understand sampling concepts |
-| Chi-square | Analyze | Q8 | Analyze categorical data relationships |
+| Sampling Distribution | Apply | Q7 | Apply sampling concepts |
+| Chi-square | Analyze | Q8 | Analyze categorical relationships |
 | Histogram Interpretation | Analyze | Q9 | Analyze distributions |
 | Boxplot Interpretation | Analyze | Q10 | Identify outliers and distributions |
-| Scatterplot of Unemployment | Evaluate | Q11 | Evaluate relationships between variables |
-| Partial Correlation | Evaluate | Q12 | Evaluate complex statistical relationships |
+| Scatterplot of Unemployment | Evaluate | Q11 | Evaluate variable relationships |
+| Partial Correlation | Evaluate | Q12 | Evaluate complex relationships |
 | Significance Test Interpretation | Evaluate | Q13 | Evaluate statistical significance |
-| Spurious Correlation | Evaluate | Q14 | Evaluate causation versus correlation |
+| Spurious Correlation | Evaluate | Q14 | Evaluate causation vs. correlation |
 | Research Design Creation | Create | Q15 | Design original research methods |
 
-## 3. Learning Design Strategies
+## 3. Learning Support Strategies
 
-### Pedagogical Framework: Scaffolding and Cognitive Development
-
-The learning path incorporates two key pedagogical principles - cognitive progression based on Bloom's Taxonomy and scaffolding - to create an effective learning environment for criminology students.
-
-#### Cognitive Progression
-The course structure follows a deliberate sequence through increasing levels of cognitive complexity:
-
-1. **Remember & Understand (Questions 1-4)**: Foundational concepts of measurement levels, descriptive statistics, hypothesis testing, and central tendency
-2. **Apply (Questions 5-7)**: Practical application of statistical methods through crime rate calculations and sampling distributions
-3. **Analyze (Questions 8-10)**: Data interpretation skills using chi-square tests, histograms, and boxplots
-4. **Evaluate (Questions 11-14)**: Critical assessment of relationships between variables, partial correlation, significance testing, and spurious correlation
-5. **Create (Question 15)**: Original research design development and analysis
-
-#### Comprehensive Scaffolding Approach
-Scaffolding techniques are embedded throughout the course to support students' development from novice to independent statistical thinkers:
+### Scaffolding Approach
+Three key scaffolding techniques support student development:
 
 1. **Question Design**
-   - Early exercises provide more guidance and structure
-   - Later exercises require increasing independence
-   - Content follows a familiarity gradient from simple to complex criminological contexts
+   - Early exercises provide more guidance; later ones require more independence
+   - Content progresses from simple to complex criminological contexts
 
 2. **Multi-level Hint System**
    - Conceptual reminders → Procedural guidance → Worked examples
-   - Progressive withdrawal of support as students advance through the course
-   - Hints timed to encourage independent problem-solving attempts first
+   - Progressive withdrawal of support through the course
 
 3. **Feedback as a Learning Tool**
-   - Precise identification of conceptual errors rather than simple right/wrong responses
-   - Metacognitive prompts that encourage reflection on approach and assumptions
+   - Precise identification of conceptual errors
+   - Metacognitive prompts for reflection
    - Visual explanations for complex concepts
-   - Gradually increasing expectation of self-diagnosis in advanced exercises
 
-### Anxiety Reduction Through Structured Design
-The exercise design incorporates several features specifically aimed at reducing statistics anxiety:
+### Anxiety Reduction Features
+- **Incremental Difficulty**: Building confidence through early successes
+- **Contextualization**: Using crime-related scenarios for relevance
+- **Immediate Feedback**: Non-judgmental guidance on errors
+- **Multiple Attempts**: Reducing pressure to get it right the first time
+- **Clear Expectations**: Explicitly stated learning objectives
+- **Visual Supports**: Varied presentation for different learning styles
+- **Consistent Structure**: Reduced cognitive load through predictable formats
 
-- **Incremental Difficulty**: Questions gradually increase in complexity, allowing students to build confidence with early successes before tackling harder concepts
-- **Contextualization**: Crime-related scenarios make abstract statistical concepts more concrete and relevant to students' career interests
-- **Immediate Feedback**: Detailed, non-judgmental feedback helps students understand errors and reinforces correct thinking patterns
-- **Multiple Attempts**: Most exercises allow multiple attempts, reducing the pressure of getting it right the first time
-- **Clear Expectations**: Learning objectives are explicitly stated, removing uncertainty about what students are expected to know
-- **Visual Supports**: Graphs, tables, and visual elements help students with different learning styles understand complex ideas
-- **Consistent Structure**: Predictable exercise formats reduce cognitive load, allowing students to focus on content rather than navigating unfamiliar interfaces
+## 4. Example Content and Feedback
 
-These design elements collectively create a more supportive learning environment that acknowledges and addresses the statistical anxiety many criminology students experience.
-
-### Feedback and Support Elements
-
-#### Example Tips (Dutch)
-- "Het gemiddelde is gevoelig voor uitschieters, wat belangrijk is bij het analyseren van misdaadcijfers in wijken met occasionele extreme waarden."
+### Example Tips (Dutch)
+- "Het gemiddelde is gevoelig voor uitschieters, wat belangrijk is bij het analyseren van misdaadcijfers."
 - "Let op: bij een chi-kwadraattoets is de nulhypothese dat er geen verband bestaat tussen de variabelen."
-- "Denk aan de formule voor variantie en hoe deze verschillen in criminaliteitscijfers kwantificeert."
 - "Een correlatie van 0,7 tussen werkloosheid en misdaad betekent een sterk verband, maar nog geen causaal verband."
 - "Bij het interpreteren van p-waarden, onthoud dat 'niet significant' niet hetzelfde is als 'geen effect'."
 
-#### Targeted Feedback
-- **Correct Answers**: Confirm logic, extend concepts, connect to real-world application
-  - Example: "Juist! De mediaan is inderdaad robuuster tegen uitschieters. Dit is belangrijk bij criminaliteitsanalyse waar incidentele ernstige misdrijven de gemiddeldes kunnen vertekenen."
-- **Incorrect Answers**: Clarify misconceptions, explain concepts, and encourage reflection
-  - Example: "Niet helemaal. Bij het vergelijken van criminaliteitscijfers over verschillende wijken is het gemiddelde sterk beïnvloed door extreme waarden. In dit geval zou de mediaan een betrouwbaarder beeld geven."
-
-#### Metacognitive Reflection Examples
-- "Fout – dit is inferentiële of voorspellende statistiek. Beschrijvende statistiek heeft als doel de data samen te vatten, niet om voorspellingen te maken over de populatie."
-- "Je hebt het gemiddelde goed berekend, maar heb je ook nagedacht over hoe representatief dit gemiddelde is gezien de aanwezigheid van uitschieters in de data?"
-- "Let op: je hebt de nulhypothese verworpen, maar wat betekent dit in de context van het onderzoek naar het effect van het preventieprogramma?"
-
-#### External Resources
-Links to textbook chapters, videos, or slides are added to help students review concepts and fill gaps:
-- Video tutorials on interpreting statistical outputs in R
-- Infographics explaining key statistical concepts in criminological contexts
-- Interactive simulations demonstrating sampling distributions
-- Glossary of statistical terms with criminology-specific examples
-- Links to relevant sections of the course textbook
-
-## 4. Example Question Elements
-
-### Sample Question
+### Sample Question Structure
 - **Title**: Invloed van Uitschieters op Centrummaten
 - **Context**: Inbraakcijfers in 10 wijken in Gent: [5, 7, 6, 8, 5, 9, 6, 7, 40, 7]
-- **Scenario**: "Als criminoloog analyseer je inbraakcijfers voor 10 wijken in Gent. Je merkt dat één wijk een opvallend hoog aantal inbraken heeft, mogelijk door een reeks gerichte inbraken door dezelfde dadergroep."
+- **Scenario**: "Als criminoloog analyseer je inbraakcijfers voor 10 wijken in Gent. Je merkt dat één wijk een opvallend hoog aantal inbraken heeft."
 - **Question**: Welke uitspraak is correct over de representativiteit van centrummaten voor deze dataset?
   - A) De mediaan geeft een beter beeld van het "typische" inbraakcijfer omdat deze minder wordt beïnvloed door de uitschieter
-  - B) Het gemiddelde geeft een beter beeld van de algemene veiligheidssituatie in Gent
+  - B) Het gemiddelde geeft een beter beeld van de algemene veiligheidssituatie
   - C) Beide centrummaten zijn even representatief voor deze dataset
   - D) Geen van beide centrummaten is geschikt voor het analyseren van deze data
 
-### Feedback Logic
-- **Correct (A)**: "Juist! De mediaan (7) wordt minder beïnvloed door de extreme waarde van 40 in wijk 9. Het gemiddelde (10) wordt sterk omhoog getrokken door deze uitschieter. Bij het rapporteren van 'typische' inbraakcijfers aan beleidsmakers zou de mediaan een accurater beeld geven van de situatie in de meeste wijken."
-- **Incorrect (B)**: "Niet correct. Het gemiddelde (10) wordt sterk beïnvloed door de uitschieter van 40 inbraken in één wijk. Dit geeft een vertekend beeld van de 'typische' wijk, aangezien 9 van de 10 wijken tussen 5-9 inbraken hebben. Voor beleidsbeslissingen zou dit een misleidend beeld geven van de algemene veiligheidssituatie."
-- **Incorrect (C)**: "Niet correct. Bij datasets met uitschieters zijn het gemiddelde en de mediaan niet gelijkwaardig. In dit geval is het gemiddelde 10, terwijl de mediaan 7 is. Dit verschil ontstaat door de invloed van de uitschieter (40) op het gemiddelde."
-- **Incorrect (D)**: "Niet correct. Hoewel het gemiddelde wordt vertekend door de uitschieter, blijft de mediaan een bruikbare en robuuste maat voor het 'typische' inbraakcijfer. Centrummaten zijn nog steeds waardevol, mits ze correct worden geïnterpreteerd in de context van de datadistributie."
+### Feedback Examples
+- **Correct Answer**: "Juist! De mediaan (7) wordt minder beïnvloed door de extreme waarde van 40 in wijk 9. Het gemiddelde (10) wordt sterk omhoog getrokken door deze uitschieter. Bij het rapporteren van 'typische' inbraakcijfers aan beleidsmakers zou de mediaan een accurater beeld geven."
+- **Incorrect Answer**: "Niet correct. Het gemiddelde (10) wordt sterk beïnvloed door de uitschieter van 40 inbraken in één wijk. Dit geeft een vertekend beeld van de 'typische' wijk, aangezien 9 van de 10 wijken tussen 5-9 inbraken hebben."
 
-### Hints and Visual Aids
-- **Hint 1**: "Bereken zowel het gemiddelde als de mediaan van de inbraakcijfers en vergelijk de resultaten."
-- **Hint 2**: "Visualiseer de data met een boxplot om de positie van de uitschieter ten opzichte van de rest van de data te zien."
-- **Hint 3**: "Overweeg hoe je deze informatie zou presenteren aan gemeenteraadsleden die beslissingen moeten nemen over de inzet van politiemiddelen."
-- **Visual**: Boxplot with outlier marked at 40, with annotations showing the effect on mean vs. median
-- **Supplementary Visual**: Histogram of the same data showing the skewed distribution
+### Hints and Resources
+- **Hint Examples**: 
+  - "Bereken zowel het gemiddelde als de mediaan en vergelijk de resultaten."
+  - "Visualiseer de data met een boxplot om de positie van de uitschieter te zien."
+- **External Resources**: Video tutorials, infographics, simulations, glossary of statistical terms, textbook links
 
-## 5. Annotated Screenshots
+## 5. Platform Implementation and Monitoring
 
-This visual overview provides selected exercises from the Dodona learning path for criminology students. Each section includes the screenshot, its content description, and relevant pedagogical context.
+### Course Structure in Dodona
+The platform organizes content following Bloom's cognitive progression:
+1. **Foundation (Questions 1-4)**: Basic concepts of measurement, descriptive statistics, hypothesis testing, and central tendency (Remember & Understand)
+2. **Intermediate (Questions 5-10)**: Crime rate calculations, sampling distributions, chi-square tests, histograms, and boxplots (Apply & Analyze)
+3. **Advanced (Questions 11-15)**: Relationships between variables, partial correlation, significance testing, spurious correlation, and research design creation (Evaluate & Create)
 
-### Course Structure
-
-#### 1. Series Overview – Part 1
-![dodona-series-overview-1](../images/dodona-series-overview%201.png)
-
-The top portion of the course structure in Dodona's 'Basisstatistiek' series, showing the entry point where students can view learning objectives and track their progress through the exercises.
-
----
-
-#### 2. Series Overview – Part 2
-![dodona-series-overview-2](../images/dodona-series-overview%202.png)
-
-The middle section of the course showcases fundamental statistical concepts organized progressively through Bloom's Taxonomy, beginning with measurement levels (1), descriptive statistics (2), hypothesis testing (3), and central tendency (4). This section primarily targets the lower levels of Bloom's Taxonomy: Remember and Understand.
-
----
-
-#### 3. Series Overview – Part 3
-![dodona-series-overview-3](../images/dodona-series-overview%203.png)
-
-The following sections progress through Application (5-7), covering crime rate calculations and sampling distributions. This is followed by Analysis (8-10), focusing on chi-square tests, histograms, and boxplots. The Evaluation section (11-14) includes scatterplots, partial correlation, significance testing, and spurious correlation. The course culminates with Research Design Creation (15) that targets the highest level of Bloom's Taxonomy: Create.
-
-### Performance Monitoring
-
-#### 4. Score Summary (Total Overview)
-![Score Summary (Total Overview)](../images/dodona_scoresheet_total_overview.png)
-
-A comprehensive dashboard showing overall completion status for each student across all three course sections. This monitoring tool helps instructors identify students who may need additional support and enables targeted intervention before students fall behind.
-
----
-
-#### 5. Score Summary – Basic Concepts
-![Score Summary – Basic Concepts](../images/dodona_scoresheet_basisbegrippen_toepassingen.png)
-
-A detailed performance breakdown for the foundational concepts section (questions 1-4), providing insights into student understanding of measurement levels, descriptive statistics, hypothesis testing, and measures of central tendency. This granular view helps instructors identify specific conceptual gaps that might require additional explanation or alternative teaching approaches.
-
----
-
-#### 6. Score Summary – Application and Analysis
-![Score Summary – Analysis and Evaluation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
-
-Performance metrics for the application and analysis sections (questions 5-10), revealing student proficiency with crime rate calculations, sampling distributions, chi-square tests, and data visualization interpretation. This section highlights students' ability to apply statistical concepts and analyze data in criminological contexts.
-
----
-
-#### 7. Score Summary – Evaluation and Creation
-![Score Summary – Evaluation and Creation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
-
-Performance metrics for the advanced sections (questions 11-15), showing student mastery of complex topics like relationships between variables, partial correlation, significance testing, spurious correlation, and research design creation. This view indicates students' readiness for independent research and critical evaluation of statistical methods.
+### Performance Tracking
+The Dodona platform provides:
+- Comprehensive dashboards for student progress monitoring
+- Performance breakdowns by course section
+- Identification of conceptual gaps requiring intervention
 
 ### Example Exercises
+These selected exercises demonstrate the application of Bloom's levels:
+- **Descriptive vs. Inferential Statistics**: Foundational differentiation exercise (Remember)
+- **Hypothesis Testing with Video**: Multimedia approach to abstract concepts (Understand)
+- **Crime Rate Calculation**: Practical application of mathematical operations (Apply)
+- **Histogram Interpretation**: Data literacy for population characteristics (Analyze)
 
-#### 7. Descriptive vs. Inferential Statistics (Remember)
-![Descriptive vs. Inferential](../images/descriptive-vs-inferential.png)
-
-A foundational exercise teaching students to correctly differentiate between descriptive and inferential statistics and understand their applications in criminological research. This fundamental knowledge is crucial for understanding the purpose and limitations of different statistical approaches.
-
----
-
-#### 8. Hypothesis Testing with Video (Understand)
-![Hypothesis Video Question](../images/hypothesis-video-question.png)
-
-An exercise that integrates video content to help students understand the concept of hypothesis testing in a criminological context. This multimedia approach addresses different learning styles and helps students grasp abstract statistical concepts through visual explanations.
-
----
-
-#### 9. Crime Rate Calculation Exercise (Apply)
-![Crime Rate Calculation Exercise](../images/crime-rate-calculation.png)
-
-A practical application exercise teaching students how to calculate crime rates per 1,000 inhabitants using realistic population and incident data. This essential skill connects abstract mathematical operations to practical criminological analysis techniques used in policy reports and research publications.
-
----
-
-#### 10. Histogram Interpretation (Analyze)
-![Histogram Interpretation](../images/histogram-interpretation.png)
-
-An exercise requiring students to analyze the shape and distribution of data displayed in a histogram. This develops essential data literacy skills needed for understanding population characteristics in criminological studies and recognizing patterns such as age-crime relationships.
-
-### Feedback Examples
-
-#### 11. Outlier Identification (Correct Answer)
-![Outlier Identification (Correct Answer)](../images/outlier-feedback-correct.png)
-
-Feedback provided when students correctly identify a statistical outlier, showing step-by-step reasoning and statistical justification using Z-scores. This positive reinforcement confirms students' understanding while also modeling the formal analytical process for outlier identification that can be applied in future research work.
-
----
-
-#### 12. Outlier Identification (Incorrect Answer)
-![Outlier Identification (Incorrect Answer)](../images/outlier-feedback-wrong.png)
-
-Detailed corrective feedback provided when students misidentify outliers, transforming the error into a valuable learning opportunity. Rather than simply marking the answer as wrong, the feedback explains the reasoning process and guides students toward correct statistical thinking, addressing common misconceptions about extreme values in crime data.
-
-## 6. Implementation Details and Technical Considerations
+## 6. Technical Implementation
 
 ### Technical Framework
-The Dodona learning path is implemented using a combination of:
-- **R scripts** for automated answer validation and feedback generation
-- **Markdown** for content presentation and formatting
-- **JSON configuration** files for exercise parameters and settings
+- **R scripts** for automated answer validation and feedback
+- **Markdown** for content presentation
+- **JSON configuration** files for exercise parameters
 
-### Accessibility Considerations
-- **Language Support**: All content is available in Dutch, with terminology carefully chosen to align with students' prior knowledge
-- **Visual Alternatives**: Text descriptions accompany all graphs and visual elements
-- **Progressive Complexity**: Questions are designed to be accessible to students with different levels of statistical background
-
-### Assessment Integration
-- **Auto-grading**: Exercises are automatically evaluated with detailed feedback
-- **Progress Tracking**: Student completion rates and performance metrics are tracked
-- **Instructor Dashboard**: Faculty can monitor class progress and identify common misconceptions
+### Accessibility and Integration
+- **Language Support**: Dutch content with terminology aligned to student knowledge
+- **Visual Alternatives**: Text descriptions for all visual elements
+- **Auto-grading**: Automated evaluation with detailed feedback
+- **Progress Tracking**: Monitoring of completion rates and performance
 
 ### Future Development
-Planned enhancements to the learning path include:
-- Integration with R Studio for more complex data analysis exercises
-- Expansion of the exercise set to cover advanced multivariate statistical methods
-- Development of adaptive learning pathways that adjust to individual student performance
-- Creation of collaborative exercises that encourage peer learning and discussion
+Planned enhancements include:
+- R Studio integration for complex data analysis
+- Advanced multivariate statistical methods
+- Adaptive learning pathways based on performance
+- Collaborative peer learning exercises
 
-This learning path represents an ongoing effort to improve statistical education for criminology students by combining technical accuracy with pedagogical insight, creating an inclusive learning environment where students build confidence through meaningful engagement with statistical concepts.
-
-The recent restructuring of the course (with questions systematically organized from 1-15 following Bloom's Taxonomy) provides a clear pedagogical progression that supports students' cognitive development while maintaining criminological relevance. This structured approach helps reduce statistics anxiety by providing a logical learning sequence with appropriate scaffolding at each level of cognitive complexity.
+This learning path combines technical accuracy with pedagogical insight to create an inclusive environment where criminology students build confidence through meaningful engagement with statistical concepts.
 
 ## 7. References
 
 Anderson, L. W., Krathwohl, D. R., Airasian, P. W., Cruikshank, K. A., Mayer, R. E., Pintrich, P. R., Raths, J., & Wittrock, M. C. (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom's Taxonomy of Educational Objectives*. Longman.
 
 Krathwohl, D. R. (2002). A revision of Bloom's taxonomy: An overview. *Theory into Practice*, 41(4), 212-218.
-
-Vygotsky, L. S. (1978). *Mind in society: The development of higher psychological processes*. Harvard University Press.
