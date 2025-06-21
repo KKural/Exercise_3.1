@@ -46,24 +46,67 @@ The integration of Bloom's Taxonomy into our questions strategically supports cr
 - **Scaffolded Challenges**: Providing appropriate cognitive challenges that build upon prior knowledge (Vygotsky, 1978)
 - **Domain-Specific Application**: Applying statistical concepts directly to criminological scenarios
 
+### Course Structure and Bloom's Taxonomy Alignment
+
+The course structure has been organized to progressively build through Bloom's Taxonomy levels:
+
+#### Basic Recall (1-2)
+1. **Level of measurement** - Identify and classify different types of data
+2. **Descriptive vs. Inferential** - Differentiate between descriptive and inferential statistics
+
+#### Understanding (3-4)
+3. **Null hypothesis** - Understand the concept of null hypothesis in statistical testing
+4. **Centeral tendency** - Comprehend measures of central tendency and their applications
+
+#### Application (5-8)
+5. **Crime rate calculation** - Apply formulas to calculate crime rates
+6. **Crime rates and national average** - Apply comparative analysis of crime statistics
+7. **Sampling Distribution** - Apply sampling concepts to interpret distributions
+8. **Chi-square** - Apply chi-square tests to analyze categorical data
+
+#### Analysis (9-11)
+9. **Histogram Interpretation** - Analyze and interpret histogram distributions
+10. **Boxplot Interpretation** - Analyze outliers and distributions using boxplots
+11. **Scatterplot of unemployment** - Analyze relationships between variables
+
+#### Evaluation (12-14)
+12. **Partial Correlation** - Evaluate complex relationships between variables
+13. **Interpretation of a significance test** - Evaluate statistical significance in context
+14. **Spurious correlation** - Evaluate and critique correlational relationships
+
+#### Creation (15)
+15. **Research Design Creation** - Create and justify research methodologies
+
 ### Question-Bloom Level Mapping
 | Question Title | Bloom Level | Question Number | Learning Intention | Criminology Context |
 |----------------|-------------|-----------------|-------------------|---------------------|
 | Doel van Beschrijvende Statistiek | Remember | Q2 | Differentiate descriptive from inferential statistics | Police report summaries |
 | Gemiddelde vs. Mediaan | Understand | Q4 | Identify sensitivity to outliers in crime rate data | Crime rates across districts |
-| Standaarddeviatie Vergelijking | Understand | - | Compare variability in crime metrics | Crime pattern consistency |
-| p-Waarde Interpretatie | Understand | Q15 | Explain p-values in hypothesis testing | Testing intervention effectiveness |
-| Berekenen van Modus | Apply | - | Calculate mode from crime type frequencies | Common offense categories |
-| Uitschieters Identificeren | Apply | Q14 | Identify outliers in crime rate datasets | Unusual crime spikes |
-| Betrouwbaarheidsintervallen | Apply | Q12 | Calculate and interpret confidence intervals | Estimating true crime rates |
-| Effectgrootte Berekening | Apply | - | Calculate effect sizes | Impact of rehabilitation programs |
-| Regressieanalyse Interpretatie | Analyze | Q6 | Interpret regression coefficients in context | Predicting recidivism rates |
-| Scheve Verdeling Herkennen | Analyze | Q10 | Identify skewed distributions | Income distribution in high-crime areas |
-| Steekproef Representativiteit | Evaluate | Q8 | Assess sampling biases | Survey of prison populations |
-| Type I en Type II Fouten | Evaluate | Q3 | Evaluate consequences of statistical errors | False convictions vs. missed offenders |
-| Grafische Weergave Kiezen | Create | Q9 | Choose appropriate data visualizations | Presenting crime trends to stakeholders |
+| Nulhypothese Formuleren | Understand | Q3 | Understand hypothesis testing foundations | Testing intervention effectiveness |
+| Crime Rate Calculation | Apply | Q5 | Apply formulas to calculate rates | Standardizing crime comparisons |
+| National Crime Average | Apply | Q6 | Compare local to national statistics | Policy effectiveness evaluation |
+| Betrouwbaarheidsintervallen | Apply | Q7 | Calculate and interpret confidence intervals | Estimating true crime rates |
+| Chi-square Analysis | Apply | Q8 | Apply chi-square to categorical data | Demographic crime pattern analysis |
+| Histogram Interpretation | Analyze | Q9 | Analyze distributions | Age patterns in offending |
+| Boxplot Analysis | Analyze | Q10 | Identify outliers and distributions | Unusual crime rate patterns |
+| Scatterplot Analysis | Analyze | Q11 | Analyze relationships between variables | Unemployment and crime rates |
+| Partial Correlation | Evaluate | Q12 | Evaluate complex statistical relationships | Controlling for confounding variables |
+| Significance Test Interpretation | Evaluate | Q13 | Evaluate statistical significance | Program effectiveness assessment |
+| Spurious Correlation | Evaluate | Q14 | Critique correlational claims | Distinguishing causation from correlation |
+| Research Design Creation | Create | Q15 | Design original research methods | Creating valid criminological studies |
 
 ## 3. Learning Design Strategies
+
+### Course Structure and Bloom's Taxonomy Integration
+The course has been carefully restructured to create a clear progression through Bloom's Taxonomy levels, supporting students' cognitive development from foundational knowledge to advanced skills:
+
+1. **Remember & Understand (Questions 1-4)**: Foundational concepts about measurement levels, descriptive statistics, hypothesis testing, and central tendency
+2. **Apply (Questions 5-8)**: Practical application of statistical methods including crime rate calculations, sampling distributions, and chi-square tests
+3. **Analyze (Questions 9-11)**: Data interpretation skills through histogram, boxplot, and scatterplot analysis
+4. **Evaluate (Questions 12-14)**: Critical assessment of statistical relationships, significance testing, and correlational claims
+5. **Create (Question 15)**: Original research design development
+
+This organized sequence creates a coherent learning journey through increasing cognitive complexity while maintaining contextual relevance to criminology. The structure deliberately removes overlapping concepts and ensures each level builds upon previous learning.
 
 ### Instructional Design Strategy
 The learning path is structured using Bloom's Taxonomy as a cognitive scaffold, progressively building from foundational understanding to higher-order skills like evaluation and creation (Krathwohl, 2002).
@@ -166,14 +209,14 @@ The top portion of the course structure in Dodona's 'Basisstatistiek' series, sh
 #### 2. Series Overview – Part 2
 ![dodona-series-overview-2](../images/dodona-series-overview-2.png)
 
-The middle section of the course showcases *Basisbegrippen en Toepassingen* (Basic Concepts and Applications), progressively introducing fundamental statistical concepts such as measurement levels, crime rate calculations, and correlation. Exercises in this section primarily target the lower three levels of Bloom's Taxonomy: Remember, Understand, and Apply.
+The middle section of the course showcases fundamental statistical concepts organized progressively through Bloom's Taxonomy, beginning with measurement levels (1), descriptive statistics (2), hypothesis testing (3), and central tendency (4). This section primarily targets the lower levels of Bloom's Taxonomy: Remember and Understand.
 
 ---
 
 #### 3. Series Overview – Part 3
 ![dodona-series-overview-3](../images/dodona-series-overview-3.png)
 
-The final section, *Analyse en Evaluatie in Statistiek* (Analysis and Evaluation in Statistics), focuses on advanced interpretation tasks including boxplots, leverage points, and spurious correlation. This section targets higher-order thinking with questions aligned with Bloom's levels of Analyze and Evaluate, encouraging students to interpret patterns, detect outliers, and assess methodological choices using realistic crime data.
+The following sections progress through Application (5-8), Analysis (9-11), and Evaluation (12-14), focusing on practical skills like crime rate calculations, sampling distributions, and chi-square tests, followed by interpretation tasks including histograms, boxplots, and scatterplots. The course culminates with advanced topics like partial correlation, significance testing, and spurious correlation, concluding with research design creation (15) that targets the highest level of Bloom's Taxonomy.
 
 ### Performance Monitoring
 
@@ -187,42 +230,56 @@ A comprehensive dashboard showing overall completion status for each student acr
 #### 5. Score Summary – Basic Concepts
 ![Score Summary – Basic Concepts](../images/dodona_scoresheet_basisbegrippen_toepassingen.png)
 
-A detailed performance breakdown for the foundational concepts section, providing insights into student understanding of measurement levels, descriptive statistics, and basic calculations. This granular view helps instructors identify specific conceptual gaps that might require additional explanation or alternative teaching approaches.
+A detailed performance breakdown for the foundational concepts section (questions 1-4), providing insights into student understanding of measurement levels, descriptive statistics, hypothesis testing, and measures of central tendency. This granular view helps instructors identify specific conceptual gaps that might require additional explanation or alternative teaching approaches.
 
 ---
 
-#### 6. Score Summary – Analysis and Evaluation
+#### 6. Score Summary – Application and Analysis
 ![Score Summary – Analysis and Evaluation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
 
-Performance metrics for the advanced section, revealing student proficiency with complex tasks such as regression analysis, outlier identification, and statistical inference. This view highlights students' ability to apply and evaluate statistical models in criminological contexts, indicating their readiness for independent research.
+Performance metrics for the application and analysis sections (questions 5-11), revealing student proficiency with crime rate calculations, sampling distributions, chi-square tests, and data visualization interpretation. This section highlights students' ability to apply statistical concepts and analyze data in criminological contexts.
+
+---
+
+#### 7. Score Summary – Evaluation and Creation
+![Score Summary – Evaluation and Creation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
+
+Performance metrics for the advanced sections (questions 12-15), showing student mastery of complex topics like partial correlation, significance testing, spurious correlation, and research design. This view indicates students' readiness for independent research and critical evaluation of statistical methods.
 
 ### Example Exercises
 
-#### 7. Crime Rate Calculation Exercise
+#### 7. Level of Measurement Exercise (Remember)
+![Level of Measurement Exercise](../images/level-of-measurement.png)
+
+A foundational exercise teaching students to correctly identify and classify different types of data based on their measurement level (nominal, ordinal, interval, ratio). This fundamental knowledge forms the basis for all statistical analysis in criminology.
+
+---
+
+#### 8. Crime Rate Calculation Exercise (Apply)
 ![Crime Rate Calculation Exercise](../images/crime-rate-calculation.png)
 
-A practical exercise teaching students how to calculate crime rates per 1,000 inhabitants using realistic population and incident data. This foundational skill connects abstract mathematical operations to essential criminological analysis techniques used in policy reports and research publications.
+A practical application exercise teaching students how to calculate crime rates per 1,000 inhabitants using realistic population and incident data. This essential skill connects abstract mathematical operations to practical criminological analysis techniques used in policy reports and research publications.
 
 ---
 
-#### 8. Descriptive vs Inferential Statistics
-![Descriptive vs Inferential Statistics](../images/descriptive-vs-inferential.png)
+#### 9. Chi-Square Analysis Exercise (Apply)
+![Chi-Square Analysis Exercise](../images/chi-square-analysis.png)
 
-An exercise testing students' understanding of the fundamental distinction between summarizing existing data (descriptive) and making predictions or generalizations (inferential). This conceptual foundation is critical for criminology students to understand when different statistical approaches are appropriate in research and policy contexts.
-
----
-
-#### 9. Hypothesis Testing Exercise
-![Hypothesis Testing Exercise](../images/hypothesis-video-question.png)
-
-A multimedia-enhanced exercise where students learn to formulate correct null hypotheses about crime intervention programs. The video support helps demystify the abstract concept of hypothesis testing by visualizing the process, making it more accessible for students with statistics anxiety.
+An exercise where students apply chi-square tests to analyze categorical data in a criminological context, such as examining the relationship between demographic factors and crime categories. This builds statistical application skills while maintaining relevance to criminological research questions.
 
 ---
 
-#### 10. Histogram Interpretation
+#### 10. Histogram Interpretation (Analyze)
 ![Histogram Interpretation](../images/histogram-interpretation.png)
 
-An exercise requiring students to analyze the shape and distribution of participant ages displayed in a histogram. This develops essential data literacy skills needed for understanding population characteristics in criminological studies and recognizing patterns such as age-crime relationships.
+An exercise requiring students to analyze the shape and distribution of data displayed in a histogram. This develops essential data literacy skills needed for understanding population characteristics in criminological studies and recognizing patterns such as age-crime relationships.
+
+---
+
+#### 11. Spurious Correlation Exercise (Evaluate)
+![Spurious Correlation Exercise](../images/spurious-correlation.png)
+
+An advanced exercise where students evaluate and critique correlational relationships, distinguishing between correlation and causation in criminological data. This builds critical thinking skills essential for research interpretation and evidence-based practice.
 
 ### Feedback Examples
 
@@ -264,6 +321,8 @@ Planned enhancements to the learning path include:
 - Creation of collaborative exercises that encourage peer learning and discussion
 
 This learning path represents an ongoing effort to improve statistical education for criminology students by combining technical accuracy with pedagogical insight, creating an inclusive learning environment where students build confidence through meaningful engagement with statistical concepts.
+
+The recent restructuring of the course (with questions systematically organized from 1-15 following Bloom's Taxonomy) provides a clear pedagogical progression that supports students' cognitive development while maintaining criminological relevance. This structured approach helps reduce statistics anxiety by providing a logical learning sequence with appropriate scaffolding at each level of cognitive complexity.
 
 ## 7. References
 

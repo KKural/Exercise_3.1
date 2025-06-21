@@ -1,3 +1,5 @@
+# Evaluatie van correlaties (Vraag 14)
+
 Je vindt een correlatie van 0,6 tussen jeugdoverlast en werkloosheid. Na controle voor bevolkingsdichtheid zakt de correlatie naar 0,1. Wat is de meest waarschijnlijke conclusie?
 
 1. Werkloosheid veroorzaakt jeugdoverlast

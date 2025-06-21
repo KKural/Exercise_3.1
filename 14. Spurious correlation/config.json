@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "en": "Eenvoudige lineaire regressie"
+      "en": "14. Evaluatie van correlaties (Spurieuze correlatie)"
     }
   },
   "evaluation": {
@@ -11,7 +11,7 @@
   "programming_language": "R",
   "access": "public",
   "internals": {
-    "token": "ZkT-DiKuYBJjAqGeHz9AatvYBJNTE3-Q7w75Y5U3hWiQjSB_66p-EaiRU_etHEpX",
+    "token": "xGZ843RgceU6zN9PZ-5KMrZMa_fAQZIXIB3WfnSe_HxmN4bvvr5Mu6BHaGrRSzqJ",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   },
   "labels": []

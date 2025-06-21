@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "en": "Regressie & hoge leverage"
+      "en": "6. Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde"
     }
   },
   "evaluation": {
@@ -12,7 +12,7 @@
   "access": "public",
   "labels": [],
   "internals": {
-    "token": "WdkYcA8uP_vj8qYqpz29j9CX_AYgkgS2qdIKEjUGmpEeItxzcuTBiYue_saUmgi2",
+    "token": "uP_ZBrER78ncZIyP6MC2dhjyQ2YZR2gwSB6HQwKhewVMzTqIDu_uVm6H5Hkv3bEY",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

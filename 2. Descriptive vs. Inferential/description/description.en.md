@@ -1,3 +1,5 @@
+# Beschrijvende vs. inferentiële statistiek (Vraag 2)
+
 Wat is het belangrijkste doel van beschrijvende statistiek in een misdaaddataverslag?
 
 1.	Het schatten van toekomstige misdaadcijfers in de populatie
