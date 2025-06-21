@@ -34,10 +34,3 @@ In summary, I offer a unique combination of criminology-specific content knowled
 
 Sincerely,  
 Dr. Kuralarasan Kumar
-
----
-
-## Contact Information
-Email: kuralarasan.kumar@ugent.be  
-Phone: +32 XXX XXX XXX  
-ORCID: [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
