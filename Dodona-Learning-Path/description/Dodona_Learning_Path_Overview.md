@@ -26,7 +26,7 @@ The primary purpose of this learning path is to support the development of stati
 
 ## 2. Bloom's Taxonomy Alignment
 
-### Cognitive Levels
+### Cognitive Levels and Course Structure
 Bloom's Taxonomy provides a hierarchical model of cognitive skills that progresses from lower-order to higher-order thinking skills (Anderson et al., 2001):
 1. **Remember**: Recall facts and basic concepts
 2. **Understand**: Explain ideas or concepts
@@ -37,63 +37,26 @@ Bloom's Taxonomy provides a hierarchical model of cognitive skills that progress
 
 ![Bloom's Taxonomy Pyramid](../bloom-pyramid.png)
 
-### Question Distribution Across Bloom's Taxonomy
-
-Our course is strategically designed to provide balanced coverage across the cognitive levels:
+Our course is strategically structured to progressively build through these cognitive levels:
 
 | Cognitive Level | Number of Questions | Question Numbers | Percentage |
 |----------------|---------------------|------------------|------------|
-| Remember       | 2                   | 1-2              | 11%        |
-| Understand     | 2                   | 3-4              | 11%        |
-| Apply          | 4                   | 5-8              | 22%        |
-| Analyze        | 3                   | 9-11             | 17%        |
-| Evaluate       | 6                   | 12-17            | 33%        |
-| Create         | 1                   | 18               | 6%         |
+| Remember       | 2                   | 1-2              | 13%        |
+| Understand     | 2                   | 3-4              | 13%        |
+| Apply          | 3                   | 5-7              | 20%        |
+| Analyze        | 3                   | 8-10             | 20%        |
+| Evaluate       | 4                   | 11-14            | 27%        |
+| Create         | 1                   | 15               | 7%         |
 
-This distribution reflects our emphasis on higher-order thinking skills, with 56% of questions focusing on the top three cognitive levels (Analyze, Evaluate, Create). This approach ensures students develop both foundational knowledge and advanced critical thinking abilities needed for evidence-based criminology.
+This distribution reflects our emphasis on higher-order thinking skills, with 54% of questions focusing on the top three cognitive levels (Analyze, Evaluate, Create). This approach ensures students develop both foundational knowledge and advanced critical thinking abilities needed for evidence-based criminology.
 
-### Application to Learning Process
-The integration of Bloom's Taxonomy into our questions strategically supports criminology students' learning process by:
-- **Cognitive Progression**: Building from recall to complex applications, boosting confidence and competence (Krathwohl, 2002)
-- **Transfer of Knowledge**: Requiring practical application of concepts in criminological contexts
-- **Metacognitive Development**: Encouraging reflection on thinking processes at higher levels
-- **Comprehensive Understanding**: Ensuring engagement across all cognitive levels for a holistic grasp
-- **Scaffolded Challenges**: Providing appropriate cognitive challenges that build upon prior knowledge (Vygotsky, 1978)
-- **Domain-Specific Application**: Applying statistical concepts directly to criminological scenarios
-
-### Course Structure and Bloom's Taxonomy Alignment
-
-The course structure has been organized to progressively build through Bloom's Taxonomy levels:
-
-#### Basic Recall (1-2)
-1. **Level of measurement** - Identify and classify different types of data
-2. **Descriptive vs. Inferential** - Differentiate between descriptive and inferential statistics
-
-#### Understanding (3-4)
-3. **Null hypothesis** - Understand the concept of null hypothesis in statistical testing
-4. **Central tendency** - Comprehend measures of central tendency and their applications
-
-#### Application (5-8)
-5. **Correlation Concept** - Understand correlation fundamentals and their application
-6. **Simple Linear Regression** - Apply regression techniques to analyze relationships
-7. **Crime rate calculation** - Apply formulas to calculate crime rates
-8. **Crime rates and national average** - Apply comparative analysis of crime statistics
-
-#### Analysis (9-11)
-9. **Scatterplot of unemployment** - Analyze relationships between variables
-10. **Histogram Interpretation** - Analyze and interpret histogram distributions
-11. **Boxplot Interpretation** - Analyze outliers and distributions using boxplots
-
-#### Evaluation (12-17)
-12. **Sampling Distribution** - Evaluate sampling concepts and their implications
-13. **Partial Correlation** - Evaluate complex relationships between variables
-14. **Regression with high leverage** - Evaluate regression diagnostics and influential cases
-15. **Interpretation of a significance test** - Evaluate statistical significance in context
-16. **Chi-square** - Apply and evaluate chi-square tests for categorical data
-17. **Spurious correlation** - Evaluate and critique correlational relationships
-
-#### Creation (18)
-18. **Research Design Analysis** - Create and justify research methodologies
+### Benefits for Criminology Students
+The integration of Bloom's Taxonomy strategically supports criminology students by:
+- Building confidence through progressive complexity
+- Encouraging practical application in criminological contexts
+- Developing metacognitive skills at higher levels
+- Providing appropriately scaffolded challenges
+- Ensuring balanced coverage across all cognitive domains
 
 ### Question-Bloom Level Mapping
 | Question Title | Bloom Level | Question Number | Learning Intention |
@@ -102,107 +65,51 @@ The course structure has been organized to progressively build through Bloom's T
 | Descriptive vs. Inferential | Remember | Q2 | Differentiate descriptive from inferential statistics |
 | Null Hypothesis | Understand | Q3 | Understand hypothesis testing foundations |
 | Central Tendency | Understand | Q4 | Identify sensitivity to outliers in crime rate data |
-| Correlation Concept | Apply | Q5 | Understand correlation fundamentals |
-| Simple Linear Regression | Apply | Q6 | Apply regression techniques |
-| Crime Rate Calculation | Apply | Q7 | Apply formulas to calculate rates |
-| Crime Rates and National Average | Apply | Q8 | Compare local to national statistics |
-| Scatterplot of Unemployment | Analyze | Q9 | Analyze relationships between variables |
-| Histogram Interpretation | Analyze | Q10 | Analyze distributions |
-| Boxplot Interpretation | Analyze | Q11 | Identify outliers and distributions |
-| Sampling Distribution | Evaluate | Q12 | Evaluate sampling concepts |
-| Partial Correlation | Evaluate | Q13 | Evaluate complex statistical relationships |
-| Regression with High Leverage | Evaluate | Q14 | Evaluate regression diagnostics |
-| Interpretation of Significance Test | Evaluate | Q15 | Evaluate statistical significance |
-| Chi-square | Evaluate | Q16 | Apply chi-square to categorical data |
-| Spurious Correlation | Evaluate | Q17 | Critique correlational claims |
-| Research Design Analysis | Create | Q18 | Design original research methods |
+| Crime Rate Calculation | Apply | Q5 | Apply formulas to calculate rates |
+| Crime Rates and National Average | Apply | Q6 | Compare local to national statistics |
+| Sampling Distribution | Apply | Q7 | Apply and understand sampling concepts |
+| Chi-square | Analyze | Q8 | Analyze categorical data relationships |
+| Histogram Interpretation | Analyze | Q9 | Analyze distributions |
+| Boxplot Interpretation | Analyze | Q10 | Identify outliers and distributions |
+| Scatterplot of Unemployment | Evaluate | Q11 | Evaluate relationships between variables |
+| Partial Correlation | Evaluate | Q12 | Evaluate complex statistical relationships |
+| Significance Test Interpretation | Evaluate | Q13 | Evaluate statistical significance |
+| Spurious Correlation | Evaluate | Q14 | Evaluate causation versus correlation |
+| Research Design Creation | Create | Q15 | Design original research methods |
 
 ## 3. Learning Design Strategies
 
-### Course Structure and Bloom's Taxonomy Integration
-The course has been carefully restructured to create a clear progression through Bloom's Taxonomy levels, supporting students' cognitive development from foundational knowledge to advanced skills:
+### Pedagogical Framework: Scaffolding and Cognitive Development
 
-1. **Remember & Understand (Questions 1-4)**: Foundational concepts about measurement levels, descriptive statistics, hypothesis testing, and central tendency
-2. **Apply (Questions 5-8)**: Practical application of statistical methods including correlation concepts, linear regression, and crime rate calculations
-3. **Analyze (Questions 9-11)**: Data interpretation skills through scatterplot, histogram, and boxplot analysis
-4. **Evaluate (Questions 12-17)**: Critical assessment of sampling distributions, partial correlations, regression diagnostics, significance testing, chi-square tests, and spurious correlations
-5. **Create (Question 18)**: Original research design development and analysis
+The learning path incorporates two key pedagogical principles - cognitive progression based on Bloom's Taxonomy and scaffolding - to create an effective learning environment for criminology students.
 
-This organized sequence creates a coherent learning journey through increasing cognitive complexity while maintaining contextual relevance to criminology. The structure deliberately removes overlapping concepts and ensures each level builds upon previous learning.
+#### Cognitive Progression
+The course structure follows a deliberate sequence through increasing levels of cognitive complexity:
 
-### Instructional Design Strategy
-The learning path is structured using Bloom's Taxonomy as a cognitive scaffold, progressively building from foundational understanding to higher-order skills like evaluation and creation (Krathwohl, 2002).
+1. **Remember & Understand (Questions 1-4)**: Foundational concepts of measurement levels, descriptive statistics, hypothesis testing, and central tendency
+2. **Apply (Questions 5-7)**: Practical application of statistical methods through crime rate calculations and sampling distributions
+3. **Analyze (Questions 8-10)**: Data interpretation skills using chi-square tests, histograms, and boxplots
+4. **Evaluate (Questions 11-14)**: Critical assessment of relationships between variables, partial correlation, significance testing, and spurious correlation
+5. **Create (Question 15)**: Original research design development and analysis
 
-This layered design includes:
-- **Concept Reinforcement**: Building foundational understanding (e.g., mean vs. median, descriptive vs. inferential statistics)
-- **Calculation Tasks**: Developing technical skills (e.g., chi-square, regression, effect size calculation)
-- **Diagnostic Reasoning**: Encouraging critical analysis (e.g., outlier influence, correlation vs. causality)
-- **Design/Decision-making**: Fostering application skills (e.g., choosing appropriate visualizations, constructing survey methodologies)
+#### Comprehensive Scaffolding Approach
+Scaffolding techniques are embedded throughout the course to support students' development from novice to independent statistical thinkers:
 
-The sequence of questions deliberately moves students through increasing levels of cognitive complexity while maintaining contextual relevance to criminology.
+1. **Question Design**
+   - Early exercises provide more guidance and structure
+   - Later exercises require increasing independence
+   - Content follows a familiarity gradient from simple to complex criminological contexts
 
-### Scaffolding Techniques
-- **Conceptual Prompts**: Short reminders of key ideas without revealing the answer
-- **Strategic Questions**: Sub-questions that guide thinking through complex problems
-- **Relevant Examples**: Analogous situations to model thinking in criminological contexts
-- **Progressive Disclosure**: Stepwise reveal of complexity to prevent cognitive overload
-- **Just-in-Time Resources**: Providing support materials at the moment of need
-- **Error-Based Learning**: Using common misconceptions as teaching opportunities
+2. **Multi-level Hint System**
+   - Conceptual reminders → Procedural guidance → Worked examples
+   - Progressive withdrawal of support as students advance through the course
+   - Hints timed to encourage independent problem-solving attempts first
 
-### Scaffolding Implementation in Course Design
-
-The course implements scaffolding principles across multiple dimensions to guide students toward independent statistical reasoning:
-
-#### Question-Level Scaffolding
-Each question is designed with embedded scaffolding elements:
-
-1. **Progressive Complexity Within Questions**
-   - Early exercises include more guidance and structure
-   - Later exercises require more independent problem-solving
-   - Example: Crime rate calculation questions begin with formula provided, then advance to requiring students to determine the appropriate approach
-
-2. **Context Familiarity Gradient**
-   - Initial questions use simple, familiar criminological contexts
-   - Advanced questions introduce more complex, realistic scenarios
-   - Example: Moving from simple crime counts in small areas to complex multivariate analyses of national datasets
-
-#### Hint System Design
-Hints are strategically designed as scaffolding that can be gradually removed:
-
-1. **Three-Tier Hint Structure**
-   - **Level 1**: Conceptual reminders (e.g., "Remember what central tendency measures represent")
-   - **Level 2**: Procedural guidance (e.g., "Calculate the median by ordering values and finding the middle point")
-   - **Level 3**: Worked examples with similar problems (e.g., "In a similar dataset with outliers, the median was more representative because...")
-
-2. **Fading Support**
-   - Early exercises provide immediate access to hints
-   - Later exercises introduce time delays before hints become available
-   - Advanced exercises limit the number of available hints
-
-#### Feedback as Scaffolding
-Feedback is designed not just to indicate correctness but to develop self-regulation skills:
-
-1. **Targeted Error Analysis**
-   - Common misconceptions receive specific explanations
-   - Feedback identifies the precise reasoning error rather than simply marking an answer wrong
-   - Example: "You've calculated the mean correctly, but haven't considered how outliers affect its representativeness"
-
-2. **Metacognitive Prompting**
-   - Feedback includes reflective questions
-   - Encourages students to evaluate their approach
-   - Example: "How would your interpretation change if this dataset had no outliers?"
-
-3. **Instructional Remediation**
-   - Links to specific resources based on error patterns
+3. **Feedback as a Learning Tool**
+   - Precise identification of conceptual errors rather than simple right/wrong responses
+   - Metacognitive prompts that encourage reflection on approach and assumptions
    - Visual explanations for complex concepts
-   - Example: Providing a visualization of how chi-square values map to probability distributions when students misinterpret significance
-
-4. **Progressive Independence**
-   - Early feedback is detailed and directive
-   - Advanced feedback becomes more general and encourages self-diagnosis
-   - Final exercises provide minimal guidance, promoting independent statistical thinking
-
-This multi-layered scaffolding approach ensures that support is available when needed but gradually withdrawn as students develop competence, following Vygotsky's concept of the Zone of Proximal Development where learning occurs with appropriate guidance that adapts to student growth.
+   - Gradually increasing expectation of self-diagnosis in advanced exercises
 
 ### Anxiety Reduction Through Structured Design
 The exercise design incorporates several features specifically aimed at reducing statistics anxiety:
@@ -293,7 +200,7 @@ The middle section of the course showcases fundamental statistical concepts orga
 #### 3. Series Overview – Part 3
 ![dodona-series-overview-3](../images/dodona-series-overview%203.png)
 
-The following sections progress through Application (5-8), covering correlation concepts, simple linear regression, and crime rate calculations. This is followed by Analysis (9-11), focusing on scatterplots, histograms, and boxplots. The Evaluation section (12-17) includes sampling distributions, partial correlation, regression diagnostics, significance testing, chi-square tests, and spurious correlation. The course culminates with Research Design Analysis (18) that targets the highest level of Bloom's Taxonomy: Create.
+The following sections progress through Application (5-7), covering crime rate calculations and sampling distributions. This is followed by Analysis (8-10), focusing on chi-square tests, histograms, and boxplots. The Evaluation section (11-14) includes scatterplots, partial correlation, significance testing, and spurious correlation. The course culminates with Research Design Creation (15) that targets the highest level of Bloom's Taxonomy: Create.
 
 ### Performance Monitoring
 
@@ -314,14 +221,14 @@ A detailed performance breakdown for the foundational concepts section (question
 #### 6. Score Summary – Application and Analysis
 ![Score Summary – Analysis and Evaluation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
 
-Performance metrics for the application and analysis sections (questions 5-11), revealing student proficiency with correlation concepts, linear regression, crime rate calculations, and data visualization interpretation. This section highlights students' ability to apply statistical concepts and analyze data in criminological contexts.
+Performance metrics for the application and analysis sections (questions 5-10), revealing student proficiency with crime rate calculations, sampling distributions, chi-square tests, and data visualization interpretation. This section highlights students' ability to apply statistical concepts and analyze data in criminological contexts.
 
 ---
 
 #### 7. Score Summary – Evaluation and Creation
 ![Score Summary – Evaluation and Creation](../images/dodona_scoresheet_analyse_evaluatie_statistiek.png)
 
-Performance metrics for the advanced sections (questions 12-18), showing student mastery of complex topics like sampling distributions, partial correlation, regression diagnostics, significance testing, chi-square tests, spurious correlation, and research design analysis. This view indicates students' readiness for independent research and critical evaluation of statistical methods.
+Performance metrics for the advanced sections (questions 11-15), showing student mastery of complex topics like relationships between variables, partial correlation, significance testing, spurious correlation, and research design creation. This view indicates students' readiness for independent research and critical evaluation of statistical methods.
 
 ### Example Exercises
 
@@ -392,7 +299,7 @@ Planned enhancements to the learning path include:
 
 This learning path represents an ongoing effort to improve statistical education for criminology students by combining technical accuracy with pedagogical insight, creating an inclusive learning environment where students build confidence through meaningful engagement with statistical concepts.
 
-The recent restructuring of the course (with questions systematically organized from 1-18 following Bloom's Taxonomy) provides a clear pedagogical progression that supports students' cognitive development while maintaining criminological relevance. This structured approach helps reduce statistics anxiety by providing a logical learning sequence with appropriate scaffolding at each level of cognitive complexity.
+The recent restructuring of the course (with questions systematically organized from 1-15 following Bloom's Taxonomy) provides a clear pedagogical progression that supports students' cognitive development while maintaining criminological relevance. This structured approach helps reduce statistics anxiety by providing a logical learning sequence with appropriate scaffolding at each level of cognitive complexity.
 
 ## 7. References
 
