@@ -13,7 +13,7 @@ context({
             # 25 15 (Laag: geweld, diefstal)
             # 18 22 (Midden: geweld, diefstal)
             # 12 28 (Hoog: geweld, diefstal)
-            abs(answer - 8.54) < 0.1  # Allow slight rounding differences
+            abs(answer - 11.89) < 0.1  # Allow slight rounding differences
           }, error = function(e) {
             return(FALSE)  # Handle conversion errors
           })
@@ -99,7 +99,7 @@ context({
           } else {
             # Feedback for incorrect answers
             if (is.na(student_answer)) {
-              get_reporter()$add_message("❌ Fout. Je hebt geen geldige numerieke waarde ingevoerd. Voer de chi-kwadraat waarde in als een getal, bijvoorbeeld: 8.54")
+              get_reporter()$add_message("❌ Fout. Je hebt geen geldige numerieke waarde ingevoerd. Voer de chi-kwadraat waarde in als een getal, bijvoorbeeld: 11.89")
             } else if (abs(student_answer - 5.99) < 0.1) {
               get_reporter()$add_message(
                 paste0("❌ Fout. Je lijkt de kritieke waarde van de chi-kwadraat verdeling (5.99 bij α = 0.05, df = 2) te hebben gegeven in plaats van de berekende toetsstatistiek.\n\n",
@@ -114,11 +114,6 @@ context({
               get_reporter()$add_message("❌ Fout. Je hebt het aantal vrijheidsgraden (df = 2) ingevuld in plaats van de chi-kwadraat waarde.")
             } else if (student_answer < 0) {
               get_reporter()$add_message("❌ Fout. De chi-kwadraat waarde kan niet negatief zijn.")
-            } else if (abs(student_answer - 11.89) < 0.1) {
-              get_reporter()$add_message(
-                paste0("❌ Fout. Je antwoord 11.89 is niet correct. De juiste chi-kwadraat waarde is ", chi_square_rounded, ".\n\n",
-                       "Je hebt mogelijk een berekeningsfout gemaakt. Controleer of je de verwachte frequenties correct hebt berekend met de formule E = (rijtotaal × kolomtotaal) / totaal.")
-              )
             } else {
               get_reporter()$add_message(
                 paste0("❌ Fout. Je antwoord ", student_answer, " is niet correct. De juiste chi-kwadraat waarde is ", chi_square_rounded, ".\n\n",
