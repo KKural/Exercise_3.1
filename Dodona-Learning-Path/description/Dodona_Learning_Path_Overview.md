@@ -19,7 +19,11 @@ This learning path supports the development of statistical reasoning skills usin
 ### Bloom's Taxonomy Integration
 The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progressive learning journey:
 
-![Bloom's Taxonomy Pyramid](../bloom-pyramid.png)
+<div align="center">
+<img src="../bloom-pyramid.png" alt="Bloom's Taxonomy Pyramid" width="500"/>
+</div>
+
+<div align="center">
 
 | Cognitive Level | Questions | Numbers | % of Course |
 |----------------|-----------|---------|-------------|
@@ -30,10 +34,14 @@ The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progress
 | Evaluate       | 4         | 11-14   | 27%         |
 | Create         | 1         | 15      | 7%          |
 
+</div>
+
 This distribution emphasizes higher-order thinking skills (54% at Analyze-Evaluate-Create levels) while building a strong foundation.
 
 ### Question-Bloom Level Mapping
 The following table shows how each question aligns with specific cognitive levels and learning intentions:
+
+<div align="center">
 
 | Question Title | Bloom Level | Number | Learning Intention |
 |----------------|-------------|--------|-------------------|
@@ -52,6 +60,8 @@ The following table shows how each question aligns with specific cognitive level
 | Significance Test Interpretation | Evaluate | Q13 | Evaluate statistical significance |
 | Spurious Correlation | Evaluate | Q14 | Evaluate causation vs. correlation |
 | Research Design Creation | Create | Q15 | Design original research methods |
+
+</div>
 
 ## 3. Learning Support Strategies
 
