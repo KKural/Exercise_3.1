@@ -19,9 +19,9 @@ This learning path supports the development of statistical reasoning skills usin
 ### Bloom's Taxonomy Integration
 The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progressive learning journey:
 
-![Bloom's Taxonomy Pyramid](../bloom-pyramid.svg)
+**Bloom's Taxonomy Pyramid** (Remember → Understand → Apply → Analyze → Evaluate → Create)
 
-**Note:** The image above represents Bloom's Taxonomy pyramid showing the progression from lower-order to higher-order thinking skills: Remember, Understand, Apply, Analyze, Evaluate, and Create.
+This hierarchical model guides our learning path design, with exercises progressively moving from foundational knowledge to higher-order thinking skills.
 
 **Cognitive Level Distribution**
 
