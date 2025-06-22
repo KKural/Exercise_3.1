@@ -1,10 +1,3 @@
-<style>
-.table-center {
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
 # Dodona Learning Path: Pedagogical & Technical Framework
 
 ## 1. Overview of Learning Goals and Student Needs
