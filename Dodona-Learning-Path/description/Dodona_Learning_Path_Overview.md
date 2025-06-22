@@ -1,3 +1,10 @@
+<style>
+.table-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
 # Dodona Learning Path: Pedagogical & Technical Framework
 
 ## 1. Overview of Learning Goals and Student Needs
@@ -23,154 +30,39 @@ The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progress
 <img src="../bloom-pyramid.svg" alt="Bloom's Taxonomy Pyramid" width="600"/>
 </div>
 
-<table align="center">
-<tr>
-<th style="text-align:left">Cognitive Level</th>
-<th style="text-align:center">Questions</th>
-<th style="text-align:center">Numbers</th>
-<th style="text-align:center">% of Course</th>
-</tr>
-<tr>
-<td style="text-align:left">Remember</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1-2</td>
-<td style="text-align:center">13%</td>
-</tr>
-<tr>
-<td style="text-align:left">Understand</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">3-4</td>
-<td style="text-align:center">13%</td>
-</tr>
-<tr>
-<td style="text-align:left">Apply</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">5-7</td>
-<td style="text-align:center">20%</td>
-</tr>
-<tr>
-<td style="text-align:left">Analyze</td>
-<td style="text-align:center">3</td>
-<td style="text-align:center">8-10</td>
-<td style="text-align:center">20%</td>
-</tr>
-<tr>
-<td style="text-align:left">Evaluate</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">11-14</td>
-<td style="text-align:center">27%</td>
-</tr>
-<tr>
-<td style="text-align:left">Create</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">15</td>
-<td style="text-align:center">7%</td>
-</tr>
-</table>
+| Cognitive Level | Questions | Numbers | % of Course |
+|:-------------|:--------:|:-------:|:----------:|
+| Remember     | 2        | 1-2     | 13%        |
+| Understand   | 2        | 3-4     | 13%        |
+| Apply        | 3        | 5-7     | 20%        |
+| Analyze      | 3        | 8-10    | 20%        |
+| Evaluate     | 4        | 11-14   | 27%        |
+| Create       | 1        | 15      | 7%         |
+{: .table-center}
 
 This distribution emphasizes higher-order thinking skills (54% at Analyze-Evaluate-Create levels) while building a strong foundation.
 
 ### Question-Bloom Level Mapping
 The following table shows how each question aligns with specific cognitive levels and learning intentions:
 
-<table align="center">
-<tr>
-<th style="text-align:left">Question Title</th>
-<th style="text-align:center">Bloom Level</th>
-<th style="text-align:center">Number</th>
-<th style="text-align:center">Learning Intention</th>
-</tr>
-<tr>
-<td style="text-align:left">Level of Measurement</td>
-<td style="text-align:center">Remember</td>
-<td style="text-align:center">Q1</td>
-<td style="text-align:center">Identify and classify data types</td>
-</tr>
-<tr>
-<td style="text-align:left">Descriptive vs. Inferential</td>
-<td style="text-align:center">Remember</td>
-<td style="text-align:center">Q2</td>
-<td style="text-align:center">Differentiate statistical approaches</td>
-</tr>
-<tr>
-<td style="text-align:left">Null Hypothesis</td>
-<td style="text-align:center">Understand</td>
-<td style="text-align:center">Q3</td>
-<td style="text-align:center">Understand hypothesis testing</td>
-</tr>
-<tr>
-<td style="text-align:left">Central Tendency</td>
-<td style="text-align:center">Understand</td>
-<td style="text-align:center">Q4</td>
-<td style="text-align:center">Identify outlier sensitivity</td>
-</tr>
-<tr>
-<td style="text-align:left">Crime Rate Calculation</td>
-<td style="text-align:center">Apply</td>
-<td style="text-align:center">Q5</td>
-<td style="text-align:center">Apply formulas to calculate rates</td>
-</tr>
-<tr>
-<td style="text-align:left">Crime Rates and National Average</td>
-<td style="text-align:center">Apply</td>
-<td style="text-align:center">Q6</td>
-<td style="text-align:center">Compare local to national statistics</td>
-</tr>
-<tr>
-<td style="text-align:left">Sampling Distribution</td>
-<td style="text-align:center">Apply</td>
-<td style="text-align:center">Q7</td>
-<td style="text-align:center">Apply sampling concepts</td>
-</tr>
-<tr>
-<td style="text-align:left">Chi-square</td>
-<td style="text-align:center">Analyze</td>
-<td style="text-align:center">Q8</td>
-<td style="text-align:center">Analyze categorical relationships</td>
-</tr>
-<tr>
-<td style="text-align:left">Histogram Interpretation</td>
-<td style="text-align:center">Analyze</td>
-<td style="text-align:center">Q9</td>
-<td style="text-align:center">Analyze distributions</td>
-</tr>
-<tr>
-<td style="text-align:left">Boxplot Interpretation</td>
-<td style="text-align:center">Analyze</td>
-<td style="text-align:center">Q10</td>
-<td style="text-align:center">Identify outliers and distributions</td>
-</tr>
-<tr>
-<td style="text-align:left">Scatterplot of Unemployment</td>
-<td style="text-align:center">Evaluate</td>
-<td style="text-align:center">Q11</td>
-<td style="text-align:center">Evaluate variable relationships</td>
-</tr>
-<tr>
-<td style="text-align:left">Partial Correlation</td>
-<td style="text-align:center">Evaluate</td>
-<td style="text-align:center">Q12</td>
-<td style="text-align:center">Evaluate complex relationships</td>
-</tr>
-<tr>
-<td style="text-align:left">Significance Test Interpretation</td>
-<td style="text-align:center">Evaluate</td>
-<td style="text-align:center">Q13</td>
-<td style="text-align:center">Evaluate statistical significance</td>
-</tr>
-<tr>
-<td style="text-align:left">Spurious Correlation</td>
-<td style="text-align:center">Evaluate</td>
-<td style="text-align:center">Q14</td>
-<td style="text-align:center">Evaluate causation vs. correlation</td>
-</tr>
-<tr>
-<td style="text-align:left">Research Design Creation</td>
-<td style="text-align:center">Create</td>
-<td style="text-align:center">Q15</td>
-<td style="text-align:center">Design original research methods</td>
-</tr>
-</table>
+| Question Title | Bloom Level | Number | Learning Intention |
+|:-------------|:----------:|:------:|:-----------------:|
+| Level of Measurement | Remember | Q1 | Identify and classify data types |
+| Descriptive vs. Inferential | Remember | Q2 | Differentiate statistical approaches |
+| Null Hypothesis | Understand | Q3 | Understand hypothesis testing |
+| Central Tendency | Understand | Q4 | Identify outlier sensitivity |
+| Crime Rate Calculation | Apply | Q5 | Apply formulas to calculate rates |
+| Crime Rates and National Average | Apply | Q6 | Compare local to national statistics |
+| Sampling Distribution | Apply | Q7 | Apply sampling concepts |
+| Chi-square | Analyze | Q8 | Analyze categorical relationships |
+| Histogram Interpretation | Analyze | Q9 | Analyze distributions |
+| Boxplot Interpretation | Analyze | Q10 | Identify outliers and distributions |
+| Scatterplot of Unemployment | Evaluate | Q11 | Evaluate variable relationships |
+| Partial Correlation | Evaluate | Q12 | Evaluate complex relationships |
+| Significance Test Interpretation | Evaluate | Q13 | Evaluate statistical significance |
+| Spurious Correlation | Evaluate | Q14 | Evaluate causation vs. correlation |
+| Research Design Creation | Create | Q15 | Design original research methods |
+{: .table-center}
 
 ## 3. Learning Support Strategies
 
