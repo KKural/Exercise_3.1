@@ -19,28 +19,34 @@ This learning path supports the development of statistical reasoning skills usin
 ### Bloom's Taxonomy Integration
 The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progressive learning journey:
 
-**Bloom's Taxonomy Pyramid** (Remember → Understand → Apply → Analyze → Evaluate → Create)
+<div align="center">
+<strong>Bloom's Taxonomy Pyramid</strong><br>
+(Remember → Understand → Apply → Analyze → Evaluate → Create)
+</div>
 
 This hierarchical model guides our learning path design, with exercises progressively moving from foundational knowledge to higher-order thinking skills.
 
-**Cognitive Level Distribution**
+<div align="center">
+<strong>Cognitive Level Distribution</strong>
 
 | Cognitive Level | Questions | Numbers | % of Course |
-|-----------------|-----------|---------|-------------|
+|:---------------:|:---------:|:-------:|:-----------:|
 | Remember        | 2         | 1-2     | 13%         |
 | Understand      | 2         | 3-4     | 13%         |
 | Apply           | 3         | 5-7     | 20%         |
 | Analyze         | 3         | 8-10    | 20%         |
 | Evaluate        | 4         | 11-14   | 27%         |
 | Create          | 1         | 15      | 7%          |
+</div>
 
 This distribution emphasizes higher-order thinking skills (54% at Analyze-Evaluate-Create levels) while building a strong foundation.
 
 ### Question-Bloom Level Mapping
 The following table shows how each question aligns with specific cognitive levels and learning intentions:
 
+<div align="center">
 | Question Title                 | Bloom Level | Number | Learning Intention                |
-|--------------------------------|-------------|--------|-----------------------------------|
+|:-------------------------------|:-----------:|:------:|:----------------------------------|
 | Level of Measurement           | Remember    | Q1     | Identify and classify data types  |
 | Descriptive vs. Inferential    | Remember    | Q2     | Differentiate statistical approaches |
 | Null Hypothesis                | Understand  | Q3     | Understand hypothesis testing     |
@@ -56,6 +62,7 @@ The following table shows how each question aligns with specific cognitive level
 | Significance Test Interpretation | Evaluate  | Q13    | Evaluate statistical significance |
 | Spurious Correlation           | Evaluate    | Q14    | Evaluate causation vs. correlation |
 | Research Design Creation       | Create      | Q15    | Design original research methods  |
+</div>
 
 ## 3. Learning Support Strategies
 

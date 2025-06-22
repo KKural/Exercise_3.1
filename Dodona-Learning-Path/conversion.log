@@ -4926,3 +4926,323 @@ NameError: name 'current_dir' is not defined
 2025-06-22 11:44:25,926 - markdown_converter - INFO -  - Vargen en Antwoorden CV.docx (180.93 KB)
 2025-06-22 11:44:25,927 - markdown_converter - INFO -  - Vargen en Antwoorden.docx (150.29 KB)
 2025-06-22 11:44:25,927 - markdown_converter - INFO -  - vraag 2.docx (52.82 KB)
+2025-06-22 11:47:21,130 - markdown_converter - INFO - ================================================================================
+2025-06-22 11:47:21,131 - markdown_converter - INFO - MARKDOWN TO WORD CONVERSION SCRIPT - STARTING
+2025-06-22 11:47:21,131 - markdown_converter - INFO - ================================================================================
+2025-06-22 11:47:21,133 - markdown_converter - INFO - Found Motivation Letter at: C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md
+2025-06-22 11:47:21,133 - markdown_converter - INFO - Output directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 11:47:21,134 - markdown_converter - INFO - Output directory already exists
+2025-06-22 11:47:21,134 - markdown_converter - INFO - Current directory: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 11:47:21,135 - markdown_converter - WARNING - Could not find Motivation_Letter.md in any expected locations
+2025-06-22 11:47:21,135 - markdown_converter - INFO - --------------------------------------------------------------------------------
+2025-06-22 11:47:21,135 - markdown_converter - INFO - Processing file: description/Dodona_Learning_Path_Overview_md.md
+2025-06-22 11:47:21,135 - markdown_converter - INFO - Full input path: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview_md.md
+2025-06-22 11:47:21,136 - markdown_converter - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 11:47:21,136 - markdown_converter - INFO - Converting C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview_md.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx...
+2025-06-22 11:47:21,137 - markdown_converter - INFO - Successfully read Markdown file: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview_md.md
+2025-06-22 11:47:21,138 - markdown_converter - INFO - Base directory: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description
+2025-06-22 11:47:21,139 - markdown_converter - INFO - Project root: C:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 11:47:21,194 - markdown_converter - INFO - Document does not contain any images, skipping image search
+2025-06-22 11:47:21,194 - markdown_converter - INFO - Starting to process markdown content...
+2025-06-22 11:47:21,211 - markdown_converter - INFO - Processing: 10% complete...
+2025-06-22 11:47:21,242 - markdown_converter - INFO - Processing: 25% complete...
+2025-06-22 11:47:21,414 - markdown_converter - INFO - Processing: 50% complete...
+2025-06-22 11:47:21,535 - markdown_converter - INFO - Processing: 75% complete...
+2025-06-22 11:47:21,640 - markdown_converter - INFO - Processing: 90% complete...
+2025-06-22 11:47:21,682 - markdown_converter - INFO - Finished processing markdown content. Saving document...
+2025-06-22 11:47:21,707 - markdown_converter - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 11:47:21,710 - markdown_converter - INFO - File conversion time: 0.58 seconds
+2025-06-22 11:47:21,710 - markdown_converter - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 11:47:21,710 - markdown_converter - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 11:47:21,710 - markdown_converter - INFO - File size: 40.63 KB
+2025-06-22 11:47:21,710 - markdown_converter - INFO - --------------------------------------------------------------------------------
+2025-06-22 11:47:21,710 - markdown_converter - INFO - Processing file: C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md
+2025-06-22 11:47:21,710 - markdown_converter - INFO - Full input path: C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md
+2025-06-22 11:47:21,710 - markdown_converter - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 11:47:21,710 - markdown_converter - INFO - Converting C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx...
+2025-06-22 11:47:21,742 - markdown_converter - INFO - Successfully read Markdown file: C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md
+2025-06-22 11:47:21,743 - markdown_converter - INFO - Base directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 11:47:21,743 - markdown_converter - INFO - Project root: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 11:47:21,792 - markdown_converter - INFO - Document does not contain any images, skipping image search
+2025-06-22 11:47:21,792 - markdown_converter - INFO - Starting to process markdown content...
+2025-06-22 11:47:21,808 - markdown_converter - INFO - Processing: 10% complete...
+2025-06-22 11:47:21,809 - markdown_converter - INFO - Processing: 25% complete...
+2025-06-22 11:47:21,811 - markdown_converter - INFO - Processing: 50% complete...
+2025-06-22 11:47:21,838 - markdown_converter - INFO - Processing: 75% complete...
+2025-06-22 11:47:21,841 - markdown_converter - INFO - Processing: 90% complete...
+2025-06-22 11:47:21,842 - markdown_converter - INFO - Finished processing markdown content. Saving document...
+2025-06-22 11:47:21,884 - markdown_converter - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 11:47:21,885 - markdown_converter - INFO - File conversion time: 0.17 seconds
+2025-06-22 11:47:21,886 - markdown_converter - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 11:47:21,887 - markdown_converter - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 11:47:21,888 - markdown_converter - INFO - File size: 38.65 KB
+2025-06-22 11:47:21,890 - markdown_converter - INFO - ================================================================================
+2025-06-22 11:47:21,892 - markdown_converter - INFO - CONVERSION COMPLETE - Total time: 0.76 seconds
+2025-06-22 11:47:21,892 - markdown_converter - INFO - ================================================================================
+2025-06-22 11:47:21,893 - markdown_converter - INFO - Files in output directory:
+2025-06-22 11:47:21,894 - markdown_converter - INFO -  - .RData (2.79 KB)
+2025-06-22 11:47:21,895 - markdown_converter - INFO -  - .Rhistory (1.75 KB)
+2025-06-22 11:47:21,896 - markdown_converter - INFO -  - 046_Pan.pdf (403.32 KB)
+2025-06-22 11:47:21,897 - markdown_converter - INFO -  - 1-s2.0-S0264275124000374-main.pdf (2691.25 KB)
+2025-06-22 11:47:21,897 - markdown_converter - INFO -  - 20240619_Vargen en Antwoorden CV.docx (162.05 KB)
+2025-06-22 11:47:21,898 - markdown_converter - INFO -  - 20241015_CPTED_FOC_ Presentation.pptx (78.03 KB)
+2025-06-22 11:47:21,899 - markdown_converter - INFO -  - 20241015_MPI.R (10.86 KB)
+2025-06-22 11:47:21,899 - markdown_converter - INFO -  - 20241015_virtual_twin_MPI.html (773.02 KB)
+2025-06-22 11:47:21,900 - markdown_converter - INFO -  - 20241015_virtual_twin_MPI.Rmd (10.90 KB)
+2025-06-22 11:47:21,901 - markdown_converter - INFO -  - 20250108_CV_Kuralarasan_Kumar.docx (21.26 KB)
+2025-06-22 11:47:21,901 - markdown_converter - INFO -  - 20250110_CBRE_Cover Letter.docx (17.13 KB)
+2025-06-22 11:47:21,902 - markdown_converter - INFO -  - 20250110_CBRE_Kuralarasan_Kumar_CV.docx (135.88 KB)
+2025-06-22 11:47:21,905 - markdown_converter - INFO -  - 20250110_ipsos_Cover Letter.docx (17.67 KB)
+2025-06-22 11:47:21,906 - markdown_converter - INFO -  - 20250110_Kuralarasan Kumar_CV_Deloitte.docx (37.70 KB)
+2025-06-22 11:47:21,907 - markdown_converter - INFO -  - 20250110_Kuralarasan Kumar_CV_ipsos.docx (37.12 KB)
+2025-06-22 11:47:21,908 - markdown_converter - INFO -  - 20250113_cover_letter_Kuralarasan_Kumar.docx (17.22 KB)
+2025-06-22 11:47:21,909 - markdown_converter - INFO -  - 20250113__Deloitte_Kuralarasan_Kumar_CV.docx (135.97 KB)
+2025-06-22 11:47:21,910 - markdown_converter - INFO -  - 20250124_Kuralarasan Kumar_PP.docx (40.85 KB)
+2025-06-22 11:47:21,910 - markdown_converter - INFO -  - 20250124_Kuralarasan_Kumar_CV_T&E.docx (138.64 KB)
+2025-06-22 11:47:21,911 - markdown_converter - INFO -  - 20250125_Cover Letter_T&E.docx (17.75 KB)
+2025-06-22 11:47:21,912 - markdown_converter - INFO -  - 20250228_CV_Kuralarasan_Kumar.docx (65.19 KB)
+2025-06-22 11:47:21,913 - markdown_converter - INFO -  - 20250616_Motivation_letter_dodona CV.docx (28.19 KB)
+2025-06-22 11:47:21,913 - markdown_converter - INFO -  - 20250616_Motivation_letter_dodona.docx (18.01 KB)
+2025-06-22 11:47:21,914 - markdown_converter - INFO -  - 20250620_motivation letter.docx (18.80 KB)
+2025-06-22 11:47:21,915 - markdown_converter - INFO -  - 20250620_vraagen en antwoorden.docx (34.09 KB)
+2025-06-22 11:47:21,915 - markdown_converter - INFO -  - 20250621_Dodona_Learning_Path_Overview.docx (40.63 KB)
+2025-06-22 11:47:21,916 - markdown_converter - INFO -  - 20250621_Motivation_Letter.docx (38.65 KB)
+2025-06-22 11:47:21,917 - markdown_converter - INFO -  - 20250621_stats-course-dodona-main.zip (1722.86 KB)
+2025-06-22 11:47:21,917 - markdown_converter - INFO -  - 20250621_vragen en antwoorden.docx (35.98 KB)
+2025-06-22 11:47:21,918 - markdown_converter - INFO -  - B001505.pdf (41.03 KB)
+2025-06-22 11:47:21,919 - markdown_converter - INFO -  - B001628 dutch .pdf (43.12 KB)
+2025-06-22 11:47:21,922 - markdown_converter - INFO -  - B001628.pdf (42.97 KB)
+2025-06-22 11:47:21,923 - markdown_converter - INFO -  - B001832.pdf (41.00 KB)
+2025-06-22 11:47:21,924 - markdown_converter - INFO -  - B001838.pdf (32.95 KB)
+2025-06-22 11:47:21,926 - markdown_converter - INFO -  - CBRE.docx (20.00 KB)
+2025-06-22 11:47:21,926 - markdown_converter - INFO -  - course-voorbeeldoefeningen-basisstatistiek.csv (0.48 KB)
+2025-06-22 11:47:21,927 - markdown_converter - INFO -  - Cover letter and CV.docx (37.74 KB)
+2025-06-22 11:47:21,928 - markdown_converter - INFO -  - Cover letter.docx (17.65 KB)
+2025-06-22 11:47:21,929 - markdown_converter - INFO -  - Cover letter_uatenwepen.docx (19.08 KB)
+2025-06-22 11:47:21,930 - markdown_converter - INFO -  - Cover_letter_UAnterwerpen.docx (20.15 KB)
+2025-06-22 11:47:21,931 - markdown_converter - INFO -  - CPTED_Presentation_v2.pptx (57.93 KB)
+2025-06-22 11:47:21,932 - markdown_converter - INFO -  - crime-rate-calculation.png (84.95 KB)
+2025-06-22 11:47:21,933 - markdown_converter - INFO -  - Criminology - 2024 - Barnum - Reactive guardianship Who intervenes How And why.pdf (909.26 KB)
+2025-06-22 11:47:21,933 - markdown_converter - INFO -  - CV_Kuralarasan_Kumar.docx (57.85 KB)
+2025-06-22 11:47:21,934 - markdown_converter - INFO -  - Data Science (0.00 KB)
+2025-06-22 11:47:21,935 - markdown_converter - INFO -  - Dear Members of the Selection Committee.docx (19.01 KB)
+2025-06-22 11:47:21,935 - markdown_converter - INFO -  - Deloitte.docx (20.96 KB)
+2025-06-22 11:47:21,936 - markdown_converter - INFO -  - descriptive-vs-inferential.png (81.09 KB)
+2025-06-22 11:47:21,937 - markdown_converter - INFO -  - dodona motivation letter.docx (19.95 KB)
+2025-06-22 11:47:21,938 - markdown_converter - INFO -  - dodona-series-overview 1.png (27.58 KB)
+2025-06-22 11:47:21,939 - markdown_converter - INFO -  - dodona-series-overview 2.png (53.51 KB)
+2025-06-22 11:47:21,939 - markdown_converter - INFO -  - dodona-series-overview 3.png (54.75 KB)
+2025-06-22 11:47:21,940 - markdown_converter - INFO -  - dodona-series-overview.md (1.62 KB)
+2025-06-22 11:47:21,940 - markdown_converter - INFO -  - dodona-series-overview.png (187.89 KB)
+2025-06-22 11:47:21,941 - markdown_converter - INFO -  - dodona_scoresheet_analyse_evaluatie_statistiek.png (31.61 KB)
+2025-06-22 11:47:21,942 - markdown_converter - INFO -  - dodona_scoresheet_basisbegrippen_toepassingen.png (30.47 KB)
+2025-06-22 11:47:21,943 - markdown_converter - INFO -  - dodona_scoresheet_total_overview.png (28.08 KB)
+2025-06-22 11:47:21,944 - markdown_converter - INFO -  - Dutch B001505.pdf (41.16 KB)
+2025-06-22 11:47:21,944 - markdown_converter - INFO -  - Exploring the Impact of CPTED on Fear of Crime.pptx (40.14 KB)
+2025-06-22 11:47:21,945 - markdown_converter - INFO -  - histogram-interpretation.png (112.13 KB)
+2025-06-22 11:47:21,945 - markdown_converter - INFO -  - hypothesis-video-question.png (245.51 KB)
+2025-06-22 11:47:21,946 - markdown_converter - INFO -  - ipos.docx (21.28 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - job tipes.pdf (2482.53 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - Job tips link.docx (15.74 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - job.R (10.01 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - job_histogram.R (2.00 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - journal.pone.0305815.pdf (1045.87 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - K-24-04_PostDoc_ENG.pdf (185.03 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - Kuralarasan_Kumar_CV.docx (135.95 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - Kuralarasan_Kumar_CV_CRBE.docx (57.56 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - Kuralarasan_Kumar_Resume_1.docx (599.56 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - Kuralarasan_Kumar_Resume_2.docx (135.91 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - Kural_CV.pdf (118.51 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - Kural_Motivation_letter.docx (16.18 KB)
+2025-06-22 11:47:21,947 - markdown_converter - INFO -  - Motivation Letter _CRBE.docx (17.13 KB)
+2025-06-22 11:47:21,950 - markdown_converter - INFO -  - Motivation_Letter.md (6.49 KB)
+2025-06-22 11:47:21,950 - markdown_converter - INFO -  - outlier-feedback-correct.png (109.13 KB)
+2025-06-22 11:47:21,950 - markdown_converter - INFO -  - outlier-feedback-wrong.png (101.47 KB)
+2025-06-22 11:47:21,951 - markdown_converter - INFO -  - pedagogical-screenshots-overview.md (3.75 KB)
+2025-06-22 11:47:21,951 - markdown_converter - INFO -  - quantative methods 1.pdf (41.08 KB)
+2025-06-22 11:47:21,951 - markdown_converter - INFO -  - question.docx (185.85 KB)
+2025-06-22 11:47:21,952 - markdown_converter - INFO -  - Questions (0.00 KB)
+2025-06-22 11:47:21,952 - markdown_converter - INFO -  - r exercise motivation letter.docx (22.95 KB)
+2025-06-22 11:47:21,952 - markdown_converter - INFO -  - renamed_dodona_scoresheets (4.00 KB)
+2025-06-22 11:47:21,952 - markdown_converter - INFO -  - renamed_dodona_scoresheets.zip (90.67 KB)
+2025-06-22 11:47:21,952 - markdown_converter - INFO -  - reporting 1.pdf (32.97 KB)
+2025-06-22 11:47:21,953 - markdown_converter - INFO -  - rsconnect (0.00 KB)
+2025-06-22 11:47:21,953 - markdown_converter - INFO -  - s40163-014-0010-5.pdf (539.66 KB)
+2025-06-22 11:47:21,954 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-09-42 Voorbeeldoefeningen – Basisstatistiek - Dodona.png (113.07 KB)
+2025-06-22 11:47:21,954 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-10-12 Beschrijvende vs. inferentiële statistiek - Dodona.png (81.09 KB)
+2025-06-22 11:47:21,954 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-10-43 Interpretatie van een histogram - Dodona.png (118.92 KB)
+2025-06-22 11:47:21,955 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-11-16 Helen's nulhypothese - Dodona.png (193.38 KB)
+2025-06-22 11:47:21,955 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-13-59 Berekening van het misdaadcijfer - Dodona.png (84.95 KB)
+2025-06-22 11:47:21,956 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-15-02 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (101.47 KB)
+2025-06-22 11:47:21,956 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-15-22 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (109.13 KB)
+2025-06-22 11:47:21,957 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-45-18 Scoresheet - Dodona.png (28.08 KB)
+2025-06-22 11:47:21,957 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-45-48 Analyse en Evaluatie in Statistiek - Dodona.png (31.61 KB)
+2025-06-22 11:47:21,957 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-46-05 Basisbegrippen en Toepassingen - Dodona.png (30.47 KB)
+2025-06-22 11:47:21,958 - markdown_converter - INFO -  - stats-course-dodona (0.00 KB)
+2025-06-22 11:47:21,958 - markdown_converter - INFO -  - TCI Research (4.00 KB)
+2025-06-22 11:47:21,958 - markdown_converter - INFO -  - Testing_Elderly_Peoples_Fear_of_Crime_Using_a_Virtual_Environment.pdf (3716.68 KB)
+2025-06-22 11:47:21,959 - markdown_converter - INFO -  - ToetvanSchaik2012.pdf (5959.90 KB)
+2025-06-22 11:47:21,959 - markdown_converter - INFO -  - UAnterwerp (32.00 KB)
+2025-06-22 11:47:21,959 - markdown_converter - INFO -  - Vargen en Antwoorden CV.docx (180.93 KB)
+2025-06-22 11:47:21,959 - markdown_converter - INFO -  - Vargen en Antwoorden.docx (150.29 KB)
+2025-06-22 11:47:21,959 - markdown_converter - INFO -  - vraag 2.docx (52.82 KB)
+2025-06-22 11:48:20,563 - markdown_converter - INFO - ================================================================================
+2025-06-22 11:48:20,564 - markdown_converter - INFO - MARKDOWN TO WORD CONVERSION SCRIPT - STARTING
+2025-06-22 11:48:20,565 - markdown_converter - INFO - ================================================================================
+2025-06-22 11:48:20,566 - markdown_converter - INFO - Found Motivation Letter at: C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md
+2025-06-22 11:48:20,566 - markdown_converter - INFO - Output directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 11:48:20,567 - markdown_converter - INFO - Output directory already exists
+2025-06-22 11:48:20,567 - markdown_converter - INFO - Current directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path
+2025-06-22 11:48:20,568 - markdown_converter - WARNING - Could not find Motivation_Letter.md in any expected locations
+2025-06-22 11:48:20,568 - markdown_converter - INFO - --------------------------------------------------------------------------------
+2025-06-22 11:48:20,569 - markdown_converter - INFO - Processing file: description/Dodona_Learning_Path_Overview_md.md
+2025-06-22 11:48:20,569 - markdown_converter - INFO - Full input path: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview_md.md
+2025-06-22 11:48:20,570 - markdown_converter - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 11:48:20,571 - markdown_converter - INFO - Converting c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview_md.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx...
+2025-06-22 11:48:20,572 - markdown_converter - INFO - Successfully read Markdown file: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description/Dodona_Learning_Path_Overview_md.md
+2025-06-22 11:48:20,573 - markdown_converter - INFO - Base directory: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona\Dodona-Learning-Path\description
+2025-06-22 11:48:20,573 - markdown_converter - INFO - Project root: c:\Users\kukumar\OneDrive - UGent\Desktop\basic-stats-dodona\stats-course-dodona\stats-course-dodona
+2025-06-22 11:48:20,602 - markdown_converter - INFO - Document does not contain any images, skipping image search
+2025-06-22 11:48:20,602 - markdown_converter - INFO - Starting to process markdown content...
+2025-06-22 11:48:20,641 - markdown_converter - INFO - Processing: 10% complete...
+2025-06-22 11:48:20,700 - markdown_converter - INFO - Processing: 25% complete...
+2025-06-22 11:48:20,911 - markdown_converter - INFO - Processing: 50% complete...
+2025-06-22 11:48:21,005 - markdown_converter - INFO - Processing: 75% complete...
+2025-06-22 11:48:21,042 - markdown_converter - INFO - Processing: 90% complete...
+2025-06-22 11:48:21,054 - markdown_converter - INFO - Finished processing markdown content. Saving document...
+2025-06-22 11:48:21,075 - markdown_converter - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 11:48:21,076 - markdown_converter - INFO - File conversion time: 0.51 seconds
+2025-06-22 11:48:21,077 - markdown_converter - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 11:48:21,077 - markdown_converter - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Dodona_Learning_Path_Overview.docx
+2025-06-22 11:48:21,077 - markdown_converter - INFO - File size: 40.63 KB
+2025-06-22 11:48:21,078 - markdown_converter - INFO - --------------------------------------------------------------------------------
+2025-06-22 11:48:21,078 - markdown_converter - INFO - Processing file: C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md
+2025-06-22 11:48:21,078 - markdown_converter - INFO - Full input path: C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md
+2025-06-22 11:48:21,078 - markdown_converter - INFO - Full output path: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 11:48:21,079 - markdown_converter - INFO - Converting C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx...
+2025-06-22 11:48:21,079 - markdown_converter - INFO - Successfully read Markdown file: C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md
+2025-06-22 11:48:21,080 - markdown_converter - INFO - Base directory: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 11:48:21,080 - markdown_converter - INFO - Project root: C:\Users\kukumar\OneDrive - UGent\Job
+2025-06-22 11:48:21,102 - markdown_converter - INFO - Document does not contain any images, skipping image search
+2025-06-22 11:48:21,103 - markdown_converter - INFO - Starting to process markdown content...
+2025-06-22 11:48:21,110 - markdown_converter - INFO - Processing: 10% complete...
+2025-06-22 11:48:21,112 - markdown_converter - INFO - Processing: 25% complete...
+2025-06-22 11:48:21,113 - markdown_converter - INFO - Processing: 50% complete...
+2025-06-22 11:48:21,124 - markdown_converter - INFO - Processing: 75% complete...
+2025-06-22 11:48:21,125 - markdown_converter - INFO - Processing: 90% complete...
+2025-06-22 11:48:21,125 - markdown_converter - INFO - Finished processing markdown content. Saving document...
+2025-06-22 11:48:21,149 - markdown_converter - INFO - Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 11:48:21,149 - markdown_converter - INFO - File conversion time: 0.07 seconds
+2025-06-22 11:48:21,150 - markdown_converter - INFO - Result: Document successfully saved to C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 11:48:21,150 - markdown_converter - INFO - SUCCESS: Output file created: C:\Users\kukumar\OneDrive - UGent\Job\20250621_Motivation_Letter.docx
+2025-06-22 11:48:21,151 - markdown_converter - INFO - File size: 38.65 KB
+2025-06-22 11:48:21,152 - markdown_converter - INFO - ================================================================================
+2025-06-22 11:48:21,152 - markdown_converter - INFO - CONVERSION COMPLETE - Total time: 0.59 seconds
+2025-06-22 11:48:21,152 - markdown_converter - INFO - ================================================================================
+2025-06-22 11:48:21,153 - markdown_converter - INFO - Files in output directory:
+2025-06-22 11:48:21,154 - markdown_converter - INFO -  - .RData (2.79 KB)
+2025-06-22 11:48:21,155 - markdown_converter - INFO -  - .Rhistory (1.75 KB)
+2025-06-22 11:48:21,155 - markdown_converter - INFO -  - 046_Pan.pdf (403.32 KB)
+2025-06-22 11:48:21,155 - markdown_converter - INFO -  - 1-s2.0-S0264275124000374-main.pdf (2691.25 KB)
+2025-06-22 11:48:21,155 - markdown_converter - INFO -  - 20240619_Vargen en Antwoorden CV.docx (162.05 KB)
+2025-06-22 11:48:21,156 - markdown_converter - INFO -  - 20241015_CPTED_FOC_ Presentation.pptx (78.03 KB)
+2025-06-22 11:48:21,157 - markdown_converter - INFO -  - 20241015_MPI.R (10.86 KB)
+2025-06-22 11:48:21,157 - markdown_converter - INFO -  - 20241015_virtual_twin_MPI.html (773.02 KB)
+2025-06-22 11:48:21,157 - markdown_converter - INFO -  - 20241015_virtual_twin_MPI.Rmd (10.90 KB)
+2025-06-22 11:48:21,158 - markdown_converter - INFO -  - 20250108_CV_Kuralarasan_Kumar.docx (21.26 KB)
+2025-06-22 11:48:21,158 - markdown_converter - INFO -  - 20250110_CBRE_Cover Letter.docx (17.13 KB)
+2025-06-22 11:48:21,159 - markdown_converter - INFO -  - 20250110_CBRE_Kuralarasan_Kumar_CV.docx (135.88 KB)
+2025-06-22 11:48:21,159 - markdown_converter - INFO -  - 20250110_ipsos_Cover Letter.docx (17.67 KB)
+2025-06-22 11:48:21,160 - markdown_converter - INFO -  - 20250110_Kuralarasan Kumar_CV_Deloitte.docx (37.70 KB)
+2025-06-22 11:48:21,160 - markdown_converter - INFO -  - 20250110_Kuralarasan Kumar_CV_ipsos.docx (37.12 KB)
+2025-06-22 11:48:21,160 - markdown_converter - INFO -  - 20250113_cover_letter_Kuralarasan_Kumar.docx (17.22 KB)
+2025-06-22 11:48:21,161 - markdown_converter - INFO -  - 20250113__Deloitte_Kuralarasan_Kumar_CV.docx (135.97 KB)
+2025-06-22 11:48:21,161 - markdown_converter - INFO -  - 20250124_Kuralarasan Kumar_PP.docx (40.85 KB)
+2025-06-22 11:48:21,162 - markdown_converter - INFO -  - 20250124_Kuralarasan_Kumar_CV_T&E.docx (138.64 KB)
+2025-06-22 11:48:21,162 - markdown_converter - INFO -  - 20250125_Cover Letter_T&E.docx (17.75 KB)
+2025-06-22 11:48:21,163 - markdown_converter - INFO -  - 20250228_CV_Kuralarasan_Kumar.docx (65.19 KB)
+2025-06-22 11:48:21,163 - markdown_converter - INFO -  - 20250616_Motivation_letter_dodona CV.docx (28.19 KB)
+2025-06-22 11:48:21,164 - markdown_converter - INFO -  - 20250616_Motivation_letter_dodona.docx (18.01 KB)
+2025-06-22 11:48:21,164 - markdown_converter - INFO -  - 20250620_motivation letter.docx (18.80 KB)
+2025-06-22 11:48:21,165 - markdown_converter - INFO -  - 20250620_vraagen en antwoorden.docx (34.09 KB)
+2025-06-22 11:48:21,165 - markdown_converter - INFO -  - 20250621_Dodona_Learning_Path_Overview.docx (40.63 KB)
+2025-06-22 11:48:21,166 - markdown_converter - INFO -  - 20250621_Motivation_Letter.docx (38.65 KB)
+2025-06-22 11:48:21,166 - markdown_converter - INFO -  - 20250621_stats-course-dodona-main.zip (1722.86 KB)
+2025-06-22 11:48:21,167 - markdown_converter - INFO -  - 20250621_vragen en antwoorden.docx (35.98 KB)
+2025-06-22 11:48:21,167 - markdown_converter - INFO -  - B001505.pdf (41.03 KB)
+2025-06-22 11:48:21,168 - markdown_converter - INFO -  - B001628 dutch .pdf (43.12 KB)
+2025-06-22 11:48:21,168 - markdown_converter - INFO -  - B001628.pdf (42.97 KB)
+2025-06-22 11:48:21,169 - markdown_converter - INFO -  - B001832.pdf (41.00 KB)
+2025-06-22 11:48:21,170 - markdown_converter - INFO -  - B001838.pdf (32.95 KB)
+2025-06-22 11:48:21,171 - markdown_converter - INFO -  - CBRE.docx (20.00 KB)
+2025-06-22 11:48:21,171 - markdown_converter - INFO -  - course-voorbeeldoefeningen-basisstatistiek.csv (0.48 KB)
+2025-06-22 11:48:21,172 - markdown_converter - INFO -  - Cover letter and CV.docx (37.74 KB)
+2025-06-22 11:48:21,172 - markdown_converter - INFO -  - Cover letter.docx (17.65 KB)
+2025-06-22 11:48:21,173 - markdown_converter - INFO -  - Cover letter_uatenwepen.docx (19.08 KB)
+2025-06-22 11:48:21,173 - markdown_converter - INFO -  - Cover_letter_UAnterwerpen.docx (20.15 KB)
+2025-06-22 11:48:21,174 - markdown_converter - INFO -  - CPTED_Presentation_v2.pptx (57.93 KB)
+2025-06-22 11:48:21,174 - markdown_converter - INFO -  - crime-rate-calculation.png (84.95 KB)
+2025-06-22 11:48:21,175 - markdown_converter - INFO -  - Criminology - 2024 - Barnum - Reactive guardianship Who intervenes How And why.pdf (909.26 KB)
+2025-06-22 11:48:21,175 - markdown_converter - INFO -  - CV_Kuralarasan_Kumar.docx (57.85 KB)
+2025-06-22 11:48:21,176 - markdown_converter - INFO -  - Data Science (0.00 KB)
+2025-06-22 11:48:21,176 - markdown_converter - INFO -  - Dear Members of the Selection Committee.docx (19.01 KB)
+2025-06-22 11:48:21,176 - markdown_converter - INFO -  - Deloitte.docx (20.96 KB)
+2025-06-22 11:48:21,177 - markdown_converter - INFO -  - descriptive-vs-inferential.png (81.09 KB)
+2025-06-22 11:48:21,177 - markdown_converter - INFO -  - dodona motivation letter.docx (19.95 KB)
+2025-06-22 11:48:21,178 - markdown_converter - INFO -  - dodona-series-overview 1.png (27.58 KB)
+2025-06-22 11:48:21,178 - markdown_converter - INFO -  - dodona-series-overview 2.png (53.51 KB)
+2025-06-22 11:48:21,179 - markdown_converter - INFO -  - dodona-series-overview 3.png (54.75 KB)
+2025-06-22 11:48:21,179 - markdown_converter - INFO -  - dodona-series-overview.md (1.62 KB)
+2025-06-22 11:48:21,179 - markdown_converter - INFO -  - dodona-series-overview.png (187.89 KB)
+2025-06-22 11:48:21,180 - markdown_converter - INFO -  - dodona_scoresheet_analyse_evaluatie_statistiek.png (31.61 KB)
+2025-06-22 11:48:21,180 - markdown_converter - INFO -  - dodona_scoresheet_basisbegrippen_toepassingen.png (30.47 KB)
+2025-06-22 11:48:21,181 - markdown_converter - INFO -  - dodona_scoresheet_total_overview.png (28.08 KB)
+2025-06-22 11:48:21,181 - markdown_converter - INFO -  - Dutch B001505.pdf (41.16 KB)
+2025-06-22 11:48:21,182 - markdown_converter - INFO -  - Exploring the Impact of CPTED on Fear of Crime.pptx (40.14 KB)
+2025-06-22 11:48:21,183 - markdown_converter - INFO -  - histogram-interpretation.png (112.13 KB)
+2025-06-22 11:48:21,183 - markdown_converter - INFO -  - hypothesis-video-question.png (245.51 KB)
+2025-06-22 11:48:21,184 - markdown_converter - INFO -  - ipos.docx (21.28 KB)
+2025-06-22 11:48:21,185 - markdown_converter - INFO -  - job tipes.pdf (2482.53 KB)
+2025-06-22 11:48:21,185 - markdown_converter - INFO -  - Job tips link.docx (15.74 KB)
+2025-06-22 11:48:21,186 - markdown_converter - INFO -  - job.R (10.01 KB)
+2025-06-22 11:48:21,187 - markdown_converter - INFO -  - job_histogram.R (2.00 KB)
+2025-06-22 11:48:21,188 - markdown_converter - INFO -  - journal.pone.0305815.pdf (1045.87 KB)
+2025-06-22 11:48:21,189 - markdown_converter - INFO -  - K-24-04_PostDoc_ENG.pdf (185.03 KB)
+2025-06-22 11:48:21,189 - markdown_converter - INFO -  - Kuralarasan_Kumar_CV.docx (135.95 KB)
+2025-06-22 11:48:21,190 - markdown_converter - INFO -  - Kuralarasan_Kumar_CV_CRBE.docx (57.56 KB)
+2025-06-22 11:48:21,190 - markdown_converter - INFO -  - Kuralarasan_Kumar_Resume_1.docx (599.56 KB)
+2025-06-22 11:48:21,191 - markdown_converter - INFO -  - Kuralarasan_Kumar_Resume_2.docx (135.91 KB)
+2025-06-22 11:48:21,192 - markdown_converter - INFO -  - Kural_CV.pdf (118.51 KB)
+2025-06-22 11:48:21,193 - markdown_converter - INFO -  - Kural_Motivation_letter.docx (16.18 KB)
+2025-06-22 11:48:21,193 - markdown_converter - INFO -  - Motivation Letter _CRBE.docx (17.13 KB)
+2025-06-22 11:48:21,194 - markdown_converter - INFO -  - Motivation_Letter.md (6.49 KB)
+2025-06-22 11:48:21,194 - markdown_converter - INFO -  - outlier-feedback-correct.png (109.13 KB)
+2025-06-22 11:48:21,195 - markdown_converter - INFO -  - outlier-feedback-wrong.png (101.47 KB)
+2025-06-22 11:48:21,195 - markdown_converter - INFO -  - pedagogical-screenshots-overview.md (3.75 KB)
+2025-06-22 11:48:21,196 - markdown_converter - INFO -  - quantative methods 1.pdf (41.08 KB)
+2025-06-22 11:48:21,196 - markdown_converter - INFO -  - question.docx (185.85 KB)
+2025-06-22 11:48:21,197 - markdown_converter - INFO -  - Questions (0.00 KB)
+2025-06-22 11:48:21,198 - markdown_converter - INFO -  - r exercise motivation letter.docx (22.95 KB)
+2025-06-22 11:48:21,198 - markdown_converter - INFO -  - renamed_dodona_scoresheets (4.00 KB)
+2025-06-22 11:48:21,199 - markdown_converter - INFO -  - renamed_dodona_scoresheets.zip (90.67 KB)
+2025-06-22 11:48:21,199 - markdown_converter - INFO -  - reporting 1.pdf (32.97 KB)
+2025-06-22 11:48:21,200 - markdown_converter - INFO -  - rsconnect (0.00 KB)
+2025-06-22 11:48:21,200 - markdown_converter - INFO -  - s40163-014-0010-5.pdf (539.66 KB)
+2025-06-22 11:48:21,201 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-09-42 Voorbeeldoefeningen – Basisstatistiek - Dodona.png (113.07 KB)
+2025-06-22 11:48:21,202 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-10-12 Beschrijvende vs. inferentiële statistiek - Dodona.png (81.09 KB)
+2025-06-22 11:48:21,203 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-10-43 Interpretatie van een histogram - Dodona.png (118.92 KB)
+2025-06-22 11:48:21,203 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-11-16 Helen's nulhypothese - Dodona.png (193.38 KB)
+2025-06-22 11:48:21,204 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-13-59 Berekening van het misdaadcijfer - Dodona.png (84.95 KB)
+2025-06-22 11:48:21,205 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-15-02 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (101.47 KB)
+2025-06-22 11:48:21,205 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-15-22 Interpretatie van misdaadcijfers t.o.v. het nationale gemiddelde - Dodona.png (109.13 KB)
+2025-06-22 11:48:21,206 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-45-18 Scoresheet - Dodona.png (28.08 KB)
+2025-06-22 11:48:21,206 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-45-48 Analyse en Evaluatie in Statistiek - Dodona.png (31.61 KB)
+2025-06-22 11:48:21,207 - markdown_converter - INFO -  - Screenshot 2025-06-20 at 11-46-05 Basisbegrippen en Toepassingen - Dodona.png (30.47 KB)
+2025-06-22 11:48:21,207 - markdown_converter - INFO -  - stats-course-dodona (0.00 KB)
+2025-06-22 11:48:21,208 - markdown_converter - INFO -  - TCI Research (4.00 KB)
+2025-06-22 11:48:21,208 - markdown_converter - INFO -  - Testing_Elderly_Peoples_Fear_of_Crime_Using_a_Virtual_Environment.pdf (3716.68 KB)
+2025-06-22 11:48:21,209 - markdown_converter - INFO -  - ToetvanSchaik2012.pdf (5959.90 KB)
+2025-06-22 11:48:21,210 - markdown_converter - INFO -  - UAnterwerp (32.00 KB)
+2025-06-22 11:48:21,210 - markdown_converter - INFO -  - Vargen en Antwoorden CV.docx (180.93 KB)
+2025-06-22 11:48:21,211 - markdown_converter - INFO -  - Vargen en Antwoorden.docx (150.29 KB)
+2025-06-22 11:48:21,211 - markdown_converter - INFO -  - vraag 2.docx (52.82 KB)

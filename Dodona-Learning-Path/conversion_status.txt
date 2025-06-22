@@ -25,7 +25,7 @@ Output directory exists
  - 20250616_Motivation_letter_dodona.docx (18.01 KB)
  - 20250620_motivation letter.docx (18.80 KB)
  - 20250620_vraagen en antwoorden.docx (34.09 KB)
- - 20250621_Dodona_Learning_Path_Overview.docx (40.60 KB)
+ - 20250621_Dodona_Learning_Path_Overview.docx (40.63 KB)
  - 20250621_Motivation_Letter.docx (38.65 KB)
  - 20250621_stats-course-dodona-main.zip (1722.86 KB)
  - 20250621_vragen en antwoorden.docx (35.98 KB)
