@@ -1,14 +1,26 @@
+from bs4 import BeautifulSoup  # Add BeautifulSoup for HTML parsing
 import os
 import sys
 import time
 import logging
 import traceback
 import urllib.parse
+import re
 from docx import Document
 from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 import glob
-import re
+
+# Define current directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+try:
+    from bs4 import BeautifulSoup  # Add BeautifulSoup for HTML parsing
+except ImportError:
+    print("BeautifulSoup4 not found. Installing...")
+    import subprocess
+    subprocess.call([sys.executable, "-m", "pip", "install", "beautifulsoup4"])
+    from bs4 import BeautifulSoup
 
 
 def find_images_efficiently(project_root, max_depth=3, logger=None):
@@ -26,9 +38,8 @@ def find_images_efficiently(project_root, max_depth=3, logger=None):
             except:
                 print(msg)
         else:
+            # Special handling for common problematic files (directly check for these)
             print(msg)
-
-    # Special handling for common problematic files (directly check for these)
     log = safe_log
     special_files = [
         'bloom-pyramid.png',
@@ -209,15 +220,155 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                 elif i == 2:
                     heading_style.font.size = Pt(14)
                 else:
+                    # Process each line of the markdown
                     heading_style.font.size = Pt(13)
-
-        # Process each line of the markdown
         current_list = []
         in_list = False
         in_table = False
+        in_html_table = False  # Track if we are inside an HTML table
+        html_table_content = ""  # To collect HTML table content
         # Only search for images if the document actually contains image markdown
         table_data = []
         image_lookup = {}
+
+        # Define a helper function to process HTML tables
+        def process_html_table(html_content):
+            try:
+                soup = BeautifulSoup(html_content, 'html.parser')
+                table_elem = soup.find('table')
+
+                if not table_elem:
+                    log("No valid table found in HTML content")
+                    return
+
+                rows = table_elem.find_all('tr')
+                if not rows:
+                    log("No rows found in HTML table")
+                    return
+
+                # Count max cells across all rows
+                max_cells = 0
+                for row in rows:
+                    cells = row.find_all(['th', 'td'])
+                    max_cells = max(max_cells, len(cells))
+
+                if max_cells == 0:
+                    log("No cells found in HTML table rows")
+                    return
+
+                # Create table in Word
+                table = doc.add_table(rows=len(rows), cols=max_cells)
+                table.style = 'Table Grid'
+
+                # Process all rows and cells
+                for i, row in enumerate(rows):
+                    cells = row.find_all(['th', 'td'])
+
+                    # Check if there's any background color for the row
+                    bg_color = None
+                    if 'style' in row.attrs:
+                        style = row.attrs['style']
+                        bg_match = re.search(
+                            r'background-color:\s*(#[0-9a-fA-F]{6}|#[0-9a-fA-F]{3})', style)
+                        if bg_match:
+                            bg_color = bg_match.group(1)
+
+                    # Process each cell
+                    for j, cell in enumerate(cells):
+                        if j < max_cells:  # Stay within table boundaries
+                            cell_text = cell.get_text(strip=True)
+                            word_cell = table.cell(i, j)
+                            word_cell.text = cell_text
+
+                            # Apply alignment if specified
+                            align = None
+                            if 'style' in cell.attrs:
+                                style = cell.attrs['style']
+                                align_match = re.search(
+                                    r'text-align:\s*(\w+)', style)
+                                if align_match:
+                                    align = align_match.group(1)
+
+                            # Apply formatting to paragraphs in the cell
+                            for paragraph in word_cell.paragraphs:
+                                # Set alignment
+                                if align == 'center':
+                                    paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                                elif align == 'right':
+                                    paragraph.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+                                elif align == 'left':
+                                    paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT
+
+                                # Apply font formatting to all runs
+                                for run in paragraph.runs:
+                                    run.font.name = 'Times New Roman'
+                                    run.font.size = Pt(11)
+
+                                    # Apply bold to header cells
+                                    if cell.name == 'th' or i == 0:
+                                        run.bold = True
+
+                log("Successfully processed HTML table")
+                # Add a small space after the table
+                doc.add_paragraph()
+                return table
+
+                # Process all rows and cells
+                for i, row in enumerate(rows):
+                    cells = row.find_all(['th', 'td'])
+
+                    # Check if there's any background color for the row
+                    bg_color = None
+                    if 'style' in row.attrs:
+                        style = row.attrs['style']
+                        bg_match = re.search(
+                            r'background-color:\s*(#[0-9a-fA-F]{6}|#[0-9a-fA-F]{3})', style)
+                        if bg_match:
+                            bg_color = bg_match.group(1)
+
+                    # Process each cell
+                    for j, cell in enumerate(cells):
+                        if j < max_cells:  # Stay within table boundaries
+                            cell_text = cell.get_text(strip=True)
+                            word_cell = table.cell(i, j)
+                            word_cell.text = cell_text
+
+                            # Apply alignment if specified
+                            align = None
+                            if 'style' in cell.attrs:
+                                style = cell.attrs['style']
+                                align_match = re.search(
+                                    r'text-align:\s*(\w+)', style)
+                                if align_match:
+                                    align = align_match.group(1)
+
+                            # Apply formatting to paragraphs in the cell
+                            for paragraph in word_cell.paragraphs:
+                                # Set alignment
+                                if align == 'center':
+                                    paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                                elif align == 'right':
+                                    paragraph.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+                                elif align == 'left':
+                                    paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT
+
+                                # Apply font formatting to all runs
+                                for run in paragraph.runs:
+                                    run.font.name = 'Times New Roman'
+                                    run.font.size = Pt(11)
+
+                                    # Apply bold to header cells
+                                    if cell.name == 'th' or i == 0:
+                                        run.bold = True
+
+                log("Successfully processed HTML table")
+                # Add a small space after the table
+                doc.add_paragraph()
+                return table
+            except Exception as e:
+                log_error(f"Error processing HTML table: {str(e)}")
+                traceback.print_exc()
+                return None
         if has_images:
             log("Document contains images, searching for image files...")
             # Use the more efficient image search - but only do it once
@@ -395,9 +546,8 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                         # Standard numbered item without special formatting
                         doc.add_paragraph(content, style='List Number')
                 else:
-                    doc.add_paragraph(line)  # Fallback
-
-            # Check for tables - optimized handling
+                    # Fallback            # Check for tables - optimized handling
+                    doc.add_paragraph(line)
             elif line.strip().startswith('|') and line.strip().endswith('|'):
                 if not in_table:
                     in_table = True
@@ -419,6 +569,7 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                     if num_rows > 0:
                         num_cols = max(len(row) for row in table_data)
                         if num_cols > 0:
+                            # Create table in Word with proper formatting
                             table = doc.add_table(rows=num_rows, cols=num_cols)
                             table.style = 'Table Grid'
 
@@ -427,18 +578,137 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
                                 for col_idx, cell_data in enumerate(row_data):
                                     if col_idx < num_cols:
                                         cell = table.cell(row_idx, col_idx)
-                                        cell.text = cell_data
+
+                                        # Check if cell contains bold formatting with **text**
+                                        if '**' in cell_data:
+                                            p = cell.paragraphs[0]
+                                            p.text = ""  # Clear default text
+
+                                            # Process bold formatting
+                                            parts = cell_data.split('**')
+                                            for idx, part in enumerate(parts):
+                                                if part:  # Skip empty parts
+                                                    run = p.add_run(part)
+                                                    run.font.name = 'Times New Roman'
+                                                    run.font.size = Pt(11)
+                                                    # Odd parts are bold
+                                                    run.bold = (idx % 2 == 1)
+                                        else:
+                                            # Standard text without special formatting
+                                            cell.text = cell_data
+
                                         # Apply Times New Roman font to table text
                                         for paragraph in cell.paragraphs:
                                             for run in paragraph.runs:
                                                 run.font.name = 'Times New Roman'
+                                                run.font.size = Pt(11)
 
+                                                # Apply bold to header row
+                                                if row_idx == 0:
+                                                    run.bold = True
+
+                            # Add spacing after the table
+                            spacing_after = doc.add_paragraph()
+                            spacing_after.paragraph_format.space_before = Pt(6)
+
+                # Set table to False and reset table data
                 in_table = False
                 table_data = []
                 # Process the current line (non-table line)
                 if line.strip():
-                    # Enhanced image and screenshot handling with actual image embedding
+                    # Don't duplicate the current line as paragraph if not a table
                     doc.add_paragraph(line)
+            # Special handling for HTML tables - convert to markdown tables instead
+            elif line.strip().startswith('<table') or in_html_table:
+                if not in_html_table:
+                    in_html_table = True
+                    html_table_content = line
+                    log(f"Found HTML table start: {line[:50]}...")
+                elif line.strip().startswith('</table>') or '</table>' in line:
+                    # Complete the HTML table and process it
+                    html_table_content += line
+                    in_html_table = False
+                    log(
+                        f"Processing complete HTML table ({len(html_table_content)} chars)")
+                    # Instead of using HTML parser, convert to Markdown table format and handle it that way
+                    try:
+                        soup = BeautifulSoup(html_table_content, 'html.parser')
+                        table_elem = soup.find('table')
+
+                        if table_elem and table_elem.find_all('tr'):
+                            rows = table_elem.find_all('tr')
+                            markdown_table = []
+
+                            # Process each row to extract cell content
+                            for row_idx, row in enumerate(rows):
+                                cells = row.find_all(['th', 'td'])
+                                if cells:
+                                    markdown_row = []
+                                    for cell in cells:
+                                        cell_text = cell.get_text(strip=True)
+                                        # Make header row bold
+                                        if row_idx == 0 or cell.name == 'th':
+                                            cell_text = f"**{cell_text}**" if cell_text else ""
+                                        markdown_row.append(cell_text)
+                                    markdown_table.append(markdown_row)
+
+                            # Create the Word table
+                            if markdown_table:
+                                num_rows = len(markdown_table)
+                                num_cols = max(len(row)
+                                               for row in markdown_table)
+                                if num_cols > 0:
+                                    table = doc.add_table(
+                                        rows=num_rows, cols=num_cols)
+                                    table.style = 'Table Grid'
+
+                                    # Fill the table with data
+                                    for row_idx, row_data in enumerate(markdown_table):
+                                        for col_idx, cell_data in enumerate(row_data):
+                                            if col_idx < num_cols:
+                                                cell = table.cell(
+                                                    row_idx, col_idx)
+
+                                                # Process bold formatting if present
+                                                if '**' in cell_data:
+                                                    p = cell.paragraphs[0]
+                                                    p.text = ""  # Clear default text
+                                                    parts = cell_data.split(
+                                                        '**')
+                                                    for idx, part in enumerate(parts):
+                                                        if part:
+                                                            run = p.add_run(
+                                                                part)
+                                                            run.font.name = 'Times New Roman'
+                                                            run.font.size = Pt(
+                                                                11)
+                                                            run.bold = (
+                                                                idx % 2 == 1)
+                                                else:
+                                                    cell.text = cell_data
+
+                                                # Apply formatting
+                                                for paragraph in cell.paragraphs:
+                                                    for run in paragraph.runs:
+                                                        run.font.name = 'Times New Roman'
+                                                        run.font.size = Pt(11)
+
+                                                        # Apply bold to header row
+                                                        if row_idx == 0:
+                                                            run.bold = True
+
+                                    # Add spacing after the table
+                                    doc.add_paragraph()
+                        else:
+                            log("No valid table structure found in HTML content")
+                    except Exception as e:
+                        log_error(f"Error converting HTML table: {str(e)}")
+                        doc.add_paragraph("[Table conversion failed]")
+
+                    html_table_content = ""
+                else:
+                    # Continue collecting HTML table content
+                    html_table_content += line
             elif has_images and line.strip().startswith('!['):
                 try:
                     # Extract image details (more efficiently)
@@ -751,6 +1021,21 @@ def simple_markdown_to_word(md_file, output_file, logger=None, show_image_debug=
             elif line.strip() == '---':
                 doc.add_paragraph('_' * 50)
 
+            # Special handling for HTML tables
+            elif line.strip().startswith('<table') or in_html_table:
+                if not in_html_table:
+                    in_html_table = True
+                    html_table_content = line
+                elif line.strip().startswith('</table>'):
+                    # Complete the HTML table and process it
+                    html_table_content += line
+                    in_html_table = False
+                    process_html_table(html_table_content)
+                    html_table_content = ""
+                else:
+                    # Continue collecting HTML table content
+                    html_table_content += line
+
             i += 1  # Move to next line
 
             # Log progress for long documents (less frequent to reduce overhead)
@@ -1055,22 +1340,91 @@ def find_specific_image(project_root, target_filename, max_depth=3, logger=None)
     return None
 
 
+def setup_logging():
+    """Set up logging for the script"""
+    log_dir = os.path.dirname(os.path.abspath(__file__))
+    log_path = os.path.join(log_dir, "conversion.log")
+
+    logger = logging.getLogger("markdown_converter")
+    logger.setLevel(logging.DEBUG)
+
+    # Create handlers
+    file_handler = logging.FileHandler(log_path)
+    console_handler = logging.StreamHandler(sys.stdout)
+
+    # Configure handlers
+    file_handler.setLevel(logging.DEBUG)
+    console_handler.setLevel(logging.INFO)
+
+    # Create formatters
+    file_formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    console_formatter = logging.Formatter('%(message)s')
+
+    # Set formatters
+    file_handler.setFormatter(file_formatter)
+    console_handler.setFormatter(console_formatter)
+
+    # Add handlers to logger
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
+    return logger
+
+
+def find_project_root(start_dir):
+    """Find the root directory of the project"""
+    # Look for common indicators of project root
+    current = start_dir
+    max_depth = 5
+    depth = 0
+
+    while depth < max_depth:
+        # Check if this looks like a project root
+        if os.path.exists(os.path.join(current, "Dodona-Learning-Path")) or \
+           os.path.exists(os.path.join(current, "stats-course-dodona")):
+            return current
+
+        # Go up one directory
+        parent = os.path.dirname(current)
+        if parent == current:  # Reached the root of the filesystem
+            break
+        current = parent
+        depth += 1
+
+    # If we can't find a better root, use the starting directory
+    return start_dir
+
+
 if __name__ == "__main__":
     try:
         import time
         import sys
         start_time = time.time()
-        logger = setup_logging()        # Parse arguments
+        logger = setup_logging()
         test_images = False
         test_file = None
-        find_bloom_pyramid = False
+        output_file = None
 
-        # Check for command-line arguments
-        if len(sys.argv) > 1:
-            # Look for test image flag
-            if "--test-images" in sys.argv:
-                test_images = True
-                logger.info("Image testing mode enabled")
+        # Check for direct file conversion mode
+        if len(sys.argv) >= 3 and sys.argv[1].endswith('.md'):
+            input_file = os.path.abspath(sys.argv[1])
+            output_file = os.path.abspath(sys.argv[2])
+
+            if os.path.exists(input_file):
+                logger.info(
+                    f"Direct conversion mode: {input_file} -> {output_file}")
+                simple_markdown_to_word(input_file, output_file, logger=logger)
+                logger.info(f"Conversion completed successfully!")
+                sys.exit(0)
+            else:
+                logger.error(f"Input file not found: {input_file}")
+                sys.exit(1)
+
+        # Regular mode - check for flags
+        if "--test-images" in sys.argv:
+            test_images = True
+            logger.info("Image testing mode enabled")
 
             # Special flag to focus on the bloom pyramid issue
             if "--find-bloom-pyramid" in sys.argv:
@@ -1103,19 +1457,37 @@ if __name__ == "__main__":
         # Print a clear start message
         logger.info("="*80)
         logger.info("MARKDOWN TO WORD CONVERSION SCRIPT - STARTING")
-        logger.info("="*80)
-
-        # Files to convert
+        logger.info("="*80)        # Files to convert
         files_to_convert = [
             {
-                "input_file": "description/Dodona_Learning_Path_Overview.md",
+                "input_file": "description/Dodona_Learning_Path_Overview_md.md",
                 "output_name": "20250621_Dodona_Learning_Path_Overview.docx"
             },
             {
-                "input_file": "../Motivation_Letter.md",
+                "input_file": "C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md",
                 "output_name": "20250621_Motivation_Letter.docx"
             }
+        ]        # Find Motivation_Letter.md in different possible locations if needed
+        possible_motivation_letters = [
+            "C:/Users/kukumar/OneDrive - UGent/Job/Motivation_Letter.md",
+            "../Motivation_Letter.md",
+            "../../Motivation_Letter.md",
+            "Motivation_Letter.md",
+            os.path.join(os.path.dirname(current_dir), "Motivation_Letter.md"),
+            os.path.join(os.path.dirname(os.path.dirname(
+                current_dir)), "Motivation_Letter.md")
         ]
+
+        for idx, path in enumerate(possible_motivation_letters):
+            abs_path = os.path.join(
+                current_dir, path) if not os.path.isabs(path) else path
+            if os.path.exists(abs_path):
+                logger.info(f"Found Motivation Letter at: {abs_path}")
+                files_to_convert[1]["input_file"] = abs_path
+                break
+            elif idx == len(possible_motivation_letters) - 1:
+                logger.warning(
+                    "Could not find Motivation_Letter.md file in any of the expected locations")
 
         # If we're testing a specific file, use that instead
         if test_file:
@@ -1124,10 +1496,16 @@ if __name__ == "__main__":
                     "input_file": test_file,
                     "output_name": f"TEST_{os.path.basename(test_file).replace('.md', '.docx')}"
                 }
-            ]
-
-        # Output directory
+            ]        # Output directory
         output_dir = r"C:\Users\kukumar\OneDrive - UGent\Job"
+        # Ensure output directory exists
+        if not os.path.exists(output_dir):
+            try:
+                os.makedirs(output_dir)
+                logger.info(f"Created output directory: {output_dir}")
+            except Exception as e:
+                logger.error(f"Failed to create output directory: {e}")
+                output_dir = current_dir  # Fallback to current directory
 
         # Use current directory for test outputs
         if test_images or test_file:
@@ -1142,11 +1520,28 @@ if __name__ == "__main__":
             os.makedirs(output_dir)
             logger.info(f"Created output directory: {output_dir}")
         else:
+            # Get the current directory
             logger.info(f"Output directory already exists")
-
-        # Get the current directory
         current_dir = os.path.dirname(os.path.abspath(__file__))
         logger.info(f"Current directory: {current_dir}")
+
+        # Also search for Motivation_Letter.md in parent directories
+        search_paths = [
+            os.path.join(current_dir, "../Motivation_Letter.md"),
+            os.path.join(current_dir, "../../Motivation_Letter.md"),
+            os.path.join(os.path.dirname(current_dir), "Motivation_Letter.md"),
+            os.path.join(os.path.dirname(os.path.dirname(
+                current_dir)), "Motivation_Letter.md")
+        ]
+
+        for path in search_paths:
+            if os.path.exists(path):
+                logger.info(f"Found Motivation Letter at: {path}")
+                files_to_convert[1]["input_file"] = path
+                break
+        else:
+            logger.warning(
+                "Could not find Motivation_Letter.md in any expected locations")
 
         # Process each file
         for file_info in files_to_convert:
