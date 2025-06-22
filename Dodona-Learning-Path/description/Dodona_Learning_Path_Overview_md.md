@@ -21,7 +21,8 @@ The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progress
 
 <div align="center">
 <strong>Bloom's Taxonomy Pyramid</strong><br>
-(Remember → Understand → Apply → Analyze → Evaluate → Create)
+<img src="../bloom-pyramid.svg" alt="Bloom's Taxonomy Pyramid" width="350"/>
+<br>(Remember → Understand → Apply → Analyze → Evaluate → Create)
 </div>
 
 This hierarchical model guides our learning path design, with exercises progressively moving from foundational knowledge to higher-order thinking skills.
