@@ -21,6 +21,7 @@ The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progress
 
 <div align="center">
 <strong>Bloom's Taxonomy Pyramid</strong><br>
+![Bloom's Taxonomy Pyramid](../bloom_pyramid_fallback.png)<br>
 (Remember → Understand → Apply → Analyze → Evaluate → Create)
 </div>
 
