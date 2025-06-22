@@ -25,46 +25,46 @@ The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progress
 
 <table align="center">
 <tr>
-<th>Cognitive Level</th>
-<th>Questions</th>
-<th>Numbers</th>
-<th>% of Course</th>
+<th style="text-align:right">Cognitive Level</th>
+<th style="text-align:center">Questions</th>
+<th style="text-align:center">Numbers</th>
+<th style="text-align:center">% of Course</th>
 </tr>
 <tr>
-<td>Remember</td>
-<td>2</td>
-<td>1-2</td>
-<td>13%</td>
+<td style="text-align:right">Remember</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">1-2</td>
+<td style="text-align:center">13%</td>
 </tr>
 <tr>
-<td>Understand</td>
-<td>2</td>
-<td>3-4</td>
-<td>13%</td>
+<td style="text-align:right">Understand</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">3-4</td>
+<td style="text-align:center">13%</td>
 </tr>
 <tr>
-<td>Apply</td>
-<td>3</td>
-<td>5-7</td>
-<td>20%</td>
+<td style="text-align:right">Apply</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">5-7</td>
+<td style="text-align:center">20%</td>
 </tr>
 <tr>
-<td>Analyze</td>
-<td>3</td>
-<td>8-10</td>
-<td>20%</td>
+<td style="text-align:right">Analyze</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">8-10</td>
+<td style="text-align:center">20%</td>
 </tr>
 <tr>
-<td>Evaluate</td>
-<td>4</td>
-<td>11-14</td>
-<td>27%</td>
+<td style="text-align:right">Evaluate</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">11-14</td>
+<td style="text-align:center">27%</td>
 </tr>
 <tr>
-<td>Create</td>
-<td>1</td>
-<td>15</td>
-<td>7%</td>
+<td style="text-align:right">Create</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">7%</td>
 </tr>
 </table>
 
@@ -75,100 +75,100 @@ The following table shows how each question aligns with specific cognitive level
 
 <table align="center">
 <tr>
-<th>Question Title</th>
-<th>Bloom Level</th>
-<th>Number</th>
-<th>Learning Intention</th>
+<th style="text-align:right">Question Title</th>
+<th style="text-align:center">Bloom Level</th>
+<th style="text-align:center">Number</th>
+<th style="text-align:center">Learning Intention</th>
 </tr>
 <tr>
-<td>Level of Measurement</td>
-<td>Remember</td>
-<td>Q1</td>
-<td>Identify and classify data types</td>
+<td style="text-align:right">Level of Measurement</td>
+<td style="text-align:center">Remember</td>
+<td style="text-align:center">Q1</td>
+<td style="text-align:center">Identify and classify data types</td>
 </tr>
 <tr>
-<td>Descriptive vs. Inferential</td>
-<td>Remember</td>
-<td>Q2</td>
-<td>Differentiate statistical approaches</td>
+<td style="text-align:right">Descriptive vs. Inferential</td>
+<td style="text-align:center">Remember</td>
+<td style="text-align:center">Q2</td>
+<td style="text-align:center">Differentiate statistical approaches</td>
 </tr>
 <tr>
-<td>Null Hypothesis</td>
-<td>Understand</td>
-<td>Q3</td>
-<td>Understand hypothesis testing</td>
+<td style="text-align:right">Null Hypothesis</td>
+<td style="text-align:center">Understand</td>
+<td style="text-align:center">Q3</td>
+<td style="text-align:center">Understand hypothesis testing</td>
 </tr>
 <tr>
-<td>Central Tendency</td>
-<td>Understand</td>
-<td>Q4</td>
-<td>Identify outlier sensitivity</td>
+<td style="text-align:right">Central Tendency</td>
+<td style="text-align:center">Understand</td>
+<td style="text-align:center">Q4</td>
+<td style="text-align:center">Identify outlier sensitivity</td>
 </tr>
 <tr>
-<td>Crime Rate Calculation</td>
-<td>Apply</td>
-<td>Q5</td>
-<td>Apply formulas to calculate rates</td>
+<td style="text-align:right">Crime Rate Calculation</td>
+<td style="text-align:center">Apply</td>
+<td style="text-align:center">Q5</td>
+<td style="text-align:center">Apply formulas to calculate rates</td>
 </tr>
 <tr>
-<td>Crime Rates and National Average</td>
-<td>Apply</td>
-<td>Q6</td>
-<td>Compare local to national statistics</td>
+<td style="text-align:right">Crime Rates and National Average</td>
+<td style="text-align:center">Apply</td>
+<td style="text-align:center">Q6</td>
+<td style="text-align:center">Compare local to national statistics</td>
 </tr>
 <tr>
-<td>Sampling Distribution</td>
-<td>Apply</td>
-<td>Q7</td>
-<td>Apply sampling concepts</td>
+<td style="text-align:right">Sampling Distribution</td>
+<td style="text-align:center">Apply</td>
+<td style="text-align:center">Q7</td>
+<td style="text-align:center">Apply sampling concepts</td>
 </tr>
 <tr>
-<td>Chi-square</td>
-<td>Analyze</td>
-<td>Q8</td>
-<td>Analyze categorical relationships</td>
+<td style="text-align:right">Chi-square</td>
+<td style="text-align:center">Analyze</td>
+<td style="text-align:center">Q8</td>
+<td style="text-align:center">Analyze categorical relationships</td>
 </tr>
 <tr>
-<td>Histogram Interpretation</td>
-<td>Analyze</td>
-<td>Q9</td>
-<td>Analyze distributions</td>
+<td style="text-align:right">Histogram Interpretation</td>
+<td style="text-align:center">Analyze</td>
+<td style="text-align:center">Q9</td>
+<td style="text-align:center">Analyze distributions</td>
 </tr>
 <tr>
-<td>Boxplot Interpretation</td>
-<td>Analyze</td>
-<td>Q10</td>
-<td>Identify outliers and distributions</td>
+<td style="text-align:right">Boxplot Interpretation</td>
+<td style="text-align:center">Analyze</td>
+<td style="text-align:center">Q10</td>
+<td style="text-align:center">Identify outliers and distributions</td>
 </tr>
 <tr>
-<td>Scatterplot of Unemployment</td>
-<td>Evaluate</td>
-<td>Q11</td>
-<td>Evaluate variable relationships</td>
+<td style="text-align:right">Scatterplot of Unemployment</td>
+<td style="text-align:center">Evaluate</td>
+<td style="text-align:center">Q11</td>
+<td style="text-align:center">Evaluate variable relationships</td>
 </tr>
 <tr>
-<td>Partial Correlation</td>
-<td>Evaluate</td>
-<td>Q12</td>
-<td>Evaluate complex relationships</td>
+<td style="text-align:right">Partial Correlation</td>
+<td style="text-align:center">Evaluate</td>
+<td style="text-align:center">Q12</td>
+<td style="text-align:center">Evaluate complex relationships</td>
 </tr>
 <tr>
-<td>Significance Test Interpretation</td>
-<td>Evaluate</td>
-<td>Q13</td>
-<td>Evaluate statistical significance</td>
+<td style="text-align:right">Significance Test Interpretation</td>
+<td style="text-align:center">Evaluate</td>
+<td style="text-align:center">Q13</td>
+<td style="text-align:center">Evaluate statistical significance</td>
 </tr>
 <tr>
-<td>Spurious Correlation</td>
-<td>Evaluate</td>
-<td>Q14</td>
-<td>Evaluate causation vs. correlation</td>
+<td style="text-align:right">Spurious Correlation</td>
+<td style="text-align:center">Evaluate</td>
+<td style="text-align:center">Q14</td>
+<td style="text-align:center">Evaluate causation vs. correlation</td>
 </tr>
 <tr>
-<td>Research Design Creation</td>
-<td>Create</td>
-<td>Q15</td>
-<td>Design original research methods</td>
+<td style="text-align:right">Research Design Creation</td>
+<td style="text-align:center">Create</td>
+<td style="text-align:center">Q15</td>
+<td style="text-align:center">Design original research methods</td>
 </tr>
 </table>
 
