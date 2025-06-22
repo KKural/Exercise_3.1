@@ -8,7 +8,7 @@ library(gridExtra)
 # Create data for the pyramid
 bloom_levels <- c("CREATE", "EVALUATE", "ANALYZE", "APPLY", "UNDERSTAND", "REMEMBER")
 level_heights <- c(1, 1.2, 1.4, 1.6, 1.8, 2)
-level_colors <- c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33")
+level_colors <- c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFED6F") # Changed yellow to be more visible/darker
 level_descriptions <- c(
   "Produce new work",
   "Justify decisions",
@@ -35,8 +35,11 @@ p <- ggplot(df, aes(x = 1, y = height, fill = level)) +
   theme_void() +
   theme(
     legend.position = "none",
-    plot.margin = margin(t = 40, r = 20, b = 40, l = 20)
-  )
+    plot.margin = margin(t = 40, r = 20, b = 40, l = 20),
+    plot.background = element_rect(fill = "white", color = NA)
+  ) +
+  # Add a better centering adjustment
+  theme(plot.title.position = "plot")
 
 # Add labels
 for (i in 1:nrow(df)) {
@@ -53,7 +56,7 @@ for (i in 1:nrow(df)) {
                    size = 5,
                    color = "white")
   
-  # Description
+  # Description - better positioned labels
   p <- p + annotate("text", 
                    x = label_x, 
                    y = label_y, 
@@ -71,6 +74,7 @@ p <- p + annotate("text", x = 0, y = 2.1,
                  label = "Hierarchy of Cognitive Skills", 
                  fontface = "italic", size = 4, hjust = 0.5)
 
-# Save the plot
+# Save the plot as both PNG and SVG
 ggsave("bloom-pyramid.png", p, width = 8, height = 8, dpi = 300)
+ggsave("bloom-pyramid.svg", p, width = 8, height = 8)
 ```

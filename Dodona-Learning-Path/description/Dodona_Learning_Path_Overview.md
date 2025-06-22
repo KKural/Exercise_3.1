@@ -19,7 +19,9 @@ This learning path supports the development of statistical reasoning skills usin
 ### Bloom's Taxonomy Integration
 The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progressive learning journey:
 
-![Bloom's Taxonomy Pyramid](../bloom-pyramid.svg)
+<div align="center">
+<img src="../bloom-pyramid.svg" alt="Bloom's Taxonomy Pyramid" width="600"/>
+</div>
 
 <table align="center">
 <tr>
