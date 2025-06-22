@@ -8,7 +8,7 @@ library(gridExtra)
 # Create data for the pyramid
 bloom_levels <- c("CREATE", "EVALUATE", "ANALYZE", "APPLY", "UNDERSTAND", "REMEMBER")
 level_heights <- c(1, 1.2, 1.4, 1.6, 1.8, 2)
-level_colors <- c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFED6F") # Changed yellow to be more visible/darker
+level_colors <- c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#F5B041") # Changed yellow to a more amber/golden color
 level_descriptions <- c(
   "Produce new work",
   "Justify decisions",
