@@ -82,104 +82,106 @@ This distribution emphasizes higher-order thinking skills (54% at Analyze-Evalua
 ### Question-Bloom Level Mapping
 The following table shows how each question aligns with specific cognitive levels and learning intentions:
 
-<table align="center">
-<tr>
-<th style="text-align:left">Question Title</th>
-<th style="text-align:right">Bloom Level</th>
-<th style="text-align:right">Number</th>
-<th style="text-align:right">Learning Intention</th>
+<div align="center">
+<table class="table-center" style="width:90%; border-collapse: collapse; margin-top: 20px;">
+<tr style="background-color: #f2f2f2;">
+<th style="text-align:left; padding: 8px; border: 1px solid #ddd;">Question Title</th>
+<th style="text-align:center; padding: 8px; border: 1px solid #ddd;">Bloom Level</th>
+<th style="text-align:center; padding: 8px; border: 1px solid #ddd;">Number</th>
+<th style="text-align:left; padding: 8px; border: 1px solid #ddd;">Learning Intention</th>
 </tr>
 <tr>
-<td style="text-align:left">Level of Measurement</td>
-<td style="text-align:right">Remember</td>
-<td style="text-align:right">Q1</td>
-<td style="text-align:right">Identify and classify data types</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Level of Measurement</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Remember</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q1</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Identify and classify data types</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Descriptive vs. Inferential</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Remember</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q2</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Differentiate statistical approaches</td>
 </tr>
 <tr>
-<td style="text-align:left">Descriptive vs. Inferential</td>
-<td style="text-align:right">Remember</td>
-<td style="text-align:right">Q2</td>
-<td style="text-align:right">Differentiate statistical approaches</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Null Hypothesis</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Understand</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q3</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Understand hypothesis testing</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Central Tendency</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Understand</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q4</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Identify outlier sensitivity</td>
 </tr>
 <tr>
-<td style="text-align:left">Null Hypothesis</td>
-<td style="text-align:right">Understand</td>
-<td style="text-align:right">Q3</td>
-<td style="text-align:right">Understand hypothesis testing</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Crime Rate Calculation</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Apply</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q5</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Apply formulas to calculate rates</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Crime Rates and National Average</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Apply</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q6</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Compare local to national statistics</td>
 </tr>
 <tr>
-<td style="text-align:left">Central Tendency</td>
-<td style="text-align:right">Understand</td>
-<td style="text-align:right">Q4</td>
-<td style="text-align:right">Identify outlier sensitivity</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Sampling Distribution</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Apply</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q7</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Apply sampling concepts</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Chi-square</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Analyze</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q8</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Analyze categorical relationships</td>
 </tr>
 <tr>
-<td style="text-align:left">Crime Rate Calculation</td>
-<td style="text-align:right">Apply</td>
-<td style="text-align:right">Q5</td>
-<td style="text-align:right">Apply formulas to calculate rates</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Histogram Interpretation</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Analyze</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q9</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Analyze distributions</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Boxplot Interpretation</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Analyze</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q10</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Identify outliers and distributions</td>
 </tr>
 <tr>
-<td style="text-align:left">Crime Rates and National Average</td>
-<td style="text-align:right">Apply</td>
-<td style="text-align:right">Q6</td>
-<td style="text-align:right">Compare local to national statistics</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Scatterplot of Unemployment</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Evaluate</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q11</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Evaluate variable relationships</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Partial Correlation</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Evaluate</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q12</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Evaluate complex relationships</td>
 </tr>
 <tr>
-<td style="text-align:left">Sampling Distribution</td>
-<td style="text-align:right">Apply</td>
-<td style="text-align:right">Q7</td>
-<td style="text-align:right">Apply sampling concepts</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Significance Test Interpretation</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Evaluate</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q13</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Evaluate statistical significance</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Spurious Correlation</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Evaluate</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q14</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Evaluate causation vs. correlation</td>
 </tr>
 <tr>
-<td style="text-align:left">Chi-square</td>
-<td style="text-align:right">Analyze</td>
-<td style="text-align:right">Q8</td>
-<td style="text-align:right">Analyze categorical relationships</td>
-</tr>
-<tr>
-<td style="text-align:left">Histogram Interpretation</td>
-<td style="text-align:right">Analyze</td>
-<td style="text-align:right">Q9</td>
-<td style="text-align:right">Analyze distributions</td>
-</tr>
-<tr>
-<td style="text-align:left">Boxplot Interpretation</td>
-<td style="text-align:right">Analyze</td>
-<td style="text-align:right">Q10</td>
-<td style="text-align:right">Identify outliers and distributions</td>
-</tr>
-<tr>
-<td style="text-align:left">Scatterplot of Unemployment</td>
-<td style="text-align:right">Evaluate</td>
-<td style="text-align:right">Q11</td>
-<td style="text-align:right">Evaluate variable relationships</td>
-</tr>
-<tr>
-<td style="text-align:left">Partial Correlation</td>
-<td style="text-align:right">Evaluate</td>
-<td style="text-align:right">Q12</td>
-<td style="text-align:right">Evaluate complex relationships</td>
-</tr>
-<tr>
-<td style="text-align:left">Significance Test Interpretation</td>
-<td style="text-align:right">Evaluate</td>
-<td style="text-align:right">Q13</td>
-<td style="text-align:right">Evaluate statistical significance</td>
-</tr>
-<tr>
-<td style="text-align:left">Spurious Correlation</td>
-<td style="text-align:right">Evaluate</td>
-<td style="text-align:right">Q14</td>
-<td style="text-align:right">Evaluate causation vs. correlation</td>
-</tr>
-<tr>
-<td style="text-align:left">Research Design Creation</td>
-<td style="text-align:right">Create</td>
-<td style="text-align:right">Q15</td>
-<td style="text-align:right">Design original research methods</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Research Design Creation</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Create</td>
+<td style="text-align:center; padding: 8px; border: 1px solid #ddd;">Q15</td>
+<td style="text-align:left; padding: 8px; border: 1px solid #ddd;">Design original research methods</td>
 </tr>
 </table>
+</div>
 
 ## 3. Learning Support Strategies
 
