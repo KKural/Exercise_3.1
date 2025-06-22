@@ -21,6 +21,8 @@ The course uses Bloom's Taxonomy (Anderson et al., 2001) to structure a progress
 
 ![Bloom's Taxonomy Pyramid](../bloom-pyramid.svg)
 
+**Note:** The image above represents Bloom's Taxonomy pyramid showing the progression from lower-order to higher-order thinking skills: Remember, Understand, Apply, Analyze, Evaluate, and Create.
+
 **Cognitive Level Distribution**
 
 | Cognitive Level | Questions | Numbers | % of Course |
