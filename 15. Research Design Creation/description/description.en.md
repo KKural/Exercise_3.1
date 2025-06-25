@@ -12,6 +12,6 @@ Design a complete research approach for this evaluation, specifying:
 4. The statistical methods you would use to analyze the data
 5. How your design addresses potential confounding variables and threats to validity
 
-**Tip:** *Create a methodologically sound research design that demonstrates your understanding of statistical principles. Consider how to establish causality, what control variables to include, appropriate statistical techniques for your data structure, and how to isolate the program's effects from other factors that might influence crime rates. Your answer should integrate multiple statistical concepts in a coherent research plan.*
+**Hint:** *Create a methodologically sound research design that demonstrates your understanding of statistical principles. Consider how to establish causality, what control variables to include, appropriate statistical techniques for your data structure, and how to isolate the program's effects from other factors that might influence crime rates. Your answer should integrate multiple statistical concepts in a coherent research plan.*
 
 Provide your answer in a structured format addressing each of the five components listed above. Your response should demonstrate your ability to synthesize statistical knowledge in creating an effective research design.

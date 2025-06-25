@@ -26,6 +26,6 @@ Waarbij:
 - E_{ij} = verwachte frequentie in cel (i,j) onder de nulhypothese van onafhankelijkheid
 - De verwachte frequentie wordt berekend als: E_{ij} = (rijtotaal_i × kolomtotaal_j) / totaal
 
-**Tip:** De chi-kwadraat toets vergelijkt geobserveerde frequenties met verwachte frequenties om te testen of variabelen onafhankelijk zijn. Voor elke cel: bereken eerst de verwachte frequentie E = (rijtotaal × kolomtotaal)/totaal, en dan de chi-kwadraat component (O-E)²/E.
+**Hint:** De chi-kwadraat toets vergelijkt geobserveerde frequenties met verwachte frequenties om te testen of variabelen onafhankelijk zijn. Voor elke cel: bereken eerst de verwachte frequentie E = (rijtotaal × kolomtotaal)/totaal, en dan de chi-kwadraat component (O-E)²/E.
 
 Typ je antwoord als één enkel getal (afgerond op twee decimalen).

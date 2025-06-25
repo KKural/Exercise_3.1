@@ -7,6 +7,6 @@ Je vindt een correlatie van 0,6 tussen jeugdoverlast en werkloosheid. Na control
 3. Bevolkingsdichtheid versterkt het effect van werkloosheid op jeugdoverlast
 4. Er is geen verband tussen de variabelen
 
-> **Tip:** *Bij een partiële correlatie controleren we voor een derde variabele om te zien of de oorspronkelijke correlatie echt of schijnbaar (spurieus) is. Als de correlatie sterk daalt na controle, suggereert dit dat de derde variabele de echte verklarende factor is.*
+> **Hint:** *Bij een partiële correlatie controleren we voor een derde variabele om te zien of de oorspronkelijke correlatie echt of schijnbaar (spurieus) is. Als de correlatie sterk daalt na controle, suggereert dit dat de derde variabele de echte verklarende factor is.*
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.

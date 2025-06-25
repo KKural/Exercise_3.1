@@ -205,7 +205,7 @@ Three key scaffolding techniques support student development:
 
 ## 4. Example Content and Feedback
 
-### Example Tips (Dutch)
+### Example hint (Dutch)
 - "Het gemiddelde is gevoelig voor uitschieters, wat belangrijk is bij het analyseren van misdaadcijfers."
 - "Let op: bij een chi-kwadraattoets is de nulhypothese dat er geen verband bestaat tussen de variabelen."
 - "Een correlatie van 0,7 tussen werkloosheid en misdaad betekent een sterk verband, maar nog geen causaal verband."

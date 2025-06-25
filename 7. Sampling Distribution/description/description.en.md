@@ -5,7 +5,7 @@ Wat beschrijft het best een steekproevenverdeling van gemiddelden van misdaadcij
 3.	De verdeling van misdaadcijfers in de populatie over tijd
 4.	De verdeling van voorspelde misdaadcijfers uit een regressie
 
-**Tip:** *Een steekproevenverdeling toont hoe een steekproefstatistiek (zoals het gemiddelde) varieert als je herhaaldelijk steekproeven neemt uit dezelfde populatie. Denk aan het verschil tussen de verdeling van individuele scores en de verdeling van steekproefgemiddelden.*
+**Hint:** *Een steekproevenverdeling toont hoe een steekproefstatistiek (zoals het gemiddelde) varieert als je herhaaldelijk steekproeven neemt uit dezelfde populatie. Denk aan het verschil tussen de verdeling van individuele scores en de verdeling van steekproefgemiddelden.*
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.
 
