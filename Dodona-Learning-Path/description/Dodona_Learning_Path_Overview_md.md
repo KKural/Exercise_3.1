@@ -168,3 +168,15 @@ This learning path combines technical accuracy with pedagogical insight to creat
 Anderson, L. W., Krathwohl, D. R., Airasian, P. W., Cruikshank, K. A., Mayer, R. E., Pintrich, P. R., Raths, J., & Wittrock, M. C. (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom's Taxonomy of Educational Objectives*. Longman.
 
 Krathwohl, D. R. (2002). A revision of Bloom's taxonomy: An overview. *Theory into Practice*, 41(4), 212-218.
+
+### Installing and Launching the Swirl Course
+To practice data analysis interactively in R, you can use the following commands in your R console:
+
+```r
+install.packages("swirl")
+swirl::install_course_github("KKural", "Data_Analysis_Bachelor_Criminology")
+library(swirl)
+swirl()
+```
+
+This will install the Swirl package, download the custom course for Bachelor Criminology, and launch the interactive learning environment.
