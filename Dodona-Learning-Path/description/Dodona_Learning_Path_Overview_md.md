@@ -180,3 +180,14 @@ swirl()
 ```
 
 This will install the Swirl package, download the custom course for Bachelor Criminology, and launch the interactive learning environment.
+
+### Installing and Loading the `crimsyndata` Package
+To access criminology-related datasets in R, you can install and load the `crimsyndata` package as follows:
+
+```r
+install.packages("remotes")  # If not already installed
+remotes::install_github("KKural/crimsyndata")
+library(crimsyndata)
+```
+
+This will install the package from GitHub and make its datasets available for your analyses.
