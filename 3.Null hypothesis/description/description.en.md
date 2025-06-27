@@ -1,6 +1,4 @@
-# Nulhypothese (Vraag 3)
-
-**Let op:** Bekijk eerst de onderstaande video voordat je de vraag beantwoordt.
+Bekijk eerst de onderstaande video voordat je de vraag beantwoordt.
 
 <div align=" center\>
  <iframe width=\560\ height=\315\ src=\https://www.youtube.com/embed/0zZYBALbZgg\ frameborder=\0\ allowfullscreen></iframe>
