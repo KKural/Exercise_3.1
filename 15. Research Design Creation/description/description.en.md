@@ -1,17 +1,14 @@
-# Onderzoeksontwerp Creatie (Vraag 15)
 
-## Research Design Creation
+Als criminoloog krijg je de opdracht om een uitgebreid onderzoek te ontwerpen om de effectiviteit van een nieuw wijkgericht politiewerkprogramma in het verminderen van misdaadcijfers in stedelijke buurten te evalueren.
 
-As a criminologist, you have been tasked with designing a comprehensive study to evaluate the effectiveness of a new community policing program in reducing crime rates in urban neighborhoods.
+Ontwerp een volledig onderzoeksplan voor deze evaluatie en specificeer:
 
-Design a complete research approach for this evaluation, specifying:
+1. Het algemene onderzoeksontwerp (bijv. experimenteel, quasi-experimenteel, longitudinaal)
+2. Je steekproefstrategie en vergelijkingsgroepen (indien van toepassing)
+3. De belangrijkste variabelen die je zou meten en hoe
+4. De statistische methoden die je zou gebruiken om de gegevens te analyseren
+5. Hoe je ontwerp rekening houdt met mogelijke confounders en bedreigingen voor de validiteit
 
-1. The overall research design (e.g., experimental, quasi-experimental, longitudinal)
-2. Your sampling strategy and comparison groups (if applicable)
-3. The key variables you would measure and how
-4. The statistical methods you would use to analyze the data
-5. How your design addresses potential confounding variables and threats to validity
+**Hint:** *Maak een methodologisch sterk onderzoeksontwerp dat je inzicht in statistische principes aantoont. Denk na over hoe je causaliteit kunt vaststellen, welke controlevariabelen je opneemt, geschikte statistische technieken voor je datastructuur, en hoe je het effect van het programma isoleert van andere factoren die misdaadcijfers kunnen beïnvloeden. Je antwoord moet meerdere statistische concepten op een samenhangende manier integreren in een onderzoeksplan.*
 
-**Hint:** *Create a methodologically sound research design that demonstrates your understanding of statistical principles. Consider how to establish causality, what control variables to include, appropriate statistical techniques for your data structure, and how to isolate the program's effects from other factors that might influence crime rates. Your answer should integrate multiple statistical concepts in a coherent research plan.*
-
-Provide your answer in a structured format addressing each of the five components listed above. Your response should demonstrate your ability to synthesize statistical knowledge in creating an effective research design.
+Geef je antwoord in een gestructureerd formaat en behandel elk van de vijf bovengenoemde onderdelen. Je antwoord moet aantonen dat je statistische kennis kunt toepassen bij het opstellen van een effectief onderzoeksontwerp.
