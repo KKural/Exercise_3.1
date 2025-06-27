@@ -1,8 +1,9 @@
 Bekijk eerst de onderstaande video voordat je de vraag beantwoordt.
 
-<div align=" center\>
- <iframe width=\560\ height=\315\ src=\https://www.youtube.com/embed/0zZYBALbZgg\ frameborder=\0\ allowfullscreen></iframe>
-</div>
+<!-- Centered video link for Dodona-compatible Markdown -->
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=0zZYBALbZgg">Bekijk eerst deze video voordat je de vraag beantwoordt</a>
+</p>
 
 Wat is de juiste nulhypothese?
 
