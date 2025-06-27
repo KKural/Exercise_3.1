@@ -1,11 +1,6 @@
 Bekijk eerst de onderstaande video voordat je de vraag beantwoordt.
 
-<!-- Centered clickable YouTube thumbnail for Dodona-compatible Markdown -->
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=0zZYBALbZgg" target="_blank">
-    <img src="https://img.youtube.com/vi/0zZYBALbZgg/0.jpg" alt="Bekijk eerst deze video voordat je de vraag beantwoordt" width="360">
-  </a>
-</p>
+[![Watch this video before answering the question](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
 Wat is de juiste nulhypothese?
 
