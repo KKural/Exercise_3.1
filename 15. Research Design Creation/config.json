@@ -5,10 +5,10 @@
         }
     },
     "evaluation": {
-        "handler": "R",
+        "handler": "markdown",
         "test_suite": "evaluation"
     },
-    "programming_language": "R",
+    "programming_language": "markdown",
     "access": "public",
     "labels": [],
     "internals": {
