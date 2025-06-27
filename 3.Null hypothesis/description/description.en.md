@@ -1,6 +1,8 @@
 Bekijk eerst de onderstaande video voordat je de vraag beantwoordt.
 
-[![Watch this video before answering the question](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+<div align=" center\>
+ <iframe width=\560\ height=\315\ src=\https://www.youtube.com/embed/0zZYBALbZgg\ frameborder=\0\ allowfullscreen></iframe>
+</div>
 
 Wat is de juiste nulhypothese?
 
