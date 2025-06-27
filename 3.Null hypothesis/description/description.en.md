@@ -1,8 +1,10 @@
 Bekijk eerst de onderstaande video voordat je de vraag beantwoordt.
 
-<!-- Centered video link for Dodona-compatible Markdown -->
+<!-- Centered clickable YouTube thumbnail for Dodona-compatible Markdown -->
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=0zZYBALbZgg">Bekijk eerst deze video voordat je de vraag beantwoordt</a>
+  <a href="https://www.youtube.com/watch?v=0zZYBALbZgg" target="_blank">
+    <img src="https://img.youtube.com/vi/0zZYBALbZgg/0.jpg" alt="Bekijk eerst deze video voordat je de vraag beantwoordt" width="360">
+  </a>
 </p>
 
 Wat is de juiste nulhypothese?
