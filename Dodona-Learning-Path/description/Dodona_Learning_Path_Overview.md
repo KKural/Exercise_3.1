@@ -205,13 +205,7 @@ Three key scaffolding techniques support student development:
 
 ## 4. Example Content and Feedback
 
-### Example hint (Dutch)
-- "Het gemiddelde is gevoelig voor uitschieters, wat belangrijk is bij het analyseren van misdaadcijfers."
-- "Let op: bij een chi-kwadraattoets is de nulhypothese dat er geen verband bestaat tussen de variabelen."
-- "Een correlatie van 0,7 tussen werkloosheid en misdaad betekent een sterk verband, maar nog geen causaal verband."
-- "Bij het interpreteren van p-waarden, onthoud dat 'niet significant' niet hetzelfde is als 'geen effect'."
-
-### Sample Question Structure
+### Sample Exercise Structure
 - **Title**: Invloed van Uitschieters op Centrummaten
 - **Context**: Inbraakcijfers in 10 wijken in Gent: [5, 7, 6, 8, 5, 9, 6, 7, 40, 7]
 - **Scenario**: "Als criminoloog analyseer je inbraakcijfers voor 10 wijken in Gent. Je merkt dat één wijk een opvallend hoog aantal inbraken heeft."
@@ -221,15 +215,28 @@ Three key scaffolding techniques support student development:
   - C) Beide centrummaten zijn even representatief voor deze dataset
   - D) Geen van beide centrummaten is geschikt voor het analyseren van deze data
 
-### Feedback Examples
+### Feedback System
+
+#### Answer Feedback
 - **Correct Answer**: "Juist! De mediaan (7) wordt minder beïnvloed door de extreme waarde van 40 in wijk 9. Het gemiddelde (10) wordt sterk omhoog getrokken door deze uitschieter. Bij het rapporteren van 'typische' inbraakcijfers aan beleidsmakers zou de mediaan een accurater beeld geven."
 - **Incorrect Answer**: "Niet correct. Het gemiddelde (10) wordt sterk beïnvloed door de uitschieter van 40 inbraken in één wijk. Dit geeft een vertekend beeld van de 'typische' wijk, aangezien 9 van de 10 wijken tussen 5-9 inbraken hebben."
 
-### Hints and Resources
-- **Hint Examples**: 
+#### Progressive Hint System
+- **Conceptual Hints**:
+  - "Het gemiddelde is gevoelig voor uitschieters, wat belangrijk is bij het analyseren van misdaadcijfers."
+  - "Let op: bij een chi-kwadraattoets is de nulhypothese dat er geen verband bestaat tussen de variabelen."
+- **Procedural Hints**:
   - "Bereken zowel het gemiddelde als de mediaan en vergelijk de resultaten."
   - "Visualiseer de data met een boxplot om de positie van de uitschieter te zien."
-- **External Resources**: Video tutorials, infographics, simulations, glossary of statistical terms, textbook links
+- **Interpretive Hints**:
+  - "Een correlatie van 0,7 tussen werkloosheid en misdaad betekent een sterk verband, maar nog geen causaal verband."
+  - "Bij het interpreteren van p-waarden, onthoud dat 'niet significant' niet hetzelfde is als 'geen effect'."
+
+### Supplemental Learning Resources
+- **Interactive Elements**: Video tutorials, interactive simulations
+- **Reference Materials**: Statistical glossary, contextual infographics
+- **Practice Materials**: Additional exercises with worked examples
+
 
 ## 5. Platform Implementation and Monitoring
 
