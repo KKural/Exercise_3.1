@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "natural_language": "en",
+  "description": {
+    "names": {
+      "en": "t-Test Calculation"
+    }
+  },
+  "labels": [
+    "statistics",
+    "t-test",
+    "hypothesis-testing",
+    "inference",
+    "criminology"
+  ],
+  "internals": {},
+  "workdir": "."
+}

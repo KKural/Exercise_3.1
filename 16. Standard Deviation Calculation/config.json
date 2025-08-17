@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "natural_language": "en",
+  "access": "public",
+  "description": {
+    "names": {
+      "en": "Standard Deviation Calculation"
+    }
+  },
+  "labels": [
+    "statistics",
+    "standard-deviation",
+    "variance",
+    "descriptive-statistics",
+    "criminology"
+  ],
+  "internals": {},
+  "workdir": "."
+}

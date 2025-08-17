@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "natural_language": "en",
+  "description": {
+    "names": {
+      "en": "Confidence Interval Calculation"
+    }
+  },
+  "labels": [
+    "statistics",
+    "confidence-interval",
+    "estimation",
+    "inference",
+    "criminology"
+  ],
+  "internals": {},
+  "workdir": "."
+}

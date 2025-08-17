@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "natural_language": "en",
+  "description": {
+    "names": {
+      "en": "Correlation Coefficient Calculation"
+    }
+  },
+  "labels": [
+    "statistics",
+    "correlation",
+    "pearson",
+    "relationship",
+    "criminology"
+  ],
+  "internals": {},
+  "workdir": "."
+}
