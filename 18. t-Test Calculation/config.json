@@ -14,6 +14,9 @@
     "inference",
     "criminology"
   ],
-  "internals": {},
+  "internals": {
+    "token": "P_Zf2p2TMsUBDpZcvh2nA-rBXhWtcJAZ_wDBxIyanh_IXkfsj37CnM3beQmDEfQd",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
   "workdir": "."
 }

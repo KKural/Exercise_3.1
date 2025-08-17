@@ -15,6 +15,9 @@
     "descriptive-statistics",
     "criminology"
   ],
-  "internals": {},
+  "internals": {
+    "token": "a8yEw2h5huIKedeHEJVquUR-agBjhFWaWkHna3naaNPVFkNJqbqU5-_TIimuMiNU",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
   "workdir": "."
 }
