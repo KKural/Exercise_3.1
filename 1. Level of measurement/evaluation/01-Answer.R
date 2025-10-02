@@ -5,16 +5,7 @@
 context({
   testcase("Afrondingsregels - Rond de gegeven getallen af op twee decimalen", {
     testEqual(
-      "6,98
-0,92
-10,66
-3,88
-87,00
-0,56
-55,25
-0,66
-7,52
-20,95",
+      "",
       function(env) {
         # Get the student's output
         result <- trimws(env$evaluationResult)
