@@ -2,25 +2,29 @@
 
 ## Opdracht
 
-Rond de volgende getallen af op **twee decimalen** en sla elk afgerond getal op in de aangegeven variabele:
+Rond de volgende getallen af op **twee decimalen**:
 
-a) 6,978 → Sla op in variabele `antwoord_a`
-b) 0,923 → Sla op in variabele `antwoord_b`  
-c) 10,657 → Sla op in variabele `antwoord_c`
-d) 3,878 → Sla op in variabele `antwoord_d`
-e) 87,001 → Sla op in variabele `antwoord_e`
-f) 0,559 → Sla op in variabele `antwoord_f`
-g) 55,248 → Sla op in variabele `antwoord_g`
-h) 0,664 → Sla op in variabele `antwoord_h`
-i) 7,519 → Sla op in variabele `antwoord_i`
-j) 20,954 → Sla op in variabele `antwoord_j`
+a) 6,978
+b) 0,923  
+c) 10,657
+d) 3,878
+e) 87,001
+f) 0,559
+g) 55,248
+h) 0,664
+i) 7,519
+j) 20,954
+
+Geef je antwoorden als getallen (zonder tekst), elk op een nieuwe regel, in dezelfde volgorde als hierboven. 
 
 ## Voorbeeld
 
-```r
-# Voor het getal 3,456 afgerond op 2 decimalen:
-antwoord_voorbeeld <- 3.46
+Voor de getallen 3,456 en 7,891 afgerond op twee decimalen:
+
+```
+3.46
+7.89
 ```
 
-**Let op:** In R gebruik je punten (.) voor decimale getallen, niet komma's (,).
+**Let op:** Je kunt zowel komma's (,) als punten (.) gebruiken voor de decimale getallen in je antwoorden.
 
