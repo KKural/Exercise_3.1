@@ -7,7 +7,7 @@ context({
         function(env) {
           # Parse student answer - expect comma-separated values
           result <- trimws(env$evaluationResult)
-          numbers <- as.numeric(unlist(strsplit(gsub(",", ".", result), "[\\s,;\\n\\t]+")))
+          numbers <- as.numeric(unlist(strsplit(gsub(",", ".", result), "[ ,;\n\t]+")))
           numbers[!is.na(numbers)]
         },
         c(6.98, 0.92, 10.66, 3.88, 87.00, 0.56, 55.25, 0.66, 7.52, 20.95),
