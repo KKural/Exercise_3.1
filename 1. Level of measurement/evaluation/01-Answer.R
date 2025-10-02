@@ -5,30 +5,45 @@
 context({
   testcase("Afrondingsregels - Rond de gegeven getallen af op twee decimalen", {
     testEqual(
-      "{6.98; 0.92; 10.66; 3.88; 87.00; 0.56; 55.25; 0.66; 7.52; 20.95}",
+      "student_answers",
       function(env) {
         # Get student's text output
-        result <- trimws(env$evaluationResult)
+        result <- env$evaluationResult
         
-        # Replace any placeholder text with empty strings
-        result <- gsub("antwoord a:", "", result, fixed = TRUE, ignore.case = TRUE)
-        result <- gsub("antwoord b:", "", result, fixed = TRUE, ignore.case = TRUE)
-        result <- gsub("antwoord c:", "", result, fixed = TRUE, ignore.case = TRUE)
-        result <- gsub("antwoord d:", "", result, fixed = TRUE, ignore.case = TRUE)
-        result <- gsub("antwoord e:", "", result, fixed = TRUE, ignore.case = TRUE)
-        result <- gsub("antwoord f:", "", result, fixed = TRUE, ignore.case = TRUE)
-        result <- gsub("antwoord g:", "", result, fixed = TRUE, ignore.case = TRUE)
-        result <- gsub("antwoord h:", "", result, fixed = TRUE, ignore.case = TRUE)
-        result <- gsub("antwoord i:", "", result, fixed = TRUE, ignore.case = TRUE)
-        result <- gsub("antwoord j:", "", result, fixed = TRUE, ignore.case = TRUE)
+        # Debug logging - record what was received
+        get_reporter()$add_message(paste("Raw input:", result), type = "debug")
         
-        # Split by any common separator (newlines, commas, semicolons)
+        # Make sure we're working with a single string
+        if (is.list(result) || is.vector(result) && !is.character(result)) {
+          result <- paste(result, collapse = "\n")
+        }
+        
+        # Clean up the text
+        result <- trimws(result)
+        
+        # Remove any brackets, braces, or parentheses
+        result <- gsub("[\\[\\]{}()]", "", result)
+        
+        # Replace any labels with empty strings
+        for (letter in letters[1:10]) {
+          pattern <- paste0(letter, "[\\)\\.]?\\s*")
+          result <- gsub(pattern, "", result, ignore.case = TRUE)
+        }
+        
+        # Split by any common separator (newlines, commas, semicolons, spaces)
         lines <- unlist(strsplit(result, "[\n\r\t ,;]+"))
-        lines <- trimws(lines)
-        lines <- lines[lines != ""]  # Remove empty lines
+        
+        # Filter out empty strings
+        lines <- lines[lines != ""]
+        
+        # Debug logging - record what was parsed
+        get_reporter()$add_message(paste("Parsed lines:", paste(lines, collapse=", ")), type = "debug")
         
         # Convert commas to periods and parse as numbers
         numbers <- as.numeric(gsub(",", ".", lines))
+        
+        # Debug logging - record numeric values
+        get_reporter()$add_message(paste("Numeric values:", paste(numbers, collapse=", ")), type = "debug")
         
         # Remove any NA values
         numbers <- numbers[!is.na(numbers)]
@@ -41,6 +56,11 @@ context({
           get_reporter()$add_message(
             paste("❌ Je hebt", length(got), "antwoorden gegeven, maar er worden", length(want), "verwacht."),
             type = "error"
+          )
+          # Print what was received to help debugging
+          get_reporter()$add_message(
+            paste("Ontvangen waarden:", paste(got, collapse=", ")),
+            type = "info"
           )
           return(FALSE)
         }
