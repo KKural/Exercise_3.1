@@ -1,33 +1,33 @@
 context({
   testcase(
-    " ",
-    {
-      testEqual(
-        "",
-        function(env) as.numeric(env$evaluationResult),
-        1,  # the correct choice: "Soort misdrijf" is a nominal variable
-        comparator = function(generated, expected, ...) {
-          feedbacks <- list(
-            # ✅ Correct! "Type of crime" is nominal: distinct categories with no inherent order.
-            "1" = "✅ Juist! \"Soort misdrijf\" is een *nominaal* meetniveau: het gaat enkel om verschillende categorieën zonder ordening.",
-            
-            # ❌ No, ordinal would mean there's a logical order, which doesn't apply to crime types.
-            "2" = "❌ Fout, ordinaal zou betekenen dat er een logische volgorde is, maar dat geldt niet voor soorten misdrijven.",
-            
-            # ❌ InJuist. Interval variables have meaningful numeric differences; this is a categorical variable.
-            "3" = "❌ Fout. Intervalvariabelen hebben numerieke waarden met betekenisvolle verschillen, maar \"soort misdrijf\" is categorisch.",
-            
-            # ❌ Not Juist. Ratio requires an absolute zero and quantitative interpretation, which does not apply to crime categories.
-            "4" = "❌ Fout. Ratio vereist een absoluut nulpunt en kwantitatieve interpretatie, wat niet van toepassing is op misdrijfcategorieën."
+    context({
+      testcase(
+        "Afrondingsregels: controleer de antwoorden",
+        {
+          testEqual(
+            "",
+            function(env) {
+              # Verwacht een vector van afgeronde getallen als antwoord
+              as.numeric(unlist(strsplit(gsub(",", ".", env$evaluationResult), "[ ,;\n]+")))
+            },
+            c(6.98, 0.92, 10.66, 3.88, 87.00, 0.56, 55.25, 0.66, 7.52, 20.95),
+            comparator = function(generated, expected, ...) {
+              if (length(generated) != length(expected)) {
+                get_reporter()$add_message("❌ Je hebt niet het juiste aantal antwoorden gegeven.", type = "markdown")
+                return(FALSE)
+              }
+              correct <- all(abs(generated - expected) < 0.01)
+              if (correct) {
+                get_reporter()$add_message("✅ Goed gedaan! Alle antwoorden zijn correct afgerond op twee decimalen.", type = "markdown")
+              } else {
+                get_reporter()$add_message("❌ Eén of meer antwoorden zijn niet correct afgerond. Controleer je berekeningen en afrondingen.", type = "markdown")
+              }
+              correct
+            }
           )
-          
-          key <- as.character(generated)
-          msg <- feedbacks[[key]] %||% "❌ Geef een getal tussen 1 en 4 in."  # ❌ Please enter a number between 1 and 4.
-          
-          get_reporter()$add_message(msg, type = "markdown")
-          
-          generated == expected
         }
+      )
+    })
       )
     }
   )

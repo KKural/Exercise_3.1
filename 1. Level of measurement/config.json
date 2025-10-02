@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "1. Meetniveau"
+      "nl": "1.Afrondingsregels: rond af tot op twee decimalen"
     }
   },
   "evaluation": {
