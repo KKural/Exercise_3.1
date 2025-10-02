@@ -1,30 +1,56 @@
-context({context({
+context({context({context({
 
-  testcase(" ", {  testcase(" ", {
+  testcase(" ", {
 
-    testEqual(    testEqual(
+    testEqual(  testcase(" ", {  testcase(" ", {
 
-      "",      "",
+      "",
 
-      function(env) {      function(env) {
+      function(env) {    testEqual(    testEqual(
 
-        result <- trimws(env$evaluationResult)        result <- trimws(env$evaluationResult)
+        result <- trimws(env$evaluationResult)
 
-        # Split by newlines and various separators, convert commas to periods        # Split by newlines and various separators, convert commas to periods
+        numbers <- as.numeric(unlist(strsplit(gsub(",", ".", result), "[\n\r\t ,;]+")))      "",      "",
 
-        numbers <- as.numeric(unlist(strsplit(gsub(",", ".", result), "[\n\r\t ,;]+")))        numbers <- as.numeric(unlist(strsplit(gsub(",", ".", result), "[\n\r\t ,;]+")))
+        numbers <- numbers[!is.na(numbers)]
 
-        # Remove any NA values        # Remove any NA values
+        return(numbers)      function(env) {      function(env) {
 
-        numbers <- numbers[!is.na(numbers)]        numbers <- numbers[!is.na(numbers)]
+      },
 
-        return(numbers)        return(numbers)
+      c(6.98, 0.92, 10.66, 3.88, 87.00, 0.56, 55.25, 0.66, 7.52, 20.95),        result <- trimws(env$evaluationResult)        result <- trimws(env$evaluationResult)
 
-      },      },
+      comparator = function(got, want, ...) {
 
-      c(6.98, 0.92, 10.66, 3.88, 87.00, 0.56, 55.25, 0.66, 7.52, 20.95),      c(6.98, 0.92, 10.66, 3.88, 87.00, 0.56, 55.25, 0.66, 7.52, 20.95),
+        if (length(got) != length(want)) {        # Split by newlines and various separators, convert commas to periods        # Split by newlines and various separators, convert commas to periods
 
-      comparator = function(got, want, ...) {      comparator = function(got, want, ...) {
+          get_reporter()$add_message(paste("Je hebt", length(got), "antwoorden gegeven, maar er worden", length(want), "verwacht."), type = "error")
+
+          return(FALSE)        numbers <- as.numeric(unlist(strsplit(gsub(",", ".", result), "[\n\r\t ,;]+")))        numbers <- as.numeric(unlist(strsplit(gsub(",", ".", result), "[\n\r\t ,;]+")))
+
+        }
+
+        correct <- all(abs(got - want) < 0.01)        # Remove any NA values        # Remove any NA values
+
+        if (correct) {
+
+          get_reporter()$add_message("Goed gedaan! Alle antwoorden zijn correct afgerond.", type = "success")        numbers <- numbers[!is.na(numbers)]        numbers <- numbers[!is.na(numbers)]
+
+        } else {
+
+          get_reporter()$add_message("Een of meer antwoorden zijn niet correct afgerond.", type = "error")        return(numbers)        return(numbers)
+
+        }
+
+        return(correct)      },      },
+
+      }
+
+    )      c(6.98, 0.92, 10.66, 3.88, 87.00, 0.56, 55.25, 0.66, 7.52, 20.95),      c(6.98, 0.92, 10.66, 3.88, 87.00, 0.56, 55.25, 0.66, 7.52, 20.95),
+
+  })
+
+})      comparator = function(got, want, ...) {      comparator = function(got, want, ...) {
 
         if (length(got) != length(want)) {        if (length(got) != length(want)) {
 
