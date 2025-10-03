@@ -28,6 +28,8 @@ Deze waarden komen overeen met de maandelijkse cijfers die je handmatig afrondde
 
 Gebruik de `round()` functie om deze vector af te ronden op **twee decimalen** en sla het resultaat op in een variabele genaamd `afgeronde_criminaliteit`.
 
+**Belangrijk**: Zorg ervoor dat je het resultaat ook afdrukt zodat het zichtbaar is!
+
 ## De round() functie in R
 
 In R kun je de `round()` functie gebruiken om getallen of hele vectoren automatisch af te ronden:

@@ -6,6 +6,10 @@
 criminaliteit <- c(6.978, 0.923, 10.657, 3.878, 87.001, 0.559, 55.248, 0.664, 7.519, 20.954)
 expected_afgeronde_criminaliteit <- round(criminaliteit, 2)
 
+# Print the expected result for reference
+cat("Verwacht resultaat:\n")
+print(expected_afgeronde_criminaliteit)
+
 context({
   testcase(" ", {
     testEqual(
