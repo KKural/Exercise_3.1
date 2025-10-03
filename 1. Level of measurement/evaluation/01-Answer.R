@@ -2,17 +2,17 @@
 # scaffolding_level: Full support
 # primm_phase: Run
 
-## Verwachte afgeronde getallen
-a = 6,98
-b = 0,92
-c = 10,66
-d = 3,88
-e = 87,00
-f = 0,56
-g = 55,25
-h = 0,66
-i = 7,52
-j = 20,95
+## Verwachte afgeronde getallen (weergegeven als 6,98 maar opgeslagen als 6.98)
+a = 6.98
+b = 0.92
+c = 10.66
+d = 3.88
+e = 87.00
+f = 0.56
+g = 55.25
+h = 0.66
+i = 7.52
+j = 20.95
 
 context({
   testcase(" ", {
