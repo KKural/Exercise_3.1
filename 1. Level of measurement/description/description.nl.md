@@ -32,5 +32,4 @@ a = 3.46
 
 **Let op:** 
 - In R gebruik je punten (.) voor decimale getallen, niet komma's (,)
-- Je kunt zowel `=` als `<-` gebruiken voor het toewijzen van waarden
 
