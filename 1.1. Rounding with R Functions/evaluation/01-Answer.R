@@ -79,10 +79,18 @@ context({
             "✅ `afgeronde_criminaliteit` is correct afgerond! Alle criminaliteitscijfers zijn nu netjes op 2 decimalen.",
             type = "success"
           )
-          get_reporter()$add_message(
-            paste("📊 Jouw resultaat:", paste(get("afgeronde_criminaliteit", envir = parent.frame(2)), collapse = ", ")),
-            type = "success"
-          )
+          # Safely get the student's result for display
+          tryCatch({
+            if (exists("afgeronde_criminaliteit", envir = parent.frame(3))) {
+              student_result <- get("afgeronde_criminaliteit", envir = parent.frame(3))
+              get_reporter()$add_message(
+                paste("📊 Jouw resultaat:", paste(student_result, collapse = ", ")),
+                type = "success"
+              )
+            }
+          }, error = function(e) {
+            # If we can't get the student result, just skip showing it
+          })
         }
         return(got == want)
       }
