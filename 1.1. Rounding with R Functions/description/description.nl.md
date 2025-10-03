@@ -15,16 +15,16 @@ criminaliteit <- c(6.978, 0.923, 10.657, 3.878, 87.001, 0.559, 55.248, 0.664, 7.
 ```
 
 Deze waarden komen overeen met de maandelijkse cijfers die je handmatig afrondde:
-- Maand 1: 6.978‰ → moet worden 6.98‰
-- Maand 2: 0.923‰ → moet worden 0.92‰  
-- Maand 3: 10.657‰ → moet worden 10.66‰
-- Maand 4: 3.878‰ → moet worden 3.88‰
-- Maand 5: 87.001‰ → moet worden 87.00‰
-- Maand 6: 0.559‰ → moet worden 0.56‰
-- Maand 7: 55.248‰ → moet worden 55.25‰
-- Maand 8: 0.664‰ → moet worden 0.66‰
-- Maand 9: 7.519‰ → moet worden 7.52‰
-- Maand 10: 20.954‰ → moet worden 20.95‰
+- Maand 1: 6.978 → moet worden 6.98
+- Maand 2: 0.923 → moet worden 0.92  
+- Maand 3: 10.657 → moet worden 10.66
+- Maand 4: 3.878 → moet worden 3.88
+- Maand 5: 87.001 → moet worden 87.00
+- Maand 6: 0.559 → moet worden 0.56
+- Maand 7: 55.248 → moet worden 55.25
+- Maand 8: 0.664 → moet worden 0.66
+- Maand 9: 7.519 → moet worden 7.52
+- Maand 10: 20.954 → moet worden 20.95
 
 Gebruik de `round()` functie om deze vector af te ronden op **twee decimalen** en sla het resultaat op in een variabele genaamd `afgeronde_criminaliteit`.
 
@@ -43,7 +43,7 @@ round(getal_of_vector, aantal_decimalen)
 ## Opdracht uitwerking
 
 ```r
-# Gegeven data - criminaliteitscijfers per maand (‰)
+# Gegeven data - criminaliteitscijfers per maand (per 1000 inwoners)
 criminaliteit <- c(6.978, 0.923, 10.657, 3.878, 87.001, 0.559, 55.248, 0.664, 7.519, 20.954)
 
 # Rond af op 2 decimalen

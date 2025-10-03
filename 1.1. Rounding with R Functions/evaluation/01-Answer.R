@@ -69,12 +69,16 @@ context({
             type = "error"
           )
           get_reporter()$add_message(
-            paste("💡 Verwacht:", paste(round(expected_afgeronde_criminaliteit, 2), collapse = ", ")),
+            paste("💡 Verwacht resultaat:", paste(expected_afgeronde_criminaliteit, collapse = ", ")),
             type = "info"
           )
         } else {
           get_reporter()$add_message(
             "✅ `afgeronde_criminaliteit` is correct afgerond! Alle criminaliteitscijfers zijn nu netjes op 2 decimalen.",
+            type = "success"
+          )
+          get_reporter()$add_message(
+            paste("📊 Jouw resultaat:", paste(env$afgeronde_criminaliteit, collapse = ", ")),
             type = "success"
           )
         }
