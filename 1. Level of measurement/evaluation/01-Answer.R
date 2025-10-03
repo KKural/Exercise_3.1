@@ -5,13 +5,10 @@
 context({
   testcase("Afrondingsregels - Rond de gegeven getallen af op twee decimalen", {
     testEqual(
-      "student_answers",
+      "",
       function(env) {
         # Get student's text output
         result <- env$evaluationResult
-        
-        # Debug logging - record what was received
-        get_reporter()$add_message(paste("Raw input:", result), type = "debug")
         
         # Make sure we're working with a single string
         if (is.list(result) || is.vector(result) && !is.character(result)) {
@@ -36,14 +33,8 @@ context({
         # Filter out empty strings
         lines <- lines[lines != ""]
         
-        # Debug logging - record what was parsed
-        get_reporter()$add_message(paste("Parsed lines:", paste(lines, collapse=", ")), type = "debug")
-        
         # Convert commas to periods and parse as numbers
         numbers <- as.numeric(gsub(",", ".", lines))
-        
-        # Debug logging - record numeric values
-        get_reporter()$add_message(paste("Numeric values:", paste(numbers, collapse=", ")), type = "debug")
         
         # Remove any NA values
         numbers <- numbers[!is.na(numbers)]
@@ -56,11 +47,6 @@ context({
           get_reporter()$add_message(
             paste("❌ Je hebt", length(got), "antwoorden gegeven, maar er worden", length(want), "verwacht."),
             type = "error"
-          )
-          # Print what was received to help debugging
-          get_reporter()$add_message(
-            paste("Ontvangen waarden:", paste(got, collapse=", ")),
-            type = "info"
           )
           return(FALSE)
         }
