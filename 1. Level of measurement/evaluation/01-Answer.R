@@ -3,16 +3,16 @@
 # primm_phase: Run
 
 ## Verwachte afgeronde getallen
-a = 6.98
-b = 0.92
-c = 10.66
-d = 3.88
-e = 87.00
-f = 0.56
-g = 55.25
-h = 0.66
-i = 7.52
-j = 20.95
+a = 6,98
+b = 0,92
+c = 10,66
+d = 3,88
+e = 87,00
+f = 0,56
+g = 55,25
+h = 0,66
+i = 7,52
+j = 20,95
 
 context({
   testcase(" ", {
