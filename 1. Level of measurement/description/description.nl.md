@@ -1,4 +1,3 @@
-````markdown
 Rond de volgende getallen af op **twee decimalen**:
 
 a) 6,978
@@ -12,28 +11,15 @@ h) 0,664
 i) 7,519
 j) 20,954
 
-Geef je antwoorden als getallen (zonder tekst) in dezelfde volgorde als hierboven. Je kunt je antwoorden op verschillende manieren invoeren:
+Schrijf je antwoorden in R-code met variabele-toewijzingen. Gebruik de letters a t/m j als variabelenamen.
 
 ## Voorbeeld
 
-Voor de getallen 3,456 en 7,891 afgerond op twee decimalen kun je antwoorden:
+Voor de getallen 3,456 en 7,891 afgerond op twee decimalen:
 
 ```
-3,46
-7,89
+a <- 3.46
+b <- 7.89
 ```
 
-of op dezelfde regel gescheiden door komma's of puntkomma's:
-
-```
-3,46; 7,89
-```
-
-of
-
-```
-3,46, 7,89
-```
-
-**Let op:** Je kunt zowel komma's (,) als punten (.) gebruiken voor de decimale getallen in je antwoorden.
-````
+**Let op:** Gebruik punten (.) als decimaal scheidingsteken in je R-code.
