@@ -48,6 +48,9 @@ criminaliteit <- c(6.978, 0.923, 10.657, 3.878, 87.001, 0.559, 55.248, 0.664, 7.
 
 # Rond af op 2 decimalen
 afgeronde_criminaliteit <- round(criminaliteit, 2)
+
+# Bekijk het resultaat
+print(afgeronde_criminaliteit)
 ```
 
 **Let op:** 

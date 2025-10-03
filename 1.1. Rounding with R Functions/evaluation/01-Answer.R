@@ -74,6 +74,14 @@ context({
             paste("💡 Verwacht resultaat:", paste(expected_afgeronde_criminaliteit, collapse = ", ")),
             type = "info"
           )
+          get_reporter()$add_message(
+            "📝 Complete oplossing:",
+            type = "info"
+          )
+          get_reporter()$add_message(
+            "# Gegeven data - criminaliteitscijfers per maand (per 1000 inwoners)\ncriminaliteit <- c(6.978, 0.923, 10.657, 3.878, 87.001, 0.559, 55.248, 0.664, 7.519, 20.954)\n\n# Rond af op 2 decimalen\nafgeronde_criminaliteit <- round(criminaliteit, 2)\n\n# Bekijk het resultaat\nprint(afgeronde_criminaliteit)",
+            type = "info"
+          )
         } else {
           get_reporter()$add_message(
             "✅ `afgeronde_criminaliteit` is correct afgerond! Alle criminaliteitscijfers zijn nu netjes op 2 decimalen.",
