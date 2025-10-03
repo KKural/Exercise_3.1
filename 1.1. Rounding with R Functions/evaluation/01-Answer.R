@@ -13,8 +13,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$afgeronde_criminaliteit
-          if (is.null(value)) {
+          # Try to get the variable, handle if env is not accessible properly
+          if (exists("afgeronde_criminaliteit", envir = env)) {
+            value <- get("afgeronde_criminaliteit", envir = env)
+          } else {
             get_reporter()$add_message(
               "❌ De variabele `afgeronde_criminaliteit` is niet gedefinieerd.",
               type = "error"
@@ -78,7 +80,7 @@ context({
             type = "success"
           )
           get_reporter()$add_message(
-            paste("📊 Jouw resultaat:", paste(env$afgeronde_criminaliteit, collapse = ", ")),
+            paste("📊 Jouw resultaat:", paste(get("afgeronde_criminaliteit", envir = parent.frame(2)), collapse = ", ")),
             type = "success"
           )
         }
