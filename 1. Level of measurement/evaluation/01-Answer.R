@@ -3,16 +3,16 @@
 # primm_phase: Run
 
 ## Verwachte afgeronde getallen
-antwoord_a <- 6.98
-antwoord_b <- 0.92
-antwoord_c <- 10.66
-antwoord_d <- 3.88
-antwoord_e <- 87.00
-antwoord_f <- 0.56
-antwoord_g <- 55.25
-antwoord_h <- 0.66
-antwoord_i <- 7.52
-antwoord_j <- 20.95
+a = 6.98
+b = 0.92
+c = 10.66
+d = 3.88
+e = 87.00
+f = 0.56
+g = 55.25
+h = 0.66
+i = 7.52
+j = 20.95
 
 context({
   testcase(" ", {
@@ -21,10 +21,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_a
+          value <- env$a
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_a` is niet gedefinieerd.",
+              "❌ De variabele `a` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -33,7 +33,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_a` moet een getal zijn.",
+              "❌ `a` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -43,7 +43,7 @@ context({
           return(abs(value - 6.98) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_a`.",
+            "❌ Er is een fout opgetreden bij het controleren van `a`.",
             type = "error"
           )
           return(FALSE)
@@ -53,12 +53,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_a` moet 6,98 zijn (6,978 afgerond op twee decimalen).",
+            "❌ `a` moet 6,98 zijn (6,978 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_a` is correct afgerond.",
+            "✅ `a` is correct afgerond.",
             type = "success"
           )
         }
@@ -71,10 +71,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_b
+          value <- env$b
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_b` is niet gedefinieerd.",
+              "❌ De variabele `b` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -83,7 +83,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_b` moet een getal zijn.",
+              "❌ `b` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -93,7 +93,7 @@ context({
           return(abs(value - 0.92) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_b`.",
+            "❌ Er is een fout opgetreden bij het controleren van `b`.",
             type = "error"
           )
           return(FALSE)
@@ -103,12 +103,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_b` moet 0,92 zijn (0,923 afgerond op twee decimalen).",
+            "❌ `b` moet 0,92 zijn (0,923 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_b` is correct afgerond.",
+            "✅ `b` is correct afgerond.",
             type = "success"
           )
         }
@@ -121,10 +121,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_c
+          value <- env$c
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_c` is niet gedefinieerd.",
+              "❌ De variabele `c` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -133,7 +133,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_c` moet een getal zijn.",
+              "❌ `c` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -143,7 +143,7 @@ context({
           return(abs(value - 10.66) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_c`.",
+            "❌ Er is een fout opgetreden bij het controleren van `c`.",
             type = "error"
           )
           return(FALSE)
@@ -153,12 +153,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_c` moet 10,66 zijn (10,657 afgerond op twee decimalen).",
+            "❌ `c` moet 10,66 zijn (10,657 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_c` is correct afgerond.",
+            "✅ `c` is correct afgerond.",
             type = "success"
           )
         }
@@ -171,10 +171,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_d
+          value <- env$d
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_d` is niet gedefinieerd.",
+              "❌ De variabele `d` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -183,7 +183,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_d` moet een getal zijn.",
+              "❌ `d` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -193,7 +193,7 @@ context({
           return(abs(value - 3.88) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_d`.",
+            "❌ Er is een fout opgetreden bij het controleren van `d`.",
             type = "error"
           )
           return(FALSE)
@@ -203,12 +203,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_d` moet 3,88 zijn (3,878 afgerond op twee decimalen).",
+            "❌ `d` moet 3,88 zijn (3,878 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_d` is correct afgerond.",
+            "✅ `d` is correct afgerond.",
             type = "success"
           )
         }
@@ -221,10 +221,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_e
+          value <- env$e
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_e` is niet gedefinieerd.",
+              "❌ De variabele `e` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -233,7 +233,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_e` moet een getal zijn.",
+              "❌ `e` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -243,7 +243,7 @@ context({
           return(abs(value - 87.00) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_e`.",
+            "❌ Er is een fout opgetreden bij het controleren van `e`.",
             type = "error"
           )
           return(FALSE)
@@ -253,12 +253,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_e` moet 87,00 zijn (87,001 afgerond op twee decimalen).",
+            "❌ `e` moet 87,00 zijn (87,001 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_e` is correct afgerond.",
+            "✅ `e` is correct afgerond.",
             type = "success"
           )
         }
@@ -271,10 +271,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_f
+          value <- env$f
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_f` is niet gedefinieerd.",
+              "❌ De variabele `f` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -283,7 +283,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_f` moet een getal zijn.",
+              "❌ `f` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -293,7 +293,7 @@ context({
           return(abs(value - 0.56) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_f`.",
+            "❌ Er is een fout opgetreden bij het controleren van `f`.",
             type = "error"
           )
           return(FALSE)
@@ -303,12 +303,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_f` moet 0,56 zijn (0,559 afgerond op twee decimalen).",
+            "❌ `f` moet 0,56 zijn (0,559 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_f` is correct afgerond.",
+            "✅ `f` is correct afgerond.",
             type = "success"
           )
         }
@@ -321,10 +321,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_g
+          value <- env$g
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_g` is niet gedefinieerd.",
+              "❌ De variabele `g` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -333,7 +333,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_g` moet een getal zijn.",
+              "❌ `g` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -343,7 +343,7 @@ context({
           return(abs(value - 55.25) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_g`.",
+            "❌ Er is een fout opgetreden bij het controleren van `g`.",
             type = "error"
           )
           return(FALSE)
@@ -353,12 +353,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_g` moet 55,25 zijn (55,248 afgerond op twee decimalen).",
+            "❌ `g` moet 55,25 zijn (55,248 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_g` is correct afgerond.",
+            "✅ `g` is correct afgerond.",
             type = "success"
           )
         }
@@ -371,10 +371,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_h
+          value <- env$h
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_h` is niet gedefinieerd.",
+              "❌ De variabele `h` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -383,7 +383,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_h` moet een getal zijn.",
+              "❌ `h` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -393,7 +393,7 @@ context({
           return(abs(value - 0.66) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_h`.",
+            "❌ Er is een fout opgetreden bij het controleren van `h`.",
             type = "error"
           )
           return(FALSE)
@@ -403,12 +403,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_h` moet 0,66 zijn (0,664 afgerond op twee decimalen).",
+            "❌ `h` moet 0,66 zijn (0,664 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_h` is correct afgerond.",
+            "✅ `h` is correct afgerond.",
             type = "success"
           )
         }
@@ -421,10 +421,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_i
+          value <- env$i
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_i` is niet gedefinieerd.",
+              "❌ De variabele `i` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -433,7 +433,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_i` moet een getal zijn.",
+              "❌ `i` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -443,7 +443,7 @@ context({
           return(abs(value - 7.52) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_i`.",
+            "❌ Er is een fout opgetreden bij het controleren van `i`.",
             type = "error"
           )
           return(FALSE)
@@ -453,12 +453,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_i` moet 7,52 zijn (7,519 afgerond op twee decimalen).",
+            "❌ `i` moet 7,52 zijn (7,519 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_i` is correct afgerond.",
+            "✅ `i` is correct afgerond.",
             type = "success"
           )
         }
@@ -471,10 +471,10 @@ context({
       function(env) {
         # Check if the variable exists
         tryCatch({
-          value <- env$antwoord_j
+          value <- env$j
           if (is.null(value)) {
             get_reporter()$add_message(
-              "❌ De variabele `antwoord_j` is niet gedefinieerd.",
+              "❌ De variabele `j` is niet gedefinieerd.",
               type = "error"
             )
             return(FALSE)
@@ -483,7 +483,7 @@ context({
           # Check if it's a number
           if (!is.numeric(value)) {
             get_reporter()$add_message(
-              "❌ `antwoord_j` moet een getal zijn.",
+              "❌ `j` moet een getal zijn.",
               type = "error"
             )
             return(FALSE)
@@ -493,7 +493,7 @@ context({
           return(abs(value - 20.95) < 0.01)
         }, error = function(e) {
           get_reporter()$add_message(
-            "❌ Er is een fout opgetreden bij het controleren van `antwoord_j`.",
+            "❌ Er is een fout opgetreden bij het controleren van `j`.",
             type = "error"
           )
           return(FALSE)
@@ -503,12 +503,12 @@ context({
       comparator = function(got, want, ...) {
         if (!got) {
           get_reporter()$add_message(
-            "❌ `antwoord_j` moet 20,95 zijn (20,954 afgerond op twee decimalen).",
+            "❌ `j` moet 20,95 zijn (20,954 afgerond op twee decimalen).",
             type = "error"
           )
         } else {
           get_reporter()$add_message(
-            "✅ `antwoord_j` is correct afgerond.",
+            "✅ `j` is correct afgerond.",
             type = "success"
           )
         }
