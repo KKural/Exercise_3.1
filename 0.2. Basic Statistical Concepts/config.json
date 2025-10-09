@@ -1,0 +1,22 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "contact": "kukumar@UGent.be",
+  "access": "public",
+  "evaluation": {
+    "handler": "r"
+  },
+  "labels": [
+    "statistics",
+    "basic-concepts",
+    "criminology",
+    "variables",
+    "scales"
+  ],
+  "internationalisation": {
+    "nl": {
+      "name": "Basisbegrippen in de Statistiek",
+      "description": "Leer de fundamentele concepten van statistiek: variabelen, schalen, populatie en steekproef"
+    }
+  }
+}

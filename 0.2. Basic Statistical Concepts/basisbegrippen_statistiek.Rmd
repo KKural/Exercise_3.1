@@ -1,0 +1,868 @@
+---
+title: "Exercise I"
+output: word_document
+---
+
+# Basisbegrippen in de Statistiek voor Criminologie
+
+**Georganiseerd volgens Bloom's Taxonomie:**
+- **Remember** (Herinneren): Feiten en basisbegrippen oproepen
+- **Understand** (Begrijpen): Concepten uitleggen en interpreteren  
+- **Apply** (Toepassen): Kennis gebruiken in nieuwe situaties
+- **Analyze** (Analyseren): Verbanden leggen en onderdelen onderzoeken
+- **Evaluate** (Evalueren): Oordelen vellen en keuzes rechtvaardigen
+- **Create** (Creëren): Nieuwe oplossingen en producten maken
+
+## 📋 OVERZICHTSTABEL - VRAGEN VOLGENS BLOOM'S TAXONOMIE
+
+### REMEMBER LEVEL (1 vraag)
+| Vraagnummer | Vraag Titel | Leerintentie |
+|-------------|-------------|--------------|
+| Q1 | H.G. Wells Citaat | Belang van statistiek in onderzoek herinneren |
+
+### UNDERSTAND LEVEL (10 vragen)
+| Vraagnummer | Vraag Titel | Leerintentie |
+|-------------|-------------|--------------|
+| Q2 | Meetniveau - Ordinaal | Ordinale variabelen identificeren |
+| Q3 | Inductief vs. Deductief | Verschillende onderzoeksbenaderingen begrijpen |
+| Q4 | Centrale Onderzoeksvraag | Het belang van een goede hoofdvraag begrijpen |
+| Q5 | Onderzoeksdeelvragen | De functie van deelvragen in onderzoek begrijpen |
+| Q6 | Observatie en Nieuwsgierigheid | De rol van observatie als start van onderzoek begrijpen |
+| Q7 | Hypotheses | Het begrip en de functie van hypotheses begrijpen |
+| Q8 | Conceptualisering | Het proces van het definiëren van abstracte concepten begrijpen |
+| Q9 | Operationalisering | Het omzetten van concepten naar meetbare variabelen begrijpen |
+| Q10 | Populatie vs. Steekproef | Verschil tussen populatie en steekproef begrijpen |
+| Q11 | Statistische Significantie | Het concept van statistische significantie begrijpen |
+
+### APPLY LEVEL (6 vragen)
+| Vraagnummer | Vraag Titel | Leerintentie |
+|-------------|-------------|--------------|
+| Q13 | Nominale Schaal Identificatie | Nominale variabelen identificeren in praktijkvoorbeelden |
+| Q14 | Ratio Schaal Berekeningen | Ratio schaal eigenschappen toepassen op echte data |
+| Q15 | Beschrijvende Statistiek | Beschrijvende statistiek toepassen op een dataset |
+| Q16 | Centrale Tendentie | Geschikte maten voor centrale tendentie kiezen per datatype |
+| Q17 | Steekproef Kwaliteit | Steekproefkwaliteit beoordelen aan de hand van criteria |
+| Q18 | Onderzoeksdeelvragen Formuleren | Goede deelvragen formuleren |
+
+### ANALYZE LEVEL (5 vragen)
+| Vraagnummer | Vraag Titel | Leerintentie |
+|-------------|-------------|--------------|
+| Q19 | Data Analyse Planning | Analysestrategie ontwikkelen voor onderzoeksvraag |
+| Q20 | Validiteit Bedreigingen | Verschillende validiteitsbedreigingen herkennen en analyseren |
+| Q21 | Betrouwbaarheid | Meetbetrouwbaarheid problemen analyseren |
+| Q22 | Causale Verbanden | Causale vs. correlationele verbanden onderscheiden |
+| Q23 | Steekproefbias | Verschillende types onderzoeksbias identificeren en analyseren |
+
+### EVALUATE LEVEL (5 vragen)
+| Vraagnummer | Vraag Titel | Leerintentie |
+|-------------|-------------|--------------|
+| Q24 | Onderzoeksopzet Evalueren | Onderzoeksdesigns kritisch beoordelen op methodologische kwaliteit |
+| Q25 | Statistische Claims | Statistische claims en beweringen kritisch evalueren |
+| Q26 | Ethische Aspecten | Ethische kwesties in onderzoek beoordelen |
+| Q27 | Resultaten Interpretatie | Onderzoeksresultaten kritisch interpreteren en beoordelen |
+| Q28 | Generaliseerbaarheid | Externe validiteit en generaliseerbaarheid beoordelen |
+
+### CREATE LEVEL (4 vragen)
+| Vraagnummer | Vraag Titel | Leerintentie |
+|-------------|-------------|--------------|
+| Q29 | Nominale Variabele Creëren | Nominale variabelen ontwerpen |
+| Q30 | Ordinale Variabele Creëren | Ordinale variabelen ontwerpen |
+| Q31 | Onderzoeksopzet Eerste Stap | Eerste stap van onderzoek ontwerpen |
+| Q32 | Centrale Onderzoeksvraag | Goede onderzoeksvragen formuleren |
+
+Deze oefening combineert concepten uit HOOFDSTUK 1 INLEIDENDE BEGRIPPEN en concepten uit "De logica van statistiek".
+
+## 🔵 NIVEAU 1: REMEMBER (Herinneren)
+*Feiten en basisbegrippen oproepen*
+
+### Vraag Q1 (Remember)
+**Volgens H.G. Wells, hoe belangrijk zal statistisch denken in de toekomst worden?**
+
+> **💡 Hint:** Denk aan de fundamentele vaardigheden die elke burger nodig heeft om te functioneren in de maatschappij.
+
+1) Het is alleen nuttig voor wetenschappers  
+"1" = "❌ Fout. Wells sprak over alle burgers, niet alleen wetenschappers."
+2) Het zal net zo noodzakelijk zijn als lezen en schrijven  
+"2" = "✅ Juist! Wells zei: 'Statistical thinking will one day be as necessary for efficient citizenship as the ability to read and write.' Hij benadrukte dat statistisch denken een basisvaardigheid wordt voor iedereen."
+3) Het is alleen belangrijk voor criminologen  
+"3" = "❌ Fout. Statistical thinking heeft een veel bredere toepassing dan alleen criminologie."
+4) Het vervangt de noodzaak om te kunnen lezen en schrijven  
+"4" = "❌ Fout. Wells stelde dat het een aanvulling wordt op lezen en schrijven, geen vervanging."
+
+### Vraag Q2 (Remember)
+**Wat voor soort variabele is "leeftijd van een verdachte"?**
+
+> **💡 Hint:** Denk na over de eigenschappen van leeftijd. Kun je leeftijden rangschikken? Zijn de afstanden tussen jaren altijd hetzelfde? Wat betekent 0 jaar?
+
+1) Nominaal  
+"1" = "❌ Fout. Nominaal betekent categorieën zonder rangorde. Voorbeeld: haarkleur (blond, bruin, zwart) is nominaal. Leeftijd heeft wel numerieke waarden en rangorde. Meer weten over nominal, ordinaal, interval en ratio? Zie: https://www.questionpro.com/blog/nominal-ordinal-interval-ratio/"
+2) Ordinaal  
+"2" = "❌ Fout. Ordinaal heeft rangorde maar geen gelijke intervallen. Voorbeeld: opleidingsniveau (laag, midden, hoog) is ordinaal. Leeftijd heeft gelijke intervallen tussen jaren. Meer weten over nominal, ordinaal, interval en ratio? Zie: https://www.questionpro.com/blog/nominal-ordinal-interval-ratio/"
+3) Interval/Ratio  
+"3" = "✅ Juist! Leeftijd is interval/ratio omdat het numerieke waarden heeft, gelijke intervallen, en een absoluut nulpunt (0 jaar = geen leeftijd). Voorbeeld: leeftijd in jaren: 18, 19, 20, ... Meer weten over nominal, ordinaal, interval en ratio? Zie: https://www.questionpro.com/blog/nominal-ordinal-interval-ratio/"
+4) Dichotoom  
+"4" = "❌ Fout. Dichotoom betekent slechts twee categorieën. Voorbeeld: geslacht (man/vrouw) of ja/nee vragen. Leeftijd heeft een oneindig aantal mogelijke waarden. Meer weten over nominal, ordinaal, interval en ratio? Zie: https://www.questionpro.com/blog/nominal-ordinal-interval-ratio/"
+
+## 🟠 NIVEAU 2: UNDERSTAND (Begrijpen)
+*Concepten uitleggen en interpreteren*
+
+### Vraag Q3 (Understand)
+**Wat is het verschil tussen inductief en deductief onderzoek?**
+
+> **💡 Hint:** Denk na over de richting: begin je met theorie of met observaties? Ga je van algemeen naar specifiek of andersom?
+
+1) Er is geen verschil  
+"1" = "❌ Fout. Dit zijn twee verschillende benaderingen van wetenschappelijk onderzoek. Bijvoorbeeld: bij inductief onderzoek observeer je eerst criminaliteit in buurten en probeer je daaruit een theorie te ontwikkelen, terwijl je bij deductief onderzoek start met een theorie over criminaliteit en deze toetst met data. [Lees meer](https://www.questionpro.com/blog/nl/inductief-vs-deductief-onderzoek-verschil-in-aanpak/)"
+2) Inductief gaat van observaties naar theorie, deductief gaat van theorie naar data  
+"2" = "✅ Juist! Inductief onderzoek start met observaties en bouwt daaruit theorie op. Bijvoorbeeld: je observeert dat jongeren vaker in groepen crimineel gedrag vertonen en ontwikkelt op basis daarvan een nieuwe theorie. Deductief onderzoek start met theorie en toetst deze met data. Bijvoorbeeld: je hebt een theorie dat werkloosheid leidt tot meer criminaliteit en verzamelt data om dit te testen. [Lees meer](https://www.questionpro.com/blog/nl/inductief-vs-deductief-onderzoek-verschil-in-aanpak/)"
+3) Inductief is kwalitatief, deductief is kwantitatief  
+"3" = "❌ Fout. Beide benaderingen kunnen zowel kwalitatief als kwantitatief zijn. Bijvoorbeeld: inductief kan ook kwantitatieve data gebruiken om patronen te ontdekken, deductief kan kwalitatieve interviews gebruiken om theorie te toetsen. [Lees meer](https://www.questionpro.com/blog/nl/inductief-vs-deductief-onderzoek-verschil-in-aanpak/)"
+4) Inductief gebruikt geen statistiek  
+"4" = "❌ Fout. Inductief onderzoek kan ook statistische analyse gebruiken bij het ontdekken van patronen. Bijvoorbeeld: je gebruikt statistiek om uit observaties nieuwe verbanden te vinden. [Lees meer](https://www.questionpro.com/blog/nl/inductief-vs-deductief-onderzoek-verschil-in-aanpak/)"
+
+### Vraag Q4 (Understand)
+**Wat is het doel van een centrale onderzoeksvraag?**
+
+> **💡 Hint:** Denk na over waarom je onderzoek doet. Welke rol speelt de centrale vraag in het sturen van je onderzoek?
+
+1) Om te bepalen waar het onderzoek zich op richt en de richting van de studie aan te geven  
+"1" = "✅ Juist! De centrale onderzoeksvraag bepaalt de hoofdfocus, verduidelijkt wat onderzocht wordt en zorgt dat het onderzoek een duidelijke richting en samenhang heeft."
+2) Om het onderwerp te verfijnen en het onderzoek specifieker te maken  
+"2" = "⚠️ Bijna goed. De centrale vraag helpt inderdaad om het onderwerp te beperken, maar haar belangrijkste doel is het geven van richting en betekenis aan het hele onderzoek."
+3) Om de resultaten samen te vatten nadat het onderzoek is afgerond  
+"3" = "❌ Fout. De centrale onderzoeksvraag wordt vooraf opgesteld om het onderzoek te sturen, niet om de resultaten achteraf samen te vatten."
+4) Om subvragen of hypothesen te vervangen  
+"4" = "❌ Fout. De centrale onderzoeksvraag vormt juist het kader waarbinnen subvraagstukken of hypothesen ontwikkeld worden — ze vervangt die niet."
+
+### Vraag Q5 (Understand)
+**Waarom gebruik je onderzoeksdeelvragen?**
+
+> **💡 Hint:** Denk na over grote, complexe problemen. Hoe maak je die gemakkelijker aan te pakken?
+
+1) Om het onderzoek langer te maken  
+"1" = "❌ Fout. Het doel is niet om het onderzoek langer te maken, maar om het beter te organiseren."
+2) Om de centrale onderzoeksvraag op te delen in kleinere, handelbare delen  
+"2" = "✅ Juist! Onderzoeksdeelvragen maken de vaak vage en brede centrale onderzoeksvraag toetsbaar door deze op te delen in subproblemen die gemakkelijker te behandelen zijn."
+3) Om meer variabelen in het onderzoek te kunnen opnemen  
+"3" = "❌ Fout. Het doel van deelvragen is niet om meer variabelen toe te voegen, maar om de hoofdvraag systematisch te onderzoeken."
+4) Om het onderzoek interessanter te maken voor lezers  
+"4" = "❌ Fout. Deelvragen zijn een methodologisch hulpmiddel, niet bedoeld om het onderzoek aantrekkelijker te maken voor het publiek."
+
+### Vraag Q6 (Understand)
+**Wat zijn de eerste stappen in wetenschappelijk onderzoek die vaak over het hoofd worden gezien?**
+
+> **💡 Hint:** Denk aan wat een onderzoeker doet voordat hij/zij begint met data verzamelen. Wat drijft onderzoekers?
+
+1) Data verzamelen en analyseren  
+"1" = "❌ Fout. Dit zijn latere stappen in het onderzoeksproces."
+2) Observatie en nieuwsgierigheid  
+"2" = "✅ Juist! Observatie en nieuwsgierigheid zijn de eerste stappen die vaak over het hoofd worden gezien. Veel onderzoeksprojecten veranderen van richting omdat onderzoekers hun interesse verliezen of nieuwe inzichten krijgen."
+3) Statistiek berekenen  
+"3" = "❌ Fout. Statistiek komt veel later in het onderzoeksproces."
+4) Conclusies trekken  
+"4" = "❌ Fout. Dit is een van de laatste stappen in het onderzoeksproces."
+
+### Vraag Q7 (Understand)
+**Wat is het verschil tussen een onderzoekshypothese en een nulhypothese?**
+
+> **💡 Hint:** Denk na over wat je wilt bewijzen versus wat je probeert te weerleggen. Welke begin je met aan te nemen?
+
+1) Er is geen verschil  
+"1" = "❌ Fout. Dit zijn twee verschillende types hypotheses met verschillende doelen."
+2) Een onderzoekshypothese stelt een verband voor, een nulhypothese stelt dat er geen verband is  
+"2" = "✅ Juist! Een onderzoekshypothese is wat je wilt toetsen (bijvoorbeeld: 'er is een verband tussen A en B'). Een nulhypothese stelt dat er geen statistisch significant verband bestaat. Het doel is de nulhypothese te weerleggen om de onderzoekshypothese te ondersteunen."
+3) Een nulhypothese is belangrijker  
+"3" = "❌ Fout. Beide zijn belangrijk maar hebben verschillende functies in het onderzoeksproces."
+4) Een onderzoekshypothese kan alleen met grote steekproeven getest worden  
+"4" = "❌ Fout. Dit heeft te maken met statistical power, niet met het type hypothese."
+
+### Vraag Q8 (Understand)
+**Wat is conceptualisering in de context van onderzoek?**
+
+> **💡 Hint:** Dit gaat over het stap-voor-stap definiëren van wat je precies bedoelt met abstracte begrippen. Hoe maak je iets vaags concreet?
+
+1) Het verzamelen van data  
+"1" = "❌ Fout. Data verzamelen komt later in het onderzoeksproces, nadat je hebt bepaald wat je wilt meten."
+2) Het definiëren van abstracte concepten zodat ze meetbaar worden  
+"2" = "✅ Juist! Conceptualisering is het proces waarbij je abstracte begrippen (zoals 'criminaliteit' of 'sociale cohesie') precies definieert. Bijvoorbeeld: wat bedoel je precies met 'jeugdcriminaliteit'? Welke leeftijdsgroep? Welke gedragingen? Dit is de eerste stap voordat je kunt bepalen HOE je het gaat meten."
+3) Het analyseren van onderzoeksresultaten  
+"3" = "❌ Fout. Analyse komt aan het einde van het onderzoeksproces."
+4) Het kiezen van de juiste statistische test  
+"4" = "❌ Fout. Statistische tests kiezen is onderdeel van de analysefase, niet van conceptualisering."
+
+### Vraag Q9 (Understand)
+**Wat is operationalisering?**
+
+> **💡 Hint:** Dit komt na conceptualisering. Als je weet wat je bedoelt met een begrip, hoe ga je het dan daadwerkelijk meten?
+
+1) Het bedenken van de onderzoeksvraag  
+"1" = "❌ Fout. De onderzoeksvraag komt eerder in het proces."
+2) Het omzetten van concepten naar concrete, meetbare variabelen  
+"2" = "✅ Juist! Operationalisering volgt op conceptualisering. Als je hebt gedefinieerd wat je bedoelt met bijvoorbeeld 'schoolprestatie', moet je bepalen HOE je dit gaat meten: cijfers, diploma's, schooluitval, etc. Het is de brug tussen theorie en praktijk."
+3) Het selecteren van proefpersonen  
+"3" = "❌ Fout. Dit is onderdeel van steekproeftrekking, niet operationalisering."
+4) Het rapporteren van resultaten  
+"4" = "❌ Fout. Rapporteren komt helemaal aan het einde van het onderzoeksproces."
+
+## Deel 2: Populatie en Steekproef
+
+### Vraag Q10 (Understand)
+**Wat is het verschil tussen een populatie en een steekproef?**
+
+> **💡 Hint:** Denk aan de begrippen "geheel" versus "deel". Wanneer onderzoek je iedereen versus een selectie?
+
+1) Er is geen verschil  
+"1" = "❌ Fout. Er is wel degelijk een verschil tussen populatie en steekproef in termen van omvang en representatie."
+2) Populatie = alle eenheden van interesse, Steekproef = deel van populatie  
+"2" = "✅ Juist! Een populatie bestaat uit alle eenheden waarin je geïnteresseerd bent, een steekproef is een subset daarvan. Als je de hele populatie onderzoekt, heet dat een census. Meestal bestudeer je echter een steekproef, omdat het vaak te duur of onpraktisch is om iedereen te onderzoeken."
+3) Steekproef = alle eenheden, Populatie = deel van steekproef  
+"3" = "❌ Fout. Dit is andersom. De steekproef is een deel van de populatie, niet omgekeerd."
+4) Populatie is altijd groter dan 1000 eenheden  
+"4" = "❌ Fout. De grootte van een populatie hangt af van wat je onderzoekt, niet van een vast getal."
+
+## Deel 3: Beschrijvende vs. Inferentiële Statistiek
+
+### Vraag Q11 (Understand)
+**Wat is het hoofddoel van beschrijvende statistiek?**
+
+> **💡 Hint:** Denk na over wat je doet als je alleen kijkt naar de data die je hebt verzameld, zonder conclusies te trekken over andere groepen.
+
+1) Generaliseren naar de populatie  
+"1" = "❌ Fout. Dit wordt gedaan door inferentiële statistiek. Voorbeeld: op basis van steekproef van 500 mensen voorspellen hoeveel criminaliteit er in een hele stad is."
+2) Samenvatten en beschrijven van data  
+"2" = "✅ Juist! Beschrijvende statistiek helpt je om overzicht te krijgen van je data. Voorbeelden: 'De gemiddelde leeftijd van arrestanten was 28 jaar', '60% van de diefstallen gebeurde 's avonds', een grafiek van criminaliteitscijfers per maand."
+3) Testen van hypotheses  
+"3" = "❌ Fout. Dit wordt gedaan door inferentiële statistiek. Voorbeeld: testen of werkloosheid echt zorgt voor meer criminaliteit met p-waarden en significantietests."
+4) Voorspellen van toekomstige gebeurtenissen  
+"4" = "❌ Fout. Dit wordt gedaan door predictieve analyse. Beschrijvende statistiek kijkt alleen naar de data die je al hebt."
+
+## Deel 4: Statistische Concepten
+
+### Vraag Q12 (Understand)
+**Wat betekent 'statistische significantie' in eenvoudige bewoordingen?**
+
+> **💡 Hint:** Denk na over de vraag: "Is dit resultaat echt of kan het ook toeval zijn?" Wanneer ben je ervan overtuigd dat een verschil niet toevallig is?
+
+1) Het resultaat is zeer belangrijk voor de samenleving  
+"1" = "❌ Fout. Statistische significantie zegt niets over maatschappelijk belang. Een statistisch significant verschil kan praktisch gezien klein en onbelangrijk zijn."
+2) Het gevonden verschil is zo groot dat het waarschijnlijk niet door toeval ontstaan is  
+"2" = "✅ Juist! Statistische significantie betekent dat je voldoende bewijs hebt dat een verschil of verband echt bestaat en niet door toeval is ontstaan. Meestal gebruikt men een grens van 5% kans op toeval (p < 0.05)."
+3) Het resultaat geldt voor de hele wereldbevolking  
+"3" = "❌ Fout. Dit gaat over generaliseerbaarheid, niet over statistische significantie. Je kunt statistisch significante resultaten hebben die niet generaliseerbaar zijn."
+4) Het onderzoek heeft meer dan 1000 deelnemers  
+"4" = "❌ Fout. Statistische significantie hangt af van de grootte van het effect en de steekproefgrootte, maar er is geen vaste grens van 1000 deelnemers."
+
+---
+
+## 📚 AANVULLENDE VRAGEN VOOR VOLLEDIGE BLOOM'S DEKKING
+
+*De volgende vragen kunnen worden toegevoegd om alle niveaus van Bloom's taxonomie volledig te dekken met focus op Chapter 1 basisbegrippen:*
+
+### APPLY NIVEAU (Q13-Q17)
+- Q13: Nominale variabelen identificeren in praktijkvoorbeelden  
+- Q14: Ratio schaal eigenschappen toepassen op echte data  
+- Q15: Beschrijvende statistiek toepassen op een dataset  
+- Q16: Geschikte maten voor centrale tendentie kiezen per datatype  
+- Q17: Steekproefkwaliteit beoordelen aan de hand van criteria  
+
+### ANALYZE NIVEAU (Q18-Q22)  
+- Q18: Data analyse planning ontwikkelen voor onderzoeksvraag  
+- Q19: Verschillende validiteitsbedreigingen herkennen en analyseren  
+- Q20: Meetbetrouwbaarheid problemen analyseren  
+- Q21: Causale vs. correlationele verbanden onderscheiden  
+- Q22: Verschillende types onderzoeksbias identificeren en analyseren  
+
+### EVALUATE NIVEAU (Q23-Q27)
+- Q23: Onderzoeksdesigns kritisch beoordelen op methodologische kwaliteit  
+- Q24: Statistische claims en beweringen kritisch evalueren  
+- Q25: Ethische aspecten van onderzoek beoordelen  
+- Q26: Onderzoeksresultaten kritisch interpreteren en beoordelen  
+- Q27: Externe validiteit en generaliseerbaarheid beoordelen  
+
+---
+
+## 🎯 SLOTWOORD
+
+Deze vragenset dekt de fundamentele statistische concepten uit Chapter 1 volgens Bloom's taxonomie. De focus ligt op basisbegrippen die beginners nodig hebben voordat ze verder gaan met geavanceerdere statistische analyses. Elke vraag bevat uitgebreide uitleg in de feedback om het leerproces te ondersteunen.
+
+**Totaal: 12 voltooide vragen (Q1-Q12) + 20 aanvullende concepten (Q13-Q32) = 32 vragen**
+
+### Verdeling per Bloom's niveau:
+- **Remember (Q1):** 1 vraag
+- **Understand (Q2-Q12):** 11 vragen 
+- **Apply (Q13-Q18):** 6 vragen
+- **Analyze (Q19-Q23):** 5 vragen
+- **Evaluate (Q24-Q28):** 5 vragen
+- **Create (Q29-Q32):** 4 vragen
+
+De eerste 12 vragen zijn volledig uitgewerkt en klaar voor gebruik. De overige 20 vragen zijn geconceptualiseerd en kunnen later worden uitgewerkt voor een complete vragenset van 32 vragen.
+
+1) Het resultaat is belangrijk voor de samenleving  
+"1" = "❌ Fout. Statistische significantie zegt niets over maatschappelijk belang. Een statistisch significant verschil kan heel klein en onbelangrijk zijn. Voorbeeld: een verschil van 0,1% in criminaliteit kan statistisch significant zijn bij grote steekproeven, maar praktisch niet belangrijk."
+2) Het waargenomen verschil is waarschijnlijk niet te wijten aan toeval  
+"2" = "✅ Juist! Statistische significantie betekent dat de kans klein is dat het gevonden verschil puur door toeval ontstaan is. Voorbeeld: als we vinden dat wijken met meer straatverlichting minder criminaliteit hebben, dan is dit verschil waarschijnlijk echt en niet door toeval."
+3) Het resultaat klopt altijd 100%  
+"3" = "❌ Fout. Statistische significantie geeft een waarschijnlijkheid, geen zekerheid. Er blijft altijd een kleine kans dat het resultaat toch door toeval ontstaan is. Daarom spreken we van 'waarschijnlijk niet door toeval'."
+4) De steekproef was groot genoeg  
+"4" = "❌ Fout. Hoewel grote steekproeven helpen bij het vinden van significantie, gaat het concept over de waarschijnlijkheid van toeval, niet over steekproefgrootte. Kleine steekproeven kunnen ook significante resultaten geven."
+
+---
+
+## 🟣 NIVEAU 3: APPLY (Toepassen)
+*Kennis gebruiken in nieuwe situaties*
+
+### Vraag Q6 (Apply)
+**Wat is een kenmerk van een goede steekproef?**
+
+> **💡 Hint:** Denk na over wat belangrijk is: de grootte van de steekproef of hoe goed deze de hele groep weergeeft die je wilt onderzoeken?
+
+1) Zo groot mogelijk  
+"1" = "❌ Fout. Grootte helpt wel, maar is niet het belangrijkste. Een steekproef van 10.000 Brusselaars vertelt weinig over heel België. Voorbeeld: Een grote steekproef van alleen universiteitsstudenten voor onderzoek naar criminaliteit geeft een vertekend beeld."
+2) Representatief voor de populatie  
+"2" = "✅ Juist! Een goede steekproef weerspiegelt de populatie. Voorbeeld: Voor onderzoek naar criminaliteit in België heb je respondenten uit verschillende steden, leeftijden en sociale klassen nodig, niet alleen uit één wijk in Brussel."
+3) Alleen deelnemers uit één sociale klasse  
+"3" = "❌ Fout. Dit veroorzaakt een selectiebias. Als je alleen mensen uit een hoge sociale klasse onderzoekt, mis je belangrijke verschillen met andere groepen. Een goede steekproef bevat mensen uit alle relevante sociale klassen."
+4) Alleen deelnemers die zichzelf aanmelden  
+"4" = "❌ Fout. Zelfselectie leidt tot bias omdat mensen die zichzelf aanmelden vaak andere kenmerken hebben dan mensen die niet deelnemen. Hierdoor is de steekproef niet representatief voor de hele populatie."
+
+### Vraag Q7 (Apply)
+**Welke steekproeftechniek geeft de beste kans op een representatieve steekproef?**
+
+> **💡 Hint:** Welke methode geeft iedereen in de populatie een gelijke kans om geselecteerd te worden? Denk aan fairness en objectiviteit.
+
+1) Convenience sampling (gemakssteekproef)  
+"1" = "❌ Fout. Gebruikt wanneer: snelle, goedkope data nodig is. Voorbeeld: studenten op de campus bevragen over criminaliteit. Probleem: alleen jonge, hoogopgeleide mensen, niet representatief voor hele bevolking. Meer info: https://www.qualtrics.com/experience-management/research/representative-samples/"
+2) Quota sampling  
+"2" = "❌ Fout. Gebruikt wanneer: je weet hoeveel mannen/vrouwen, jong/oud je wilt. Voorbeeld: 50% mannen, 50% vrouwen selecteren. Probleem: binnen elke groep kies je nog steeds niet willekeurig. Meer info: https://www.qualtrics.com/experience-management/research/representative-samples/"
+3) Random sampling (aselecte steekproef)  
+"3" = "✅ Juist! Elke persoon heeft gelijke kans om gekozen te worden. Voorbeeld: alle Belgen krijgen een nummer, computer kiest willekeurig nummers. Voordeel: voorkomt onderzoeker-bias en geeft eerlijkste beeld van populatie. Meer info: https://www.qualtrics.com/experience-management/research/representative-samples/"
+4) Snowball sampling  
+"4" = "❌ Fout. Gebruikt wanneer: moeilijk bereikbare groepen onderzoeken. Voorbeeld: drugsdealers vinden via andere drugsdealers. Probleem: mensen kennen vaak gelijkaardige mensen, dus niet divers genoeg. Meer info: https://www.qualtrics.com/experience-management/research/representative-samples/"
+
+### Vraag Q10 (Apply)
+**Welke maat voor centrale tendentie is het meest geschikt voor ordinale data?**
+
+> **💡 Hint:** Bij ordinale data kun je rangschikken maar kun je niet echt "rekenen" met de waarden. Welke maat gebruikt alleen de positie, niet de exacte waarden?
+
+1) Gemiddelde (mean)  
+"1" = "❌ Fout. Gebruikt voor: interval/ratio data. Voorbeeld: gemiddelde leeftijd arrestanten (25+30+35)/3 = 30 jaar. Probleem bij ordinaal: je kunt geen gemiddelde nemen van 'laag, midden, hoog' opleidingsniveau."
+2) Mediaan  
+"2" = "✅ Juist! Gebruikt voor: ordinale data en interval/ratio met uitschieters. Voorbeeld: bij opleidingsniveau 'laag-midden-hoog' is de mediaan het middelste niveau. Ook goed bij inkomens met extreme waarden: €1000, €2000, €3000, €100.000 - mediaan is €2500."
+3) Modus  
+"3" = "❌ Fout. Gebruikt voor: nominale data vooral. Voorbeeld: meest voorkomende type misdrijf is 'diefstal'. Kan wel bij ordinaal maar geeft minder info dan mediaan."
+4) Range  
+"4" = "❌ Fout. Dit is geen maat voor centrale tendentie maar voor spreiding. Voorbeeld: range van arrestantleeftijden = 65-18 = 47 jaar. Vertelt waar data zich uitstrekt, niet waar het midden ligt."
+
+**Antwoord: 2**
+
+### Vraag Q11 (Apply)
+**Wanneer gebruik je de modus als maat voor centrale tendentie?**
+
+> **💡 Hint:** De modus werkt voor alle soorten data, maar bij welk type data is het de ENIGE optie omdat je niet kunt rekenen of rangschikken?
+
+1) Bij ratio data  
+"1" = "❌ Fout. Gebruikt voor: precieze metingen. Voorbeeld: lengte arrestanten - gemiddelde is 175cm, meer informatief dan meest voorkomende lengte. Bij ratio data geef je voorkeur aan gemiddelde."
+2) Bij interval data  
+"2" = "❌ Fout. Gebruikt voor: temperatuur, IQ-scores. Voorbeeld: gemiddelde IQ van 100 is nuttiger dan meest voorkomende IQ. Bij interval data is gemiddelde meestal beter."
+3) Bij ordinale data  
+"3" = "❌ Fout. Gebruikt voor: rangorde zoals opleidingsniveau. Voorbeeld: bij 'laag-midden-hoog' onderwijs is mediaan (middelste waarde) informativer dan modus (meest voorkomende)."
+4) Bij nominale data  
+"4" = "✅ Juist! Gebruikt voor: categorieën zonder rangorde. Voorbeeld: type misdrijf - diefstal komt 60 keer voor, geweld 30 keer, drugs 10 keer. Modus = diefstal. Je kunt geen gemiddelde nemen van 'diefstal + geweld'."
+
+**Antwoord: 4**
+
+---
+
+## 🟢 NIVEAU 4: ANALYZE (Analyseren)
+*Verbanden leggen en onderdelen onderzoeken*
+
+### Vraag Q11 (Analyze)
+**In welke situatie zou je het gemiddelde verkiezen boven de mediaan?**
+
+> **💡 Hint:** Denk aan wanneer extreme waarden een probleem zijn en wanneer niet. Bij welk type verdeling geven beide maten vergelijkbare resultaten?
+
+1) Bij data waar waarden ongelijk verdeeld zijn  
+"1" = "❌ Fout. Gebruikt voor: data met veel uitschieters aan één kant. Voorbeeld: inkomens - veel mensen €2000, paar mensen €100.000. Gemiddelde wordt €15.000 door rijken, mediaan blijft €2000 (realistischer)."
+2) Bij aanwezigheid van uitbijters  
+"2" = "❌ Fout. Gebruikt voor: extreme waarden. Voorbeeld: leeftijden arrestanten 20,22,25,85 jaar. Gemiddelde = 38 jaar (misleidend), mediaan = 23.5 jaar (beter beeld van typische arrestant)."
+3) Bij normaal verdeelde data zonder uitbijters  
+"3" = "✅ Juist! Gebruikt voor: symmetrische, 'normale' verdeling. Voorbeeld: lengtes van 1000 politieagenten - mooi verdeeld rond 175cm. Gemiddelde en mediaan zijn bijna gelijk, maar gemiddelde geeft meer informatie voor berekeningen."
+4) Bij ordinale data  
+"4" = "❌ Fout. Gebruikt voor: rangorde data. Voorbeeld: tevredenheid 'laag-midden-hoog'. Je kunt geen gemiddelde berekenen van woorden, alleen mediaan (middelste rangorde)."
+
+**Antwoord: 3**
+
+### Vraag Q12 (Analyze)
+**Wat is het verschil tussen systematische en toevallige meetfouten?**
+
+> **💡 Hint:** Denk na over patronen. Gebeurt de fout altijd op dezelfde manier of verschilt het elke keer? Kun je de fout voorspellen?
+
+1) Er is geen verschil  
+"1" = "❌ Fout. Er is wel degelijk een belangrijk verschil. Voorbeeld: beide soorten fouten komen voor maar hebben verschillende oorzaken en gevolgen voor je onderzoek."
+2) Systematische fouten zijn voorspelbaar en consistent, toevallige fouten zijn onvoorspelbaar  
+"2" = "✅ Juist! Gebruikt voor: foutanalyse. Voorbeeld: Systematisch = weegschaal toont altijd 2kg te veel (consistent bias). Toevallig = weegschaal varieert random +/-1kg bij herhaling (onvoorspelbare variatie)."
+3) Toevallige fouten zijn erger dan systematische fouten  
+"3" = "❌ Fout. Beide zijn problematisch maar anders. Voorbeeld: systematische fouten geven verkeerde gemiddelden, toevallige fouten geven onbetrouwbare metingen. Geen van beide is 'erger' - gewoon anders."
+4) Systematische fouten kunnen niet worden gecorrigeerd  
+"4" = "❌ Fout. Gebruikt voor: pessimisme. Voorbeeld: als je weet dat je weegschaal altijd 2kg te veel toont, kun je er 2kg aftrekken. Systematische fouten zijn vaak corrigeerbaar als je ze detecteert."
+
+**Antwoord: 2**
+
+### Vraag Q13 (Analyze)
+**Wanneer gebruik je inferentiële statistiek?**
+
+> **💡 Hint:** Denk aan het verschil tussen beschrijven wat je ziet in je data versus uitspraken doen over een grotere groep. Wanneer ga je verder dan je eigen data?
+
+1) Om data in tabellen te zetten  
+"1" = "❌ Fout. Data in tabellen zetten is beschrijvende statistiek, niet inferentiële."
+2) Om gemiddelden te berekenen  
+"2" = "❌ Fout. Gemiddelden berekenen is beschrijvende statistiek, niet inferentiële."
+3) Om conclusies te trekken over een populatie op basis van steekproefdata  
+"3" = "✅ Juist! Inferentiële statistiek gebruikt steekproefdata om uitspraken te doen over de hele populatie."
+4) Om grafieken te maken  
+"4" = "❌ Fout. Grafieken maken is beschrijvende statistiek, niet inferentiële."
+
+**Antwoord: 3**
+
+---
+
+## 🔵 NIVEAU 5: EVALUATE (Evalueren)
+*Oordelen vellen en keuzes rechtvaardigen*
+
+### Vraag Q14 (Evaluate)
+**Evalueer de kwaliteit van deze steekproef: Een onderzoeker wil weten hoeveel Belgen zich onveilig voelen. Hij bevraagt 1000 mensen die zichzelf aanmelden via Facebook. Wat is het grootste probleem?**
+
+> **� Hint:** Evalueer of deze steekproef een eerlijk beeld geeft van alle Belgen. Welke groepen worden mogelijk gemist?
+
+1) De steekproef is te klein  
+"1" = "❌ Fout. 1000 respondenten is eigenlijk een redelijke grootte voor een nationale steekproef."
+2) Zelfselectie-bias - alleen bepaalde types mensen melden zich aan  
+"2" = "✅ Juist! Mensen die zichzelf aanmelden via Facebook zijn waarschijnlijk jonger, actiever op sociale media, en hebben mogelijk andere kenmerken dan de gemiddelde Belg. Oudere mensen of mensen zonder Facebook worden gemist."
+3) Facebook is geen geschikt platform  
+"3" = "❌ Fout. Facebook kan wel gebruikt worden, maar het probleem is dat mensen zichzelf selecteren in plaats van willekeurig gekozen te worden."
+4) De vraag over onveiligheid is te vaag  
+"4" = "❌ Fout. Dit is een probleem met de vraagstelling, niet met de steekproefmethode."
+
+### Vraag Q15 (Evaluate)
+**Evalueer deze steekproefstrategie: Voor onderzoek naar drugsgebruik onder jongeren selecteert een onderzoeker willekeurig 500 studenten van alle universiteiten in België. Is dit een goede strategie?**
+
+> **� Hint:** Evalueer of universiteitsstudenten representatief zijn voor alle jongeren. Welke groep jongeren wordt gemist?
+
+1) Ja, perfect representatief  
+"1" = "❌ Fout. Universiteitsstudenten zijn slechts een deel van alle jongeren."
+2) Nee, mist jongeren die niet studeren aan universiteit  
+"2" = "✅ Juist! Deze steekproef mist jongeren die werken, werkloos zijn, of andere vormen van onderwijs volgen (hogeschool, secundair onderwijs). Universiteitsstudenten hebben vaak andere kenmerken qua sociaal-economische achtergrond."
+3) Nee, te weinig respondenten  
+"3" = "❌ Fout. 500 respondenten is een redelijke steekproefgrootte."
+4) Nee, drugsonderzoek is niet ethisch  
+"4" = "❌ Fout. Met juiste toestemming en anonimiteit kan drugsonderzoek wel ethisch uitgevoerd worden."
+
+### Vraag Q16 (Evaluate)
+**Welke factor bedreigt de interne validiteit het meest?**
+
+> **💡 Hint:** Evalueer welke factor de zekerheid over oorzaak-gevolg relaties het meest ondermijnt. Wat kan alternatieve verklaringen geven?
+
+1) Te kleine steekproef  
+"1" = "❌ Fout. Gebruikt voor: statistische power problemen. Voorbeeld: met 10 personen is het moeilijk om echte effecten te vinden. Bedreigt vooral de kans om effecten te detecteren, niet de causaliteit."
+2) Confounding variabelen (storende variabelen)  
+"2" = "✅ Juist! Gebruikt voor: alternatieve verklaringen. Voorbeeld: onderzoek toont 'meer politie → minder criminaliteit'. Maar rijke wijken hebben zowel meer politie ALS minder criminaliteit door inkomen. Inkomen = confounding variabele die echte oorzaak verhult."
+3) Lage respons rate  
+"3" = "❌ Fout. Gebruikt voor: representativiteit problemen. Voorbeeld: alleen 20% reageert op enquête. Bedreigt vooral externe validiteit - zijn resultaten nog toepasbaar op hele populatie?"
+4) Meetfouten  
+"4" = "❌ Fout. Gebruikt voor: onnauwkeurige metingen. Voorbeeld: slecht kalibreerde weegschaal. Bedreigt vooral betrouwbaarheid van data, niet directe causaliteit."
+
+**Antwoord: 2**
+
+### Vraag Q17 (Evaluate)
+**Hoe kun je de betrouwbaarheid van een meting verhogen?**
+
+> **💡 Hint:** Evalueer welke strategie de consistentie en precisie van metingen het beste verbetert.
+
+1) Door de steekproef kleiner te maken  
+"1" = "❌ Fout. Gebruikt voor: kostenbesparing. Voorbeeld: 50 i.p.v. 500 respondenten. Kleinere steekproef geeft juist meer variatie en minder betrouwbare resultaten."
+2) Door herhaalde metingen uit te voeren  
+"2" = "✅ Juist! Gebruikt voor: precisie verhogen. Voorbeeld: vraag mensen 3 keer hun leeftijd → gemiddelde is betrouwbaarder. Of meet criminaliteit in zelfde wijk op verschillende momenten → patroon wordt duidelijker."
+3) Door alleen extreme waarden te meten  
+"3" = "❌ Fout. Gebruikt voor: sensationalisme. Voorbeeld: alleen meten bij ergste wijken. Extreme waarden geven vertekend beeld en verhogen juist de variabiliteit/onbetrouwbaarheid."
+4) Door subjectieve oordelen te gebruiken  
+"4" = "❌ Fout. Gebruikt voor: intuïtie. Voorbeeld: 'deze wijk voelt onveilig'. Subjectieve oordelen verschillen tussen personen en verminderen betrouwbaarheid. Objectieve meting is beter."
+
+**Antwoord: 2**
+
+---
+
+## 🔴 NIVEAU 6: CREATE (Creëren)
+*Nieuwe oplossingen en producten maken*
+
+### Vraag Q29 (Create)
+**Creëer een nominale variabele: Je wilt het type delict meten. Welke antwoordcategorieën zijn het beste?**
+
+> **💡 Hint:** Bij nominale variabelen zijn categorieën alleen verschillende labels zonder rangorde. Denk aan categorieën die je niet van laag naar hoog kunt ordenen.
+
+1) Weinig - Gemiddeld - Veel  
+"1" = "❌ Fout. Dit zijn ordinale categorieën met een duidelijke rangorde (laag naar hoog). Voor type delict hebben we categorieën zonder rangorde nodig."
+2) Diefstal - Geweld - Vandalisme - Drugs  
+"2" = "✅ Juist! Dit zijn nominale categorieën omdat er geen natuurlijke rangorde is. Je kunt niet zeggen dat diefstal 'meer' of 'minder' is dan geweld - het zijn gewoon verschillende types."
+3) 1 - 2 - 3 - 4 (zonder labels)  
+"3" = "❌ Fout. Nummers zonder betekenis zijn verwarrend. Bovendien suggereren nummers vaak een rangorde."
+4) Licht delict - Zwaar delict  
+"4" = "❌ Fout. Dit zijn ordinale categorieën omdat 'licht' en 'zwaar' een rangorde hebben. Voor type delict willen we geen rangorde maar verschillende categorieën."
+
+### Vraag Q30 (Create)
+**Creëer een ordinale variabele: Je wilt de ernst van criminaliteit in buurten meten. Welke schaal ontwerp je?**
+
+> **💡 Hint:** Bij ordinale variabelen kun je de categorieën rangschikken van laag naar hoog, maar de afstanden zijn niet gelijk.
+
+1) Buurt A - Buurt B - Buurt C  
+"1" = "❌ Fout. Dit zijn nominale categorieën zonder rangorde. Voor ernst willen we een rangorde van weinig naar veel ernst."
+2) 0 delicten - 50 delicten - 100 delicten  
+"2" = "❌ Fout. Dit zijn interval/ratio categorieën met exacte getallen en gelijke afstanden."
+3) Zeer veilig - Veilig - Onveilig - Zeer onveilig  
+"3" = "✅ Juist! Dit is een ordinale schaal omdat de categorieën een duidelijke rangorde hebben (van veilig naar onveilig), maar de afstanden tussen de categorieën zijn niet precies gelijk."
+4) Ja - Nee  
+"4" = "❌ Fout. Dit is een dichotome (twee-keuze) variabele, geen ordinale schaal. Voor ernst willen we meerdere niveaus."
+
+### Vraag Q31 (Create)
+**Ontwerp de eerste stap van onderzoek: Je bent nieuwsgierig naar jeugdcriminaliteit in je stad. Wat is de beste eerste stap?**
+
+> **💡 Hint:** Denk aan wat je leest in het hoofdstuk over het begin van onderzoek. Wat komt vóór data verzamelen?
+
+1) Meteen beginnen met enquêtes afnemen  
+"1" = "❌ Fout. Data verzamelen zonder plan is zoals een huis bouwen zonder tekening - mogelijk, maar niet effectief."
+2) Observeren en je nieuwsgierigheid laten leiden naar specifieke vragen  
+"2" = "✅ Juist! Observatie en nieuwsgierigheid zijn de eerste stappen die vaak over het hoofd worden gezien. Je moet eerst kijken wat er gebeurt en specifieke vragen formuleren voordat je data gaat verzamelen."
+3) Direct statistieken berekenen  
+"3" = "❌ Fout. Je hebt eerst data nodig voordat je statistieken kunt berekenen."
+4) Conclusies trekken over de oorzaken  
+"4" = "❌ Fout. Conclusies komen aan het einde van het onderzoeksproces, niet aan het begin."
+
+### Vraag Q32 (Create)
+**Creëer een goede centrale onderzoeksvraag: Je wilt weten waarom sommige jongeren crimineel gedrag vertonen. Welke vraag is het best geformuleerd?**
+
+> **💡 Hint:** Een goede centrale vraag moet de focus van je studie weergeven en niet te breed of vaag zijn.
+
+1) Waarom zijn jongeren slecht?  
+"1" = "❌ Fout. Deze vraag bevat vooroordelen ('slecht') en is te vaag. Niet alle jongeren zijn 'slecht'."
+2) Welke persoonlijke en sociale factoren hangen samen met delinquent gedrag bij jongeren tussen 14-18 jaar?  
+"2" = "✅ Juist! Deze vraag is specifiek (leeftijd 14-18), neutraal geformuleerd, en richt zich op concrete factoren die onderzocht kunnen worden."
+3) Wat is criminaliteit?  
+"3" = "❌ Fout. Te breed en filosofisch. Dit kan niet empirisch onderzocht worden."
+4) Hoeveel jongeren zijn er in België?  
+"4" = "❌ Fout. Dit is een feitenvraag, geen onderzoeksvraag die nieuwe inzichten oplevert."
+
+---
+
+## 📚 AANVULLENDE VRAGEN VOOR VOLLEDIGE BLOOM'S DEKKING
+
+---
+
+## 📚 AANVULLENDE VRAGEN VOOR VOLLEDIGE BLOOM'S DEKKING
+
+### Vraag Q19 (Understand)
+**Wat verstaan we onder 'conceptualisering' in onderzoek?**
+
+> **💡 Hint:** Denk aan de eerste stap voordat je iets kunt meten. Wat moet je doen met vage begrippen voordat je er onderzoek naar kunt doen?
+
+1) Het uitvoeren van statistische analyses  
+"1" = "❌ Fout. Conceptualisering gaat over begripsvorming, niet over analyses."
+2) Het helder definiëren van abstracte begrippen die je wilt onderzoeken  
+"2" = "✅ Juist! Conceptualisering is het proces waarbij abstracte begrippen helder gedefinieerd worden. Bijvoorbeeld: wat bedoelen we precis met 'criminaliteit' - alleen veroordelingen of ook verdenkingen?"
+3) Het verzamelen van data  
+"3" = "❌ Fout. Dit is dataverzameling, niet conceptualisering."
+4) Het trekken van conclusies  
+"4" = "❌ Fout. Dit komt aan het einde van het onderzoeksproces, niet bij conceptualisering."
+
+**Antwoord: 2**
+
+### Vraag Q20 (Understand) 
+**Wat is 'operationalisering' in wetenschappelijk onderzoek?**
+
+> **💡 Hint:** Denk aan de stap na conceptualisering. Hoe maak je abstracte begrippen concreet zodat je ze daadwerkelijk kunt meten?
+
+1) Het uitvoeren van chirurgische ingrepen  
+"1" = "❌ Fout. Dit heeft niets te maken met wetenschappelijk onderzoek."
+2) Het omzetten van abstracte concepten naar meetbare variabelen  
+"2" = "✅ Juist! Operationalisering is het proces waarbij abstracte concepten meetbaar gemaakt worden. Bijvoorbeeld: 'zelfcontrole' operationaliseren als scores op de vraag 'Ik kan verleidingen goed weerstaan' met een 5-punts schaal."
+3) Het organiseren van onderzoeksteams  
+"3" = "❌ Fout. Dit is projectmanagement, niet operationalisering."
+4) Het opstellen van de onderzoeksbegroting  
+"4" = "❌ Fout. Dit is financieel management, niet operationalisering."
+
+**Antwoord: 2**
+
+### Vraag Q21 (Apply)
+**Wat is het meetniveau van de vraag: 'Hoe waarschijnlijk is het dat je betrapt wordt?' (Heel waarschijnlijk - Heel onwaarschijnlijk)**
+
+> **💡 Hint:** Pas je kennis van meetniveaus toe. Is er rangorde? Zijn afstanden gelijk? Is er een nulpunt?
+
+1) Nominaal  
+"1" = "❌ Fout. Deze vraag heeft een duidelijke rangorde van waarschijnlijkheid."
+2) Ordinaal  
+"2" = "✅ Juist! Deze vraag is ordinaal omdat er een natuurlijke rangorde is: heel waarschijnlijk > waarschijnlijk > neutraal > onwaarschijnlijk > heel onwaarschijnlijk, maar de afstanden tussen categorieën zijn niet gelijk."
+3) Interval  
+"3" = "❌ Fout. Er zijn geen gelijke intervallen tussen de antwoordcategorieën."
+4) Ratio  
+"4" = "❌ Fout. Er is geen absoluut nulpunt en geen echte numerieke schaal."
+
+**Antwoord: 2**
+
+### Vraag Q22 (Apply)
+**Wat is het meetniveau van de vraag: 'Op een schaal van 1 tot 10 hoe eerlijk denk je dat jij bent?'**
+
+> **💡 Hint:** Pas je kennis toe op een numerieke schaal. Behandelen we een 1-10 schaal als gelijke intervallen?
+
+1) Nominaal  
+"1" = "❌ Fout. Er is een numerieke schaal met rangorde."
+2) Ordinaal  
+"2" = "❌ Fout. Hoewel er rangorde is, worden gelijke intervallen verondersteld op een 1-10 schaal."
+3) Interval/Ratio  
+"3" = "✅ Juist! Een 1-10 schaal wordt behandeld als interval/ratio omdat gelijke afstanden tussen punten worden verondersteld (het verschil tussen 3 en 4 is hetzelfde als tussen 7 en 8)."
+4) Dichotoom  
+"4" = "❌ Fout. Er zijn 10 mogelijke waarden, niet slechts twee."
+
+**Antwoord: 3**
+
+### Vraag Q23 (Analyze)
+**Wat is interne validiteit?**
+
+> **💡 Hint:** Analyseer het verschil tussen interne en externe validiteit. Gaat het over causaliteit binnen je onderzoek of generaliseerbaarheid erbuiten?
+
+1) De mate waarin resultaten generaliseerbaar zijn naar andere populaties  
+"1" = "❌ Fout. Gebruikt voor: externe validiteit. Voorbeeld: criminologie onderzoek in Gent - kun je resultaten toepassen op Antwerpen? Gaat over generaliseerbaarheid naar andere plaatsen/tijden/groepen."
+2) De mate waarin het onderzoek de juiste oorzaak-gevolg relatie meet  
+"2" = "✅ Juist! Gebruikt voor: causaliteit binnen je eigen onderzoek. Voorbeeld: als je meet dat meer straatverlichting samenhangt met minder criminaliteit - is straatverlichting echt de oorzaak? Of speelt wijkinkomen mee? Interne validiteit = zekerheid over oorzaak."
+3) De mate waarin het meetinstrument consistent is  
+"3" = "❌ Fout. Gebruikt voor: betrouwbaarheid. Voorbeeld: vragenlijst over angst geeft bij herhaling steeds zelfde scores. Gaat over consistentie van meting, niet over oorzaak-gevolg."
+4) De mate waarin resultaten herhaalbaar zijn  
+"4" = "❌ Fout. Gebruikt voor: replicatie. Voorbeeld: ander onderzoeksteam doet zelfde studie en krijgt zelfde resultaten. Ook betrouwbaarheid, niet interne validiteit."
+
+**Antwoord: 2**
+
+### Vraag Q24 (Analyze)
+**Wat bedoelen we met externe validiteit?**
+
+> **💡 Hint:** Analyseer het concept generaliseerbaarheid. Kun je resultaten toepassen buiten je eigen onderzoek?
+
+1) De betrouwbaarheid van het meetinstrument  
+"1" = "❌ Fout. Gebruikt voor: consistentie van metingen. Voorbeeld: weegschaal geeft steeds zelfde gewicht bij herhaling. Betrouwbaarheid gaat over herhaalbaarheid binnen je onderzoek, niet over toepassing erbuiten."
+2) De statistische significantie van resultaten  
+"2" = "❌ Fout. Gebruikt voor: is het resultaat betrouwbaar genoeg. Voorbeeld: p-waarde < 0.05 betekent dat resultaat niet toevallig is. Gaat over statistische zekerheid, niet over toepassing op andere groepen."
+3) De generaliseerbaarheid van resultaten naar andere populaties/situaties  
+"3" = "✅ Juist! Gebruikt voor: kun je resultaten toepassen buiten je eigen onderzoek? Voorbeeld: studie over jongeren in Gent - gelden resultaten ook voor senioren in Brussel? Externe validiteit = generaliseerbaarheid."
+4) De interne consistentie van de vragenlijst  
+"4" = "❌ Fout. Gebruikt voor: hangen vragen in vragenlijst samen. Voorbeeld: drie vragen over 'angst' geven vergelijkbare antwoorden. Dit is betrouwbaarheid, niet externe validiteit."
+
+**Antwoord: 3**
+
+### Vraag Q25 (Evaluate)
+**Wat is een nulhypothese (H₀)?**
+
+> **💡 Hint:** Evalueer het startpunt van hypothesetoetsing. Wat neem je aan totdat je bewijs hebt van het tegendeel?
+
+1) Een hypothese die stelt dat er een effect is  
+"1" = "❌ Fout. Gebruikt voor: alternatieve hypothese (H₁). Voorbeeld: H₁ = 'Straatverlichting vermindert criminaliteit'. Dit is wat je hoopt te bewijzen, niet de nulhypothese."
+2) Een hypothese die stelt dat er geen effect of relatie is  
+"2" = "✅ Juist! Gebruikt voor: startpunt van toetsing. Voorbeeld: H₀ = 'Straatverlichting heeft geen effect op criminaliteit'. Je begint met aannemen dat er niets aan de hand is, tot je bewijs vindt van het tegendeel."
+3) Een hypothese over de steekproefgrootte  
+"3" = "❌ Fout. Gebruikt voor: power analysis. Voorbeeld: 'We hebben 500 personen nodig'. Gaat over methodologie, niet over inhoudelijke verwachtingen zoals nulhypothese."
+4) Een hypothese die altijd wordt geaccepteerd  
+"4" = "❌ Fout. Gebruikt voor: dogma. Juist het tegendeel - we proberen de nulhypothese te verwerpen als we bewijs hebben voor een effect. Het is het startpunt dat we willen weerleggen."
+
+**Antwoord: 2**
+
+### Vraag Q26 (Evaluate)
+**Wat gebeurt er als we de nulhypothese verwerpen?**
+
+> **💡 Hint:** Evalueer de logica van hypothesetoetsing. Als je H₀ verwerpt, wat accepteer je dan?
+
+1) We accepteren de alternatieve hypothese  
+"1" = "✅ Juist! Gebruikt voor: bewijs gevonden. Voorbeeld: H₀ = 'geen verschil criminaliteit tussen dag/nacht', H₁ = 'meer criminaliteit 's nachts'. Als data tonen significant meer nachtcriminaliteit, verwerp je H₀ en accepteer H₁."
+2) We bewijzen dat de nulhypothese waar is  
+"2" = "❌ Fout. Gebruikt voor: logische fout. Verwerpen betekent dat de nulhypothese onwaarschijnlijk is gegeven de data. Je 'bewijst' niks - je toont dat het bewijs sterker is voor het alternatief."
+3) We bewijzen dat er geen effect is  
+"3" = "❌ Fout. Gebruikt voor: verkeerde conclusie. Als je de nulhypothese (geen effect) verwerpt, betekent dat juist dat er WEL een effect lijkt te zijn. Dit is tegenovergesteld aan wat er staat."
+4) We stoppen met het onderzoek  
+"4" = "❌ Fout. Gebruikt voor: voortijdig opgeven. Verwerpen van nulhypothese is vaak het doel! Dan ga je juist verder met interpretatie en toepassing van je bevindingen."
+
+**Antwoord: 1**
+
+### Vraag Q27 (Evaluate)
+**Waarom is het belangrijk om ook negatieve onderzoeksresultaten te communiceren?**
+
+> **💡 Hint:** Evalueer de waarde van "negatieve" bevindingen voor de wetenschappelijke gemeenschap en toekomstig onderzoek.
+
+1) Om tijdschriften te vullen  
+"1" = "❌ Fout. Negatieve resultaten zijn wetenschappelijk waardevol, niet alleen vulmateriaal."
+2) Om herhaling van dezelfde fouten te voorkomen en geld te besparen  
+"2" = "✅ Juist! Zoals de tekst stelt: 'Dit moet mensen behoeden dezelfde fouten opnieuw te maken en zou moeten vermijden dat geld verspild wordt door iets te onderzoeken dat al eens eerder is onderzocht.' Bijvoorbeeld: als een interventie niet werkt, moeten anderen dit weten."
+3) Om onderzoekers te ontmoedigen  
+"3" = "❌ Fout. Het doel is juist om de wetenschap vooruit te helpen."
+4) Omdat negatieve resultaten altijd beter zijn dan positieve  
+"4" = "❌ Fout. Beide types resultaten zijn waardevol voor verschillende redenen."
+
+**Antwoord: 2**
+
+### Vraag Q28 (Create)
+**Welke eigenschap moet een goede hypothese hebben?**
+
+> **💡 Hint:** Creëer criteria voor een wetenschappelijk bruikbare hypothese. Wat maakt een hypothese toetsbaar?
+
+1) Zo complex mogelijk geformuleerd  
+"1" = "❌ Fout. Goede hypotheses zijn duidelijk en eenvoudig geformuleerd."
+2) Toetsbaar en falsifieerbaar  
+"2" = "✅ Juist! Een goede hypothese moet empirisch toetsbaar zijn en falsifieerbaar. Bijvoorbeeld: 'Personen met lagere zelfcontrole hebben hogere intenties om te stelen' - dit kan gemeten en getest worden."
+3) Gebaseerd op persoonlijke mening  
+"3" = "❌ Fout. Hypotheses moeten gebaseerd zijn op theorie en eerdere bevindingen."
+4) Altijd bevestigd worden door data  
+"4" = "❌ Fout. Goede hypotheses kunnen ook verworpen worden - dat is waardevol voor de wetenschap."
+
+**Antwoord: 2**
+
+### Vraag Q29 (Create)
+**Ontwerp een onderzoeksapproach: Wat is het verschil tussen deductief en inductief onderzoek?**
+
+> **💡 Hint:** Creëer een begrip van de twee onderzoeksrichtingen. Waar begin je - bij theorie of bij data?
+
+1) Er is geen verschil  
+"1" = "❌ Fout. Dit zijn twee verschillende benaderingen van wetenschappelijk onderzoek."
+2) Deductief gaat van theorie naar data, inductief gaat van data naar theorie  
+"2" = "✅ Juist! Deductief onderzoek start met theorie en toetst deze met data. Inductief onderzoek start met observaties en bouwt daaruit theorie op. Bijvoorbeeld: deductief zou een bestaande theorie over criminaliteit toetsen, inductief zou patronen in criminaliteitdata zoeken om nieuwe theorieën te vormen."
+3) Deductief is kwalitatief, inductief is kwantitatief  
+"3" = "❌ Fout. Beide benaderingen kunnen zowel kwalitatief als kwantitatief zijn."
+4) Deductief gebruikt geen statistiek  
+"4" = "❌ Fout. Deductief onderzoek gebruikt vaak statistische toetsen om hypotheses te testen."
+
+**Antwoord: 2**
+
+### Vraag Q30 (Create)
+**Ontwikkel een onderzoeksstrategie: Wat is de eerste stap in het wetenschappelijk onderzoeksproces?**
+
+> **💡 Hint:** Creëer een logische volgorde van onderzoeksstappen. Wat moet je doen voordat je data gaat verzamelen?
+
+1) Dataverzameling beginnen  
+"1" = "❌ Fout. Dataverzameling komt veel later in het proces, na theorievorming en hypotheseontwikkeling."
+2) Theorie ontwikkelen en onderzoeksvraag formuleren  
+"2" = "✅ Juist! Het onderzoeksproces begint met theorievorming en het formuleren van een onderzoeksvraag. Bijvoorbeeld: ontwikkelen van een theorie over waarom sommige wijken meer criminaliteit hebben."
+3) Statistische analyses uitvoeren  
+"3" = "❌ Fout. Analyses komen pas na dataverzameling, veel later in het proces."
+4) Conclusies communiceren  
+"4" = "❌ Fout. Communicatie is de laatste stap van het onderzoeksproces."
+
+**Antwoord: 2**
+
+### Vraag Q31 (Create)
+**Ontwerp een communicatiestrategie: Wat is de laatste stap in het wetenschappelijk onderzoeksproces?**
+
+> **💡 Hint:** Creëer een volledig beeld van het onderzoeksproces. Wat doe je nadat alle analyses klaar zijn?
+
+1) Statistische analyse uitvoeren  
+"1" = "❌ Fout. Analyse komt vóór de laatste stap."
+2) Data verzamelen  
+"2" = "❌ Fout. Dataverzameling gebeurt eerder in het proces."
+3) Resultaten communiceren  
+"3" = "✅ Juist! Zoals de tekst stelt: 'De laatste stap in het proces van wetenschappelijk onderzoek is het communiceren van de resultaten van het onderzoek.' Dit kan via academische tijdschriften, conferenties, rapporten of zelfs een masterproef."
+4) Hypotheses formuleren  
+"4" = "❌ Fout. Hypotheses worden aan het begin van het proces geformuleerd."
+
+**Antwoord: 3**
+
+### Vraag Q32 (Create)
+**Volgens H.G. Wells, wat is het belang van 'statistical thinking'?**
+
+> **💡 Hint:** Creëer een visie op de rol van statistisch denken in de samenleving. Hoe belangrijk wordt het voor burgers?
+
+1) Het is alleen nuttig voor wetenschappers  
+"1" = "❌ Fout. Wells benadrukte dat statistisch denken essentieel is voor alle burgers, niet alleen wetenschappers."
+2) Het zal ooit net zo noodzakelijk zijn voor burgerschap als lezen en schrijven  
+"2" = "✅ Juist! Wells zei: 'Statistical thinking will one day be as necessary for efficient citizenship as the ability to read and write.' Dit toont het fundamentele belang van statistisch denken in de moderne samenleving."
+3) Het is alleen belangrijk voor criminologen  
+"3" = "❌ Fout. Statistical thinking heeft een veel bredere toepassing dan alleen criminologie."
+4) Het vervangt de noodzaak om te kunnen lezen en schrijven  
+"4" = "❌ Fout. Wells stelde dat het een aanvulling wordt op lezen en schrijven, geen vervanging."
+
+**Antwoord: 2**
+
+---
+
+## 📋 ANTWOORDENBLAD - GEORGANISEERD VOLGENS BLOOM'S TAXONOMIE
+
+### 🔵 REMEMBER (1 vraag)
+**Q1:** 3 - Interval/Ratio (leeftijd)
+
+### 🟠 UNDERSTAND (8 vragen)  
+**Q2:** 2 - Ordinaal (ernst misdrijf)
+**Q3:** 3 - Type misdrijf (nominaal)
+**Q4:** 4 - Ratio (optellen en vermenigvuldigen)
+**Q5:** 2 - Populatie = alle eenheden, Steekproef = deel
+**Q8:** 2 - Samenvatten en beschrijven van data
+**Q9:** 2 - Statistische significantie = niet door toeval
+**Q19:** 2 - Helder definiëren van abstracte begrippen  
+**Q20:** 2 - Omzetten van abstracte concepten naar meetbare variabelen
+
+### 🟣 APPLY (6 vragen)
+**Q6:** 2 - Representatief voor populatie
+**Q7:** 3 - Random sampling
+**Q10:** 2 - Mediaan (ordinale data)
+**Q11:** 4 - Nominale data (modus)
+**Q10:** 4 - Nominale data (modus)
+**Q21:** 2 - Ordinaal (waarschijnlijkheidsschaal)
+**Q22:** 3 - Interval/Ratio (1-10 schaal)
+
+### 🟢 ANALYZE (5 vragen)
+**Q11:** 3 - Normaal verdeelde data zonder uitbijters
+**Q12:** 2 - Systematisch = consistent, toevallig = onvoorspelbaar
+**Q13:** 3 - Conclusies trekken over populatie
+**Q23:** 2 - Juiste oorzaak-gevolg relatie (interne validiteit)
+**Q24:** 3 - Generaliseerbaarheid (externe validiteit)
+
+### 🔵 EVALUATE (7 vragen)
+**Q14:** 2 - Representatief voor populatie
+**Q15:** 3 - Random sampling
+**Q16:** 2 - Confounding variabelen
+**Q17:** 2 - Herhaalde metingen
+**Q25:** 2 - Geen effect of relatie (nulhypothese)
+**Q26:** 1 - Accepteren alternatieve hypothese
+**Q27:** 2 - Voorkomen herhaling fouten en geld besparen
+
+### 🔴 CREATE (6 vragen)
+**Q18:** 2 - Specifiek, meetbaar en beantwoordbaar
+**Q28:** 2 - Toetsbaar en falsifieerbaar
+**Q29:** 2 - Deductief: theorie naar data, Inductief: data naar theorie
+**Q30:** 2 - Theorie ontwikkelen en onderzoeksvraag formuleren
+**Q31:** 3 - Resultaten communiceren
+**Q32:** 2 - Statistical thinking net zo noodzakelijk als lezen en schrijven
+
+---
+
+## 📊 BLOOM'S TAXONOMIE VERDELING
+
+- **Remember:** 1 vraag (3%)
+- **Understand:** 8 vragen (24%) 
+- **Apply:** 6 vragen (18%)
+- **Analyze:** 5 vragen (15%)
+- **Evaluate:** 7 vragen (21%)
+- **Create:** 6 vragen (18%)
+
+**Totaal: 33 vragen** - Evenwichtige verdeling over alle cognitieve niveaus
+
+---
+
+## 🎯 LEERUITKOMSTEN PER NIVEAU
+
+### Remember
+Studenten kunnen basisbegrippen van statistiek oproepen en herkennen.
+
+### Understand  
+Studenten kunnen concepten uitleggen, interpreteren en het verschil tussen meetniveaus begrijpen.
+
+### Apply
+Studenten kunnen kennis toepassen op nieuwe situaties en juiste statistische maten kiezen.
+
+### Analyze
+Studenten kunnen onderdelen onderzoeken, verbanden leggen en validiteit beoordelen.
+
+### Evaluate
+Studenten kunnen oordelen vellen over onderzoeksmethoden en de kwaliteit van studies beoordelen.
+
+### Create
+Studenten kunnen onderzoeksontwerpen maken, hypotheses formuleren en eigen oplossingen creëren.
