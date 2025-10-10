@@ -1,10 +1,10 @@
-Ontwerp **de eerste** stap van onderzoek: Je bent nieuwsgierig naar jeugdcriminaliteit in je stad. Wat is de beste eerste stap?
+Evalueer deze steekproefstrategie: Voor onderzoek naar drugsgebruik onder jongeren selecteert een onderzoeker willekeurig 500 studenten van alle universiteiten in België. Is dit een goede strategie?
 
-1. Meteen beginnen met enquêtes afnemen
-2. Direct statistieken berekenen
-3. Observeren en je nieuwsgierigheid laten leiden naar specifieke vragen
-4. Conclusies trekken over de oorzaken
+1. Ja, perfect representatief
+2. Nee, te weinig respondenten
+3. Nee, mist jongeren die niet studeren aan universiteit
+4. Nee, drugsonderzoek is niet ethisch
 
-**Hint:** *Denk aan wat je leest in het hoofdstuk over het begin van onderzoek. Wat komt vóór data verzamelen?*
+**Hint:** *Overweeg of de gekozen groep een complete afspiegeling vormt van de doelpopulatie. Welke levenswegen volgen jongeren in België?*
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.
