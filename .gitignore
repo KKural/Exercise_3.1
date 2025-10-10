@@ -48,6 +48,32 @@ $RECYCLE.BIN/
 .vscode/
 *.code-workspace
 
+# Old exercises (renumbered to 30+)
+30. Level of measurement/
+31. Descriptive vs. Inferential/
+32.Rounding with R Functions/
+33.Null hypothesis/
+34. Centeral tendency/
+35. Crime rate calculation/
+36. Crime rates and national average/
+37. Sampling Distribution/
+38. Chi-square/
+39. Histogram Interpretation/
+40. Boxplot Interpretation/
+41. Scatterplot of unemployment/
+42. Partial Correlation/
+43. Interpretation of a significance test/
+44. Spurious correlation/
+45. Research Design Creation/
+46. Standard Deviation Calculation/
+47. Correlation Coefficient Calculation/
+48. t-Test Calculation/
+49. Confidence Interval Calculation/
+
+# Archive files
+26. Basic Statistical Concepts/
+DODONA_EXERCISES_SUMMARY.md
+
 # JetBrains IDEs
 .idea/
 *.iml
@@ -111,3 +137,4 @@ target/
 # Dodona exercise parts
 Deel I/
 Deel II/
+0.2. Basic Statistical Concepts/
