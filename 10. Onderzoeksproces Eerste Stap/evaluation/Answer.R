@@ -12,7 +12,7 @@ context({
             
             "2" = "❌ Fout. 500 respondenten is een redelijke steekproefgrootte voor dit type onderzoek. Het probleem ligt niet in het aantal, maar in wie er onderzocht wordt. [Lees meer](https://www.qualtrics.com/en-gb/experience-management/research/sampling-methods/)",
             
-            "3" = "✅ Juist! Deze steekproef mist jongeren die werken, werkloos zijn, of andere vormen van onderwijs volgen (hogeschool, secundair onderwijs). Universiteitsstudenten hebben vaak andere kenmerken qua sociaal-economische achtergrond, waardoor de resultaten niet generaliseerbaar zijn naar alle jongeren. [Lees meer](https://www.qualtrics.com/en-gb/experience-management/research/sampling-methods/)",
+            "3" = "✅ Juist! De steekproef bevat enkel universiteitsstudenten en laat veel andere jongeren buiten beschouwing, zoals zij die in het secundair of hoger beroepsonderwijs zitten, werken of werkloos zijn. Daardoor is de steekproef niet volledig representatief voor alle jongeren. [Lees meer](https://www.qualtrics.com/en-gb/experience-management/research/sampling-methods/)",
             
             "4" = "❌ Fout. Met juiste toestemming en anonimiteit kan drugsonderzoek wel ethisch uitgevoerd worden. Het probleem ligt in de representativiteit van de steekproef, niet in de ethiek van het onderwerp. [Lees meer](https://www.qualtrics.com/en-gb/experience-management/research/sampling-methods/)"
           )

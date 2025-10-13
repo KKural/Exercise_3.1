@@ -2,7 +2,7 @@ Evalueer deze steekproefstrategie: Voor onderzoek naar drugsgebruik onder jonger
 
 1. Ja, perfect representatief
 2. Nee, te weinig respondenten
-3. Nee, mist jongeren die niet studeren aan universiteit
+3. Nee, het omvat niet alle groepen jongeren.
 4. Nee, drugsonderzoek is niet ethisch
 
 **Hint:** *Overweeg of de gekozen groep een complete afspiegeling vormt van de doelpopulatie. Welke levenswegen volgen jongeren in België?*
