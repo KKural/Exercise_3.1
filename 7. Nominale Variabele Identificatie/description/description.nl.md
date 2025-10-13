@@ -1,4 +1,4 @@
-Welke van de volgende is een nominale variabele?
+Welke van de volgende variabelen is een **nominale variabele**?
 
 1. Type misdrijf (diefstal, geweld, vandalisme)
 2. Temperatuur in graden Celsius
