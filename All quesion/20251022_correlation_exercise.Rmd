@@ -6,9 +6,6 @@ output:
     toc: false
     reference_docx: "template_clean.docx"
 ---
-
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.show = 'asis', results = 'hide')
 library(knitr)
@@ -16,11 +13,45 @@ library(kableExtra)
 library(ggplot2)
 library(dplyr)
 library(flextable)
+library(gridExtra)
 options(knitr.kable.NA = '')
 
 # Set Dutch locale for R outputs (if available)
 Sys.setlocale("LC_TIME", "Dutch")
 Sys.setlocale("LC_NUMERIC", "Dutch")
+
+# Function to save plots to Dodona directories
+save_dodona_image <- function(plot_obj, question_number, filename = NULL) {
+  if (is.null(filename)) {
+    filename <- paste0("question_3.", question_number, ".png")
+  }
+  
+  # Define the path to the appropriate Dodona directory
+  question_dirs <- c(
+    "3" = "3.3 Correlatie - Belangrijkste maatregelen",
+    "8" = "3.8 Correlatie - Interpreteer correlatie", 
+    "9" = "3.9 Correlatie - Wat correlatie vertelt",
+    "12" = "3.12 Correlatie - Covariantie verschillen",
+    "14" = "3.14 Correlatie - Pearson vs Spearman",
+    "15" = "3.15 Correlatie - Richting en kracht",
+    "18" = "3.18 Correlatie - Wanneer welke correlatie",
+    "19" = "3.19 Correlatie - Impact uitschieters",
+    "21" = "3.21 Correlatie - Correlatie interpretatie",
+    "23" = "3.23 Correlatie - Correlatie aannames"
+  )
+  
+  if (as.character(question_number) %in% names(question_dirs)) {
+    dir_name <- question_dirs[as.character(question_number)]
+    image_path <- file.path("..", dir_name, "images", filename)
+    
+    # Create directory if it doesn't exist
+    dir.create(dirname(image_path), recursive = TRUE, showWarnings = FALSE)
+    
+    # Save the plot
+    ggsave(image_path, plot_obj, width = 10, height = 6, dpi = 300)
+    cat("Saved image:", image_path, "\n")
+  }
+}
 
 # Function to translate common R statistical terms to Dutch
 translate_stats <- function(english_term) {
@@ -91,7 +122,6 @@ translate_stats <- function(english_term) {
 | Q24 | Ontwerp een correlatiestudie | Correlatiestudie ontwerpen |
 | Q25 | Onderzoekshypothese opstellen | Onderzoekshypothese formuleren |
 
-# Correlatievragen (25 in totaal)
 
 ## ONTHOUDEN NIVEAU (5 vragen)
 
@@ -289,7 +319,7 @@ if(p_value < 0.001) {
 ***
 
 ### Vraag Q8 (Begrijpen)
-**Een criminoloog onderzoekt de relatie tussen buurt sociale cohesie (onderlinge verbondenheid en samenwerking tussen bewoners) en misdaadpreventie effectiviteit in 75 Belgische gemeenten. Na het verzamelen van data over gemeenschapsbetrokkenheid en lokale veiligheidsprogramma's, berekent ze een correlatie van r = 0,75. Hoe moet zij deze bevinding interpreteren voor haar rapport aan het Ministerie van Justitie en Veiligheid?**
+**Een criminoloog onderzoekt de relatie tussen sociale cohesie in buurten (onderlinge verbondenheid en samenwerking tussen bewoners) en de effectiviteit van misdaadpreventie in 75 Belgische gemeenten. Na het verzamelen van data over gemeenschapsbetrokkenheid en lokale veiligheidsprogramma's, berekent ze een correlatie van r = 0,75. Hoe moet zij deze bevinding interpreteren voor haar rapport aan het Ministerie van Justitie en Veiligheid?**
 
 ```{r positieve-correlatie, echo=FALSE, fig.width=10, fig.height=5}
 # Genereer voorbeeldgegevens voor positieve correlatie van 0,75
@@ -309,7 +339,7 @@ r_value <- round(cor(x, y), 2)
 r_squared <- round(r_value^2 * 100, 1)
 
 # Maak visualisatie
-ggplot(pos_cor_data, aes(x = Variable_X, y = Variable_Y)) +
+p_q8 <- ggplot(pos_cor_data, aes(x = Variable_X, y = Variable_Y)) +
   geom_point(color = "steelblue", size = 3, alpha = 0.7) +
   geom_smooth(method = "lm", formula = y ~ x, se = TRUE, color = "darkred") +
   labs(
@@ -324,6 +354,12 @@ ggplot(pos_cor_data, aes(x = Variable_X, y = Variable_Y)) +
     plot.title = element_text(size = 14, face = "bold"),
     plot.subtitle = element_text(size = 12)
   )
+
+# Display the plot
+print(p_q8)
+
+# Save to Dodona directory
+save_dodona_image(p_q8, 8)
 ```
 
 > **Hint:** Overweeg wat een correlatie van r = 0,75 betekent in termen van relatiesterkte, praktische betekenis voor beleid, en hoe dit zou moeten worden gecommuniceerd aan beleidsmakers.
