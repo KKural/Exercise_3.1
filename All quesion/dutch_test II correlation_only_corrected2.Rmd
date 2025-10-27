@@ -591,14 +591,6 @@ ggplot(data_plot, aes(x = stress, y = agressie)) +
         plot.title = element_text(size = 12, face = "bold"))
 ```
 
-**Belangrijke concepten:**
-- **Lineair** (rechte lijn): Constante verandering - als X met 1 stijgt, stijgt Y altijd met hetzelfde bedrag
-- **Monotoon** (altijd dezelfde richting): Consistent toenemend of afnemend, maar mag buigen zoals een curve
-- **Pearson correlatie**: Meet alleen lineaire (rechte lijn) associaties
-- **Spearman correlatie**: Meet monotone (altijd dezelfde richting) associaties, ook als ze buigen
-
-> **Hint:** Onderscheid "lineair" (rechte lijn) van "monotoon" (altijd dezelfde richting). Welke techniek kan gebogen maar consistente patronen vastleggen?
-
 1) Beide correlatiecoëfficiënten zijn even geschikt voor deze situatie  
 "1" = " ❌ Fout. Pearson en Spearman meten verschillende soorten relaties en geven daarom verschillende resultaten bij niet-lineaire (gebogen) patronen. Pearson correlatie (r = 0,85 in dit voorbeeld) veronderstelt een lineaire (rechte lijn) relatie en onderschat de werkelijke sterkte van de monotone (altijd stijgende) relatie. Spearman correlatie (ρ = 0,96) vangt de consistente rangorde-relatie beter op. In criminologisch onderzoek is dit onderscheid cruciaal - bijvoorbeeld, de relatie tussen leeftijd en bepaalde delicten is vaak gebogen (hoog in adolescentie, afnemend daarna) maar wel monotoon (consistent in één richting) in bepaalde leeftijdsbereiken. Het gebruik van de verkeerde correlatiecoëfficiënt kan leiden tot onderrapportage van belangrijke relaties."
 
@@ -614,7 +606,7 @@ ggplot(data_plot, aes(x = stress, y = agressie)) +
 ***
 
 ### Vraag Q15 (Toepassen)
-**Een rechte trendlijn helt omhoog; punten clusteren strak. Welke beschrijving past het best?**
+**Een criminoloog onderzoekt de relatie tussen sociale binding (attachment) van jongeren met ouders en delinquent gedrag. Ze maakt spreidingsdiagrammen voor verschillende groepen jongeren. In één specifiek diagram ziet ze: een rechte trendlijn die omhoog helt; punten die strak geclusterd zijn rond de lijn met minimale spreiding. Welke beschrijving past het best bij dit patroon?**
 
 > **Hint:** Combineer richting (teken) met sterkte (spreiding).
 
@@ -694,42 +686,37 @@ ggplot(alle_data, aes(x = x, y = y)) +
   )
 ```
 
-**Belangrijkste Visuele Kenmerken:**
-- **Sterke positieve correlatie**: Opwaarts hellende lijn met punten die er strak omheen geclusterd zijn
-- **Matige positieve correlatie**: Opwaarts hellende lijn met matige spreiding eromheen
-- **Zwakke positieve correlatie**: Opwaarts hellende lijn met brede spreiding eromheen
-- **Sterke negatieve correlatie**: Neerwaarts hellende lijn met punten die er strak omheen geclusterd zijn
+> **Hint:** Combineer richting (omhoog = positief) met sterkte (strakke clustering = sterk). Wat vertelt de minimale spreiding rond de lijn?
 
 1) Sterk positief  
-"1" = " ✅ Juist! Een strakke wolk van punten die dicht geclusterd zijn rond een opwaarts hellende lijn is de visuele kenmerk van een sterke positieve correlatie (typisch r > 0,7). Dit patroon geeft zowel de richting van de relatie aan (positief — als X toeneemt, neemt Y betrouwbaar toe) als de sterkte ervan (sterk — punten houden zich dicht aan het lineaire patroon met minimale spreiding). De visualisatie toont minimale afwijking van de trendlijn, wat suggereert een zeer voorspelbare relatie waarbij het kennen van de X-waarde nauwkeurige voorspelling van de Y-waarde mogelijk maakt. In onderzoek zou je bijvoorbeeld zo'n patroon kunnen zien tussen buurt sociale desorganisatie scores en misdaadcijfers — als desorganisatie toeneemt, nemen misdaadcijfers toe op een zeer voorspelbare manier. De strakke clustering van punten duidt op minimale invloed van andere factoren, wat suggereert een krachtige en consistente relatie."
+"1" = " ✅ Juist! Een strakke wolk van punten die dicht geclusterd zijn rond een opwaarts hellende lijn is de visuele kenmerk van een sterke positieve correlatie (typisch r > 0,7). Dit patroon geeft zowel de richting van de relatie aan (positief — als sociale binding toeneemt, neemt delinquent gedrag betrouwbaar toe) als de sterkte ervan (sterk — punten houden zich dicht aan het lineaire patroon met minimale spreiding). De visualisatie toont minimale afwijking van de trendlijn, wat suggereert een zeer voorspelbare relatie waarbij het kennen van de sociale binding-score nauwkeurige voorspelling van delinquent gedrag mogelijk maakt. In dit criminologische voorbeeld zou zo'n sterk patroon kunnen wijzen op een fundamentele relatie waarbij sterke ouder-kind binding paradoxaal samenhangt met meer delinquentie, met minimale invloed van andere variabelen."
 
 2) Matig positief  
-"2" = " ❌ Fout. Het patroon is strakker dan 'matig'. Matige relaties tonen meer spreiding rond de lijn."
+"2" = " ❌ Fout. Het beschreven patroon is veel strakker dan 'matig' zou suggereren. Bij een matige positieve correlatie (r ≈ 0,3-0,7) zou je meer spreiding rond de trendlijn zien, met punten die verder van de lijn afliggen. De beschrijving van 'strak geclusterde punten met minimale spreiding' duidt op een veel sterkere relatie. In criminologisch onderzoek zou een matige relatie betekenen dat sociale binding wel belangrijk is voor delinquentie-niveaus, maar dat er substantiële variatie bestaat die niet door deze ene factor wordt verklaard. Het patroon in de vraag suggereert echter een veel meer deterministische relatie."
 
 3) Zwak negatief  
-"3" = " ❌ Fout. De richting is duidelijk positief, niet negatief; hogere X correspondeert met hogere Y."
+"3" = " ❌ Fout. Deze optie mist zowel de richting als de sterkte. De richting is duidelijk positief (omhoog hellende lijn), niet negatief. Bovendien beschrijft de vraag een strak patroon, niet een zwak patroon. Een zwakke negatieve correlatie zou een neerwaarts hellende lijn tonen met veel spreiding rond de lijn. In termen van sociale binding en delinquentie zou een negatieve relatie betekenen dat sterkere binding samengaat met minder delinquentie, wat eigenlijk meer theoretisch logisch zou zijn volgens Hirschi's sociale controle theorie dan de positieve relatie beschreven in dit voorbeeld."
 
 4) Geen lineair patroon  
-"4" = " ❌ Fout. De punten lijnen goed uit met een lijn, wat een duidelijk lineair patroon aangeeft in plaats van willekeurigheid."
+"4" = " ❌ Fout. De beschrijving wijst juist op een zeer duidelijk lineair patroon. Punten die 'strak geclusterd zijn rond een rechte trendlijn' vormen precies de definitie van een sterk lineair patroon. 'Geen lineair patroon' zou betekenen dat de punten willekeurig verspreid zijn zonder enige duidelijke trend, of dat ze een gebogen (curvilineair) patroon volgen. In criminologisch onderzoek zou het ontbreken van een lineair patroon suggereren dat er geen directe, voorspelbare relatie bestaat tussen sociale binding en delinquentie, wat in tegenspraak is met de duidelijke trendlijn beschreven in de vraag."
 
 ***
 
 ### Vraag Q16 (Toepassen)
-**Welke r-waarde past het best bij 'zwak positief'?**
-
-> **Hint:** Gebruik algemene interpretatierichtlijnen.
+**Een onderzoeker onderzoekt de relatie tussen ouderlijk toezicht en jeugdcriminaliteit in verschillende wijken. Na het berekenen van de correlatiecoëfficiënt, beschrijft ze de relatie als 'zwak positief'. Welke r-waarde past het best bij deze beschrijving?**
+> **Hint:** Gebruik algemene interpretatierichtlijnen voor correlatiesterkte. Wat betekent 'zwak' in numerieke termen?
 
 1) r = 0,12  
-"1" = " ✅ Juist! Dit vertegenwoordigt een zwakke positieve associatie (typisch r-waarden tussen 0,1-0,3 worden als zwak beschouwd). In onderzoek duidt deze grootte op een echte maar bescheiden relatie waarbij de variabelen slechts een klein deel van de variantie delen (ongeveer 1,4% omdat R² = 0,12² = 0,014). Bijvoorbeeld, de relatie tussen opleidingsniveau en angst voor criminaliteit zou zo'n correlatie kunnen tonen — licht hoger onderwijs heeft de neiging te corresponderen met licht hogere zorg over specifieke misdrijven, maar de relatie is subtiel genoeg dat veel andere factoren duidelijk belangrijkere rollen spelen. Bij het interpreteren van zwakke correlaties is het essentieel om zowel statistische significantie als praktische significantie te overwegen, omdat zelfs kleine effecten betekenisvol kunnen zijn in grote steekproeven of bepaalde contexten."
+"1" = " ✅ Juist! **Interpretatierichtlijnen:** Zwak (|r| = 0,10-0,30), Matig (|r| = 0,30-0,70), Sterk (|r| = 0,70-1,00); Positief (r > 0), Negatief (r < 0). Deze waarde (r = 0,12) valt duidelijk in de categorie 'zwakke positieve correlatie' volgens standaard interpretatierichtlijnen. Deze correlatie betekent dat er een kleine maar meetbare relatie bestaat tussen ouderlijk toezicht en jeugdcriminaliteit. De variabelen delen slechts een klein deel van hun variantie (R² = 0,12² = 0,014 = 1,4%), wat betekent dat 98,6% van de variantie in jeugdcriminaliteit niet verklaard wordt door ouderlijk toezicht alleen. In de praktijk zou dit suggereren dat terwijl ouderlijk toezicht wel enige invloed heeft op jeugdcriminaliteit, vele andere factoren (zoals peers, schoolprestaties, buurtfactoren) veel belangrijkere rollen spelen. Bij zwakke correlaties is het essentieel om te overwegen of de relatie statistisch significant en praktisch betekenisvol is."
 
 2) r = 0,56  
-"2" = " ❌ Fout. Dit zou een matige relatie worden beschouwd, sterker dan 'zwak'."
+"2" = " ❌ Fout. **Interpretatierichtlijnen:** Zwak (|r| = 0,10-0,30), Matig (|r| = 0,30-0,70), Sterk (|r| = 0,70-1,00); Positief (r > 0), Negatief (r < 0). Deze waarde (r = 0,56) valt duidelijk in de categorie 'matige correlatie' (0,30-0,70), niet 'zwak'. Een correlatie van 0,56 zou een duidelijk sterkere relatie aangeven tussen ouderlijk toezicht en jeugdcriminaliteit, waarbij ongeveer 31% van de variantie gedeeld wordt (R² = 0,56² = 0,31). Dit zou suggereren dat ouderlijk toezicht een substantiële, niet slechts zwakke, voorspeller is van jeugdcriminaliteit. In onderzoekstermen zou je deze relatie beschrijven als 'matig sterk' in plaats van 'zwak', en het zou duiden op een veel meer betekenisvolle praktische relatie dan wat de onderzoeker beschreef."
 
 3) r = −0,72  
-"3" = " ❌ Fout. Dat is een sterke negatieve relatie, niet zwak positief, wat suggereert dat als de ene variabele stijgt, de andere scherp daalt."
+"3" = " ❌ Fout. **Interpretatierichtlijnen:** Zwak (|r| = 0,10-0,30), Matig (|r| = 0,30-0,70), Sterk (|r| = 0,70-1,00); Positief (r > 0), Negatief (r < 0). Deze waarde heeft twee fundamentele problemen: (1) De richting is negatief, niet positief - een negatieve correlatie zou betekenen dat meer ouderlijk toezicht samengaat met minder jeugdcriminaliteit, wat theoretisch logischer zou zijn; (2) De absolute sterkte (|-0,72| = 0,72) valt in de categorie 'sterk' (>0,70), niet 'zwak'. Een correlatie van -0,72 zou duiden op een sterke omgekeerde relatie waarbij ouderlijk toezicht een krachtige beschermende factor is tegen jeugdcriminaliteit. Dit zou ongeveer 52% gedeelde variantie betekenen (R² = 0,72²), wat veel sterker is dan de beschreven 'zwakke' relatie."
 
 4) r = 0,93  
-"4" = " ❌ Fout. Dit is een extreem sterke positieve relatie, bijna perfect — veel sterker dan 'zwak'."
+"4" = " ❌ Fout. **Interpretatierichtlijnen:** Zwak (|r| = 0,10-0,30), Matig (|r| = 0,30-0,70), Sterk (|r| = 0,70-1,00); Positief (r > 0), Negatief (r < 0). Dit is een extreem sterke positieve correlatie (r = 0,93), ver boven de sterke categorie (>0,70), wat het tegenovergestelde is van 'zwak'. Een correlatie van 0,93 zou betekenen dat ouderlijk toezicht en jeugdcriminaliteit een vrijwel perfecte positieve relatie hebben, waarbij ongeveer 86% van de variantie gedeeld wordt (R² = 0,93² = 0,86). In de praktijk zou dit een bijna deterministische relatie betekenen waarbij ouderlijk toezicht de criminaliteit van jongeren vrijwel perfect voorspelt. Zulke extreme correlaties zijn zeer zeldzaam in sociaal wetenschappelijk onderzoek, en zeker niet wat bedoeld wordt met 'zwak positief'."
 
 ***
 
@@ -737,90 +724,6 @@ ggplot(alle_data, aes(x = x, y = y)) +
 
 ### Vraag Q17 (Begrijpen)
 **Welke drie belangrijkste types correlatiecoëfficiënten worden gebruikt in de statistiek en wat zijn hun hoofdkenmerken?**
-
-```{r correlatie-types, echo=FALSE, fig.width=12, fig.height=8}
-# Genereer voorbeelddata voor verschillende correlatie types
-set.seed(123)
-n <- 30
-
-# Dataset 1: Perfecte lineaire relatie (geschikt voor Pearson)
-x1 <- seq(1, 10, length.out = n)
-y1 <- 2 * x1 + rnorm(n, 0, 0.5)
-
-# Dataset 2: Monotone maar niet-lineaire relatie (beter voor Spearman)
-x2 <- seq(1, 10, length.out = n)
-y2 <- log(x2) * 3 + rnorm(n, 0, 0.3)
-
-# Dataset 3: Ordinale data met veel gelijke waarden (geschikt voor Kendall)
-x3 <- round(runif(n, 1, 5))
-y3 <- round(x3 + rnorm(n, 0, 1))
-
-# Bereken correlaties
-pearson_1 <- round(cor(x1, y1, method = "pearson"), 3)
-spearman_1 <- round(cor(x1, y1, method = "spearman"), 3)
-kendall_1 <- round(cor(x1, y1, method = "kendall"), 3)
-
-pearson_2 <- round(cor(x2, y2, method = "pearson"), 3)
-spearman_2 <- round(cor(x2, y2, method = "spearman"), 3)
-kendall_2 <- round(cor(x2, y2, method = "kendall"), 3)
-
-pearson_3 <- round(cor(x3, y3, method = "pearson"), 3)
-spearman_3 <- round(cor(x3, y3, method = "spearman"), 3)
-kendall_3 <- round(cor(x3, y3, method = "kendall"), 3)
-
-# Maak data frames
-data1 <- data.frame(x = x1, y = y1, type = "Lineaire Data")
-data2 <- data.frame(x = x2, y = y2, type = "Monotone (Niet-lineaire) Data") 
-data3 <- data.frame(x = x3, y = y3, type = "Ordinale Data met Gelijke Waarden")
-
-# Combineer alle data
-all_data <- rbind(data1, data2, data3)
-
-# Maak plots
-p1 <- ggplot(all_data, aes(x = x, y = y)) +
-  geom_point(size = 3, color = "steelblue", alpha = 0.7) +
-  geom_smooth(method = "lm", se = FALSE, color = "red", formula = y ~ x) +
-  facet_wrap(~ type, scales = "free", ncol = 3) +
-  labs(
-    title = "Verschillende Datatypes en Hun Correlaties",
-    subtitle = "Rood lijn toont lineaire trend",
-    x = "X variabele",
-    y = "Y variabele"
-  ) +
-  theme_minimal() +
-  theme(strip.text = element_text(size = 10, face = "bold"))
-
-# Maak vergelijkingstabel
-correlatie_tabel <- data.frame(
-  `Data Type` = c("Lineaire Data", "Monotone Data", "Ordinale Data"),
-  `Pearson r` = c(pearson_1, pearson_2, pearson_3),
-  `Spearman ρ` = c(spearman_1, spearman_2, spearman_3),
-  `Kendall τ` = c(kendall_1, kendall_2, kendall_3),
-  check.names = FALSE
-)
-
-# Toon plot
-print(p1)
-
-# Maak informatietabel over correlatie types
-library(kableExtra)
-info_tabel <- data.frame(
-  `Correlatie Type` = c("Pearson r", "Spearman ρ (rho)", "Kendall τ (tau)"),
-  `Data Type` = c("Interval/Ratio", "Ordinaal/Ranked", "Ordinaal/Kleine steekproef"),
-  `Veronderstelling` = c("Lineaire relatie", "Monotone relatie", "Monotone relatie"),
-  `Berekening` = c("Werkelijke waarden", "Rangnummers", "Concordante paren"),
-  `Voordeel` = c("Meest krachtig", "Robuust voor uitschieters", "Goed voor kleine N"),
-  check.names = FALSE
-)
-
-kable(info_tabel, caption = "Vergelijking van Correlatie Types") %>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
-```
-
-**Kernconcepten:**
-- **Pearson r**: Meest gebruikte correlatie voor continue data met lineaire relaties
-- **Spearman ρ**: Gebruikt rangnummers, geschikt voor niet-lineaire monotone relaties  
-- **Kendall τ**: Gebaseerd op concordante paren, goed voor kleine steekproeven
 
 > **Hint:** Denk aan datatypes (interval vs ordinaal) en vorm van de relatie (lineair vs monotoon).
 
@@ -924,13 +827,6 @@ kable(beslissing_tabel, caption = "Wanneer Welke Correlatie Gebruiken?") %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 ```
 
-**Kernconcepten:**
-- **Spearman's ρ** is beter dan Pearson's r wanneer:
-  1. De relatie monotoon maar niet-lineair is
-  2. Er extreme uitschieters aanwezig zijn  
-  3. Je ordinale data hebt (bijv. Likert schalen)
-  4. Data niet normaal verdeeld is
-
 > **Hint:** Denk aan wanneer rangnummers beter zijn dan werkelijke waarden.
 
 1) Spearman is altijd beter dan Pearson en zou altijd gebruikt moeten worden  
@@ -948,7 +844,7 @@ kable(beslissing_tabel, caption = "Wanneer Welke Correlatie Gebruiken?") %>%
 ***
 
 ### Vraag Q19 (Analyseren)
-**In een positieve trend, welke uitschieter positie vermindert r het meest?**
+**In een positieve trend, welke uitschieter (extreme waarde die afwijkt van het algemene patroon) positie vermindert r het meest?**
 
 ```{r uitschieter-impact, echo=FALSE, fig.width=10, fig.height=7, warning=FALSE}
 # Maak basisdata met positieve correlatie
@@ -1022,121 +918,26 @@ ggplot(uitschieter_data, aes(x = x, y = y, color = uitschieter)) +
   )
 ```
 
-**Visuele Analyse:** Deze plot demonstreert hoe uitschieters in verschillende posities de correlatiecoëfficiënt beïnvloeden. Let op hoe de hoog-laag uitschieter (rechts onder) de correlatiesterkte dramatisch vermindert (van r=0,82 naar r=0,28), net als de laag-hoog uitschieter (links boven, r=0,34). Daarentegen versterken hoog-hoog en laag-laag uitschieters de correlatie (beide naar r=0,94). Deze visualisatie toont duidelijk dat punten die de algemene positieve trend tegenspreken de grootste negatieve impact hebben op correlatiesterkte.
-
 > **Hint:** Denk aan punten die het lineaire patroon doorbreken.
 
 1) Ver links‑onder (lage X, zeer lage Y)  
-"1" = " ❌ Fout. Punten links-onder (lage X, lage Y) versterken juist positieve correlaties. De formule voor Pearson's r behelst het vermenigvuldigen van afwijkingen van het gemiddelde voor zowel X als Y. Wanneer X onder zijn gemiddelde ligt EN Y onder zijn gemiddelde ligt, is het product positief, wat positief bijdraagt aan de correlatie. De visualisatie toont dit duidelijk — het toevoegen van een laag-laag uitschieter verhoogt r van 0,82 naar 0,94. In onderzoek in alle disciplines zou deze positie gevallen vertegenwoordigen die het algemene patroon volgen maar aan het extreme lage uiteinde van beide variabelen zitten (bijv. in gezondheidsonderzoek: lage stressniveaus geassocieerd met lage bloeddruk). Deze gevallen versterken in plaats van verzwakken het correlatiepatroon, waardoor het ongepast is als antwoord op wat r het meest vermindert."
+"1" = " ❌ Fout. Punten links-onder (lage X, lage Y) versterken juist positieve correlaties. **Impact van uitschieters:** Deze positie volgt de algemene trend, waardoor de correlatie sterker wordt. De formule voor Pearson's r behelst het vermenigvuldigen van afwijkingen van het gemiddelde voor zowel X als Y. Wanneer X onder zijn gemiddelde ligt EN Y onder zijn gemiddelde ligt, is het product positief, wat positief bijdraagt aan de correlatie. De visualisatie toont dit duidelijk — het toevoegen van een laag-laag uitschieter verhoogt r van 0,82 naar 0,94. **Praktische impact:** In criminologisch onderzoek zou dit bijvoorbeeld een wijk met zowel lage sociale cohesie als hoge criminaliteitscijfers vertegenwoordigen - dit versterkt het verband tussen beide variabelen. Deze gevallen bevestigen het verwachte patroon en maken de correlatie sterker, niet zwakker."
 
 2) Ver rechts‑onder (hoge X, lage Y)  
-"2" = " ✅ Juist! Een punt in het rechts-onder kwadrant (hoge X, lage Y) vermindert een positieve correlatie maximaal. Deze positie vertegenwoordigt een ernstige schending van het positieve trendpatroon, waarbij X ver boven zijn gemiddelde ligt terwijl Y ver onder zijn gemiddelde ligt. In de correlatieformule creëert dit een grote negatieve productterm die de positieve relatie tegengaat die in de rest van de gegevens wordt gezien. Zoals getoond in de visualisatie, vermindert deze positie de correlatiecoëfficiënt dramatisch van r = 0,82 naar r = 0,28. In elk onderzoeksveld is het belangrijk alert te zijn op dergelijke uitschieters — ze kunnen speciale gevallen vertegenwoordigen die uitleg vereisen of potentiële datafouten. De plot demonstreert dit effect duidelijk en toont hoe één enkel contradictorisch punt in deze positie de algehele relatie substantieel verzwakt."
+"2" = " ✅ Juist! Een punt in het rechts-onder kwadrant (hoge X, lage Y) vermindert een positieve correlatie maximaal. **Impact van uitschieters:** Deze positie contradiceert de algemene trend en verzwakt de correlatie dramatisch. Deze positie vertegenwoordigt een ernstige schending van het positieve trendpatroon, waarbij X ver boven zijn gemiddelde ligt terwijl Y ver onder zijn gemiddelde ligt. In de correlatieformule creëert dit een grote negatieve productterm die de positieve relatie tegengaat die in de rest van de gegevens wordt gezien. **Kwantitatieve impact:** Zoals getoond in de visualisatie, vermindert deze positie de correlatiecoëfficiënt dramatisch van r = 0,82 naar r = 0,28 - een verlies van ongeveer 65% van de correlatiestrekte! **Praktische betekenis:** In criminologisch onderzoek zou dit bijvoorbeeld een wijk met hoge sociale cohesie maar onverwacht hoge criminaliteit vertegenwoordigen - dit doorbreekt het verwachte verband en suggereert andere verklarende factoren."
 
 3) Ver rechts‑boven (hoge X, hoge Y)  
-"3" = " ❌ Fout. Een punt rechts-boven (hoge X, hoge Y) versterkt juist een positieve correlatie in plaats van deze te verminderen. Wanneer X en Y beide boven hun respectievelijke gemiddelden liggen, vermenigvuldigen hun afwijkingen zich tot een positieve bijdrage aan de correlatiecoëfficiënt. De visualisatie bevestigt dit — het toevoegen van een hoog-hoog uitschieter verhoogt r van 0,82 naar 0,94. Dergelijke punten vertegenwoordigen vaak gevallen die het algemene patroon volgen maar bij extreme waarden (bijv. in onderwijsonderzoek: hoge studietijd geassocieerd met hoge testscores). Hoewel deze punten invloedrijk kunnen zijn en het waard zijn om te onderzoeken, versterken ze het correlatiepatroon in plaats van het te verminderen. De visualisatie toont duidelijk hoe punten die de trendrichting volgen — zelfs bij extreme waarden — de correlatie versterken in plaats van verzwakken."
+"3" = " ❌ Fout. Een punt rechts-boven (hoge X, hoge Y) versterkt juist een positieve correlatie in plaats van deze te verminderen. **Impact van uitschieters:** Deze positie versterkt de algemene trend en maakt de correlatie sterker. Wanneer X en Y beide boven hun respectievelijke gemiddelden liggen, vermenigvuldigen hun afwijkingen zich tot een positieve bijdrage aan de correlatiecoëfficiënt. **Kwantitatieve impact:** De visualisatie bevestigt dit — het toevoegen van een hoog-hoog uitschieter verhoogt r van 0,82 naar 0,94, een versterking van ongeveer 15%. **Praktische betekenis:** In criminologisch onderzoek zou dit bijvoorbeeld een wijk met zeer hoge sociale cohesie en zeer lage criminaliteit vertegenwoordigen - dit versterkt het verwachte verband. Hoewel deze punten invloedrijk kunnen zijn en onderzoek verdienen (waarom presteren ze zo goed?), ondersteunen ze het correlatiepatroon in plaats van het te ondermijnen."
 
 4) Een punt precies op de lijn  
-"4" = " ❌ Fout. Een punt dat precies op de regressielijn valt heeft bijna geen impact op de correlatiecoëfficiënt, omdat het perfect conform is aan de lineaire relatie die al door de gegevens is vastgesteld. Dergelijke punten zijn noch uitschieters noch invloedrijke observaties — ze vertegenwoordigen gevallen die het exacte patroon volgen dat door het model wordt voorspeld. De correlatieformule behelst afwijkingen van voorspelde waarden, en punten op de lijn hebben nul of minimale afwijking. Bij het evalueren van uitschieters' impact op correlatie moeten we ons richten op punten die substantieel afwijken van het algemene patroon, vooral die in kwadranten die de richting van associatie tegenspreken."
+"4" = " ❌ Fout. Een punt dat precies op de regressielijn valt heeft bijna geen impact op de correlatiecoëfficiënt. **Impact van uitschieters:** Punten op de lijn hebben minimale tot geen invloed op de correlatiesterkte omdat ze perfect conform zijn aan de lineaire relatie. Deze positie vertegenwoordigt geen uitschieter - het is juist een punt dat het voorspelde patroon perfect volgt. **Kwantitatieve impact:** Dergelijke punten hebben nul of minimale afwijking van het voorspelde model, dus ze veranderen r nauwelijks. **Conceptuele verwarring:** Dit antwoord toont een misverstand over wat constitueert als een 'uitschieter'. Uitschieters zijn per definitie punten die substantial afwijken van het algemene patroon. **Praktische betekenis:** In onderzoek zijn dit de 'voorspelbare' gevallen die exact doen wat het model verwacht - ze bevestigen noch weerleggen de relatie."
 
 ***
 
 ### Vraag Q20 (Begrijpen)
 **Waarom gebruikt Pearson's correlatie gestandaardiseerde waarden (z-scores) in plaats van de oorspronkelijke meetwaarden? Een criminoloog vergelijkt inkomen (in euro's) met het aantal misdrijven per buurt.**
 
-*Begrip 'standardisatie': Standardisatie is het proces waarbij verschillende variabelen worden omgezet naar een gemeenschappelijke schaal. Dit gebeurt door z-scores te berekenen: z = (waarde - gemiddelde) / standaardafwijking. Hierdoor krijgen alle variabelen een gemiddelde van 0 en standaardafwijking van 1, ongeacht hun oorspronkelijke eenheden.*
-
-```{r waarom-standardisatie, echo=FALSE, fig.width=12, fig.height=8}
-# Genereer voorbeelddata
-set.seed(42)
-n <- 50
-
-# Oorspronkelijke data met verschillende schalen
-inkomen <- runif(n, 20000, 80000)  # Euro's (20k-80k)
-misdrijven <- 100 - inkomen/1000 + rnorm(n, 0, 5)  # Aantal misdrijven per 1000 inwoners
-misdrijven <- pmax(0, misdrijven)  # Geen negatieve misdrijven
-
-# Bereken z-scores (gestandaardiseerde waarden)
-z_inkomen <- scale(inkomen)[,1]
-z_misdrijven <- scale(misdrijven)[,1]
-
-# Bereken correlaties
-cor_origineel <- round(cor(inkomen, misdrijven), 3)
-cor_z_scores <- round(cor(z_inkomen, z_misdrijven), 3)
-
-# Maak data frame voor plotting
-data_origineel <- data.frame(
-  x = inkomen,
-  y = misdrijven,
-  type = "Oorspronkelijke Data",
-  x_label = "Inkomen (€)",
-  y_label = "Misdrijven per 1000 inwoners"
-)
-
-data_z_scores <- data.frame(
-  x = z_inkomen,
-  y = z_misdrijven,
-  type = "Gestandaardiseerde Data (z-scores)",
-  x_label = "Z-score Inkomen",
-  y_label = "Z-score Misdrijven"
-)
-
-# Combineer data
-all_data <- rbind(data_origineel, data_z_scores)
-
-# Maak plots
-p1 <- ggplot(all_data, aes(x = x, y = y)) +
-  geom_point(size = 3, color = "steelblue", alpha = 0.7) +
-  geom_smooth(method = "lm", se = FALSE, color = "red", formula = y ~ x) +
-  facet_wrap(~ type, scales = "free", ncol = 2) +
-  labs(
-    title = "Oorspronkelijke Data vs Gestandaardiseerde Data",
-    subtitle = paste0("Beide hebben identieke correlatie: r = ", cor_origineel),
-    x = "X variabele",
-    y = "Y variabele",
-    caption = "Standardisatie verandert de correlatie niet, maar maakt vergelijking mogelijk"
-  ) +
-  theme_minimal() +
-  theme(strip.text = element_text(size = 11, face = "bold"))
-
-print(p1)
-
-# Toon de wiskundige formules
-library(kableExtra)
-formule_uitleg <- data.frame(
-  `Stap` = c("1. Bereken gemiddelden", "2. Bereken standaardafwijkingen", 
-             "3. Standardiseer beide variabelen", "4. Bereken correlatie"),
-  `Formule` = c("X̄ = Σx/n, Ȳ = Σy/n", 
-                "sx = √[Σ(x-X̄)²/(n-1)], sy = √[Σ(y-Ȳ)²/(n-1)]",
-                "zx = (x-X̄)/sx, zy = (y-Ȳ)/sy", 
-                "r = Σ(zx × zy)/(n-1)"),
-  `Waarom` = c("Centrale punt bepalen", 
-               "Spreiding meten", 
-               "Omzetten naar standaardschaal", 
-               "Meet lineaire samenhang"),
-  check.names = FALSE
-)
-
-kable(formule_uitleg, caption = "Waarom Correlatie Standardisatie Gebruikt") %>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
-
-# Demonstreer schaalprobleem
-schaal_voorbeeld <- data.frame(
-  `Scenario` = c("Zonder Standardisatie", "Met Standardisatie"),
-  `Inkomen Bereik` = c("€20,000 - €80,000", "z-scores: -1.5 tot +1.5"),
-  `Misdrijven Bereik` = c("10 - 80 per 1000", "z-scores: -1.5 tot +1.5"),
-  `Probleem` = c("Verschillende eenheden en schalen", "Beide op dezelfde schaal"),
-  `Correlatie Formule` = c("Onmogelijk direct te vergelijken", "r = Σ(zx × zy)/(n-1)"),
-  check.names = FALSE
-)
-
-kable(schaal_voorbeeld, caption = "Waarom Verschillende Schalen Problematisch Zijn") %>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
-```
-
-**Kernconcepten:**
-- **Eenheid-onafhankelijkheid**: Correlatie moet hetzelfde zijn of inkomen in euro's of dollars wordt gemeten
-- **Vergelijkbaarheid**: Z-scores zetten alle variabelen op dezelfde schaal (gemiddelde 0, SD 1)
-- **Wiskundige noodzaak**: Correlatie formule vereist standaardisatie om betekenisvol te zijn
+*Begrip 'standardisatie': Standardisatie is het proces waarbij verschillende variabelen worden omgezet naar een gemeenschappelijke schaal. Dit gebeurt door z-scores te berekenen: z = (waarde - gemiddelde) / standaardafwijking. Hierdoor krijgen alle variabelen een gemiddelde van 0 en standaardafwijking van 1, ongeacht hun oorspronkelijke eenheden.* Standardisatie is cruciaal voor het vergelijken van variabelen om betekenisvol te zijn
 
 > **Hint:** Denk aan wat er gebeurt als één variabele in euro's en de andere in aantal misdrijven wordt gemeten.
 
@@ -1172,7 +973,7 @@ data_matrix <- mvrnorm(n, mu, sigma)
 
 # Transformeer naar meaningful scales
 ses_score <- data_matrix[,1] * 2 + 5  # SES score roughly 1-9
-crime_rate <- -data_matrix[,2] * 3 + 15  # Crime rate, make it positive
+crime_rate <- data_matrix[,2] * 3 + 15  # Crime rate, positive correlation
 
 # Bereken finale correlatie
 final_r <- round(cor(ses_score, crime_rate), 2)
@@ -1195,8 +996,7 @@ p1 <- ggplot(plot_data, aes(x = SES, y = Crime)) +
     title = paste0("Correlatie tussen SES en Criminaliteit (r = ", final_r, ")"),
     subtitle = paste0("R² = ", r_squared, " (", explained_var_percent, "% van variantie verklaard)"),
     x = "Sociaaleconomische Status Score",
-    y = "Criminaliteitscijfer",
-    caption = "Een moderaat negatieve correlatie"
+    y = "Criminaliteitscijfer"
   ) +
   theme_minimal() +
   theme(plot.title = element_text(size = 14, face = "bold"))
@@ -1218,26 +1018,21 @@ kable(interpretatie_gids, caption = "Interpretatie van Correlatie Sterkte") %>%
 
 # Praktijkvoorbeeld tabel
 praktijk_voorbeelden <- data.frame(
-  `r waarde` = c("r = -0.40", "r = -0.40", "r = -0.40"),
+  `r waarde` = c("r = 0.40", "r = 0.40", "r = 0.40"),
   `Interpretatie Aspect` = c("Richting", "Sterkte", "Verklaarde Variantie"),
-  `Betekenis` = c("Negatieve relatie: hogere SES → lagere criminaliteit",
+  `Betekenis` = c("Positieve relatie: hogere SES → hogere criminaliteit",
                   "Matige sterkte: redelijk voorspelbare relatie",
                   "16% van variantie verklaard, 84% door andere factoren"),
-  `Praktische Implicatie` = c("SES en criminaliteit bewegen in tegengestelde richtingen",
+  `Praktische Implicatie` = c("SES en criminaliteit bewegen in dezelfde richting",
                              "SES is een nuttige maar niet perfect voorspeller", 
                              "Vele andere factoren beïnvloeden criminaliteit"),
   check.names = FALSE
 )
 
-kable(praktijk_voorbeelden, caption = "Praktische Interpretatie van r = -0.40") %>%
+kable(praktijk_voorbeelden, caption = "Praktische Interpretatie van r = 0.40") %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 ```
 
-**Kernconcepten voor r = 0,40:**
-- **Richting**: Positief (beide variabelen bewegen in dezelfde richting)
-- **Sterkte**: Matige correlatie (nuttig maar niet perfect voorspelbaar)
-- **Verklaarde Variantie**: R² = 0,16 (16% van variantie verklaard)
-- **Praktische Betekenis**: Medium effect in sociale wetenschappen
 
 > **Hint:** Denk aan richting, sterkte, en hoeveel variantie wordt verklaard.
 
@@ -1432,78 +1227,20 @@ kable(aannames_tabel, caption = "Overzicht van Pearson Correlatie Veronderstelli
 ***
 
 ### Vraag Q25 (Creëren)
-**Formuleer een toetsbare onderzoekshypothese over de relatie tussen economische ongelijkheid en geweldsmisdaadcijfers op stadsniveau, inclusief voorspelde richting en sterkte.**
+**Welke van de volgende hypotheses over de relatie tussen werkloosheid en diefstalcijfers op wijkniveau is het best geformuleerd voor correlatie-onderzoek?**
 
-> **Hint:** Creëer een specifieke, directionele hypothese die getest kan worden met correlatie/regressie.
+> **Hint:** Een goede hypothese specificeert: variabelen, richting, sterkte, en analyse-eenheid.
 
-```{r hypothese-visualisatie, echo=FALSE, fig.width=10, fig.height=6}
-# Maak gesimuleerde data voor visualisatie
-set.seed(123)
-n_steden <- 50
+1) "Werkloosheid heeft invloed op criminaliteit"  
+"1" = " ❌ Fout. **Te vaag en ontoetsbaar.** Deze hypothese mist: (1) Specificatie van variabelen - hoe meet je werkloosheid en criminaliteit? (2) Richting - positief of negatief verband? (3) Analyse-eenheid - individueel, wijk, of stadniveau? (4) Verwachte sterkte. Zonder deze details kan de hypothese niet betekenisvol getest worden."
 
-# Genereer inkomensongelijkheidsindex (Gini coëfficiënt bereik: 0.3-0.6)
-gini <- runif(n_steden, 0.3, 0.6)
+2) "Wijken met een hoger werkloosheidspercentage zullen hogere diefstalcijfers per 1000 inwoners hebben"  
+"2" = " ✅ Juist! **Goed geformuleerde hypothese.** Bevat de essentiële elementen: (1) **Variabelen:** Duidelijk gedefinieerd (werkloosheidspercentage, diefstalcijfers per 1000 inwoners) (2) **Richting:** Positieve relatie voorspeld (hoger werkloosheid → meer diefstal) (3) **Analyse-eenheid:** Wijkniveau (4) **Testbaarheid:** Kan getest worden met correlatie-analyse. Dit is hoe echte onderzoekshypotheses worden geschreven - ze voorspellen relaties tussen variabelen, niet specifieke correlatiecoëfficiënten."
 
-# Genereer geweldsmisdaadcijfers met matige-tot-sterke correlatie met Gini
-geweldsmisdaad <- 2 + 25*gini + rnorm(n_steden, 0, 3)
+3) "Werkloze mensen stelen meer"  
+"3" = " ❌ Fout. **Verkeerde analyse-eenheid en te simplistisch.** Deze stelling gaat over individueel gedrag (werkloze mensen), terwijl de vraag wijk-niveau analyse vereist. Ook suggereert het causaliteit in plaats van correlatie, en mist het specificatie van hoe variabelen gemeten worden."
 
-# Maak stadslabels
-stad_namen <- paste("Stad", 1:n_steden)
-
-# Maak data frame
-stad_data <- data.frame(
-  Stad = stad_namen,
-  Inkomens_Ongelijkheid = gini,
-  Geweldsmisdaad_Cijfer = geweldsmisdaad
-)
-
-# Bereken correlatie
-correlatie <- round(cor(gini, geweldsmisdaad), 2)
-r_kwadraat <- round(correlatie^2 * 100, 1)
-
-# Maak plot
-ggplot(stad_data, aes(x = Inkomens_Ongelijkheid, y = Geweldsmisdaad_Cijfer)) +
-  geom_point(color = "steelblue", size = 3, alpha = 0.7) +
-  geom_smooth(method = "lm", formula = y ~ x, se = TRUE, color = "darkred") +
-  labs(
-    title = "Veronderstelde Relatie: Economische Ongelijkheid en Geweldsmisdaad",
-    subtitle = paste0("Voorbeeld van matig-sterke positieve correlatie (r = ", 
-                     correlatie, ", R² = ", r_kwadraat, "%)"),
-    x = "Economische Ongelijkheid (Gini Coëfficiënt)",
-    y = "Geweldsmisdaadcijfer (per 100.000 inwoners)",
-    caption = "Visualisatie van een toetsbare onderzoekshypothese die voorspelde richting en sterkte toont"
-  ) +
-  annotate("text", x = 0.32, y = max(geweldsmisdaad) - 1, 
-           label = paste0("Onderzoekshypothese Voorbeeld:\n",
-                          "Steden met hogere inkomensongelijkheid (Gini coëfficiënt)\n", 
-                          "zullen matig sterke positieve correlaties vertonen\n",
-                          "(r = 0.40-0.60) met geweldsmisdaadcijfers per hoofd van de bevolking"),
-           hjust = 0, size = 4, fontface = "bold") +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(size = 14, face = "bold"),
-    plot.subtitle = element_text(size = 12),
-    axis.title = element_text(size = 11)
-  )
-```
-
-**Hypothese Formulatie Elementen:**
-1. **Variabelen:** Specifiek gedefinieerd en meetbaar (Gini coëfficiënt, geweldsmisdaadcijfer per 100.000)
-2. **Richting:** Duidelijke voorspelling (positieve correlatie)
-3. **Magnitude:** Verwacht effectgroottebereik (r = 0.40-0.60)
-4. **Analyse-eenheid:** Gespecificeerd niveau (stadsniveau)
-5. **Testbaarheid:** Kan worden bevestigd/afgewezen met statistische analyse
-
-1) "Economische ongelijkheid beïnvloedt misdaad op de een of andere manier"  
-"1" = " ❌ Te vaag. Deze stelling faalt als toetsbare hypothese om verschillende redenen: (1) Het mist directionaliteit — specificeert niet of ongelijkheid misdaad verhoogt of verlaagt; (2) Geen operationalisatie van sleutelvariabelen — hoe wordt economische ongelijkheid gemeten? Welk type misdaad?; (3) Geen analyse-eenheid — op welk niveau (individueel, buurt, stad, land) wordt deze relatie onderzocht?; (4) Geen voorspelde effectgrootte of relatiesterkte; (5) Geen temporele scope gespecificeerd. Een goede onderzoekshypothese heeft precisie nodig in al deze dimensies. Zonder dergelijke specificiteit blijft de claim een algemene uitspraak die niet betekenisvol getest kan worden met correlatie- of regressieanalyse, omdat het onmogelijk is te bepalen wat bewijs voor of tegen zou constitueren."
-
-2) "Steden met hogere inkomensongelijkheid (Gini coëfficiënt) zullen matig sterke positieve correlaties vertonen (r = 0.40-0.60) met geweldsmisdaadcijfers per hoofd van de bevolking"  
-"2" = " ✅ Juist! Deze hypothese illustreert alle sleutelelementen van een goed geformuleerde, toetsbare onderzoeksvoorspelling: (1) Duidelijke specificatie van variabelen — inkomensongelijkheid gemeten door de Gini coëfficiënt en geweldsmisdaadcijfers per hoofd van de bevolking; (2) Expliciete directionaliteit — een positieve correlatie wordt voorspeld; (3) Gedefinieerde magnitude — matig sterke correlatie in het bereik van r = 0.40-0.60; (4) Gepaste analyse-eenheid — stadsniveau vergelijking; (5) Geïmpliceerd onderzoeksontwerp — correlationele analyse over meerdere steden. Deze precieze formulering staat duidelijke testing toe met statistische methoden, met specifieke criteria voor bevestiging of verwerping. De inclusie van een verwacht effectgroottebereik demonstreert verfijnd begrip van zowel de statistische methoden als het substantiële onderzoeksgebied, wat betekenisvolle interpretatie van resultaten mogelijk maakt ongeacht het studieveld."
-
-3) "Arme mensen plegen meer geweldsmisdrijven"  
-"3" = " ❌ Individueel-niveau claim, ongepast om verschillende redenen: (1) Deze stelling maakt een causale claim over individueel gedrag in plaats van een correlatie op stadsniveau zoals gevraagd; (2) Het conflateert economische status met ongelijkheid — armoede en ongelijkheid zijn gerelateerde maar verschillende concepten; (3) Het impliceert een directe causale relatie in plaats van een correlatie; (4) De analyse-eenheid (individuen) komt niet overeen met wat werd gevraagd (stadsniveau); (5) Geen metingsoperationalisatie is verstrekt — hoe wordt armoede gedefinieerd? Hoe wordt misdaad gemeten? De fundamentele mismatch tussen deze individueel-niveau causale claim en de gevraagde stadsniveau correlatiehypothese maakt dit antwoord onjuist, ongeacht of de onderliggende claim mogelijk ondersteund wordt door andere onderzoeksbenaderingen."
-
-4) "Economische ongelijkheid is de enige oorzaak van alle geweldsmisdaad"  
-"4" = " ❌ Te extreem en ontoetsbaar. Deze stelling faalt als hypothese omdat: (1) Het maakt een absolute causale claim — identificeert ongelijkheid als de 'enige oorzaak' — in plaats van een correlatie voor te stellen; (2) Het gebruikt universele taal ('alle geweldsmisdaad') die zou worden ontkracht door een enkel tegenvoorbeeld; (3) Het mist elke specificatie van meting voor beide variabelen; (4) Het stelt een perfecte relatie voor die de complexiteit van menselijk gedrag tegenspreekt; (5) Het kan niet betekenisvol getest worden met correlatie- of regressieanalyse, omdat correlatiecoëfficiënten van nature geen enkele causaliteit kunnen vaststellen. In elk wetenschappelijk veld worden hypotheses die absolute claims maken over enkele causaliteit over het algemeen als te extreem beschouwd en falen ze de multivariate aard van complexe fenomenen te erkennen."
+4) "Werkloosheid veroorzaakt alle diefstal"  
+"4" = " ❌ Fout. **Te extreem en wetenschappelijk onhoudbaar.** Deze absolute claim (alle diefstal) is: (1) Onrealistisch - diefstal heeft meerdere oorzaken (2) Ontoetsbaar - zou worden weerlegd door één tegenvoorbeeld (3) Causaal in plaats van correlationeel (4) Mist operationalisatie van variabelen."
 
 ***
