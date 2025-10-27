@@ -1,8 +1,6 @@
-# 3.18 Correlatie - Wanneer welke correlatie
-
 **Een criminoloog heeft verschillende datasets en moet de juiste correlatiecoëfficiënt kiezen. Voor welke situatie zou Spearman's rangcorrelatie (ρ) beter zijn dan Pearson's correlatie (r)?**
 
-![Wanneer Spearman](../images/question_3.18.png)
+![Wanneer Spearman](images/question_3.18.png)
 
 > **Hint:** Denk aan wanneer rangnummers beter zijn dan werkelijke waarden.
 

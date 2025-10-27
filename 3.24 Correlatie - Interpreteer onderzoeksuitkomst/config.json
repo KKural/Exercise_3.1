@@ -1,0 +1,17 @@
+{
+    "type": "exercise",
+    "programming_language": "r",
+    "description": {
+        "names": {
+            "nl": "3.24 Correlatie - Interpreteer onderzoeksuitkomst",
+            "en": "3.24 Correlation - Interpret research findings"
+        }
+    },
+    "labels": [
+        "correlatie",
+        "causaliteit",
+        "onderzoeksinterpretatie",
+        "significantie"
+    ],
+    "time_limit": 180
+}

@@ -1,14 +1,12 @@
-# 3.19 Correlatie - Impact uitschieters
-
 **In een positieve trend, welke uitschieter (extreme waarde die afwijkt van het algemene patroon) positie vermindert r het meest?**
 
-![Impact Uitschieters](../images/question_3.19.png)
+![Impact Uitschieters](images/question_3.19.png)
 
-> **Hint:** Denk aan welke uitschieter het meest tegen de algemene trend ingaat.
+> **Hint:** Denk aan punten die het lineaire patroon doorbreken.
 
-1) Hoog-hoog (rechts boven)
-2) Laag-laag (links onder)  
-3) Hoog-laag (rechts onder)
-4) Laag-hoog (links boven)
+1) Ver links‑onder (lage X, zeer lage Y)
+2) Ver rechts‑onder (hoge X, lage Y)
+3) Ver rechts‑boven (hoge X, hoge Y)
+4) Een punt precies op de lijn
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.

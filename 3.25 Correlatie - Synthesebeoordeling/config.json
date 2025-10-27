@@ -1,0 +1,17 @@
+{
+    "type": "exercise",
+    "programming_language": "r",
+    "description": {
+        "names": {
+            "nl": "3.25 Correlatie - Synthesebeoordeling",
+            "en": "3.25 Correlation - Synthesis assessment"
+        }
+    },
+    "labels": [
+        "correlatie",
+        "onderzoeksevaluatie",
+        "professionele-beoordeling",
+        "causaliteit"
+    ],
+    "time_limit": 240
+}
