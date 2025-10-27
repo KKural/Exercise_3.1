@@ -1,18 +1,18 @@
 {
-    "description": {
-        "names": {
-            "nl": "3.6 Correlatie - Variabeletypen voor correlatie"
-        }
-    },
-    "evaluation": {
-        "handler": "R",
-        "test_suite": "evaluation"
-    },
-    "programming_language": "R",
-    "access": "public",
-    "labels": [],
-    "internals": {
-        "token": "corr36-VariabeletypenVoorCorrelatie-2024-10-27-Q6-VariableTypes-PearsonRequirements",
-        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  "description": {
+    "names": {
+      "nl": "3.6 Correlatie - Variabeletypen voor correlatie"
     }
+  },
+  "evaluation": {
+    "handler": "R",
+    "test_suite": "evaluation"
+  },
+  "programming_language": "R",
+  "access": "public",
+  "labels": [],
+  "internals": {
+    "token": "HY8BSRn2BuGhKmGhEPIt9CHPCT2A_bIJFZdh8izvQkpEiRMABctV2ER_K7CeqmBq",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }

@@ -1,18 +1,18 @@
 {
-    "description": {
-        "names": {
-            "nl": "3.4 Correlatie - Centrum in z-Scores"
-        }
-    },
-    "evaluation": {
-        "handler": "R",
-        "test_suite": "evaluation"
-    },
-    "programming_language": "R",
-    "access": "public",
-    "labels": [],
-    "internals": {
-        "token": "corr34-CentrumInZScores-2024-10-27-Q4-ZeroCorrelation-NoLinearRelation",
-        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  "description": {
+    "names": {
+      "nl": "3.4 Correlatie - Centrum in z-Scores"
     }
+  },
+  "evaluation": {
+    "handler": "R",
+    "test_suite": "evaluation"
+  },
+  "programming_language": "R",
+  "access": "public",
+  "labels": [],
+  "internals": {
+    "token": "XcGSTVkrIhsBY35vbv9NNW2qISfNNGygu3mSH_PsCprZJ9jZSYTsZa9VSZXEY_Q3",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
