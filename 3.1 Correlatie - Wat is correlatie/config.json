@@ -1,22 +1,8 @@
 {
-    "description": {
-        "names": {
-            "nl": "3.1 Correlatie - Wat is correlatie?"
-        }
-    },
-    "evaluation": {
-        "handler": "R",
-        "test_suite": "evaluation"
-    },
-    "programming_language": "R",
-    "access": "public",
-    "labels": [],
-    "internals": {
-        "token": "",
-        "_info": ""
+  "description": {
+    "names": {
+      "nl": "3.1 Correlatie - Wat is correlatie?"
     }
-<<<<<<< HEAD
-=======
   },
   "evaluation": {
     "handler": "R",
@@ -29,5 +15,4 @@
     "token": "Dr9RQzwn7prEqKYcBMhMXh4i9J23u3v35rggpbnG26tkri2msWyr-t-au4TZwBIY",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
->>>>>>> 2b9a280f0f4b9e5ca95abdb5a66c4f686e401443
 }
