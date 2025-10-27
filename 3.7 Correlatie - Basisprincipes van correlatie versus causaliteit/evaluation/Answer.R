@@ -1,0 +1,30 @@
+context({
+  testcase(
+    " ",
+    {
+      testEqual(
+        "",
+        function(env) as.numeric(env$evaluationResult),
+        1,  # Correct answer: Derde variabelen, omgekeerde causaliteit of toeval kunnen de relatie verklaren
+        comparator = function(generated, expected, ...) {
+          feedbacks <- list(
+            "1" = "✅ **Juist!** **Correlatie** kan geen **causale richting** vaststellen of **alternatieve verklaringen** uitsluiten. Drie hoofdproblemen: (1) **Derde variabelen** — **armoede** kan zowel een laag **opleidingsniveau** als hoge **criminaliteit** veroorzaken, wat een **schijncorrelatie** tussen onderwijs en criminaliteit creëert; (2) **Omgekeerde causaliteit** — verminderen meer **politieagenten** de criminaliteit, of leidt meer **criminaliteit** tot het aannemen van meer politie? (3) **Toeval** — twee variabelen kunnen per toeval correleren, vooral bij **kleine steekproeven**. Het vaststellen van **causaliteit** vereist **gecontroleerde experimenten**, **longitudinale ontwerpen**, **natuurlijke experimenten** of geavanceerde **statistische technieken** die causale effecten kunnen isoleren van deze alternatieve verklaringen.",
+            
+            "2" = "❌ **Fout.** Zelfs **zeer sterke correlaties** (r = 0,90 of hoger) bewijzen geen **causaal verband**. Het probleem is niet de **sterkte** van de correlatie, maar de **logica van causale inferentie**. Bijvoorbeeld, u kunt een zeer sterke correlatie (**r = 0,85**) vinden tussen het aantal **beveiligingscamera's** in een buurt en **misdaadcijfers**, maar dit bewijst niet dat camera's **criminaliteit veroorzaken**. De hoge correlatie kan bestaan omdat camera's worden geïnstalleerd als **reactie op** hoge criminaliteit, niet omdat camera's criminaliteit veroorzaken. **Correlatiesterkte** en **causaal bewijs** zijn compleet gescheiden kwesties.",
+            
+            "3" = "❌ **Fout.** **Correlatie** toont duidelijk aan dat **relaties bestaan** — het kan alleen niet bepalen of ze **causaal** zijn. Veel belangrijke relaties kunnen om **ethische redenen** niet experimenteel worden bestudeerd (je kunt mensen niet willekeurig toewijzen aan **criminele carrières**). **Correlationele studies** leveren waardevol bewijs over **associaties**, **risicofactoren** en **patronen**. Hoewel **experimenten** het sterkste causale bewijs leveren, kunnen **observationele studies** met technieken zoals **instrumentele variabelen**, **regressiediscontinuïteit** of **natuurlijke experimenten** ook overtuigend **causaal bewijs** leveren wanneer experimenten niet haalbaar zijn.",
+            
+            "4" = "❌ **Fout.** Dit is precies het **misverstand** dat onderzoekers moeten vermijden. **Media-berichten** beweren vaak 'studies tonen aan dat **X Y veroorzaakt**' wanneer het onderzoek alleen **correlatie** heeft aangetoond. Het vinden dat wijken met meer **straatverlichting** minder **criminaliteit** hebben, bewijst bijvoorbeeld niet dat straatverlichting criminaliteit **voorkomt** — veiligere wijken kunnen simpelweg meer geneigd zijn om straatverlichting te installeren. Het begrijpen van dit onderscheid is cruciaal voor **evidence-based strafrechtelijk beleid**, aangezien het implementeren van interventies op basis van alleen **correlationeel bewijs** middelen kan verspillen of zelfs **averechts** kan werken."
+          )
+          
+          key <- as.character(generated)
+          msg <- feedbacks[[key]] %||% "❌ Geef een getal tussen 1 en 4 in."
+          
+          get_reporter()$add_message(msg, type = "markdown")
+          
+          generated == expected
+        }
+      )
+    }
+  )
+})

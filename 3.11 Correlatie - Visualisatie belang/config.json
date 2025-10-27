@@ -1,0 +1,18 @@
+{
+    "description": {
+        "names": {
+            "nl": "3.11 Correlatie - Visualisatie belang"
+        }
+    },
+    "evaluation": {
+        "handler": "R",
+        "test_suite": "evaluation"
+    },
+    "programming_language": "R",
+    "access": "public",
+    "labels": [],
+    "internals": {
+        "token": "corr311-VisualisatieBelang-2024-10-27-Q11-DataVisualization-AnscombesQuartet",
+        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+    }
+}
