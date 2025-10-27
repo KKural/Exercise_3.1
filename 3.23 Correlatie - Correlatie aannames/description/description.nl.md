@@ -15,9 +15,9 @@
 
 > **Hint:** Denk aan wat Pearson correlatie meet (lineaire relaties) en welke data daarvoor geschikt is.
 
-1) Alleen lineaire relatie en continue variabelen zijn vereist
-2) Alleen dat beide variabelen normaal verdeeld zijn
-3) Lineariteit, continue variabelen, normale verdeling, geen extreme uitschieters, en gelijke variantie
-4) Dat er minstens 30 observaties zijn en alle waarden positief zijn
+1. Alleen **lineaire relatie** en **continue variabelen** zijn vereist
+2. Alleen dat beide variabelen **normaal verdeeld** zijn
+3. **Lineariteit**, **continue variabelen**, **normale verdeling**, **geen extreme uitschieters**, en **gelijke variantie**
+4. Dat er minstens **30 observaties** zijn en alle waarden **positief** zijn
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.
