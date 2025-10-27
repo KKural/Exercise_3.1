@@ -1,18 +1,18 @@
 {
-    "description": {
-        "names": {
-            "nl": "3.17 Correlatie - Correlatie types"
-        }
-    },
-    "evaluation": {
-        "handler": "R",
-        "test_suite": "evaluation"
-    },
-    "programming_language": "R",
-    "access": "public",
-    "labels": [],
-    "internals": {
-        "token": "corr317-CorrelatieTypes-2024-10-27-Q17-CorrelationTypes-PearsonSpearmanKendall",
-        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  "description": {
+    "names": {
+      "nl": "3.17 Correlatie - Correlatie types"
     }
+  },
+  "evaluation": {
+    "handler": "R",
+    "test_suite": "evaluation"
+  },
+  "programming_language": "R",
+  "access": "public",
+  "labels": [],
+  "internals": {
+    "token": "YMzVnJyrrbhbfucTzC4sPPKPn7Grx4V6PIBdk4cSBsYh2TFKSgHZUpYeRSsjKp2H",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }

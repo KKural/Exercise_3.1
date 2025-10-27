@@ -1,18 +1,18 @@
 {
-    "description": {
-        "names": {
-            "nl": "3.20 Correlatie - Waarom standardisatie nodig is"
-        }
-    },
-    "evaluation": {
-        "handler": "R",
-        "test_suite": "evaluation"
-    },
-    "programming_language": "R",
-    "access": "public",
-    "labels": [],
-    "internals": {
-        "token": "corr320-WaaromStandardisatieNodigIs-2024-10-27-Q20-Standardization-ScaleComparability",
-        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  "description": {
+    "names": {
+      "nl": "3.20 Correlatie - Waarom standardisatie nodig is"
     }
+  },
+  "evaluation": {
+    "handler": "R",
+    "test_suite": "evaluation"
+  },
+  "programming_language": "R",
+  "access": "public",
+  "labels": [],
+  "internals": {
+    "token": "9ZbMKAQrHAyvXud9c-3r-uc8M5kcV6FKpaiHAvAFTISed7AaGQediQ7qEB-Ztz6P",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
