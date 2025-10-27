@@ -4,9 +4,9 @@
 
 > **Hint:** Evalueer alle aspecten: **onderzoeksontwerp**, **steekproef**, **causale inferentie** en **alternatieve verklaringen**.
 
-1) **Valide conclusie** - sterke correlatie en significantie ondersteunen causale claim
-2) **Ongeldig** - correlationeel ontwerp kan geen causaliteit bewijzen; verstorende variabelen mogelijk
-3) Geldig als de correlatie wordt gerepliceerd in andere datasets
-4) **Ongeldig** - steekproef van 15 landen is te klein voor betrouwbare conclusies
+1. **Valide conclusie** - sterke correlatie en significantie ondersteunen causale claim
+2. **Ongeldig** - correlationeel ontwerp kan geen **causaliteit** bewijzen; **verstorende variabelen** mogelijk
+3. **Geldig** als de correlatie wordt **gerepliceerd** in andere datasets
+4. **Ongeldig** - steekproef van **15 landen** is te klein voor betrouwbare conclusies
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.

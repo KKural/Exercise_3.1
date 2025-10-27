@@ -4,7 +4,7 @@
 
 > **Hint:** Bij het bestuderen van de relatie tussen twee misdaadgerelateerde variabelen, welke statistieken heb je dan nodig om de associatie volledig te begrijpen en te rapporteren?
 
-![Correlatie Statistics](images/question_3.3.png)
+![Correlatie Statistics](media/question_3.3.png)
 
 **=== DESCRIPTIVE STATISTICS ===**
 
@@ -27,9 +27,9 @@ Drugsdelicten (per 1000 inwoners):
 - p-value: 0
 - Significance: p < .001 ***
 
-1) De **helling** en het **snijpunt**
-2) Alleen het **gemiddelde** en de **standaarddeviatie**
-3) Alleen de **correlatiecoëfficiënt (r)**
-4) **Correlatiecoëfficiënt (r)**, **bepalingscoëfficiënt (R²)** en **steekproefomvang (n)**
+1. De **helling** en het **snijpunt**
+2. Alleen het **gemiddelde** en de **standaarddeviatie**
+3. Alleen de **correlatiecoëfficiënt (r)**
+4. **Correlatiecoëfficiënt (r)**, **bepalingscoëfficiënt (R²)** en **steekproefomvang (n)**
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.
