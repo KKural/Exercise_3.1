@@ -78,14 +78,44 @@ standard_dodona_theme <- function() {
       plot.background = element_rect(fill = "white", color = NA),
       panel.grid.major = element_line(color = "lightgray", size = 0.5),
       panel.grid.minor = element_line(color = "lightgray", size = 0.3),
-      text = element_text(size = 12, family = "Arial"),
-      plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
-      plot.subtitle = element_text(size = 12, hjust = 0.5),
-      axis.title = element_text(size = 12),
-      axis.text = element_text(size = 10),
-      strip.text = element_text(size = 11, face = "bold"),
-      legend.position = "bottom"
+      text = element_text(size = 10, family = "Arial"),
+      plot.title = element_text(size = 11, hjust = 0.5, face = "bold"),
+      plot.subtitle = element_text(size = 10, hjust = 0.5),
+      axis.title = element_text(size = 10),
+      axis.text = element_text(size = 9),
+      strip.text = element_text(size = 10, face = "bold"),
+      legend.position = "bottom",
+      legend.text = element_text(size = 9),
+      legend.title = element_text(size = 10)
     )
+}
+
+# Function to wrap long titles to fit in smaller images
+wrap_title <- function(title, width = 40) {
+  # Split title into words
+  words <- strsplit(title, " ")[[1]]
+  lines <- character()
+  current_line <- ""
+  
+  for (word in words) {
+    if (nchar(paste(current_line, word)) <= width) {
+      current_line <- ifelse(current_line == "", word, paste(current_line, word))
+    } else {
+      if (current_line != "") {
+        lines <- c(lines, current_line)
+        current_line <- word
+      } else {
+        lines <- c(lines, word)
+        current_line <- ""
+      }
+    }
+  }
+  
+  if (current_line != "") {
+    lines <- c(lines, current_line)
+  }
+  
+  return(paste(lines, collapse = "\n"))
 }
 ```
 
@@ -248,7 +278,7 @@ p_q3 <- ggplot(crime_data, aes(x = Politieaanwezigheid, y = Drugsdelicten)) +
   geom_point(color = "steelblue", size = 3, alpha = 0.7) +
   geom_smooth(method = "lm", formula = y ~ x, se = TRUE, color = "darkred") +
   labs(
-    title = "Correlatie: Politieaanwezigheid vs Drugsdelicten",
+    title = wrap_title("Correlatie: Politieaanwezigheid vs Drugsdelicten"),
     subtitle = paste0("r = ", r_value, ", R² = ", r_squared, ", n = ", n),
     x = "Politieaanwezigheid (agenten per 1000 inwoners)",
     y = "Drugsdelicten (per 1000 inwoners)",
@@ -382,8 +412,8 @@ p_q8 <- ggplot(pos_cor_data, aes(x = Variable_X, y = Variable_Y)) +
   geom_point(color = "steelblue", size = 3, alpha = 0.7) +
   geom_smooth(method = "lm", formula = y ~ x, se = TRUE, color = "darkred") +
   labs(
-    title = "Spreidingsdiagram: Relatie tussen Twee Variabelen",
-    subtitle = "Observatiepatroon in criminologische data (N = 75 gemeenten)",
+    title = wrap_title("Spreidingsdiagram: Relatie tussen Twee Variabelen"),
+    subtitle = wrap_title("Observatiepatroon in criminologische data (N = 75 gemeenten)", 45),
     x = "Sociale Cohesie Score (gestandaardiseerd)",
     y = "Preventie Effectiviteit Index",
     caption = "Data tonen een consistent patroon tussen de gemeten variabelen"
@@ -505,10 +535,10 @@ p_q11 <- ggplot(data_long, aes(x = x, y = y)) +
   geom_smooth(method = "lm", se = FALSE, color = "red", formula = y ~ x) +
   facet_wrap(~ dataset, ncol = 2, labeller = labeller(dataset = dataset_names)) +
   labs(
-    title = "Vier Studies met Identieke Statistieken maar Verschillende Patronen",
+    title = wrap_title("Vier Studies met Identieke Statistieken maar Verschillende Patronen", 35),
     subtitle = paste0("Alle studies: r = ", corr, ", Gem. x = ", mean_x, 
                       ", Gem. y = ", mean_y, ", SD x = ", sd_x, ", SD y = ", sd_y),
-    caption = "Waarom samenvatting statistieken alleen onvoldoende zijn voor dataanalyse",
+    caption = wrap_title("Waarom samenvatting statistieken alleen onvoldoende zijn voor dataanalyse", 50),
     x = "Sociaaleconomische Factor",
     y = "Criminaliteitsmaat"
   ) +
@@ -672,7 +702,7 @@ ggplot(data_plot, aes(x = stress, y = agressie)) +
   scale_color_manual(values = c("Lineaire lijn (Pearson)" = "blue", 
                                "Werkelijke curve" = "red")) +
   labs(
-    title = "Stress vs Agressief Gedrag: Monotoon maar Niet-Lineair Patroon",
+    title = wrap_title("Stress vs Agressief Gedrag: Monotoon maar Niet-Lineair Patroon", 35),
     subtitle = paste0("Pearson r = ", pearson_r, " | Spearman ρ = ", spearman_rho),
     x = "Stressniveau (schaal 1-10)",
     y = "Agressie Score",
