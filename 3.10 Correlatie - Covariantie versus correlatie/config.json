@@ -1,18 +1,18 @@
 {
-    "description": {
-        "names": {
-            "nl": "3.10 Correlatie - Covariantie versus correlatie"
-        }
-    },
-    "evaluation": {
-        "handler": "R",
-        "test_suite": "evaluation"
-    },
-    "programming_language": "R",
-    "access": "public",
-    "labels": [],
-    "internals": {
-        "token": "corr310-CovariantieVersusCorrelatie-2024-10-27-Q10-CovarianceCorrelation-UnitInvariance",
-        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  "description": {
+    "names": {
+      "nl": "3.10 Correlatie - Covariantie versus correlatie"
     }
+  },
+  "evaluation": {
+    "handler": "R",
+    "test_suite": "evaluation"
+  },
+  "programming_language": "R",
+  "access": "public",
+  "labels": [],
+  "internals": {
+    "token": "gB6rhuDeMaIntarMDdPc2TdqT2hHHXfyx3F4Aqb7xXtGxAEAPkqJQPG9iXmZxFn_",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }

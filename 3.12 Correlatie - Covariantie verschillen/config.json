@@ -1,18 +1,18 @@
 {
-    "description": {
-        "names": {
-            "nl": "3.12 Correlatie - Covariantie verschillen"
-        }
-    },
-    "evaluation": {
-        "handler": "R",
-        "test_suite": "evaluation"
-    },
-    "programming_language": "R",
-    "access": "public",
-    "labels": [],
-    "internals": {
-        "token": "corr312-CovariantieVerschillen-2024-10-27-Q12-CovarianceProperties-StandardizedMeasures",
-        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  "description": {
+    "names": {
+      "nl": "3.12 Correlatie - Covariantie verschillen"
     }
+  },
+  "evaluation": {
+    "handler": "R",
+    "test_suite": "evaluation"
+  },
+  "programming_language": "R",
+  "access": "public",
+  "labels": [],
+  "internals": {
+    "token": "k8T6BAaG76dfwjFz3MPdUtRx5Vg3UHC5kEE7NAQVmEKks5kFVfbXdEWXfKKv4Bx3",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
