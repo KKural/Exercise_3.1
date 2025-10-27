@@ -48,8 +48,8 @@ save_dodona_image <- function(plot_obj, question_number, filename = NULL) {
     # Create directory if it doesn't exist
     dir.create(dirname(image_path), recursive = TRUE, showWarnings = FALSE)
     
-    # Save the plot with proper dimensions (4x3 inches, 300 DPI)
-    ggsave(image_path, plot_obj, width = 4, height = 3, dpi = 300, bg = "white")
+    # Save the plot with proper dimensions (3x2.5 inches, 300 DPI)
+    ggsave(image_path, plot_obj, width = 3, height = 2.5, dpi = 300, bg = "white")
     cat("Saved image:", image_path, "\n")
     cat("Saved image:", image_path, "\n")
   }
@@ -78,20 +78,20 @@ standard_dodona_theme <- function() {
       plot.background = element_rect(fill = "white", color = NA),
       panel.grid.major = element_line(color = "lightgray", size = 0.5),
       panel.grid.minor = element_line(color = "lightgray", size = 0.3),
-      text = element_text(size = 10, family = "Arial"),
-      plot.title = element_text(size = 11, hjust = 0.5, face = "bold"),
-      plot.subtitle = element_text(size = 10, hjust = 0.5),
-      axis.title = element_text(size = 10),
-      axis.text = element_text(size = 9),
-      strip.text = element_text(size = 10, face = "bold"),
+      text = element_text(size = 8, family = "Arial"),
+      plot.title = element_text(size = 9, hjust = 0.5, face = "bold"),
+      plot.subtitle = element_text(size = 8, hjust = 0.5),
+      axis.title = element_text(size = 8),
+      axis.text = element_text(size = 7),
+      strip.text = element_text(size = 8, face = "bold"),
       legend.position = "bottom",
-      legend.text = element_text(size = 9),
-      legend.title = element_text(size = 10)
+      legend.text = element_text(size = 7),
+      legend.title = element_text(size = 8)
     )
 }
 
 # Function to wrap long titles to fit in smaller images
-wrap_title <- function(title, width = 40) {
+wrap_title <- function(title, width = 30) {
   # Split title into words
   words <- strsplit(title, " ")[[1]]
   lines <- character()
