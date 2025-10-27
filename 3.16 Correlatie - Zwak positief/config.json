@@ -1,0 +1,18 @@
+{
+    "description": {
+        "names": {
+            "nl": "3.16 Correlatie - Zwak positief"
+        }
+    },
+    "evaluation": {
+        "handler": "R",
+        "test_suite": "evaluation"
+    },
+    "programming_language": "R",
+    "access": "public",
+    "labels": [],
+    "internals": {
+        "token": "corr316-ZwakPositief-2024-10-27-Q16-WeakCorrelation-InterpretationGuidelines",
+        "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+    }
+}
