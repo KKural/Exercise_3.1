@@ -21,7 +21,7 @@ Sys.setlocale("LC_TIME", "Dutch")
 Sys.setlocale("LC_NUMERIC", "Dutch")
 
 # Function to save plots to Dodona directories
-save_dodona_image <- function(plot_obj, question_number, filename = NULL) {
+save_dodona_image <- function(plot_obj, question_number, filename = NULL, width = 5, height = 3.5) {
   if (is.null(filename)) {
     filename <- paste0("question_3.", question_number, ".png")
   }
@@ -48,10 +48,9 @@ save_dodona_image <- function(plot_obj, question_number, filename = NULL) {
     # Create directory if it doesn't exist
     dir.create(dirname(image_path), recursive = TRUE, showWarnings = FALSE)
     
-    # Save the plot with proper dimensions (3x2.5 inches, 300 DPI)
-    ggsave(image_path, plot_obj, width = 3, height = 2.5, dpi = 300, bg = "white")
-    cat("Saved image:", image_path, "\n")
-    cat("Saved image:", image_path, "\n")
+    # Save the plot with custom dimensions
+    ggsave(image_path, plot_obj, width = 3, height = 4, dpi = 300, bg = "white")
+    cat("Saved image:", image_path, "with dimensions:", 3, "x", 4, "\n")
   }
 }
 
@@ -283,8 +282,7 @@ p_q3 <- ggplot(crime_data, aes(x = Politieaanwezigheid, y = Drugsdelicten)) +
     x = "Politieaanwezigheid (agenten per 1000 inwoners)",
     y = "Drugsdelicten (per 1000 inwoners)",
     caption = "Belangrijkste correlatiemaatregelen voor rapportage"
-  ) +
-  standard_dodona_theme()
+  )
 
 # Display and save the plot
 print(p_q3)
@@ -417,8 +415,7 @@ p_q8 <- ggplot(pos_cor_data, aes(x = Variable_X, y = Variable_Y)) +
     x = "Sociale Cohesie Score (gestandaardiseerd)",
     y = "Preventie Effectiviteit Index",
     caption = "Data tonen een consistent patroon tussen de gemeten variabelen"
-  ) +
-  standard_dodona_theme()
+  )
 
 # Display the plot
 print(p_q8)
@@ -541,8 +538,7 @@ p_q11 <- ggplot(data_long, aes(x = x, y = y)) +
     caption = wrap_title("Waarom samenvatting statistieken alleen onvoldoende zijn voor dataanalyse", 50),
     x = "Sociaaleconomische Factor",
     y = "Criminaliteitsmaat"
-  ) +
-  standard_dodona_theme()
+  )
 
 # Display and save the plot
 print(p_q11)
@@ -608,8 +604,7 @@ p1 <- ggplot(kleine_schaal, aes(x = x, y = y)) +
     title = paste0("Kleine Schaal: Covariantie = ", cov1, ", Correlatie = ", cor1),
     x = "Variabele X (kleine eenheden)",
     y = "Variabele Y (kleine eenheden)"
-  ) +
-  standard_dodona_theme()
+  )
 
 p2 <- ggplot(grote_schaal, aes(x = x, y = y)) +
   geom_point(color = "steelblue", size = 2.5) +
@@ -618,8 +613,7 @@ p2 <- ggplot(grote_schaal, aes(x = x, y = y)) +
     title = paste0("Grote Schaal: Covariantie = ", cov2, ", Correlatie = ", cor2),
     x = "Variabele X (grote eenheden)",
     y = "Variabele Y (grote eenheden)"
-  ) +
-  standard_dodona_theme()
+  )
 
 # Combineer plots met gridExtra
 library(gridExtra)
