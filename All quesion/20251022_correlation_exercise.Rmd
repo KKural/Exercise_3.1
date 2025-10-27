@@ -50,7 +50,7 @@ save_dodona_image <- function(plot_obj, question_number, filename = NULL, width 
     
     # Save the plot with custom dimensions
     ggsave(image_path, plot_obj, width = 3, height = 4, dpi = 300, bg = "white")
-    cat("Saved image:", image_path, "with dimensions:", 3, "x", 4, "\n")
+    cat("Saved image:", image_path, "with dimensions:", width, "x", height, "\n")
   }
 }
 
@@ -288,7 +288,7 @@ p_q3 <- ggplot(crime_data, aes(x = Politieaanwezigheid, y = Drugsdelicten)) +
 print(p_q3)
 
 # Save to Dodona directory
-save_dodona_image(p_q3, 3)
+save_dodona_image(p_q3, 3, width = 3, height = 3)
 ```
 
 
