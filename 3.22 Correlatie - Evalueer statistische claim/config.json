@@ -1,17 +1,21 @@
 {
-    "type": "exercise",
-    "programming_language": "r",
-    "description": {
-        "names": {
-            "nl": "3.22 Correlatie - Evalueer statistische claim",
-            "en": "3.22 Correlation - Evaluate statistical claim"
-        }
-    },
-    "labels": [
-        "correlatie",
-        "causaliteit",
-        "statistische-claims",
-        "criminologie"
-    ],
-    "time_limit": 180
+  "type": "exercise",
+  "programming_language": "r",
+  "description": {
+    "names": {
+      "nl": "3.22 Correlatie - Evalueer statistische claim",
+      "en": "3.22 Correlation - Evaluate statistical claim"
+    }
+  },
+  "labels": [
+    "correlatie",
+    "causaliteit",
+    "statistische-claims",
+    "criminologie"
+  ],
+  "time_limit": 180,
+  "internals": {
+    "token": "rRhajSKhd7bqiHeW-Ei5Xb-JhrkqeZhcIdGYU85pUQx6XC2T4vZBEeju9qQsKUH8",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }

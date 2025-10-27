@@ -1,17 +1,21 @@
 {
-    "type": "exercise",
-    "programming_language": "r",
-    "description": {
-        "names": {
-            "nl": "3.23 Correlatie - Correlatie aannames",
-            "en": "3.23 Correlation - Correlation assumptions"
-        }
-    },
-    "labels": [
-        "correlatie",
-        "veronderstellingen",
-        "pearson",
-        "aannames"
-    ],
-    "time_limit": 180
+  "type": "exercise",
+  "programming_language": "r",
+  "description": {
+    "names": {
+      "nl": "3.23 Correlatie - Correlatie aannames",
+      "en": "3.23 Correlation - Correlation assumptions"
+    }
+  },
+  "labels": [
+    "correlatie",
+    "veronderstellingen",
+    "pearson",
+    "aannames"
+  ],
+  "time_limit": 180,
+  "internals": {
+    "token": "vPSeZsKP_NjpGE-JWtUtYrKD2IeVFItbaMQvAyya3Kqvk6-fU66kuDSzMUWKiKHd",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
