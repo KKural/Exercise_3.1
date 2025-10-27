@@ -15,4 +15,19 @@
         "token": "",
         "_info": ""
     }
+<<<<<<< HEAD
+=======
+  },
+  "evaluation": {
+    "handler": "R",
+    "test_suite": "evaluation"
+  },
+  "programming_language": "R",
+  "access": "public",
+  "labels": [],
+  "internals": {
+    "token": "5BU8-bfTJwNuAa-gTQ7-rr4XUJwJvX4VdViIsFmGQ9m7RpAe5x7U79KTgIEKCJ54",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+>>>>>>> 2b9a280f0f4b9e5ca95abdb5a66c4f686e401443
 }
