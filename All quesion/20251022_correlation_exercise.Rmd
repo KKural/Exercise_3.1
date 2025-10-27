@@ -48,8 +48,8 @@ save_dodona_image <- function(plot_obj, question_number, filename = NULL) {
     # Create directory if it doesn't exist
     dir.create(dirname(image_path), recursive = TRUE, showWarnings = FALSE)
     
-    # Save the plot with proper dimensions (6x4 inches, 300 DPI)
-    ggsave(image_path, plot_obj, width = 6, height = 4, dpi = 300, bg = "white")
+    # Save the plot with proper dimensions (4x3 inches, 300 DPI)
+    ggsave(image_path, plot_obj, width = 4, height = 3, dpi = 300, bg = "white")
     cat("Saved image:", image_path, "\n")
     cat("Saved image:", image_path, "\n")
   }
