@@ -664,7 +664,7 @@ spearman_rho <- round(cor(stress, agressie, method = "spearman"), 3)
 library(ggplot2)
 data_plot <- data.frame(stress = stress, agressie = agressie)
 
-ggplot(data_plot, aes(x = stress, y = agressie)) +
+p_q14 <- ggplot(data_plot, aes(x = stress, y = agressie)) +
   geom_point(color = "darkred", size = 2.5, alpha = 0.7) +
   geom_smooth(method = "lm", se = FALSE, color = "blue", linetype = "dashed", 
               aes(color = "Lineaire lijn (Pearson)")) +
@@ -685,6 +685,9 @@ ggplot(data_plot, aes(x = stress, y = agressie)) +
     plot.background  = element_rect(fill = "white", colour = NA),
     legend.position = "bottom"
   )
+
+print(p_q14)
+save_dodona_image(p_q14, 14)
 ```
 
 1) Beide correlatiecoëfficiënten zijn even geschikt voor deze situatie  
@@ -765,7 +768,7 @@ alle_data$sterkte <- factor(alle_data$sterkte,
                                       paste0("Sterk Negatief (r = ", cor_sterk_neg, ")")))
 
 # Maak visualisatie
-ggplot(alle_data, aes(x = x, y = y)) +
+p_q15 <- ggplot(alle_data, aes(x = x, y = y)) +
   geom_point(color = "steelblue", size = 2, alpha = 0.7) +
   geom_smooth(method = "lm", se = FALSE, color = "darkred", formula = y ~ x) +
   facet_wrap(~ sterkte, ncol = 2) +
@@ -775,11 +778,14 @@ ggplot(alle_data, aes(x = x, y = y)) +
     x = "Variabele X",
     y = "Variabele Y"
   ) +
-  theme_minimal() +
+  theme_minimal(base_size = 11) +
   theme(
     strip.text = element_text(size = 12, face = "bold"),
     plot.title = element_text(size = 14, face = "bold")
   )
+
+print(p_q15)
+save_dodona_image(p_q15, 15)
 ```
 
 > **Hint:** Combineer richting (omhoog = positief) met sterkte (strakke clustering = sterk). Wat vertelt de minimale spreiding rond de lijn?
@@ -888,7 +894,7 @@ data4 <- data.frame(x = stress_niveau_4, y = agressie_score_4,
 all_data <- rbind(data1, data2, data3, data4)
 
 # Maak plots
-p1 <- ggplot(all_data, aes(x = x, y = y)) +
+p_q18 <- ggplot(all_data, aes(x = x, y = y)) +
   geom_point(size = 3, color = "steelblue", alpha = 0.7) +
   geom_smooth(method = "lm", se = FALSE, color = "red", linetype = "dashed", formula = y ~ x) +
   facet_wrap(~ type, scales = "free", ncol = 2) +
@@ -899,10 +905,11 @@ p1 <- ggplot(all_data, aes(x = x, y = y)) +
     y = "Agressiescore",
     caption = "Vergelijk Pearson vs Spearman correlaties in elke situatie"
   ) +
-  theme_minimal() +
+  theme_minimal(base_size = 11) +
   theme(strip.text = element_text(size = 9, face = "bold"))
 
-print(p1)
+print(p_q18)
+save_dodona_image(p_q18, 18)
 ```
 
 > **Hint:** Denk aan wanneer rangnummers beter zijn dan werkelijke waarden.
@@ -974,7 +981,7 @@ dataset_labels <- c(
 )
 
 # Maak de visualisatie
-ggplot(uitschieter_data, aes(x = x, y = y, color = uitschieter)) +
+p_q19 <- ggplot(uitschieter_data, aes(x = x, y = y, color = uitschieter)) +
   geom_point(size = ifelse(uitschieter_data$uitschieter, 4, 2), alpha = 0.7) +
   geom_smooth(method = "lm", se = FALSE, color = "red", 
               aes(group = dataset), formula = y ~ x) +
@@ -987,13 +994,16 @@ ggplot(uitschieter_data, aes(x = x, y = y, color = uitschieter)) +
     x = "Variabele X (bijv. Sociale Ondersteuningsscore)",
     y = "Variabele Y (bijv. Welzijnsindex)"
   ) +
-  theme_minimal() +
+  theme_minimal(base_size = 11) +
   theme(
     legend.position = "none",
     plot.title = element_text(size = 14, face = "bold"),
     plot.subtitle = element_text(size = 11),
     strip.text = element_text(size = 10, face = "bold")
   )
+
+print(p_q19)
+save_dodona_image(p_q19, 19)
 ```
 
 > **Hint:** Denk aan punten die het lineaire patroon doorbreken.
@@ -1067,7 +1077,7 @@ plot_data <- data.frame(
 )
 
 # Maak spreidingsdiagram
-p1 <- ggplot(plot_data, aes(x = SES, y = Crime)) +
+p_q21 <- ggplot(plot_data, aes(x = SES, y = Crime)) +
   geom_point(size = 3, color = "steelblue", alpha = 0.7) +
   geom_smooth(method = "lm", se = TRUE, color = "red", formula = y ~ x) +
   labs(
@@ -1076,10 +1086,11 @@ p1 <- ggplot(plot_data, aes(x = SES, y = Crime)) +
     x = "Sociaaleconomische Status Score",
     y = "Criminaliteitscijfer"
   ) +
-  theme_minimal() +
+  theme_minimal(base_size = 11) +
   theme(plot.title = element_text(size = 14, face = "bold"))
 
-print(p1)
+print(p_q21)
+save_dodona_image(p_q21, 21)
 ```
 
 
@@ -1168,7 +1179,7 @@ levels(all_data$type) <- c(
 )
 
 # Maak plots
-p1 <- ggplot(all_data, aes(x = x, y = y)) +
+p_q23 <- ggplot(all_data, aes(x = x, y = y)) +
   geom_point(size = 2.5, color = "steelblue", alpha = 0.7) +
   geom_smooth(method = "lm", se = FALSE, color = "red", formula = y ~ x) +
   facet_wrap(~ type, scales = "free", ncol = 2) +
@@ -1179,10 +1190,11 @@ p1 <- ggplot(all_data, aes(x = x, y = y)) +
     y = "Y Variabele",
     caption = "Rode lijn toont lineaire trend die Pearson gebruikt"
   ) +
-  theme_minimal() +
+  theme_minimal(base_size = 11) +
   theme(strip.text = element_text(size = 10, face = "bold"))
 
-print(p1)
+print(p_q23)
+save_dodona_image(p_q23, 23)
 ```
 
 **Kernconcepten:**
