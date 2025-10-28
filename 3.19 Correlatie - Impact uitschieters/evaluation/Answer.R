@@ -5,7 +5,7 @@ context({
       testEqual(
         "",
         function(env) as.numeric(env$evaluationResult),
-        3,  # Correct answer: Hoog-laag (rechts onder)
+        2,  # Correct answer: Hoog-laag (rechts onder)
         comparator = function(generated, expected, ...) {
           feedbacks <- list(
             "1" = " ❌ Fout. Punten links-onder (lage X, lage Y) versterken juist positieve correlaties. **Impact van uitschieters:** Deze positie volgt de algemene trend, waardoor de correlatie sterker wordt. De formule voor Pearson's r behelst het vermenigvuldigen van afwijkingen van het gemiddelde voor zowel X als Y. Wanneer X onder zijn gemiddelde ligt EN Y onder zijn gemiddelde ligt, is het product positief, wat positief bijdraagt aan de correlatie. De visualisatie toont dit duidelijk — het toevoegen van een laag-laag uitschieter verhoogt r van 0,82 naar 0,94. **Praktische impact:** In criminologisch onderzoek zou dit bijvoorbeeld een wijk met zowel lage sociale cohesie als hoge criminaliteitscijfers vertegenwoordigen - dit versterkt het verband tussen beide variabelen. Deze gevallen bevestigen het verwachte patroon en maken de correlatie sterker, niet zwakker.",
