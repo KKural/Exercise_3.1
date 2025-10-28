@@ -15,7 +15,8 @@
   ],
   "time_limit": 240,
   "internals": {
-    "token": "qnZyQzwEta7r-NJ2aIg_CbPqMPyYzRDcZNgtxsKcQRaXNxbd54qgW3Dkp_uqiupG",
+    "token": "5JQM4HzN4yZFr65VPB7XDHWHR9CBdmXPXkEe2F_8CPwT89VuUjFhHXVKguVJrxpW",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  },
+  "access": "public"
 }
