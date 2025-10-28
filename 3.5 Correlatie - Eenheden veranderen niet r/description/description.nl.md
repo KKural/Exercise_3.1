@@ -2,9 +2,9 @@
 
 > **Hint:** Overweeg hoe eenheidsconversies (meters naar centimeters, of misdaadcijfers per 1.000 versus per 100.000 inwoners) de correlatie tussen variabelen beïnvloeden.
 
-1. r wordt 100× groter
-2. r wordt 100× kleiner
+1. r wordt **100× groter**
+2. r wordt **100× kleiner**
 3. r blijft precies **hetzelfde**
-4. r wordt negatief
+4. r wordt **negatief**
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.

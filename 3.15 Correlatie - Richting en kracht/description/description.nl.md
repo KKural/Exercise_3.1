@@ -4,9 +4,9 @@
 
 > **Hint:** Combineer richting (omhoog = positief) met sterkte (strakke clustering = sterk).
 
-1. Sterk positief
-2. Matig positief
-3. Zwak negatief
-4. Sterk negatief
+1. **Sterk positief**
+2. **Matig positief**
+3. **Zwak negatief**
+4. **Sterk negatief**
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.

@@ -4,9 +4,9 @@
 
 > **Hint:** Gebruik algemene interpretatierichtlijnen voor correlatiesterkte. Wat betekent 'zwak' in numerieke termen?
 
-1. r = 0,12
-2. r = 0,56
-3. r = −0,72
-4. r = 0,93
+1. **r = 0,12**
+2. **r = 0,56**
+3. **r = −0,72**
+4. **r = 0,93**
 
 Typ je antwoord als één enkel getal (1-4) om je keuze aan te geven.
