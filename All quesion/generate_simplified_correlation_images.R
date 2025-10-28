@@ -92,7 +92,7 @@ p_q3 <- ggplot(crime_data, aes(Politieaanwezigheid, Drugsdelicten)) +
     y = "Drugsdelicten (per 1000 inwoners)"
   ) +
   theme_minimal()
-save_dodona_image(p_q3 ,3)
+save_dodona_image(p_q3, 3, width = 4.5, height = 3)
 
 # QUESTION 3.8 - Interpret correlation
 cat("\n=== Generating Q3.8 Image: Interpreteer correlatie ===\n")

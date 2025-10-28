@@ -1,10 +1,10 @@
-# 3 Correlatie - Belangrijkste maatregelen
+# 3.3 Correlatie - Belangrijkste maatregelen
 
 **Een criminoloog heeft een onderzoek uitgevoerd naar verschillende criminaliteitsvariabelen in 45 Belgische gemeenten. Zij heeft gegevens verzameld over politieaanwezigheid, drugsdelicten, geweldsdelicten en vermogenscriminaliteit. Nu moet zij een correlatiematrix rapporteren zijn de belangrijkste maatregelen in correlatieanalyse?**
 
 > **Hint:** Bij het bestuderen van de relatie tussen twee misdaadgerelateerde variabelen, welke statistieken heb je dan nodig om de associatie volledig te begrijpen en te rapporteren?
 
-![Visualisatie](media/correlation_plot_3.png)
+![Visualisatie](media/p_q3.png)
 )
 
 **=== DESCRIPTIVE STATISTICS ===**
