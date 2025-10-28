@@ -521,7 +521,7 @@ p_q11 <- ggplot(data_long, aes(x = x, y = y)) +
 print(p_q11)
 
 # Save to Dodona directory with larger dimensions for 4-panel plot
-save_dodona_image(p_q11, 11, width = 10, height = 8)
+save_dodona_image(p_q11, 11, width = 8, height = 6)
 ```
 
 > **Hint:** Wanneer statistieken identiek zijn maar patronen verschillen, wat toont dit aan over de beperkingen van samenvatting getallen?
@@ -599,7 +599,7 @@ p_q12 <- grid.arrange(p1, p2, nrow = 2,
                                   gp = grid::gpar(fontsize = 14, fontface = "bold")))
 
 # Save to Dodona directory
-save_dodona_image(p_q12, 12)
+save_dodona_image(p_q12, 12, , width = 8, height = 6)
 ```
 
 **Belangrijkste Vergelijking:**
@@ -909,7 +909,7 @@ p_q18 <- ggplot(all_data, aes(x = x, y = y)) +
   theme(strip.text = element_text(size = 9, face = "bold"))
 
 print(p_q18)
-save_dodona_image(p_q18, 18)
+save_dodona_image(p_q18, 18, width = 8, height = 6)
 ```
 
 > **Hint:** Denk aan wanneer rangnummers beter zijn dan werkelijke waarden.
@@ -1003,7 +1003,7 @@ p_q19 <- ggplot(uitschieter_data, aes(x = x, y = y, color = uitschieter)) +
   )
 
 print(p_q19)
-save_dodona_image(p_q19, 19)
+save_dodona_image(p_q19, 19, width = 10, height = 7)
 ```
 
 > **Hint:** Denk aan punten die het lineaire patroon doorbreken.
@@ -1194,7 +1194,7 @@ p_q23 <- ggplot(all_data, aes(x = x, y = y)) +
   theme(strip.text = element_text(size = 10, face = "bold"))
 
 print(p_q23)
-save_dodona_image(p_q23, 23)
+save_dodona_image(p_q23, 23, width = 8, height = 6)
 ```
 
 **Kernconcepten:**
