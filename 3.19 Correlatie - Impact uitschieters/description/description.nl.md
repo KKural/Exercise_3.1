@@ -1,6 +1,6 @@
 **In een positieve trend, welke uitschieter (extreme waarde die afwijkt van het algemene patroon) positie vermindert r het meest?**
 
-![Impact Uitschieters](media/question_3.19.png)
+![Impact Uitschieters](media/correlation_plot_19.svg)
 
 > **Hint:** Denk aan punten die het lineaire patroon doorbreken.
 
