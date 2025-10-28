@@ -14,7 +14,6 @@ library(ggplot2)
 library(dplyr)
 library(flextable)
 library(gridExtra)
-# library(ragg)      # uncomment if you want the ragg PNG device
 library(svglite)     # for SVG output
 options(knitr.kable.NA = '')
 
@@ -45,7 +44,7 @@ save_dodona_image <- function(plot_obj, question_number, filename = NULL, width 
   
   if (as.character(question_number) %in% names(question_dirs)) {
     dir_name <- question_dirs[as.character(question_number)]
-    image_path <- file.path("..", dir_name, "description", "media", filename)
+    image_path <- file.path(dir_name, "description", "media", filename)
     
     # Create directory if it doesn't exist
     dir.create(dirname(image_path), recursive = TRUE, showWarnings = FALSE)
