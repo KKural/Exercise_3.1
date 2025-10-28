@@ -76,54 +76,6 @@ translate_stats <- function(english_term) {
   )
   return(translations[english_term])
 }
-
-# Standard theme for all correlation exercise images (matches reference style)
-standard_dodona_theme <- function() {
-  theme_minimal() +
-    theme(
-      panel.background = element_rect(fill = "white", color = NA),
-      plot.background = element_rect(fill = "white", color = NA),
-      panel.grid.major = element_line(color = "lightgray", size = 0.5),
-      panel.grid.minor = element_line(color = "lightgray", size = 0.3),
-      text = element_text(size = 8, family = "Arial"),
-      plot.title = element_text(size = 9, hjust = 0.5, face = "bold"),
-      plot.subtitle = element_text(size = 8, hjust = 0.5),
-      axis.title = element_text(size = 8),
-      axis.text = element_text(size = 7),
-      strip.text = element_text(size = 8, face = "bold"),
-      legend.position = "bottom",
-      legend.text = element_text(size = 7),
-      legend.title = element_text(size = 8)
-    )
-}
-
-# Function to wrap long titles to fit in smaller images
-wrap_title <- function(title, width = 30) {
-  # Split title into words
-  words <- strsplit(title, " ")[[1]]
-  lines <- character()
-  current_line <- ""
-  
-  for (word in words) {
-    if (nchar(paste(current_line, word)) <= width) {
-      current_line <- ifelse(current_line == "", word, paste(current_line, word))
-    } else {
-      if (current_line != "") {
-        lines <- c(lines, current_line)
-        current_line <- word
-      } else {
-        lines <- c(lines, word)
-        current_line <- ""
-      }
-    }
-  }
-  
-  if (current_line != "") {
-    lines <- c(lines, current_line)
-  }
-  
-  return(paste(lines, collapse = "\n"))
-}
 ```
 
 # Basisbegrippen in de Correlation
@@ -425,11 +377,16 @@ p_q8 <- ggplot(pos_cor_data, aes(x = Variable_X, y = Variable_Y)) +
   geom_point(color = "steelblue", size = 3, alpha = 0.7) +
   geom_smooth(method = "lm", formula = y ~ x, se = TRUE, color = "darkred") +
   labs(
-    title = wrap_title("Spreidingsdiagram: Relatie tussen Twee Variabelen"),
-    subtitle = wrap_title("Observatiepatroon in criminologische data (N = 75 gemeenten)", 45),
+    title = "Spreidingsdiagram: Relatie tussen Twee Variabelen",
+    subtitle = "Observatiepatroon in criminologische data (N = 75 gemeenten)",
     x = "Sociale Cohesie Score (gestandaardiseerd)",
     y = "Preventie Effectiviteit Index",
     caption = "Data tonen een consistent patroon tussen de gemeten variabelen"
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    panel.background = element_rect(fill = "white", colour = NA),
+    plot.background  = element_rect(fill = "white", colour = NA)
   )
 
 # Display the plot
@@ -547,12 +504,17 @@ p_q11 <- ggplot(data_long, aes(x = x, y = y)) +
   geom_smooth(method = "lm", se = FALSE, color = "red", formula = y ~ x) +
   facet_wrap(~ dataset, ncol = 2, labeller = labeller(dataset = dataset_names)) +
   labs(
-    title = wrap_title("Vier Studies met Identieke Statistieken maar Verschillende Patronen", 35),
+    title = "Vier Studies met Identieke Statistieken maar Verschillende Patronen",
     subtitle = paste0("Alle studies: r = ", corr, ", Gem. x = ", mean_x, 
                       ", Gem. y = ", mean_y, ", SD x = ", sd_x, ", SD y = ", sd_y),
-    caption = wrap_title("Waarom samenvatting statistieken alleen onvoldoende zijn voor dataanalyse", 50),
+    caption = "Waarom samenvatting statistieken alleen onvoldoende zijn voor dataanalyse",
     x = "Sociaaleconomische Factor",
     y = "Criminaliteitsmaat"
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    panel.background = element_rect(fill = "white", colour = NA),
+    plot.background  = element_rect(fill = "white", colour = NA)
   )
 
 # Display and save the plot
@@ -711,15 +673,18 @@ ggplot(data_plot, aes(x = stress, y = agressie)) +
   scale_color_manual(values = c("Lineaire lijn (Pearson)" = "blue", 
                                "Werkelijke curve" = "red")) +
   labs(
-    title = wrap_title("Stress vs Agressief Gedrag: Monotoon maar Niet-Lineair Patroon", 35),
+    title = "Stress vs Agressief Gedrag: Monotoon maar Niet-Lineair Patroon",
     subtitle = paste0("Pearson r = ", pearson_r, " | Spearman ρ = ", spearman_rho),
     x = "Stressniveau (schaal 1-10)",
     y = "Agressie Score",
     color = "Trendlijn Type"
   ) +
-  theme_minimal() +
-  theme(legend.position = "bottom",
-        plot.title = element_text(size = 12, face = "bold"))
+  theme_minimal(base_size = 11) +
+  theme(
+    panel.background = element_rect(fill = "white", colour = NA),
+    plot.background  = element_rect(fill = "white", colour = NA),
+    legend.position = "bottom"
+  )
 ```
 
 1) Beide correlatiecoëfficiënten zijn even geschikt voor deze situatie  
