@@ -4,7 +4,7 @@
 
 > **Hint:** Bij het bestuderen van de relatie tussen twee misdaadgerelateerde variabelen, welke statistieken heb je dan nodig om de associatie volledig te begrijpen en te rapporteren?
 
-![Visualisatie](media/p_q3.jpg)
+![Visualisatie](media/p_q3.svg)
 
 
 **=== DESCRIPTIVE STATISTICS ===**
