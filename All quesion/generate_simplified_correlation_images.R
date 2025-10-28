@@ -82,7 +82,17 @@ p_q3 <- ggplot(crime_data, aes(x = Politieaanwezigheid, y = Drugsdelicten)) +
   ) +
   theme_minimal()
 
-save_dodona_image(p_q3, 3, width = 3, height = 3)
+p_q3 <- ggplot(crime_data, aes(Politieaanwezigheid, Drugsdelicten)) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(method = "lm", formula = y ~ x, se = TRUE) +
+  labs(
+    title = "Correlatie: Politieaanwezigheid vs Drugsdelicten",
+    subtitle = paste0("r = ", r_value, ", R^2 = ", r_squared, ", n = ", n),
+    x = "Politieaanwezigheid (agenten per 1000 inwoners)",
+    y = "Drugsdelicten (per 1000 inwoners)"
+  ) +
+  theme_minimal()
+save_dodona_image(p_q3 ,3)
 
 # QUESTION 3.8 - Interpret correlation
 cat("\n=== Generating Q3.8 Image: Interpreteer correlatie ===\n")
