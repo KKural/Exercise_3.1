@@ -520,8 +520,8 @@ p_q11 <- ggplot(data_long, aes(x = x, y = y)) +
 # Display and save the plot
 print(p_q11)
 
-# Save to Dodona directory
-save_dodona_image(p_q11, 11)
+# Save to Dodona directory with larger dimensions for 4-panel plot
+save_dodona_image(p_q11, 11, width = 10, height = 8)
 ```
 
 > **Hint:** Wanneer statistieken identiek zijn maar patronen verschillen, wat toont dit aan over de beperkingen van samenvatting getallen?
@@ -785,7 +785,7 @@ p_q15 <- ggplot(alle_data, aes(x = x, y = y)) +
   )
 
 print(p_q15)
-save_dodona_image(p_q15, 15)
+save_dodona_image(p_q15, 15, width = 10, height = 8)
 ```
 
 > **Hint:** Combineer richting (omhoog = positief) met sterkte (strakke clustering = sterk). Wat vertelt de minimale spreiding rond de lijn?
