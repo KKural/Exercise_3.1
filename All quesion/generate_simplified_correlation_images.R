@@ -10,6 +10,8 @@ library(ggplot2)
 library(dplyr)
 library(gridExtra)
 library(tidyr)
+# library(ragg)      # uncomment if you want the ragg PNG device
+library(svglite)     # for SVG output
 
 # Set random seed for reproducibility
 set.seed(42)

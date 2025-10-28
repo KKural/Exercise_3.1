@@ -14,6 +14,8 @@ library(ggplot2)
 library(dplyr)
 library(flextable)
 library(gridExtra)
+# library(ragg)      # uncomment if you want the ragg PNG device
+library(svglite)     # for SVG output
 options(knitr.kable.NA = '')
 
 # Set Dutch locale for R outputs (if available)
@@ -21,9 +23,9 @@ Sys.setlocale("LC_TIME", "Dutch")
 Sys.setlocale("LC_NUMERIC", "Dutch")
 
 # Function to save plots to Dodona directories
-save_dodona_image <- function(plot_obj, question_number, filename = NULL, width = 5, height = 3.5) {
+save_dodona_image <- function(plot_obj, question_number, filename = NULL, width = 6, height = 4) {
   if (is.null(filename)) {
-    filename <- paste0("question_3.", question_number, ".png")
+    filename <- paste0("correlation_plot_", question_number, ".svg")
   }
   
   # Define the path to the appropriate Dodona directory
@@ -48,9 +50,15 @@ save_dodona_image <- function(plot_obj, question_number, filename = NULL, width 
     # Create directory if it doesn't exist
     dir.create(dirname(image_path), recursive = TRUE, showWarnings = FALSE)
     
-    # Save the plot with custom dimensions
-    ggsave(image_path, plot_obj, width = 3, height = 4, dpi = 300, bg = "white")
-    cat("Saved image:", image_path, "with dimensions:", width, "x", height, "\n")
+    # Save SVG (vector; best for Dodona/HTML, scales perfectly)
+    ggsave(
+      filename = image_path,
+      plot = plot_obj,
+      width = width, height = height, units = "in",
+      bg = "white",        # prevent dark-mode overlays from bleeding through
+      device = svglite::svglite
+    )
+    cat("Saved SVG image:", image_path, "with dimensions:", width, "x", height, "\n")
   }
 }
 
@@ -273,22 +281,29 @@ if(p_value < 0.001) {
 }
 
 # Create visualization for Q3.3
+# Build subtitle with UTF-8 superscript 2 (works in PNG/SVG/JPEG)
+sub_txt <- sprintf("r = %.3f, R\u00B2 = %.3f, n = %d", r_value, r_squared, n)
+
 p_q3 <- ggplot(crime_data, aes(x = Politieaanwezigheid, y = Drugsdelicten)) +
   geom_point(color = "steelblue", size = 3, alpha = 0.7) +
   geom_smooth(method = "lm", formula = y ~ x, se = TRUE, color = "darkred") +
   labs(
-    title = wrap_title("Correlatie: Politieaanwezigheid vs Drugsdelicten"),
-    subtitle = paste0("r = ", r_value, ", R² = ", r_squared, ", n = ", n),
+    title = "Correlatie: Politieaanwezigheid vs Drugsdelicten",
+    subtitle = sub_txt,
     x = "Politieaanwezigheid (agenten per 1000 inwoners)",
-    y = "Drugsdelicten (per 1000 inwoners)",
-    caption = "Belangrijkste correlatiemaatregelen voor rapportage"
+    y = "Drugsdelicten (per 1000 inwoners)"
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    panel.background = element_rect(fill = "white", colour = NA),
+    plot.background  = element_rect(fill = "white", colour = NA)
   )
 
 # Display and save the plot
 print(p_q3)
 
-# Save to Dodona directory
-save_dodona_image(p_q3, 3, width = 2, height = 2)
+# Save to Dodona directory as SVG
+save_dodona_image(p_q3, 3, width = 6, height = 4)
 ```
 
 
