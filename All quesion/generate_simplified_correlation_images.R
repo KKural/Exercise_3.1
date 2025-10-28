@@ -34,7 +34,7 @@ save_dodona_image <- function(plot, question_num, width = 5, height = 3.5) {
   # Create directory if it doesn't exist
   dir_name <- question_dirs[as.character(question_num)]
   if (!is.na(dir_name)) {
-    media_path <- file.path(dir_name, "media")
+    media_path <- file.path(dir_name, "description", "media")
     if (!dir.exists(media_path)) {
       dir.create(media_path, recursive = TRUE)
     }
@@ -82,7 +82,7 @@ p_q3 <- ggplot(crime_data, aes(x = Politieaanwezigheid, y = Drugsdelicten)) +
   ) +
   theme_minimal()
 
-save_dodona_image(p_q3, 3)
+save_dodona_image(p_q3, 3, width = 3, height = 3)
 
 # QUESTION 3.8 - Interpret correlation
 cat("\n=== Generating Q3.8 Image: Interpreteer correlatie ===\n")
