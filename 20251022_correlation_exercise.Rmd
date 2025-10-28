@@ -153,19 +153,19 @@ translate_stats <- function(english_term) {
 ### Vraag Q1 (Onthouden)
 **Wat is correlatie?**
 
-> Hint: Denk na over hoe twee criminologische variabelen samen bewegen - bijvoorbeeld werkloosheid en misdaadcijfers - niet over oorzaak en gevolg.
+> Hint: Denk na over hoe twee criminologische variabelen samen hangen - bijvoorbeeld werkloosheid en misdaadcijfers - niet in termen van oorzaak en gevolg.
 
-1) Een statistische maat voor de sterkte en richting van de relatie tussen twee variabelen
-"1" = " ✅ Juist! Correlatie kwantificeert hoe sterk en in welke richting twee kwantitatieve variabelen met elkaar in verband staan. Een positieve correlatie (bijv. r = +0,68 tussen werkloosheid en vermogenscriminaliteit) betekent dat hogere werkloosheid gepaard gaat met hogere criminaliteit, terwijl een negatieve correlatie (bijv. r = –0,55 tussen zichtbaarheid van de politie en wanorde) betekent dat naarmate de ene toeneemt, de andere afneemt. [Lees meer](https://leansixsigmagroep.nl/lean-agile-en-six-sigma/correlatie/?srsltid=AfmBOophFNeGHIK_T7CVXYTkIvaxhEmKCOJDZq3CGaAlWmlS8aPEclbT)"
+1) Een statistische maat voor de sterkte en richting van een lineaire relatie tussen twee variabelen
+"1" = " ✅ Juist! Correlatie kwantificeert hoe sterk en in welke richting twee kwantitatieve variabelen met elkaar in verband staan. Een positieve correlatie (bijv. r = +0,68 tussen werkloosheid en vermogenscriminaliteit) betekent dat hogere werkloosheid gepaard gaat met hogere criminaliteit, terwijl een negatieve correlatie (bijv. r = –0,55 tussen zichtbaarheid van de politie en wanorde) betekent dat naarmate de ene toeneemt, de andere afneemt. De absolute waarde geeft een indicatie van de sterkte van het lineaire verband, het plus/min teken geeft informatie over de richting van het lineaire verband. [Lees meer](https://leansixsigmagroep.nl/lean-agile-en-six-sigma/correlatie/?srsltid=AfmBOophFNeGHIK_T7CVXYTkIvaxhEmKCOJDZq3CGaAlWmlS8aPEclbT)"
 
 2) Een maat voor de mate waarin de ene variabele de andere veroorzaakt
-"2" = " ❌ Fout. Dit is een veel voorkomende misvatting in onderzoek. Correlatie laat zien dat twee variabelen samen veranderen, maar het bewijst niet dat de ene de andere veroorzaakt. Buurten met een hoge werkloosheid hebben bijvoorbeeld vaak hogere misdaadcijfers, maar dit kan het gevolg zijn van een derde factor, zoals armoede, sociale desorganisatie of zwakke informele controle. [Lees meer](https://leansixsigmagroep.nl/lean-agile-en-six-sigma/correlatie/?srsltid=AfmBOophFNeGHIK_T7CVXYTkIvaxhEmKCOJDZq3CGaAlWmlS8aPEclbT)"
+"2" = " ❌ Fout. Dit is een veel voorkomende misvatting in onderzoek. Correlatie laat zien dat twee variabelen samen veranderen, maar het bewijst niet dat de ene de andere veroorzaakt. Bijvoorbeeld: In buurten met een hoge werkloosheid worden vaak hogere misdaadcijfers geobserveerd, maar dit kan het gevolg zijn van een derde factor, zoals armoede, sociale desorganisatie of zwakke informele controle. [Lees meer](https://leansixsigmagroep.nl/lean-agile-en-six-sigma/correlatie/?srsltid=AfmBOophFNeGHIK_T7CVXYTkIvaxhEmKCOJDZq3CGaAlWmlS8aPEclbT)"
 
 3) Het verschil tussen twee variabelen
-"3" = " ❌ Fout. Het nemen van een verschil (Y - X) meet alleen een kloof, niet of de variabelen samen variëren. Het verschil tussen diefstal- en mishandelingspercentages zegt bijvoorbeeld niets over de vraag of deze misdaden samen stijgen of dalen. Correlatie onderzoekt co-variatie - hoeveel beide variabelen afwijken van hun gemiddelden in dezelfde of tegengestelde richting. [Lees meer](https://leansixsigmagroep.nl/lean-agile-en-six-sigma/correlatie/?srsltid=AfmBOophFNeGHIK_T7CVXYTkIvaxhEmKCOJDZq3CGaAlWmlS8aPEclbT)"
+"3" = " ❌ Fout. Het nemen van een verschil (Y - X) meet alleen een kloof, niet of de variabelen samen variëren. Bijvoorbeeld: het verschil tussen diefstal- en mishandelingspercentages zegt niets over de vraag of deze misdaden samen stijgen of dalen. Correlatie onderzoekt co-variatie - hoeveel beide variabelen afwijken van hun gemiddelden in dezelfde of tegengestelde richting. [Lees meer](https://leansixsigmagroep.nl/lean-agile-en-six-sigma/correlatie/?srsltid=AfmBOophFNeGHIK_T7CVXYTkIvaxhEmKCOJDZq3CGaAlWmlS8aPEclbT)"
 
 4) Een methode om toekomstige waarden te voorspellen
-"4" = " ❌ Fout. Dat is regressieanalyse, geen correlatie. Regressie stelt criminologen in staat om bijvoorbeeld het verwachte misdaadcijfer voor een bepaald werkloosheidsniveau te voorspellen. Correlatie vat alleen samen hoe twee variabelen op een bepaald moment in de tijd met elkaar in verband staan - het kan geen voorspellingen doen of oorzakelijk verband bewijzen. [Lees meer](https://leansixsigmagroep.nl/lean-agile-en-six-sigma/correlatie/?srsltid=AfmBOophFNeGHIK_T7CVXYTkIvaxhEmKCOJDZq3CGaAlWmlS8aPEclbT)"
+"4" = " ❌ Fout. Dat is regressieanalyse, geen correlatie. Bijvoorbeeld: regressie stelt criminologen in staat om het verwachte misdaadcijfer voor een bepaald werkloosheidsniveau te voorspellen. Correlatie vat alleen samen hoe twee variabelen op een bepaald moment in de tijd met elkaar in (lineair) verband staan - het kan geen voorspellingen doen of oorzakelijk verband bewijzen. [Lees meer](https://leansixsigmagroep.nl/lean-agile-en-six-sigma/correlatie/?srsltid=AfmBOophFNeGHIK_T7CVXYTkIvaxhEmKCOJDZq3CGaAlWmlS8aPEclbT)"
 
 ***
 
@@ -295,57 +295,56 @@ save_dodona_image(p_q3, 3, width = 6, height = 4)
 > **Hint:** Als een criminoloog een correlatie van precies nul vindt tussen twee variabelen, wat zegt dit dan over de relatie tussen deze variabelen?
 
 1) Er is een perfecte positieve relatie
-"1" = " ❌ Fout. Een perfecte positieve relatie wordt aangegeven door r = +1,00, niet r = 0. Bij r = +1 betekent dit dat wanneer de ene variabele toeneemt, de andere variabele altijd in dezelfde verhouding toeneemt. Bijvoorbeeld, als er een perfecte positieve correlatie zou zijn tussen het aantal politieagenten en veiligheid (wat in de praktijk nooit voorkomt), zou elke toename van politieaanwezigheid precies evenredig samengaan met verhoogde veiligheid."
+"1" = " ❌ Fout. Een perfecte positieve relatie wordt aangegeven door r = +1,00, niet r = 0. Bij r = +1 betekent dit dat wanneer de ene variabele toeneemt, de andere variabele altijd in dezelfde verhouding toeneemt. Bijvoorbeeld, als er een perfecte positieve correlatie zou zijn tussen het aantal politieagenten en verhoogd veiligheidsgevoel (wat in de praktijk nooit voorkomt), zou elke toename van politieaanwezigheid precies evenredig samengaan met hoger veiligheidsgevoel."
 
 2) Er is een perfecte negatieve relatie  
-"2" = " ❌ Fout. Een perfecte negatieve relatie wordt aangegeven door r = -1,00, niet r = 0. Bij r = -1 betekent dit dat wanneer de ene variabele toeneemt, de andere variabele altijd in precies dezelfde verhouding afneemt. Bijvoorbeeld, als er een perfecte negatieve correlatie zou zijn tussen politieaanwezigheid en criminaliteit, zou elke toename van politie exact evenredig samengaan met afname van misdaad."
+"2" = " ❌ Fout. Een perfecte negatieve relatie wordt aangegeven door r = -1,00, niet r = 0. Bij r = -1 betekent dit dat wanneer de ene variabele toeneemt, de andere variabele altijd in precies dezelfde verhouding afneemt. Bijvoorbeeld, als er een perfecte negatieve correlatie zou zijn tussen politieaanwezigheid en criminaliteit, zou elke toename van politie exact evenredig samengaan met afname van criminaliteit."
 
 3) Er is geen lineaire relatie tussen de variabelen
-"3" = " ✅ Juist! Een correlatie van r = 0 betekent dat er geen lineaire relatie bestaat tussen de twee variabelen. De variabelen bewegen niet systematisch samen - wanneer de ene variabele toeneemt, is er geen voorspelbaar patroon in de andere variabele. Bijvoorbeeld, er kan een correlatie van r ≈ 0 zijn tussen schoengrootte van politieagenten en hun effectiviteit in misdaadpreventie - deze variabelen zijn onafhankelijk van elkaar. Let op: r = 0 sluit wel andere soorten relaties uit (zoals kromme verbanden)."
+"3" = " ✅ Juist! Een correlatie van r = 0 betekent dat er geen lineaire relatie bestaat tussen de twee variabelen. De variabelen hangen niet systematisch samen - wanneer de ene variabele toeneemt, is er geen voorspelbaar patroon in de andere variabele. Bijvoorbeeld, er kan een correlatie van r ≈ 0 zijn tussen schoengrootte van politieagenten en hun effectiviteit in misdaadpreventie - deze variabelen zijn onafhankelijk van elkaar. Let op: r = 0 betekent 'geen lineair verband' maar het betekent niet automatisch dar er helemaal geen verband is. Er kunnen nog steeds niet-lineaire relaties bestaan zoals een kromlijnig of parabolisch verband."
 
 4) De data is incorrect gemeten
-"4" = " ❌ Fout. Een correlatie van nul duidt niet op meetfouten, maar op het ontbreken van een lineaire relatie. Veel variabelen in de criminologie hebben legitiem geen verband met elkaar. Bijvoorbeeld, de correlatie tussen de kleur van politieauto's en misdaadpreventie-effectiviteit zou logischerwijs r ≈ 0 zijn - dit zijn gewoon onafhankelijke variabelen. Een correlatie van nul is een zinvolle bevinding die aantoont dat de bestudeerde factoren niet lineair samenhangen."
+"4" = " ❌ Fout. Een correlatie van nul duidt niet op meetfouten, maar op het ontbreken van een lineaire relatie. Veel variabelen in de criminologie hangen onderling niet samen.. Bijvoorbeeld, de correlatie tussen de kleur van politieauto's en effectiviteit van misdaadpreventie zou logischerwijs r ≈ 0 zijn - dit zijn gewoon onafhankelijke variabelen. Een correlatie van nul is een zinvolle bevinding die aantoont dat de bestudeerde factoren niet lineair samenhangen."
 
 ***
 
 ### Vraag Q5 (Onthouden)
-**Een onderzoeker bestudeert de relatie tussen patrouille-afstanden en politie-responssnelheid in 50 Belgische steden. Haar oorspronkelijke data toont een correlatie van r = -0,65 tussen gemiddelde patrouille-afstand (in meters) en responssnelheid (in minuten). Voor internationale vergelijking met Amerikaanse data (die feet gebruikt, 1 meter = 3,28 feet) moet zij de Belgische afstanden omrekenen van meters naar feet. Wat gebeurt er met de correlatiecoëfficiënt r tussen patrouille-afstand en responssnelheid na deze eenheidsconversie?**
+**Een onderzoeker bestudeert de relatie tussen patrouille-afstanden en politie-responssnelheid in 50 Belgische steden. De oorspronkelijke data toont een correlatie van r = -0,65 tussen gemiddelde patrouille-afstand (in meters) en responssnelheid (in minuten). Voor internationale vergelijking met Amerikaanse data (uitgedrukt in feet, 1 meter = 3,28 feet) moeten de Belgische afstanden omrekenen worden van meters naar feet. Wat gebeurt er met de correlatiecoëfficiënt r tussen patrouille-afstand en responssnelheid na deze transformatie van meeteenheid??**
 
-> **Hint:** Overweeg hoe eenheidsconversies (meters naar centimeters, of misdaadcijfers per 1.000 versus per 100.000 inwoners) de correlatie tussen variabelen beïnvloeden.
-
+> **Hint:** Overweeg hoe transformatie van meter naar centimeters, of misdaadcijfers per 1.000 versus per 100.000 inwoners, de correlatie tussen variabelen beïnvloeden.
 
 1) r wordt 100× groter  
-"1" = " ❌ Fout. Eenheden hebben geen invloed op de correlatiemagnitude. Dit is een cruciale eigenschap voor onderzoek waarbij variabelen vaak verschillende schalen gebruiken. De correlatie tussen 'jaren onderwijs' en 'arrestaties per 1.000 inwoners' zou bijvoorbeeld hetzelfde zijn als de correlatie tussen 'jaren onderwijs' en 'arrestaties per 100.000 inwoners'. De schaalverandering verandert niets aan de onderliggende relatiesterkte. Als veranderende eenheden de correlatie zouden beïnvloeden, zou vergelijkend onderzoek in landen met verschillende meetsystemen onmogelijk zijn."
+"1" = " ❌ Fout. De correlatiecoëfficiënt is een gestandaardiseerde maat en dus schaalonafhankelijk. Dit is een cruciale eigenschap voor onderzoek waarbij variabelen vaak verschillende schalen gebruiken. De correlatie tussen 'jaren onderwijs' en 'arrestaties per 1.000 inwoners' zou bijvoorbeeld hetzelfde zijn als de correlatie tussen 'jaren onderwijs' en 'arrestaties per 100.000 inwoners'. De schaalverandering verandert niets aan de onderliggende relatiesterkte. Als veranderende eenheden de correlatie zouden beïnvloeden, zou vergelijkend onderzoek in landen met verschillende meetsystemen onmogelijk zijn."
 
 2) r wordt 100× kleiner  
-"2" = " ❌ Fout. Nogmaals, correlatie is schaalinvariant. Of u nu de reactietijd van patrouillewagens meet in seconden, minuten of uren, de correlatie met de opruimingspercentages van misdrijven blijft identiek. Deze eigenschap maakt correlatie bijzonder waardevol voor internationale criminologische vergelijkingen - onderzoekers kunnen gegevens gebruiken die in verschillende eenheden zijn gemeten zonder wiskundige aanpassingen. De relatiesterkte tussen twee variabelen is onafhankelijk van hoe die variabelen worden geschaald."
+"2" = " ❌ Fout. Nogmaals, correlatie is schaalonafhankelijk.. Ofje nu de reactietijd van patrouillewagens meet in seconden, minuten of uren, de correlatie met de opruimingspercentages van misdrijven blijft identiek. Deze eigenschap maakt correlatie bijzonder waardevol voor internationale criminologische vergelijkingen - onderzoekers kunnen gegevens gebruiken die in verschillende eenheden zijn gemeten zonder wiskundige aanpassingen. De relatiesterkte tussen twee variabelen is onafhankelijk van hoe die variabelen worden geschaald."
 
 3) r blijft precies hetzelfde  
-"3" = " ✅ Juist! Correlatie is eenheidsvrij en invariant voor lineaire herschaling. Dit komt omdat correlatie beide variabelen tijdens de berekening standaardiseert - het meet hoe variabelen samen bewegen ten opzichte van hun eigen variabiliteit, ongeacht de eenheden. In de criminologie betekent dit dat je correlaties kunt vergelijken tussen onderzoeken die verschillende meetschalen gebruiken. Studies die bijvoorbeeld misdaadcijfers per hoofd van de bevolking versus per vierkante kilometer meten, kunnen nog steeds vergelijkbare correlatiecoëfficiënten hebben met demografische factoren. Deze invariantie-eigenschap maakt correlatie tot een universele maat voor associatie."
+"3" = " ✅ Juist! . De correlatiecoëfficiënt is een gestandaardiseerde maat en dus schaalonafhankelijk. In de criminologie betekent dit dat je correlaties kunt vergelijken tussen onderzoeken die verschillende meetschalen gebruiken. Studies die bijvoorbeeld misdaadcijfers per hoofd van de bevolking versus per vierkante kilometer meten, kunnen nog steeds vergelijkbare correlatiecoëfficiënten hebben met demografische factoren."
 
 4) r wordt negatief  
-"4" = " ❌ Fout. Veranderingen in eenheden kunnen de richting van een relatie niet omdraaien. Als een verhoogde aanwezigheid van de politie gepaard gaat met een verminderde criminaliteit (negatieve correlatie), blijft deze relatierichting hetzelfde, of je nu de aanwezigheid van agenten per blok, per vierkante kilometer of per 1.000 inwoners meet. Alleen de schaal verandert, niet het fundamentele patroon. Een sign flip zou duiden op een heel andere substantiële relatie, die eenheidsconversie niet kan veroorzaken."
+"4" = " ❌ Fout. Veranderingen in eenheden kunnen de richting van een relatie niet omdraaien. Als een verhoogde aanwezigheid van de politie gepaard gaat met een verminderde criminaliteit (negatieve correlatie), blijft de richting van de samenhang hetzelfde, of je nu de aanwezigheid van agenten per blok, per vierkante kilometer of per 1.000 inwoners meet. Alleen de schaal verandert, niet het fundamentele patroon."
 
 ***
 
 ## BEGRIJPEN NIVEAU (8 vragen)
 
 ### Vraag Q6 (Begrijpen)
-**Voor welke soorten variabelen kunt u de Pearson-correlatie berekenen?**
+**Voor welke meetniveaus van variabelen is de Pearson-correlatie geschikt?**
 
-> Hint: Overweeg of je de correlatie tussen verschillende soorten variabelen zinvol kunt berekenen - kun je geslacht correleren met misdaadcijfers? Lengte van de gevangenisstraf met kans op recidive?
+> **Hint:** Overweeg of je de correlatie tussen verschillende soorten variabelen zinvol kunt berekenen - kun je geslacht correleren met misdaadcijfers? Lengte van de gevangenisstraf met kans op recidive?
 
 1) Elk type variabelen  
-"1" = " ❌ Fout. Er bestaan verschillende correlatiematen voor verschillende variabelecombinaties. Pearson-correlatie is specifiek voor continue variabelen. Andere metingen zijn: Spearman's rho voor gerangschikte gegevens, phi-coëfficiënt voor twee binaire variabelen, Cramér's V voor twee categorische variabelen en point-biserial voor één binaire en één continue variabele. Het gebruik van het verkeerde correlatietype kan leiden tot nietszeggende resultaten of ernstige verkeerde interpretaties van relaties in onderzoek."
+"1" = " ❌ Fout. Er bestaan verschillende correlatiematen voor verschillende meetniveaus.. Pearson-correlatie is specifiek voor de samenhang tussen continue variabelen (metrisch). Andere metingen zijn: Spearman's rho voor gerangschikte gegevens (ordinaal), phi-coëfficiënt voor twee binaire variabelen (nominaal), Cramér's V voor twee categorische variabelen. Het gebruik van een verkeerde maat (dit wil zeggen: niet geschikt voor een gegeven meetniveau) kan leiden tot nietszeggende resultaten of verkeerde interpretaties van relaties in onderzoek."
 
 2) Een categorische en een continue variabele  
-"2" = " ❌ Fout. Als u één categorische en één continue variabele hebt, gebruikt u punt-biseriële correlatie (voor binaire categorieën) of eta-correlatie (voor meerdere categorieën). Als je bijvoorbeeld de relatie tussen geslacht (categorisch: man/vrouw) en het aantal arrestaties (continu) bestudeert, zou je punt-biseriële correlatie gebruiken. Als je de relatie tussen het type buurt (categorisch: stedelijk/voorstedelijk/landelijk) en het misdaadcijfer (continu) onderzoekt, zou je ANOVA- of eta-correlatie kunnen gebruiken in plaats van Pearson-correlatie."
+"2" = " ❌ Fout. Er bestaan verschillende correlatiematen voor verschillende meetniveaus. Pearson-correlatie is specifiek voor de samenhang tussen continue variabelen (metrisch). Andere metingen zijn: Spearman's rho voor gerangschikte gegevens (ordinaal), phi-coëfficiënt voor twee binaire variabelen (nominaal), Cramér's V voor twee categorische variabelen. Het gebruik van een verkeerde maat (dit wil zeggen: niet geschikt voor een gegeven meetniveau) kan leiden tot nietszeggende resultaten of verkeerde interpretaties van relaties in onderzoek. De relatie tussen een categorische en een continue variabele kan onderzocht worden aan de hand van een variantieanalyse (wordt later behandeld)."
 
 3) Beide variabelen moeten continu zijn (interval- of rationiveau)  
 "3" = " ✅ Juist! Pearson-correlatie vereist dat beide variabelen worden gemeten op interval- of rationiveau - numerieke variabelen waarbij de afstanden tussen waarden zinvol en consistent zijn. In de criminologie zijn voorbeelden: misdaadcijfers (ratio), strafduur in maanden (ratio), leeftijd bij eerste arrestatie (ratio), aantal eerdere veroordelingen (ratio) en schalen die de houding ten opzichte van de politie meten (interval). Deze variabelen maken zinvolle wiskundige bewerkingen mogelijk die nodig zijn voor het berekenen van gemiddelden, standaarddeviaties en covarianties die de basis vormen van de Pearson-correlatie."
 
 4) Alleen categorische variabelen  
-"4" = " ❌ Fout. Pearson-correlatie vereist numerieke variabelen waarbij wiskundige bewerkingen (optellen, aftrekken, middelen) zinvol zijn. Categorische variabelen zoals 'type misdaad' (gewelddadig, eigendom, drugs) of 'gerechtelijke beschikking' (schuldig, niet schuldig, pleidooi) hebben geen inherente numerieke waarden. Je kunt geen zinvol gemiddelde berekenen van 'gewelddadige' en 'eigendomsdelicten'. Voor categorische variabelen zou je verschillende maten gebruiken, zoals de V- of Chi-kwadraattest van Cramér om associaties te onderzoeken."
+"4" = " ❌ Fout.  Er bestaan verschillende correlatiematen voor verschillende meetniveaus. Pearson-correlatie is specifiek voor de samenhang tussen continue variabelen (metrisch). Andere metingen zijn: Spearman's rho voor gerangschikte gegevens (ordinaal), phi-coëfficiënt voor twee binaire variabelen (nominaal), Cramér's V voor twee categorische variabelen. Het gebruik van een verkeerde maat (dit wil zeggen: niet geschikt voor een gegeven meetniveau) kan leiden tot nietszeggende resultaten of verkeerde interpretaties van relaties in onderzoek."
 
 ***
 
@@ -991,7 +990,7 @@ uitschieter_data <- uitschieter_data[!is.na(uitschieter_data$x),]
 dataset_labels <- c(
   "Geen Uitschieter" = paste0("Geen Uitschieter (r = ", cor_basis, ")"),
   "Hoog-Hoog Uitschieter" = paste0("Hoog-Hoog Uitschieter (r = ", cor1, ")"),
-  "Laag-Laag Uitschieter" = paste0("Laag-Laag Uitschieter (r = ", cor2, ")"),
+  "Laag-Laag Uitschieter" = paste0("Laag-Lag Uitschieter (r = ", cor2, ")"),
   "Hoog-Laag Uitschieter" = paste0("Hoog-Laag Uitschieter (r = ", cor3, ")"),
   "Laag-Hoog Uitschieter" = paste0("Laag-Hoog Uitschieter (r = ", cor4, ")")
 )
@@ -1249,7 +1248,12 @@ save_dodona_image(p_q23, 23, width = 8, height = 6)
 
 ***
 
-## CREËREN NIVEAU (2 vragen)
+## CREËREN NIVEAU (2 vragen - 8%)
+| Vraagnummer | Vraag Titel | Leerintentie |
+|-------------|-------------|--------------|
+| Q24 | Ontwerp een correlatiestudie | Correlatiestudie ontwerpen |
+| Q25 | Onderzoekshypothese opstellen | Onderzoekshypothese formuleren |
+
 
 ### Vraag Q24 (Creëren)
 **Ontwerp een correlationele studie om de relatie tussen social media gebruik en antisociaal gedrag bij adolescenten te onderzoeken. Welke belangrijke ontwerpelementen zou je opnemen?**

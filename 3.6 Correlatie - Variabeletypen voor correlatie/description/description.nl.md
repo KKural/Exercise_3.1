@@ -1,8 +1,8 @@
 # 3.6 Correlatie - Variabeletypen voor correlatie
 
-**Voor welke soorten variabelen kunt u de Pearson-correlatie berekenen?**
+**Voor welke meetniveaus van variabelen is de Pearson-correlatie geschikt?**
 
-> **Hint:** Overweeg of je de **correlatie** tussen verschillende soorten variabelen zinvol kunt berekenen - kun je **geslacht** correleren met **misdaadcijfers**? **Lengte** van de gevangenisstraf met **kans op recidive**?
+> **Hint:** Overweeg of je de **correlatie** tussen verschillende soorten variabelen zinvol kunt berekenen - kun je geslacht correleren met misdaadcijfers? Lengte van de gevangenisstraf met kans op recidive?
 
 1. **Elk type** variabelen
 2. Een **categorische** en een **continue** variabele
