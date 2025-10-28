@@ -5,7 +5,7 @@
       testEqual(
         "",
         function(env) as.numeric(env$evaluationResult),
-        1,  # Correct answer: r = 0,12
+        1, # Correct answer: r = 0,12
         comparator = function(generated, expected, ...) {
           feedbacks <- list(
             "1" = "✅ Juist! **Interpretatierichtlijnen:** Zwak (|r| = 0,10-0,30), Matig (|r| = 0,30-0,70), Sterk (|r| = 0,70-1,00); Positief (r > 0), Negatief (r < 0). Deze waarde (r = 0,12) valt duidelijk in de categorie 'zwakke positieve correlatie' volgens standaard interpretatierichtlijnen. Deze correlatie betekent dat er een kleine maar meetbare relatie bestaat tussen ouderlijk toezicht en jeugdcriminaliteit. De variabelen delen slechts een klein deel van hun variantie (R² = 0,12² = 0,014 = 1,4%), wat betekent dat 98,6% van de variantie in jeugdcriminaliteit niet verklaard wordt door ouderlijk toezicht alleen. In de praktijk zou dit suggereren dat terwijl ouderlijk toezicht wel enige invloed heeft op jeugdcriminaliteit, vele andere factoren (zoals peers, schoolprestaties, buurtfactoren) veel belangrijkere rollen spelen. Bij zwakke correlaties is het essentieel om te overwegen of de relatie statistisch significant en praktisch betekenisvol is.",
@@ -18,7 +18,7 @@
           )
           
           key <- as.character(generated)
-          msg <- feedbacks[[key]] %||% " Geef een getal tussen 1 en 4 in."
+          msg <- feedbacks[[key]] %||% "❌ Geef een getal tussen 1 en 4 in."
           
           get_reporter()$add_message(msg, type = "markdown")
           
