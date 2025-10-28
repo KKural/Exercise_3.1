@@ -1,5 +1,7 @@
 **Een onderzoeker presenteert vier verschillende datasets van criminologische studies over de relatie tussen sociaaleconomische factoren en criminaliteit. Alle vier studies rapporteren precies dezelfde correlatiecoëfficiënt (r = 0,82), hetzelfde gemiddelde, en dezelfde standaarddeviatie. De onderzoeker concludeert dat alle studies identieke resultaten tonen. Wat is de belangrijkste methodologische les uit deze situatie?**
 
+![Visualisatie](media/correlation_plot_11.svg)
+
 > **Hint:** Wanneer statistieken identiek zijn maar patronen verschillen, wat toont dit aan over de beperkingen van samenvatting getallen?
 
 1) Correlatiecoëfficiënten vertellen het complete verhaal

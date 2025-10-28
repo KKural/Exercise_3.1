@@ -1,6 +1,6 @@
 **Welke bewering over covariantie en correlatie is waar?**
 
-![Covariantie vs Correlatie](media/question_3.12.png)
+![Covariantie vs Correlatie](media/correlation_plot_12.svg)
 
 > **Hint:** Let op eenheden en bereiken.
 
