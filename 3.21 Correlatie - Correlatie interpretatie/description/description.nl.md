@@ -1,6 +1,6 @@
 **Een criminoloog rapporteert een correlatie van r = 0,40 tussen sociaaleconomische status en criminaliteitscijfers. Wat is de meest accurate interpretatie van deze correlatie?**
 
-![Correlatie Interpretatie](media/correlation_plot_23.svg)
+![Correlatie Interpretatie](media/correlation_plot_21.svg)
 
 > **Hint:** Denk aan richting, sterkte, en hoeveel variantie wordt verklaard.
 

@@ -4,7 +4,7 @@
 
 *Begrip 'veronderstellingen': Statistische veronderstellingen zijn voorwaarden die vervuld moeten zijn opdat een statistische methode geldig en betrouwbaar is. Als deze aannames geschonden worden, kunnen de resultaten misleidend of incorrect zijn.*
 
-![Veronderstellingen van Pearson's Correlatie](media/question_3.23.png)
+![Veronderstellingen van Pearson's Correlatie](media/correlation_plot_23.svg)
 
 **Kernconcepten:**
 - **Lineariteit**: Relatie moet rechtlijnig zijn (niet gebogen)
