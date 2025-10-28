@@ -20,8 +20,8 @@ options(knitr.kable.NA = '')
 Sys.setlocale("LC_TIME", "Dutch")
 Sys.setlocale("LC_NUMERIC", "Dutch")
 
-# Function to save plots to Dodona directories with screen-friendly dimensions
-save_dodona_image <- function(plot_obj, question_number, filename = NULL, width_px = 380, height_px = 260) {
+# Function to save plots to Dodona directories
+save_dodona_image <- function(plot_obj, question_number, filename = NULL, width = 5, height = 3.5) {
   if (is.null(filename)) {
     filename <- paste0("question_3.", question_number, ".png")
   }
@@ -48,17 +48,9 @@ save_dodona_image <- function(plot_obj, question_number, filename = NULL, width_
     # Create directory if it doesn't exist
     dir.create(dirname(image_path), recursive = TRUE, showWarnings = FALSE)
     
-    # Calculate dimensions in inches for moderate DPI (120)
-    dpi <- 120
-    width_inches <- width_px / dpi
-    height_inches <- height_px / dpi
-    
-    # Save the plot with screen-friendly dimensions
-    ggsave(image_path, plot_obj, 
-           width = width_inches, height = height_inches, 
-           dpi = dpi, bg = "white", units = "in")
-    
-    cat("Saved image:", image_path, paste0("(", width_px, "x", height_px, " px)"), "\n")
+    # Save the plot with custom dimensions
+    ggsave(image_path, plot_obj, width = 3, height = 4, dpi = 300, bg = "white")
+    cat("Saved image:", image_path, "with dimensions:", width, "x", height, "\n")
   }
 }
 
@@ -296,7 +288,7 @@ p_q3 <- ggplot(crime_data, aes(x = Politieaanwezigheid, y = Drugsdelicten)) +
 print(p_q3)
 
 # Save to Dodona directory
-save_dodona_image(p_q3, 3)
+save_dodona_image(p_q3, 3, width = 2, height = 2)
 ```
 
 
