@@ -7,7 +7,7 @@ output:
     reference_docx: "template_clean.docx"
 ---
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.show = 'asis', results = 'hide')
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.show = 'asis', results = 'hide', dev = 'png', dpi = 300)
 library(knitr)
 library(kableExtra)
 library(ggplot2)
@@ -21,10 +21,12 @@ options(knitr.kable.NA = '')
 Sys.setlocale("LC_TIME", "Dutch")
 Sys.setlocale("LC_NUMERIC", "Dutch")
 
-# Function to save plots to Dodona directories
+# Function to save plots to Dodona directories and images folder
 save_dodona_image <- function(plot_obj, question_number, filename = NULL, width = 6, height = 4) {
   if (is.null(filename)) {
-    filename <- paste0("correlation_plot_", question_number, ".svg")
+    filename_base <- paste0("correlation_plot_", question_number)
+  } else {
+    filename_base <- tools::file_path_sans_ext(filename)
   }
   
   # Define the path to the appropriate Dodona directory
@@ -42,22 +44,37 @@ save_dodona_image <- function(plot_obj, question_number, filename = NULL, width 
     "23" = "3.23 Correlatie - Correlatie aannames"
   )
   
+  # Save to separate images folder (for backup/reference)
+  images_dir <- "images"
+  dir.create(images_dir, showWarnings = FALSE)
+  
+  # Save PNG to images folder
+  png_path <- file.path(images_dir, paste0(filename_base, ".png"))
+  ggsave(
+    filename = png_path,
+    plot = plot_obj,
+    width = width, height = height, units = "in",
+    dpi = 300,
+    bg = "white",
+    device = "png"
+  )
+  cat("Saved PNG to images folder:", png_path, "\n")
+  
+  # Save SVG to Dodona directory (for exercises)
   if (as.character(question_number) %in% names(question_dirs)) {
     dir_name <- question_dirs[as.character(question_number)]
-    image_path <- file.path(dir_name, "description", "media", filename)
+    media_dir <- file.path(dir_name, "description", "media")
+    dir.create(media_dir, recursive = TRUE, showWarnings = FALSE)
     
-    # Create directory if it doesn't exist
-    dir.create(dirname(image_path), recursive = TRUE, showWarnings = FALSE)
-    
-    # Save SVG (vector; best for Dodona/HTML, scales perfectly)
+    svg_path <- file.path(media_dir, paste0(filename_base, ".svg"))
     ggsave(
-      filename = image_path,
+      filename = svg_path,
       plot = plot_obj,
       width = width, height = height, units = "in",
-      bg = "white",        # prevent dark-mode overlays from bleeding through
+      bg = "white",
       device = svglite::svglite
     )
-    cat("Saved SVG image:", image_path, "with dimensions:", width, "x", height, "\n")
+    cat("Saved SVG for Dodona:", svg_path, "\n")
   }
 }
 
